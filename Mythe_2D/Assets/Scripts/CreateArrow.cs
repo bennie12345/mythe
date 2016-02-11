@@ -5,6 +5,7 @@ public class CreateArrow : MonoBehaviour {
 
     [SerializeField]private Transform arrow;
     public float cooldown;
+    private float minCooldown = 0;
 	// Use this for initialization
 	void Start () {
 	
@@ -17,18 +18,23 @@ public class CreateArrow : MonoBehaviour {
 
     public void Shoot()
     {
-        if(cooldown <= 0)
+        if(cooldown <= minCooldown)
         {
             Instantiate(arrow, transform.position, Quaternion.Euler(0, 0, -90));
-            cooldown = 1;
+            SetCooldown(1f);
         }
     }
 
     private void Cooldown()
     {
-        if (cooldown >= 0)
+        if (cooldown >= minCooldown)
         {
             cooldown -= Time.deltaTime;
         }
+    }
+
+    private void SetCooldown(float setCooldown)
+    {
+        cooldown = setCooldown;
     }
 }
