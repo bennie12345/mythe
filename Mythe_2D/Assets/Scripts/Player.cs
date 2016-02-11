@@ -16,10 +16,10 @@ public class Player : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void FixedUpdate () 
+    void FixedUpdate()
     {
         Vector2 moveVec = new Vector2(CrossPlatformInputManager.GetAxis("Horizontal") * _moveForce, CrossPlatformInputManager.GetAxis("Vertical") * _moveForce);
 
         _rb.velocity = moveVec;
-	}
+    }
 }
