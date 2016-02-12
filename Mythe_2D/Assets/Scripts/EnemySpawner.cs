@@ -31,7 +31,7 @@ public class EnemySpawner : MonoBehaviour
         {
             _startTime = Time.time;
             _timeUntilSpawn = 0;
-            _secondsBetweenSpawn = Random.Range(3, 8);
+            _secondsBetweenSpawn = Random.Range(5.5f, 8);
             SpawnEnemy();
         }
     }
