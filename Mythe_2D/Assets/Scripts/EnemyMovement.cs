@@ -3,7 +3,7 @@ using System.Collections;
 
 public class EnemyMovement : MonoBehaviour {
     [SerializeField] private int movespeed = 1;
-    private Vector3 userDirection = Vector3.right;
+    private Vector2 userDirection = Vector2.right;
 
 	// Use this for initialization
 	void Start () {
