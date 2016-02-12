@@ -4,6 +4,8 @@ using System.Collections;
 public class CameraShake : MonoBehaviour {
     private bool _isShaking = false;
 
+    private float _shakeDuration = 0.25f;
+
 	// Use this for initialization
 	void Start () 
     {
@@ -13,7 +15,7 @@ public class CameraShake : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
     {
-        CheckForShake();
+        
 	}
 
     public void Shake()
@@ -26,17 +28,17 @@ public class CameraShake : MonoBehaviour {
     {
         if (_isShaking)
         {
-            this.gameObject.transform.position = new Vector3(Random.Range(17f, 18f), Random.Range(-14.5f, -15.5f), -59.7f);
+            this.gameObject.transform.position = new Vector2(Random.Range(0f, 0.5f), Random.Range(0f, -0.5f));
         }
         else
         {
-            this.gameObject.transform.position = new Vector3(17.3f, -15, -59.7f);
+            this.gameObject.transform.position = new Vector2(0f , 0f);
         }
     }
 
     IEnumerator CameraShaking()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(_shakeDuration);
         _isShaking = false;
     }
 
