@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class SliderCooldown : MonoBehaviour {
 
-    CreateArrow arrow;
+    private CreateArrow arrow;
 
     private Slider cooldownSlider;
 	// Use this for initialization
