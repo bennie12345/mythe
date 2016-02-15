@@ -4,10 +4,12 @@ using System.Collections;
 public class AbilityButtons : MonoBehaviour {
 
     private Player _playerScript;
+    private GameObject _player;
 
     void Start()
     {
-        _playerScript = new Player();
+        _player = GameObject.FindWithTag(Tags.PLAYER);
+        _playerScript = _player.GetComponent<Player>();
     }
 
     public void UseSword()
