@@ -6,6 +6,7 @@ public class CreateArrow : MonoBehaviour {
     [SerializeField]private Transform arrow;
     public float cooldown;
     private float minCooldown = 0;
+
 	// Use this for initialization
 	void Start () {
 	
