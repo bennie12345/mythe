@@ -29,7 +29,7 @@ public class Player : MonoBehaviour {
 	void Start () 
     {
         _rb2D = this.GetComponent<Rigidbody2D>();
-        
+        this.gameObject.tag = Tags.playerTag;
 	}
 	
 	// Update is called once per frame

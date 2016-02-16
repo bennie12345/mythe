@@ -14,6 +14,7 @@ public class CameraShake : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
     {
+        this.gameObject.tag = Tags.mainCameraTag;
         _offsetXPos = _originalXPos + _shakeIntensity;
         _offsetYPos = _originalXPos - _shakeIntensity;
 	}
