@@ -6,6 +6,9 @@ public class Player : MonoBehaviour {
 
     private Rigidbody2D _rb2D;
     private float _health = 2f;
+    private float _playerBoundX = 6.5f;
+    private float _playerBoundY = 4f;
+    private float _swordDuration = 2f;
     private bool _usingSword = false;
     public bool UsingSword
     {
@@ -37,6 +40,11 @@ public class Player : MonoBehaviour {
         KillPlayer();
 
         SwordIsUsed();
+
+        PlayerBounds();
+
+        
+
     }
 
     void MovePlayer()
@@ -66,13 +74,33 @@ public class Player : MonoBehaviour {
     {
         if (_usingSword)
         {
-            StartCoroutine(SwordCooldown());
+            StartCoroutine(SwordDuration());
         }
     }
 
-    IEnumerator SwordCooldown()
+    void PlayerBounds()
     {
-        yield return new WaitForSeconds(2);
+        if (transform.position.x <= -_playerBoundX)
+        {
+            transform.position = new Vector2(-_playerBoundX, transform.position.y);
+        }
+        else if (transform.position.x >= _playerBoundX)
+        {
+            transform.position = new Vector2(_playerBoundX, transform.position.y);
+        }
+        if (transform.position.y <= -_playerBoundY)
+        {
+            transform.position = new Vector2(transform.position.x, -_playerBoundY);
+        }
+        else if (transform.position.y >= _playerBoundY)
+        {
+            transform.position = new Vector2(transform.position.x, _playerBoundY);
+        }
+    }
+
+    IEnumerator SwordDuration()
+    {
+        yield return new WaitForSeconds(_swordDuration);
         _usingSword = false;
     }
 }
