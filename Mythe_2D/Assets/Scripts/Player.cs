@@ -102,5 +102,6 @@ public class Player : MonoBehaviour {
     {
         yield return new WaitForSeconds(_swordDuration);
         _usingSword = false;
+
     }
 }
