@@ -4,17 +4,17 @@ using UnityEngine.UI;
 
 public class SliderCooldown : MonoBehaviour {
 
-    private CreateArrow arrow;
+    private AbilityButtons abilities;
 
     private Slider cooldownSlider;
 	// Use this for initialization
 	void Start () {
         cooldownSlider = GetComponent<Slider>();
-        arrow = GameObject.FindGameObjectWithTag("Player").GetComponent<CreateArrow>();
+        abilities = GameObject.FindGameObjectWithTag(Tags.playerTag).GetComponent<AbilityButtons>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        cooldownSlider.value = arrow.cooldown;
+        //cooldownSlider.value = arrow.cooldown;
     }
 }
