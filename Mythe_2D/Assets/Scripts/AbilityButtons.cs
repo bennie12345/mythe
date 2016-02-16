@@ -8,7 +8,7 @@ public class AbilityButtons : MonoBehaviour {
 
     void Start()
     {
-        _player = GameObject.FindWithTag(Tags.PLAYER);
+        _player = GameObject.FindWithTag(Tags.playerTag);
         _playerScript = _player.GetComponent<Player>();
     }
 
