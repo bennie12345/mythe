@@ -10,7 +10,7 @@ public class SliderCooldown : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         cooldownSlider = GetComponent<Slider>();
-        abilities = GameObject.FindGameObjectWithTag(Tags.abilityButtonsTag).GetComponent<AbilityButtons>();
+        //abilities = GameObject.FindGameObjectWithTag(Tags.abilityButtonsTag).GetComponent<AbilityButtons>();
 	}
 	
 	// Update is called once per frame

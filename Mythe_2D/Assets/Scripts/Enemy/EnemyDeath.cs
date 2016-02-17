@@ -20,7 +20,7 @@ public class EnemyDeath : MonoBehaviour {
             Destroy(this.gameObject);
         }
 
-        if (other.gameObject.tag == Tags.laserTag)
+        if (other.gameObject.tag == Tags.abilities)
         {
             _cameraShakeScript.Shake();
             Destroy(this.gameObject);

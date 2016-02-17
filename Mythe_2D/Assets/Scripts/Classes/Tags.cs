@@ -9,5 +9,6 @@ public static class Tags {
     public static readonly string abilityButtonsTag = "AbilityButtons";
     public static readonly string swordTag = "Sword";
     public static readonly string laserTag = "Laser";
+    public static readonly string abilities = "Ability";
 
 }
