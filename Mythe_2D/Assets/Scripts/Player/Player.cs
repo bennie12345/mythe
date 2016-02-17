@@ -71,7 +71,7 @@ public class Player : MonoBehaviour {
 
     void SwordIsUsed()
     {
-        if (_usingSword)
+        if (_usingSword == true)
         {
             StartCoroutine(SwordDuration());
             _sword.SetActive(true);
