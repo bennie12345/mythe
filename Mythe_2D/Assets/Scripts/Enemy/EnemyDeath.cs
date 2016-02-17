@@ -13,14 +13,14 @@ public class EnemyDeath : MonoBehaviour {
 
    	void OnTriggerEnter2D(Collider2D other)
 	{
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == Tags.playerTag)
         {
             _cameraShakeScript.Shake();
             other.SendMessage("ApplyDamage", _enemyDamage);
             Destroy(this.gameObject);
         }
 
-        if (other.gameObject.tag == "Laser")
+        if (other.gameObject.tag == Tags.laserTag)
         {
             _cameraShakeScript.Shake();
             Destroy(this.gameObject);

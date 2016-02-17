@@ -9,6 +9,7 @@ public class Player : MonoBehaviour {
     private float _playerBoundX = 6.5f;
     private float _playerBoundY = 4f;
     private float _swordDuration = 2f;
+    private GameObject _sword;
     private bool _usingSword = false;
     public bool UsingSword
     {
@@ -30,6 +31,7 @@ public class Player : MonoBehaviour {
     {
         _rb2D = this.GetComponent<Rigidbody2D>();
         this.gameObject.tag = Tags.playerTag;
+        _sword = GameObject.FindWithTag(Tags.swordTag);
 	}
 	
 	// Update is called once per frame
@@ -42,9 +44,6 @@ public class Player : MonoBehaviour {
         SwordIsUsed();
 
         PlayerBounds();
-
-        
-
     }
 
     void MovePlayer()
@@ -75,6 +74,11 @@ public class Player : MonoBehaviour {
         if (_usingSword)
         {
             StartCoroutine(SwordDuration());
+            _sword.SetActive(true);
+        }
+        else
+        {
+            _sword.SetActive(false);
         }
     }
 

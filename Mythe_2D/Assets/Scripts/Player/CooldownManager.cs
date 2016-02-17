@@ -28,17 +28,39 @@ public class CooldownManager : MonoBehaviour {
             _swordCooldown = value;
         }
     }
+    private float _laserCooldown;
+    public float LaserCooldown
+    {
+        get
+        {
+            return _laserCooldown;
+        }
+        set
+        {
+            _laserCooldown = value;
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {
-        ResetMedusaCooldown();
+        ResetCooldown();
 	}
 
-    void ResetMedusaCooldown()
+    void ResetCooldown()
     {
         if (_medusaCooldown >= _minCooldown)
         {
             _medusaCooldown -= Time.deltaTime;
+        }
+<<<<<<< HEAD
+        if (_laserCooldown >= _minCooldown)
+        {
+            _laserCooldown -= Time.deltaTime;
+=======
+        if (_swordCooldown >= _minCooldown)
+        {
+            _swordCooldown -= Time.deltaTime;
+>>>>>>> 826eb8049153f449f8031ddb304bf9cbd5e28d93
         }
     }
 }

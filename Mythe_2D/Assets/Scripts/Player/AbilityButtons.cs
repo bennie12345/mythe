@@ -9,7 +9,9 @@ public class AbilityButtons : MonoBehaviour {
     [SerializeField]private GameObject effectCollider;
     [SerializeField]private ParticleSystem particles;
     [SerializeField]private Transform parentObject;
+    [SerializeField]private GameObject Laserbeam;
 
+    private float _laserCooldown = 0;
     private float _medusaCooldown = 0;
     private float _swordCooldown = 0;
     private float _minCooldown = 0;
@@ -18,6 +20,7 @@ public class AbilityButtons : MonoBehaviour {
     {
         _playerScript = GetComponentInParent<Player>();
         _cooldownManager = GetComponentInParent<CooldownManager>();
+        this.gameObject.tag = Tags.abilityButtonsTag;
     }
 
     void Update()
@@ -33,6 +36,24 @@ public class AbilityButtons : MonoBehaviour {
             _swordCooldown = SwordCD;
             _cooldownManager.SwordCooldown = _swordCooldown;
         }
+    }
+
+    public void UseLasor(float LaserCD)
+    {
+        if (_laserCooldown <= _minCooldown)
+        {
+            StartCoroutine(ActivateTimer());
+            _laserCooldown = LaserCD;
+            _cooldownManager.LaserCooldown = _swordCooldown;
+        }
+    }
+
+    IEnumerator ActivateTimer()
+    {
+        Laserbeam.SetActive(true);
+        yield return new WaitForSeconds(2);
+        Laserbeam.SetActive(false);
+
     }
 
     public void UseMedusaHead(float MedusaCD)
@@ -53,6 +74,16 @@ public class AbilityButtons : MonoBehaviour {
         if(_cooldownManager.MedusaCooldown <= _minCooldown)
         {
             _medusaCooldown = _cooldownManager.MedusaCooldown;
+        }
+<<<<<<< HEAD
+        if (_cooldownManager.LaserCooldown <= _minCooldown) 
+        {
+            _laserCooldown = _cooldownManager.LaserCooldown;        
+=======
+        if (_cooldownManager.SwordCooldown <= _minCooldown)
+        {
+            _swordCooldown = _cooldownManager.SwordCooldown;
+>>>>>>> 826eb8049153f449f8031ddb304bf9cbd5e28d93
         }
     }
 
