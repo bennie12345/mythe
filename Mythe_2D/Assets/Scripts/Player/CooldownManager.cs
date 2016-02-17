@@ -28,6 +28,18 @@ public class CooldownManager : MonoBehaviour {
             _swordCooldown = value;
         }
     }
+    private float _laserCooldown;
+    public float LaserCooldown
+    {
+        get
+        {
+            return _laserCooldown;
+        }
+        set
+        {
+            _laserCooldown = value;
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -39,6 +51,10 @@ public class CooldownManager : MonoBehaviour {
         if (_medusaCooldown >= _minCooldown)
         {
             _medusaCooldown -= Time.deltaTime;
+        }
+        if (_laserCooldown >= _minCooldown)
+        {
+            _laserCooldown -= Time.deltaTime;
         }
     }
 }

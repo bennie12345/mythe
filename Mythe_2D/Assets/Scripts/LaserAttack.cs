@@ -10,7 +10,7 @@ public class LaserAttack : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         Laserbeam = GameObject.FindWithTag("Laser");
-        Laserbeam.SetActive(false);
+        
 
 
 	}
