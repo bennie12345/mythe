@@ -10,6 +10,10 @@ public class EnemyDeath : MonoBehaviour {
             Destroy(this.gameObject);
             Destroy(other.gameObject);
         }
+        if (other.gameObject.tag == "Laser")
+        {
+            Destroy(this.gameObject);
+        }
 	}
 
 }
