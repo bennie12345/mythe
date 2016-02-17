@@ -7,28 +7,32 @@ public class CameraShake : MonoBehaviour {
     private float _shakeDuration = 0.25f;
     private float _originalXPos = 0f;
     private float _originalYPos = 0f;
-    private float _offsetXPos; //set to _originalXpos +/- 0.5f/1f
-    private float _offsetYPos; //set to _originalYPos +/- 0.5f/1f
+    private float _shakeIntensity = 0.5f;
+    private float _offsetXPos; //set to _originalXpos +/- _shakeIntensity
+    private float _offsetYPos; //set to _originalYPos +/- _shakeIntensity
 
 	// Use this for initialization
 	void Start () 
     {
-        _offsetXPos = _originalXPos + 0.5f;
-        _offsetYPos = _originalXPos - 0.5f;
+        this.gameObject.tag = Tags.mainCameraTag;
+        _offsetXPos = _originalXPos + _shakeIntensity;
+        _offsetYPos = _originalXPos - _shakeIntensity;
 	}
 	
 	// Update is called once per frame
 	void Update () 
     {
-        
+        CheckForShake();
 	}
 
+    //start duration of the shake and shake itself
     public void Shake()
     {
         _isShaking = true;
         StartCoroutine(CameraShaking());
     }
 
+    //check if camera should be shaking, if yes, starts shaking
     void CheckForShake()
     {
         if (_isShaking)
@@ -41,11 +45,11 @@ public class CameraShake : MonoBehaviour {
         }
     }
 
+    //duration of the shake
     IEnumerator CameraShaking()
     {
         yield return new WaitForSeconds(_shakeDuration);
         _isShaking = false;
     }
 
-    //use this to shake the camera: GameObject.Find("Main Camera").GetComponent<CameraShake>().Shake();
 }
