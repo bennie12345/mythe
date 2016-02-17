@@ -8,7 +8,7 @@ public class AbilityButtons : MonoBehaviour {
 
     [SerializeField]private GameObject effectCollider;
     [SerializeField]private ParticleSystem particles;
-    [SerializeField]private Transform parentObject;
+    [SerializeField]private GameObject parentObject;
     [SerializeField]private GameObject Laserbeam;
 
     private float _laserCooldown = 0;
@@ -42,18 +42,17 @@ public class AbilityButtons : MonoBehaviour {
     {
         if (_laserCooldown <= _minCooldown)
         {
-            StartCoroutine(ActivateTimer());
+            StartCoroutine(ActivateTimer(Laserbeam, 2f));
             _laserCooldown = LaserCD;
             _cooldownManager.LaserCooldown = _swordCooldown;
         }
     }
 
-    IEnumerator ActivateTimer()
+    IEnumerator ActivateTimer(GameObject obj, float activeTime)
     {
-        Laserbeam.SetActive(true);
-        yield return new WaitForSeconds(2);
-        Laserbeam.SetActive(false);
-
+        obj.SetActive(true);
+        yield return new WaitForSeconds(activeTime);
+        obj.SetActive(false);
     }
 
     public void UseMedusaHead(float MedusaCD)
@@ -61,11 +60,12 @@ public class AbilityButtons : MonoBehaviour {
         if (_medusaCooldown <= _minCooldown)
         {
             ParticleSystem instantiatedObject = Instantiate(particles, transform.position, Quaternion.Euler(0, 90, -90)) as ParticleSystem;
-            instantiatedObject.transform.parent = parentObject;
+            instantiatedObject.transform.parent = parentObject.transform;
             Instantiate(effectCollider);
 
             _medusaCooldown = MedusaCD;
             _cooldownManager.MedusaCooldown = _medusaCooldown;
+            StartCoroutine(ActivateTimer(parentObject, 0.75f));
         }
     }
 
