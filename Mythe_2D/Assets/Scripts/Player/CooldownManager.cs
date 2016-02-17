@@ -16,6 +16,18 @@ public class CooldownManager : MonoBehaviour {
             _medusaCooldown = value;
         }
     }
+    private float _swordCooldown;
+    public float SwordCooldown
+    {
+        get
+        {
+            return _swordCooldown;
+        }
+        set
+        {
+            _swordCooldown = value;
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {
