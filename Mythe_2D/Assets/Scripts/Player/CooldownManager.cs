@@ -31,14 +31,18 @@ public class CooldownManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        ResetMedusaCooldown();
+        ResetCooldown();
 	}
 
-    void ResetMedusaCooldown()
+    void ResetCooldown()
     {
         if (_medusaCooldown >= _minCooldown)
         {
             _medusaCooldown -= Time.deltaTime;
+        }
+        if (_swordCooldown >= _minCooldown)
+        {
+            _swordCooldown -= Time.deltaTime;
         }
     }
 }

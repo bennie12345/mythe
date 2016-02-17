@@ -18,6 +18,7 @@ public class AbilityButtons : MonoBehaviour {
     {
         _playerScript = GetComponentInParent<Player>();
         _cooldownManager = GetComponentInParent<CooldownManager>();
+        this.gameObject.tag = Tags.abilityButtonsTag;
     }
 
     void Update()
@@ -53,6 +54,10 @@ public class AbilityButtons : MonoBehaviour {
         if(_cooldownManager.MedusaCooldown <= _minCooldown)
         {
             _medusaCooldown = _cooldownManager.MedusaCooldown;
+        }
+        if (_cooldownManager.SwordCooldown <= _minCooldown)
+        {
+            _swordCooldown = _cooldownManager.SwordCooldown;
         }
     }
 
