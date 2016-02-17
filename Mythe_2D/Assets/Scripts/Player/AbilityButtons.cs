@@ -11,6 +11,7 @@ public class AbilityButtons : MonoBehaviour {
     [SerializeField]private Transform parentObject;
 
     private float _medusaCooldown = 0;
+    private float _swordCooldown = 0;
     private float _minCooldown = 0;
 
     void Start()
@@ -24,11 +25,13 @@ public class AbilityButtons : MonoBehaviour {
         ResetCooldowns();
     }
 
-    public void UseSword()
+    public void UseSword(float SwordCD)
     {
-        if (_playerScript.UsingSword == false) 
+        if (_playerScript.UsingSword == false && _swordCooldown <= _minCooldown) 
         {
             _playerScript.UsingSword = true;
+            _swordCooldown = SwordCD;
+            _cooldownManager.SwordCooldown = _swordCooldown;
         }
     }
 
