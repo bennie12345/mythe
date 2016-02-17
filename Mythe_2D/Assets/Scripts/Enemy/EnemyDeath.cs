@@ -19,6 +19,12 @@ public class EnemyDeath : MonoBehaviour {
             other.SendMessage("ApplyDamage", _enemyDamage);
             Destroy(this.gameObject);
         }
+
+        if (other.gameObject.tag == "Laser")
+        {
+            _cameraShakeScript.Shake();
+            Destroy(this.gameObject);
+        }
 	}
 
 }
