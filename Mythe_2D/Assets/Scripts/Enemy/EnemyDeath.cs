@@ -15,17 +15,26 @@ public class EnemyDeath : MonoBehaviour {
 	{
         if (other.gameObject.tag == Tags.playerTag)
         {
-            _cameraShakeScript.Shake();
             other.SendMessage("ApplyDamage", _enemyDamage);
-            Destroy(this.gameObject);
+            DestroyEnemy();
         }
 
         if (other.gameObject.tag == Tags.laserTag)
         {
-            _cameraShakeScript.Shake();
-            Destroy(this.gameObject);
+            DestroyEnemy();
+        }
+
+        if (other.gameObject.tag == Tags.swordTag)
+        {
+            DestroyEnemy();
         }
 	}
+
+    void DestroyEnemy()
+    {
+        _cameraShakeScript.Shake();
+        Destroy(this.gameObject);
+    }
 
 }
 
