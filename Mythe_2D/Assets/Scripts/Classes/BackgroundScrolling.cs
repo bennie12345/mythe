@@ -3,9 +3,7 @@ using System.Collections;
 
 public class BackgroundScrolling : MonoBehaviour
 {
-    [SerializeField]
-    private float _speed = 0.5f;
-
+    [SerializeField]private float _speed = 0.5f;
     private Vector3 _beginPosition;
     private Vector3 _newPosition;
     private Renderer _renderer;

@@ -3,7 +3,7 @@ using System.Collections;
 
 public class AbilityButtons : MonoBehaviour {
 
-    private CooldownManager _cooldownManager;
+    private Cooldowns _cooldownManager;
     private Player _playerScript;
 
     [SerializeField]private GameObject effectCollider;
@@ -19,7 +19,7 @@ public class AbilityButtons : MonoBehaviour {
     void Start()
     {
         _playerScript = GetComponentInParent<Player>();
-        _cooldownManager = GetComponentInParent<CooldownManager>();
+        _cooldownManager = GetComponentInParent<Cooldowns>();
         this.gameObject.tag = Tags.abilityButtonsTag;
     }
 
@@ -44,7 +44,7 @@ public class AbilityButtons : MonoBehaviour {
         {
             StartCoroutine(ActivateTimer(Laserbeam, 2f));
             _laserCooldown = LaserCD;
-            _cooldownManager.LaserCooldown = _swordCooldown;
+            _cooldownManager.LaserCooldown = _laserCooldown;
         }
     }
 
