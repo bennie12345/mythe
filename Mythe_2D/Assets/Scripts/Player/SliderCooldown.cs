@@ -23,7 +23,6 @@ public class SliderCooldown : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
     {
-        Debug.Log(_coolDownScript.LaserCooldown);
         _medusaSlider.fillAmount = _coolDownScript.MedusaCooldown / _medusaOffset;
         _swordSlider.fillAmount = _coolDownScript.SwordCooldown / _swordOffset;
         _laserSlider.fillAmount = _coolDownScript.LaserCooldown / _laserOffset;
