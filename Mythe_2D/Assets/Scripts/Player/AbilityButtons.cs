@@ -46,6 +46,7 @@ public class AbilityButtons : MonoBehaviour {
     {
         if (_laserCooldown <= _minCooldown)
         {
+            source.PlayOneShot(_sounds.FiringMahLazor);
             StartCoroutine(ActivateTimer(Laserbeam, 2f));
             _laserCooldown = LaserCD;
             _cooldownManager.LaserCooldown = _laserCooldown;

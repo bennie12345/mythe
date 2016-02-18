@@ -3,7 +3,6 @@ using System.Collections;
 
 public class Sounds : MonoBehaviour {
 
-    private AudioSource _source;
     [SerializeField]private AudioClip _medusaSound;
     public AudioClip MedusaSound
     {
@@ -16,7 +15,18 @@ public class Sounds : MonoBehaviour {
             _medusaSound = value;
         }
     }
-
+    [SerializeField]private AudioClip _firingMahLazor;
+    public AudioClip FiringMahLazor
+    {
+        get
+        {
+            return _firingMahLazor;
+        }
+        set
+        {
+            _firingMahLazor = value;
+        }
+    }
 	// Use this for initialization
 	void Start () {
         this.gameObject.tag = Tags.soundsObjectTag;
