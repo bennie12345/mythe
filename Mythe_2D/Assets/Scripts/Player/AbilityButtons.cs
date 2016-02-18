@@ -5,11 +5,13 @@ public class AbilityButtons : MonoBehaviour {
 
     private CooldownManager _cooldownManager;
     private Player _playerScript;
+    private Sounds _sounds;
 
     [SerializeField]private GameObject effectCollider;
     [SerializeField]private ParticleSystem particles;
     [SerializeField]private GameObject parentObject;
     [SerializeField]private GameObject Laserbeam;
+    private AudioSource source;
 
     private float _laserCooldown = 0;
     private float _medusaCooldown = 0;
@@ -18,6 +20,8 @@ public class AbilityButtons : MonoBehaviour {
 
     void Start()
     {
+        source = GetComponent<AudioSource>();
+        _sounds = GameObject.FindWithTag("SoundsObject").GetComponent<Sounds>();
         _playerScript = GetComponentInParent<Player>();
         _cooldownManager = GetComponentInParent<CooldownManager>();
         this.gameObject.tag = Tags.abilityButtonsTag;
@@ -61,7 +65,10 @@ public class AbilityButtons : MonoBehaviour {
         {
             ParticleSystem instantiatedObject = Instantiate(particles, transform.position, Quaternion.Euler(0, 90, -90)) as ParticleSystem;
             instantiatedObject.transform.parent = parentObject.transform;
-            Instantiate(effectCollider);
+            GameObject collider = Instantiate(effectCollider, parentObject.transform.position, Quaternion.identity) as GameObject;
+            collider.transform.parent = parentObject.transform;
+            source.PlayOneShot(_sounds.MedusaSound);
+           //source.Play();
 
             _medusaCooldown = MedusaCD;
             _cooldownManager.MedusaCooldown = _medusaCooldown;
