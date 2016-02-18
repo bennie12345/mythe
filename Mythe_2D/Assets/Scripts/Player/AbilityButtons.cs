@@ -63,7 +63,7 @@ public class AbilityButtons : MonoBehaviour {
     {
         if (_medusaCooldown <= _minCooldown)
         {
-            ParticleSystem instantiatedObject = Instantiate(particles, transform.position, Quaternion.Euler(0, 90, -90)) as ParticleSystem;
+            ParticleSystem instantiatedObject = Instantiate(particles, parentObject.transform.position, Quaternion.Euler(0, 90, -90)) as ParticleSystem;
             instantiatedObject.transform.parent = parentObject.transform;
             GameObject collider = Instantiate(effectCollider, parentObject.transform.position, Quaternion.identity) as GameObject;
             collider.transform.parent = parentObject.transform;
