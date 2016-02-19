@@ -1,4 +1,24 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/TestScenes/soufyan_testscene.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/GameOver.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/Main.unity
+=======
+<<<<<<< HEAD
+- path: Assets/TestScenes/soufyan_testscene.unity
+=======
+<<<<<<< HEAD
+- path: Assets/TestScenes/daniel_testscene.unity
+=======
+- path: Assets/TestScenes/lorenzo_testscene.unity
+>>>>>>> origin/master
+>>>>>>> af8424e01ac1376953db5afab8bbecf6d2a2e3e1
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> e44eb8751d16f7c982514b04de45d91e5a39ad2e
   isLoaded: 1
   isActive: 1
