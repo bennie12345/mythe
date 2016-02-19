@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
 
@@ -75,9 +76,9 @@ public class Player : MonoBehaviour {
 
     void KillPlayer()
     {
-        if (_health == 0)
+        if (_health <= 0)
         {
-            //Destroy(this.gameObject)
+            SceneManager.LoadScene(Scenes.gameOverScene);
         }
     }
 
