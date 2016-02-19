@@ -1,0 +1,573 @@
+fileFormatVersion: 2
+guid: 4d9908bd3737f1b41a3ea469c2f3ec56
+timeCreated: 1455872513
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Medusa_0
+    21300002: Medusa_1
+    21300004: Medusa_2
+    21300006: Medusa_3
+    21300008: Medusa_4
+    21300010: Medusa_5
+    21300012: Medusa_6
+    21300014: Medusa_7
+    21300016: Medusa_8
+    21300018: Medusa_9
+    21300020: Medusa_10
+    21300022: Medusa_11
+    21300024: Medusa_12
+    21300026: Medusa_13
+    21300028: Medusa_14
+    21300030: Medusa_15
+    21300032: Medusa_16
+    21300034: Medusa_17
+    21300036: Medusa_18
+    21300038: Medusa_19
+    21300040: Medusa_20
+    21300042: Medusa_21
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Medusa_0
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 3645
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Medusa_1
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 3645
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Medusa_2
+      rect:
+        serializedVersion: 2
+        x: 2768
+        y: 3603
+        width: 99
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -25, y: 19}
+        - {x: -25, y: -20}
+        - {x: -17, y: -24}
+        - {x: 21, y: -24}
+        - {x: 25, y: -18}
+        - {x: 25, y: 22}
+        - {x: 15, y: 25}
+      - - {x: -16, y: 6}
+        - {x: 8, y: 16}
+        - {x: 12, y: -12}
+        - {x: 3, y: -17}
+    - name: Medusa_3
+      rect:
+        serializedVersion: 2
+        x: 3560
+        y: 3603
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 25}
+        - {x: -24.5, y: 15}
+        - {x: -24.5, y: -15}
+        - {x: -14.5, y: -24}
+        - {x: 13.5, y: -24}
+        - {x: 24.5, y: -15}
+        - {x: 24.5, y: 19}
+        - {x: 22.5, y: 25}
+      - - {x: -14.5, y: -9}
+        - {x: -4.5, y: 17}
+        - {x: 9.5, y: 15}
+        - {x: 9.5, y: -14}
+    - name: Medusa_4
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 2767
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 48}
+        - {x: -35, y: 48}
+        - {x: -47, y: 28}
+        - {x: -47, y: -41}
+        - {x: -27, y: -47}
+        - {x: 44, y: -47}
+        - {x: 48, y: -32}
+        - {x: 48, y: 32}
+      - - {x: -39, y: 4}
+        - {x: 7, y: 39}
+        - {x: 32, y: -25}
+        - {x: -7, y: -39}
+    - name: Medusa_5
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 2767
+        width: 190
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: 48}
+        - {x: -25.5, y: 48}
+        - {x: -47.5, y: 24}
+        - {x: -47.5, y: -40}
+        - {x: -20.5, y: -47}
+        - {x: 40.5, y: -47}
+        - {x: 48.5, y: -26}
+        - {x: 48.5, y: 38}
+      - - {x: -22.5, y: -33}
+        - {x: -28.5, y: 28}
+        - {x: 22.5, y: 34}
+        - {x: 20.5, y: -34}
+    - name: Medusa_6
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 2727
+        width: 268
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 67.5}
+        - {x: -25, y: 67.5}
+        - {x: -46, y: 56.5}
+        - {x: -67, y: 32.5}
+        - {x: -67, y: -66.5}
+        - {x: 67, y: -66.5}
+        - {x: 68, y: -64.5}
+        - {x: 68, y: 37.5}
+        - {x: 67, y: 45.5}
+      - - {x: -41, y: -42.5}
+        - {x: -59, y: -2.5}
+        - {x: 6, y: 59.5}
+        - {x: 57, y: -16.5}
+    - name: Medusa_7
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 2727
+        width: 266
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 67.5}
+        - {x: -66.5, y: 58.5}
+        - {x: -66.5, y: -59.5}
+        - {x: -59.5, y: -66.5}
+        - {x: 54.5, y: -66.5}
+        - {x: 67.5, y: -62.5}
+        - {x: 67.5, y: 28.5}
+        - {x: 46.5, y: 67.5}
+      - - {x: -11.5, y: -57.5}
+        - {x: -55.5, y: 22.5}
+        - {x: -11.5, y: 58.5}
+        - {x: 56.5, y: -21.5}
+    - name: Medusa_8
+      rect:
+        serializedVersion: 2
+        x: 3441
+        y: 2693
+        width: 336
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -84, y: 51.5}
+        - {x: -84, y: -40.5}
+        - {x: -60, y: -83.5}
+        - {x: 60, y: -83.5}
+        - {x: 85, y: -66.5}
+        - {x: 85, y: 53.5}
+        - {x: 76, y: 66.5}
+        - {x: 36, y: 84.5}
+        - {x: -37, y: 84.5}
+        - {x: -55, y: 81.5}
+      - - {x: -33, y: -68.5}
+        - {x: -72, y: 28.5}
+        - {x: 76, y: 14.5}
+        - {x: 49, y: -59.5}
+    - name: Medusa_9
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1901
+        width: 336
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -84, y: -83}
+        - {x: -82, y: -84}
+        - {x: 55, y: -84}
+        - {x: 85, y: -74}
+        - {x: 85, y: 85}
+        - {x: -84, y: 85}
+      - - {x: -47, y: -60}
+        - {x: -65, y: 40}
+        - {x: 29, y: 73}
+        - {x: 50, y: -58}
+    - name: Medusa_10
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1869
+        width: 398
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: 99.5}
+        - {x: -99.5, y: 77.5}
+        - {x: -99.5, y: -90.5}
+        - {x: -80.5, y: -98.5}
+        - {x: 52.5, y: -98.5}
+        - {x: 100.5, y: -79.5}
+        - {x: 100.5, y: 88.5}
+        - {x: 67.5, y: 99.5}
+      - - {x: -33.5, y: -84.5}
+        - {x: -78.5, y: 46.5}
+        - {x: 53.5, y: 76.5}
+        - {x: 88.5, y: -26.5}
+    - name: Medusa_11
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 1869
+        width: 396
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -92, y: 99.5}
+        - {x: -99, y: 68.5}
+        - {x: -99, y: -54.5}
+        - {x: -73, y: -91.5}
+        - {x: -58, y: -98.5}
+        - {x: 56, y: -98.5}
+        - {x: 100, y: -61.5}
+        - {x: 100, y: 53.5}
+        - {x: 78, y: 99.5}
+      - - {x: -91, y: -5.5}
+        - {x: -12, y: 91.5}
+        - {x: 86, y: -32.5}
+        - {x: 9, y: -90.5}
+    - name: Medusa_12
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 1869
+        width: 398
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: 99.5}
+        - {x: -99.5, y: 77.5}
+        - {x: -99.5, y: -90.5}
+        - {x: -80.5, y: -98.5}
+        - {x: 52.5, y: -98.5}
+        - {x: 100.5, y: -79.5}
+        - {x: 100.5, y: 88.5}
+        - {x: 67.5, y: 99.5}
+      - - {x: -33.5, y: -84.5}
+        - {x: -78.5, y: 46.5}
+        - {x: 53.5, y: 76.5}
+        - {x: 88.5, y: -26.5}
+    - name: Medusa_13
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 1845
+        width: 444
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 111.5}
+        - {x: -111, y: 81.5}
+        - {x: -111, y: -77.5}
+        - {x: -87, y: -110.5}
+        - {x: 46, y: -110.5}
+        - {x: 112, y: -66.5}
+        - {x: 112, y: 84.5}
+        - {x: 75, y: 111.5}
+      - - {x: -37, y: -95.5}
+        - {x: -9, y: 103.5}
+        - {x: 54, y: 89.5}
+        - {x: 98, y: -37.5}
+    - name: Medusa_14
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1055
+        width: 444
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: 111.5}
+        - {x: -66, y: 111.5}
+        - {x: -111, y: 97.5}
+        - {x: -111, y: -55.5}
+        - {x: -54, y: -110.5}
+        - {x: 77, y: -110.5}
+        - {x: 87, y: -107.5}
+        - {x: 112, y: -41.5}
+        - {x: 112, y: 55.5}
+        - {x: 97, y: 82.5}
+      - - {x: -95, y: 40.5}
+        - {x: -39, y: 95.5}
+        - {x: 53, y: 89.5}
+        - {x: 54, y: -89.5}
+    - name: Medusa_15
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1033
+        width: 486
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -94.5, y: 122}
+        - {x: -121.5, y: 112}
+        - {x: -121.5, y: -105}
+        - {x: -76.5, y: -121}
+        - {x: 84.5, y: -121}
+        - {x: 122.5, y: -87}
+        - {x: 122.5, y: 70}
+        - {x: 101.5, y: 122}
+      - - {x: -109.5, y: -30}
+        - {x: 47.5, y: 105}
+        - {x: 110.5, y: 32}
+        - {x: 59.5, y: -98}
+    - name: Medusa_16
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1033
+        width: 488
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77, y: 122}
+        - {x: -64, y: 122}
+        - {x: -122, y: 102}
+        - {x: -122, y: -105}
+        - {x: -73, y: -121}
+        - {x: 85, y: -121}
+        - {x: 123, y: -70}
+        - {x: 123, y: 67}
+        - {x: 118, y: 85}
+      - - {x: -87, y: -73}
+        - {x: -105, y: 45}
+        - {x: 78, y: 86}
+        - {x: 75, y: -87}
+    - name: Medusa_17
+      rect:
+        serializedVersion: 2
+        x: 2549
+        y: 1005
+        width: 544
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73, y: 136}
+        - {x: -136, y: 102}
+        - {x: -136, y: -98}
+        - {x: -127, y: -135}
+        - {x: 95, y: -135}
+        - {x: 137, y: -100}
+        - {x: 137, y: 84}
+        - {x: 105, y: 136}
+      - - {x: -128, y: -11}
+        - {x: 53, y: 118}
+        - {x: 120, y: -46}
+        - {x: 50, y: -118}
+    - name: Medusa_18
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 1005
+        width: 544
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78, y: 136}
+        - {x: -63, y: 136}
+        - {x: -136, y: 108}
+        - {x: -136, y: -66}
+        - {x: -97, y: -135}
+        - {x: 104, y: -135}
+        - {x: 137, y: -69}
+        - {x: 137, y: 83}
+        - {x: 101, y: 121}
+      - - {x: -116, y: -51}
+        - {x: -13, y: 128}
+        - {x: 120, y: 47}
+        - {x: 122, y: -40}
+    - name: Medusa_19
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 175
+        width: 624
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 156, y: 53.5}
+        - {x: 109, y: 155.5}
+        - {x: -104, y: 155.5}
+        - {x: -156, y: 54.5}
+        - {x: -156, y: -40.5}
+        - {x: -143, y: -69.5}
+        - {x: -128, y: -96.5}
+        - {x: -81, y: -138.5}
+        - {x: -44, y: -152.5}
+        - {x: -28, y: -154.5}
+        - {x: 51, y: -154.5}
+        - {x: 133, y: -116.5}
+        - {x: 156, y: -54.5}
+      - - {x: -127, y: -76.5}
+        - {x: -59, y: 136.5}
+        - {x: 33, y: 144.5}
+        - {x: 122, y: -82.5}
+    - name: Medusa_20
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 175
+        width: 622
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -130.5, y: 155.5}
+        - {x: -155.5, y: 84.5}
+        - {x: -155.5, y: -102.5}
+        - {x: -87.5, y: -154.5}
+        - {x: 91.5, y: -154.5}
+        - {x: 127.5, y: -147.5}
+        - {x: 156.5, y: -96.5}
+        - {x: 156.5, y: 66.5}
+        - {x: 129.5, y: 155.5}
+      - - {x: -141.5, y: -41.5}
+        - {x: -124.5, y: 77.5}
+        - {x: -11.5, y: 147.5}
+        - {x: 77.5, y: -125.5}
+    - name: Medusa_21
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 139
+        width: 696
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -158, y: 175}
+        - {x: -174, y: 122}
+        - {x: -174, y: -119}
+        - {x: -90, y: -174}
+        - {x: 76, y: -174}
+        - {x: 174, y: -100}
+        - {x: 174, y: 158}
+        - {x: 138, y: 175}
+      - - {x: -158, y: 55}
+        - {x: 113, y: 123}
+        - {x: 145, y: -82}
+        - {x: 14, y: -165}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

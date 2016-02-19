@@ -1,11 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class EnemyDeath : MonoBehaviour {
 
     private float _enemyDamage = 1f;
     private CameraShake _cameraShakeScript;
+<<<<<<< HEAD
     private Score _scoreScript;
+=======
+    static ulong addScore = 0;
+    static string scoreCount = "0";
+    [SerializeField]private Text playerScore;
+>>>>>>> origin/master
 
     void Start()
     {
@@ -36,7 +43,13 @@ public class EnemyDeath : MonoBehaviour {
     {
         _cameraShakeScript.Shake();
         Destroy(this.gameObject);
+<<<<<<< HEAD
         _scoreScript.UpdateScore(1f);
+=======
+        addScore = addScore + 1;
+        scoreCount = addScore.ToString();
+        playerScore.text = scoreCount;
+>>>>>>> origin/master
     }
 
 }
