@@ -4,7 +4,7 @@ using System.Collections;
 public class BackgroundScrolling : MonoBehaviour
 {
     [SerializeField]
-    private float speed = 0.5f;
+    private float speed;
 
     private Vector3 beginPosition;
     private Vector3 newPosition;
@@ -37,9 +37,9 @@ public class BackgroundScrolling : MonoBehaviour
        // Debug.Log("calc" + calc);
         if (newPosition.x < worldedge.x - width/2)
         {
-            Debug.Log("verplaats");
+            //Debug.Log("verplaats");
             Vector2 newpos = transform.position;
-            newpos.x += width*2;
+            newpos.x += width * 2;
             transform.position = newPosition = newpos;
             //Debug.Log("reset");
         }
