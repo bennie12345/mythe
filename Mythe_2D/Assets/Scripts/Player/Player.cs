@@ -6,6 +6,18 @@ public class Player : MonoBehaviour {
 
     private Rigidbody2D _rb2D;
     private float _health = 2f;
+    public float Health
+    {
+        get
+        {
+            return _health;
+        }
+        
+        set
+        {
+            _health = value;
+        }
+    }
     private float _playerBoundX = 6.5f;
     private float _playerBoundY = 4f;
     private float _swordDuration = 2f;
