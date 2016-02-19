@@ -3,8 +3,16 @@ using System.Collections;
 
 public class UIButtons : MonoBehaviour {
 
-    public void QuitApplication()
+    void Update()
     {
-        Application.Quit();
+        QuitApp();
+    }
+
+    void QuitApp()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 }

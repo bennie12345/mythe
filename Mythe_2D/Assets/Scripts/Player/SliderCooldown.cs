@@ -12,7 +12,7 @@ public class SliderCooldown : MonoBehaviour {
 
     private float _medusaOffset = 10;
     private float _swordOffset = 5;
-    private float _laserOffset = 5;
+    private float _laserOffset = 20;
 
 	// Use this for initialization
 	void Start () 

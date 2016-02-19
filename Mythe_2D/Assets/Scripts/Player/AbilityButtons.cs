@@ -7,7 +7,7 @@ public class AbilityButtons : MonoBehaviour {
     private Player _playerScript;
     private Sounds _sounds;
 
-    [SerializeField]private GameObject effectCollider;
+    [SerializeField]private GameObject shockwaveObject;
     [SerializeField]private ParticleSystem particles;
     [SerializeField]private GameObject parentObject;
     [SerializeField]private GameObject Laserbeam;
@@ -46,6 +46,7 @@ public class AbilityButtons : MonoBehaviour {
     {
         if (_laserCooldown <= _minCooldown)
         {
+            source.PlayOneShot(_sounds.FiringMahLazor);
             StartCoroutine(ActivateTimer(Laserbeam, 2f));
             _laserCooldown = LaserCD;
             _cooldownManager.LaserCooldown = _laserCooldown;
@@ -63,12 +64,11 @@ public class AbilityButtons : MonoBehaviour {
     {
         if (_medusaCooldown <= _minCooldown)
         {
-            ParticleSystem instantiatedObject = Instantiate(particles, parentObject.transform.position, Quaternion.Euler(0, 90, -90)) as ParticleSystem;
-            instantiatedObject.transform.parent = parentObject.transform;
-            GameObject collider = Instantiate(effectCollider, parentObject.transform.position, Quaternion.identity) as GameObject;
-            collider.transform.parent = parentObject.transform;
+            //ParticleSystem instantiatedObject = Instantiate(particles, parentObject.transform.position, Quaternion.Euler(0, 90, -90)) as ParticleSystem;
+            //instantiatedObject.transform.parent = parentObject.transform;
+            GameObject shockwave = Instantiate(shockwaveObject, parentObject.transform.position, Quaternion.identity) as GameObject;
+            shockwave.transform.parent = parentObject.transform;
             source.PlayOneShot(_sounds.MedusaSound);
-           //source.Play();
 
             _medusaCooldown = MedusaCD;
             _cooldownManager.MedusaCooldown = _medusaCooldown;
