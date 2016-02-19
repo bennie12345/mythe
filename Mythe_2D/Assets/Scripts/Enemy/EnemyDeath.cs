@@ -1,10 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class EnemyDeath : MonoBehaviour {
 
     private float _enemyDamage = 1f;
     private CameraShake _cameraShakeScript;
+    static ulong addScore = 0;
+    static string scoreCount = "0";
+    [SerializeField]private Text playerScore;
 
     void Start()
     {
@@ -13,19 +17,31 @@ public class EnemyDeath : MonoBehaviour {
 
    	void OnTriggerEnter2D(Collider2D other)
 	{
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == Tags.playerTag)
         {
-            _cameraShakeScript.Shake();
             other.SendMessage("ApplyDamage", _enemyDamage);
-            Destroy(this.gameObject);
+            DestroyEnemy();
         }
 
-        if (other.gameObject.tag == "Laser")
+        if (other.gameObject.tag == Tags.abilities)
         {
-            _cameraShakeScript.Shake();
-            Destroy(this.gameObject);
+            DestroyEnemy();
+        }
+
+        if (other.gameObject.tag == Tags.swordTag)
+        {
+            DestroyEnemy();
         }
 	}
+
+    void DestroyEnemy()
+    {
+        _cameraShakeScript.Shake();
+        Destroy(this.gameObject);
+        addScore = addScore + 1;
+        scoreCount = addScore.ToString();
+        playerScore.text = scoreCount;
+    }
 
 }
 
