@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e6af257f83b80d44abfda8c6a745fc1b
-timeCreated: 1455877578
+timeCreated: 1455881954
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -130,7 +130,7 @@ TextureImporter:
         width: 152
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Laser_placeholder_1
@@ -141,7 +141,7 @@ TextureImporter:
         width: 152
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Laser_placeholder_2
@@ -152,7 +152,7 @@ TextureImporter:
         width: 280
         height: 168
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -20, y: 22}
@@ -170,7 +170,7 @@ TextureImporter:
         width: 280
         height: 168
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -15, y: 22}
@@ -189,7 +189,7 @@ TextureImporter:
         width: 540
         height: 236
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -20.5, y: 30.5}
@@ -209,7 +209,7 @@ TextureImporter:
         width: 540
         height: 232
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -5.5, y: 30}
@@ -227,7 +227,7 @@ TextureImporter:
         width: 540
         height: 232
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 45.5, y: 30}
@@ -237,94 +237,72 @@ TextureImporter:
         - {x: 60.5, y: -22}
         - {x: 68.5, y: -20}
         - {x: 68.5, y: 19}
-    - name: Laser_placeholder_7
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 5878
-        width: 32
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
     - name: Laser_placeholder_8
       rect:
         serializedVersion: 2
-        x: 178
-        y: 5902
-        width: 683
-        height: 160
+        x: 61
+        y: 5881
+        width: 800
+        height: 201
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -85.5, y: -17}
-        - {x: -84.5, y: -20}
-        - {x: 86.5, y: -20}
-        - {x: 86.5, y: 20}
-        - {x: 85.5, y: 21}
-        - {x: -71.5, y: 21}
-        - {x: -85.5, y: 13}
-    - name: Laser_placeholder_9
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 5630
-        width: 32
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      - - {x: -99.25, y: 25.75}
+        - {x: -100.25, y: 17.75}
+        - {x: -100.25, y: -14.25}
+        - {x: -97.25, y: -21.25}
+        - {x: -95.25, y: -25.25}
+        - {x: -89.25, y: -25.25}
+        - {x: -89.25, y: -23.25}
+        - {x: -91.25, y: 25.75}
+      - - {x: -50.25, y: 21.75}
+        - {x: -72.25, y: 11.75}
+        - {x: -72.25, y: -13.25}
+        - {x: -58.25, y: -21.25}
+        - {x: 92.75, y: -21.25}
+        - {x: 100.75, y: -12.25}
+        - {x: 100.75, y: 16.75}
+        - {x: 86.75, y: 21.75}
     - name: Laser_placeholder_10
       rect:
         serializedVersion: 2
-        x: 178
-        y: 5654
-        width: 683
-        height: 164
+        x: 59
+        y: 5646
+        width: 807
+        height: 184
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -67.5, y: 21.5}
-        - {x: -85.5, y: 13.5}
-        - {x: -85.5, y: -16.5}
-        - {x: -82.5, y: -20.5}
-        - {x: 79.5, y: -20.5}
-        - {x: 86.5, y: -16.5}
-        - {x: 86.5, y: 12.5}
-        - {x: 82.5, y: 21.5}
-    - name: Laser_placeholder_11
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 5366
-        width: 76
-        height: 236
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      - - {x: -99.75, y: -23}
+        - {x: -89.75, y: -23}
+        - {x: -89.75, y: -1}
+        - {x: -91.75, y: 24}
+        - {x: -97.75, y: 24}
+        - {x: -99.75, y: 22}
+      - - {x: -61.75, y: 22}
+        - {x: -71.75, y: 14}
+        - {x: -71.75, y: -22}
+        - {x: 102.25, y: -22}
+        - {x: 102.25, y: 22}
     - name: Laser_placeholder_12
       rect:
         serializedVersion: 2
-        x: 142
-        y: 5394
-        width: 1543
-        height: 172
+        x: 62
+        y: 5373
+        width: 1615
+        height: 236
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -190, y: 22.5}
-        - {x: -193, y: 19.5}
-        - {x: -193, y: -17.5}
-        - {x: -191, y: -21.5}
-        - {x: 186, y: -21.5}
-        - {x: 194, y: -19.5}
-        - {x: 194, y: 22.5}
+      - - {x: -202, y: 29.25}
+        - {x: -202, y: -29.75}
+        - {x: 199, y: -29.75}
+        - {x: 203, y: -22.75}
+        - {x: 203, y: 21.25}
+        - {x: 87, y: 29.25}
     - name: Laser_placeholder_13
       rect:
         serializedVersion: 2
@@ -333,7 +311,7 @@ TextureImporter:
         width: 1615
         height: 236
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 194, y: 28.5}
@@ -348,421 +326,264 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 62
-        y: 4870
+        y: 4863
         width: 1615
-        height: 240
+        height: 236
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -202, y: 31}
-        - {x: -202, y: -30}
-        - {x: 28, y: -30}
-        - {x: 173, y: -26}
-        - {x: 203, y: -13}
-        - {x: 203, y: 23}
-        - {x: 50, y: 31}
-    - name: Laser_placeholder_15
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 4826
-        width: 35
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_16
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 4818
-        width: 20
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_17
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 4714
-        width: 36
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_18
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 4738
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_19
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 4730
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      - - {x: 185, y: 26.75}
+        - {x: 83, y: 30.75}
+        - {x: -202, y: 30.75}
+        - {x: -202, y: -29.25}
+        - {x: 40, y: -29.25}
+        - {x: 173, y: -23.25}
+        - {x: 203, y: -10.25}
+        - {x: 203, y: 14.75}
+        - {x: 200, y: 21.75}
     - name: Laser_placeholder_20
       rect:
         serializedVersion: 2
-        x: 138
-        y: 4654
-        width: 1547
-        height: 172
+        x: 62
+        y: 4608
+        width: 1615
+        height: 236
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -179.5, y: 22.5}
-        - {x: -193.5, y: 13.5}
-        - {x: -193.5, y: -13.5}
-        - {x: -187.5, y: -21.5}
-        - {x: 177.5, y: -21.5}
-        - {x: 194.5, y: -7.5}
-        - {x: 194.5, y: 12.5}
-        - {x: 185.5, y: 22.5}
-    - name: Laser_placeholder_21
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 4710
-        width: 12
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_22
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 4626
-        width: 28
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_23
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 4642
-        width: 16
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_24
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 4578
-        width: 36
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_25
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 4574
-        width: 20
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      - - {x: -194, y: -10.5}
+        - {x: -196, y: -9.5}
+        - {x: -201, y: -9.5}
+        - {x: -201, y: -20.5}
+        - {x: -199, y: -29.5}
+        - {x: -189, y: -29.5}
+        - {x: -189, y: -20.5}
+      - - {x: -184, y: -10.5}
+        - {x: -187, y: -11.5}
+        - {x: -189, y: -20.5}
+        - {x: -187, y: -22.5}
+        - {x: -185, y: -22.5}
+        - {x: -182, y: -18.5}
+        - {x: -182, y: -12.5}
+      - - {x: 188, y: 26.5}
+        - {x: -168, y: 26.5}
+        - {x: -175, y: 24.5}
+        - {x: -184, y: 7.5}
+        - {x: -184, y: -10.5}
+        - {x: -171, y: -19.5}
+        - {x: -115, y: -19.5}
+        - {x: 188, y: -18.5}
+        - {x: 203, y: -7.5}
+        - {x: 203, y: 13.5}
+        - {x: 202, y: 18.5}
+      - - {x: -201, y: 15.5}
+        - {x: -202, y: 12.5}
+        - {x: -202, y: -3.5}
+        - {x: -201, y: -5.5}
+        - {x: -192, y: -5.5}
+        - {x: -186, y: 0.5}
+        - {x: -186, y: 10.5}
+        - {x: -197, y: 15.5}
+      - - {x: -189, y: 29.5}
+        - {x: -189, y: 26.5}
+        - {x: -185, y: 21.5}
+        - {x: -184, y: 21.5}
+        - {x: -181, y: 24.5}
+        - {x: -181, y: 28.5}
+        - {x: -182, y: 29.5}
+      - - {x: -200, y: 29.5}
+        - {x: -201, y: 28.5}
+        - {x: -201, y: 24.5}
+        - {x: -199, y: 23.5}
+        - {x: -195, y: 23.5}
+        - {x: -190, y: 27.5}
+        - {x: -190, y: 29.5}
     - name: Laser_placeholder_26
       rect:
         serializedVersion: 2
-        x: 142
-        y: 4414
-        width: 1547
-        height: 172
+        x: 62
+        y: 4353
+        width: 1615
+        height: 236
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 166.5, y: 22.5}
-        - {x: -188.5, y: 22.5}
-        - {x: -193.5, y: 10.5}
-        - {x: -193.5, y: -14.5}
-        - {x: -185.5, y: -21.5}
-        - {x: 180.5, y: -21.5}
-        - {x: 194.5, y: -9.5}
-        - {x: 194.5, y: 14.5}
-        - {x: 182.5, y: 21.5}
-    - name: Laser_placeholder_27
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 4462
-        width: 36
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_28
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 4502
-        width: 32
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_29
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 4490
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_30
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 4486
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_31
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 4378
-        width: 28
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_32
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 4394
-        width: 16
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_33
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 4154
-        width: 32
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      - - {x: -202, y: -29.75}
+        - {x: -198, y: -29.75}
+        - {x: -198, y: -26.75}
+        - {x: -200, y: -24.75}
+        - {x: -202, y: -25.75}
+      - - {x: -201, y: -19.75}
+        - {x: -197, y: -24.75}
+        - {x: -191, y: -24.75}
+        - {x: -191, y: -18.75}
+        - {x: -194, y: -8.75}
+        - {x: -198, y: -6.75}
+        - {x: -201, y: -7.75}
+      - - {x: -184, y: -8.75}
+        - {x: -187, y: -9.75}
+        - {x: -189, y: -18.75}
+        - {x: -187, y: -20.75}
+        - {x: -185, y: -20.75}
+        - {x: -182, y: -16.75}
+        - {x: -182, y: -10.75}
+      - - {x: -169, y: 30.25}
+        - {x: -183, y: 18.25}
+        - {x: -183, y: -7.75}
+        - {x: -165, y: -15.75}
+        - {x: 141, y: -15.75}
+        - {x: 191, y: -14.75}
+        - {x: 203, y: -1.75}
+        - {x: 203, y: 21.25}
+        - {x: 195, y: 30.25}
+      - - {x: -196, y: 17.25}
+        - {x: -201, y: 17.25}
+        - {x: -202, y: 13.25}
+        - {x: -202, y: -1.75}
+        - {x: -201, y: -3.75}
+        - {x: -191, y: -3.75}
+        - {x: -186, y: 1.25}
+        - {x: -186, y: 11.25}
+        - {x: -187, y: 14.25}
+      - - {x: -189, y: 30.25}
+        - {x: -189, y: 29.25}
+        - {x: -185, y: 24.25}
+        - {x: -183, y: 24.25}
+        - {x: -181, y: 26.25}
+        - {x: -181, y: 30.25}
+      - - {x: -200, y: 25.25}
+        - {x: -197, y: 25.25}
+        - {x: -194, y: 26.25}
+        - {x: -194, y: 30.25}
+        - {x: -201, y: 30.25}
+        - {x: -201, y: 27.25}
     - name: Laser_placeholder_34
       rect:
         serializedVersion: 2
-        x: 130
-        y: 4178
-        width: 1547
-        height: 168
+        x: 42
+        y: 4134
+        width: 1615
+        height: 236
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -188.5, y: 22}
-        - {x: -193.5, y: 14}
-        - {x: -193.5, y: -13}
-        - {x: -186.5, y: -21}
-        - {x: 181.5, y: -21}
-        - {x: 194.5, y: -9}
-        - {x: 194.5, y: 22}
-    - name: Laser_placeholder_35
-      rect:
-        serializedVersion: 2
-        x: 1681
-        y: 4238
-        width: 8
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_36
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 3906
-        width: 32
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      - - {x: -200, y: 30.5}
+        - {x: -202, y: 23.5}
+        - {x: -202, y: -15.5}
+        - {x: -197, y: -25.5}
+        - {x: -192, y: -25.5}
+        - {x: -191, y: -24.5}
+        - {x: -191, y: -1.5}
+        - {x: -192, y: 29.5}
+        - {x: -195, y: 30.5}
+      - - {x: -177, y: 25.5}
+        - {x: -181, y: 12.5}
+        - {x: -181, y: -19.5}
+        - {x: 203, y: -19.5}
+        - {x: 203, y: 24.5}
+        - {x: 193, y: 25.5}
     - name: Laser_placeholder_37
       rect:
         serializedVersion: 2
-        x: 131
-        y: 3914
-        width: 1558
-        height: 172
+        x: 38
+        y: 3887
+        width: 1642
+        height: 236
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -187.75, y: 22.5}
-        - {x: -194.75, y: 8.5}
-        - {x: -194.75, y: -9.5}
-        - {x: -191.75, y: -13.5}
-        - {x: -182.75, y: -21.5}
-        - {x: 182.25, y: -21.5}
-        - {x: 196.25, y: -8.5}
-        - {x: 196.25, y: 13.5}
-        - {x: 182.25, y: 22.5}
-    - name: Laser_placeholder_38
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 3658
-        width: 32
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      - - {x: -204, y: -14.25}
+        - {x: -202, y: -25.25}
+        - {x: -193, y: -25.25}
+        - {x: -193, y: 6.75}
+        - {x: -194, y: 29.75}
+        - {x: -196, y: 30.75}
+        - {x: -201, y: 30.75}
+        - {x: -204, y: 28.75}
+      - - {x: -183, y: 22.75}
+        - {x: -183, y: -23.25}
+        - {x: 206, y: -23.25}
+        - {x: 206, y: 22.75}
     - name: Laser_placeholder_39
       rect:
         serializedVersion: 2
-        x: 134
-        y: 3666
-        width: 1551
-        height: 172
+        x: 39
+        y: 3634
+        width: 1639
+        height: 236
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -194, y: 22.5}
-        - {x: -194, y: -21.5}
-        - {x: 195, y: -21.5}
-        - {x: 195, y: 20.5}
-        - {x: 177, y: 22.5}
+      - - {x: -203.75, y: 30.5}
+        - {x: -203.75, y: -17.5}
+        - {x: -197.75, y: -24.5}
+        - {x: -192.75, y: -24.5}
+        - {x: -192.75, y: -0.5}
+        - {x: -193.75, y: 30.5}
+      - - {x: -174.75, y: 23.5}
+        - {x: -181.75, y: 7.5}
+        - {x: -181.75, y: -17.5}
+        - {x: -179.75, y: -22.5}
+        - {x: 199.25, y: -22.5}
+        - {x: 206.25, y: -12.5}
+        - {x: 206.25, y: 20.5}
+        - {x: 190.25, y: 23.5}
     - name: Laser_placeholder_40
       rect:
         serializedVersion: 2
-        x: 66
+        x: 41
         y: 3398
-        width: 1611
+        width: 1636
         height: 236
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 183.5, y: 23.5}
-        - {x: -8.5, y: 30.5}
-        - {x: -200.5, y: 30.5}
-        - {x: -201.5, y: 26.5}
-        - {x: -201.5, y: -26.5}
-        - {x: -195.5, y: -29.5}
-        - {x: 38.5, y: -29.5}
-        - {x: 184.5, y: -26.5}
-        - {x: 202.5, y: -10.5}
-        - {x: 202.5, y: 11.5}
+      - - {x: -199.75, y: 30.5}
+        - {x: -199.75, y: -29.5}
+        - {x: 205.25, y: -29.5}
+        - {x: 205.25, y: 30.5}
     - name: Laser_placeholder_41
       rect:
         serializedVersion: 2
         x: 66
-        y: 3110
+        y: 3118
         width: 1619
         height: 276
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 78.5, y: 35.5}
-        - {x: -136.5, y: 35.5}
-        - {x: -178.5, y: 23.5}
-        - {x: -181.5, y: 11.5}
-        - {x: -181.5, y: 10.5}
-        - {x: -185.5, y: 5.5}
-        - {x: -181.5, y: 11.5}
-        - {x: -181.5, y: 17.5}
-        - {x: -182.5, y: 21.5}
-        - {x: -181.5, y: 31.5}
-        - {x: -186.5, y: 35.5}
-        - {x: -200.5, y: 35.5}
-        - {x: -202.5, y: 28.5}
+      - - {x: -130.5, y: 34.5}
+        - {x: -178.5, y: 21.5}
+        - {x: -181.5, y: 9.5}
+        - {x: -181.5, y: 8.5}
+        - {x: -185.5, y: 3.5}
+        - {x: -181.5, y: 9.5}
+        - {x: -181.5, y: 15.5}
+        - {x: -182.5, y: 19.5}
+        - {x: -183.5, y: 24.5}
+        - {x: -184.5, y: 27.5}
+        - {x: -190.5, y: 34.5}
+        - {x: -196.5, y: 34.5}
+        - {x: -202.5, y: 29.5}
         - {x: -202.5, y: -34.5}
-        - {x: 109.5, y: -34.5}
-        - {x: 203.5, y: -23.5}
-        - {x: 203.5, y: 24.5}
-      - - {x: -190.5, y: -32.5}
-        - {x: -189.5, y: -34.5}
+        - {x: -35.5, y: -34.5}
+        - {x: 173.5, y: -27.5}
+        - {x: 203.5, y: -11.5}
+        - {x: 203.5, y: 22.5}
+        - {x: 59.5, y: 34.5}
+      - - {x: -190.5, y: -34.5}
         - {x: -183.5, y: -34.5}
-        - {x: -183.5, y: -28.5}
-        - {x: -187.5, y: -24.5}
-        - {x: -190.5, y: -25.5}
-    - name: Laser_placeholder_42
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 3102
-        width: 16
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_43
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 2998
-        width: 52
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_44
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 2994
-        width: 12
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+        - {x: -183.5, y: -30.5}
+        - {x: -187.5, y: -26.5}
+        - {x: -190.5, y: -27.5}
     - name: Laser_placeholder_45
       rect:
         serializedVersion: 2
@@ -771,7 +592,7 @@ TextureImporter:
         width: 1547
         height: 172
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -171.5, y: 22.5}
@@ -783,50 +604,6 @@ TextureImporter:
         - {x: 194.5, y: -13.5}
         - {x: 194.5, y: 14.5}
         - {x: 178.5, y: 22.5}
-    - name: Laser_placeholder_46
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 2910
-        width: 28
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_47
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 2926
-        width: 16
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_48
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 2862
-        width: 32
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_49
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 2858
-        width: 16
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
     - name: Laser_placeholder_50
       rect:
         serializedVersion: 2
@@ -835,7 +612,7 @@ TextureImporter:
         width: 1547
         height: 172
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -193.5, y: 22.5}
@@ -853,94 +630,6 @@ TextureImporter:
         - {x: -190.5, y: 22.5}
         - {x: -193.5, y: 22.5}
         - {x: -193.5, y: 18.5}
-    - name: Laser_placeholder_51
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 2750
-        width: 36
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_52
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 2774
-        width: 24
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_53
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 2770
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_54
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 2746
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_55
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 2662
-        width: 28
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_56
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 2678
-        width: 16
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_57
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 2614
-        width: 32
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_58
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 2610
-        width: 16
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
     - name: Laser_placeholder_59
       rect:
         serializedVersion: 2
@@ -949,7 +638,7 @@ TextureImporter:
         width: 1547
         height: 172
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -191.5, y: 22.5}
@@ -966,39 +655,6 @@ TextureImporter:
         - {x: -190.5, y: 22.5}
         - {x: -193.5, y: 22.5}
         - {x: -193.5, y: 18.5}
-    - name: Laser_placeholder_60
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 2498
-        width: 52
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_61
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 2418
-        width: 28
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_62
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 2434
-        width: 16
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
     - name: Laser_placeholder_63
       rect:
         serializedVersion: 2
@@ -1007,7 +663,7 @@ TextureImporter:
         width: 1555
         height: 108
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Laser_placeholder_64
@@ -1018,7 +674,7 @@ TextureImporter:
         width: 1555
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Laser_placeholder_65
@@ -1029,7 +685,7 @@ TextureImporter:
         width: 1535
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Laser_placeholder_66
@@ -1040,7 +696,7 @@ TextureImporter:
         width: 1535
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Laser_placeholder_67
@@ -1051,51 +707,7 @@ TextureImporter:
         width: 1535
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_68
-      rect:
-        serializedVersion: 2
-        x: 570
-        y: 1038
-        width: 152
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_69
-      rect:
-        serializedVersion: 2
-        x: 862
-        y: 1038
-        width: 147
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_70
-      rect:
-        serializedVersion: 2
-        x: 570
-        y: 790
-        width: 152
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Laser_placeholder_71
-      rect:
-        serializedVersion: 2
-        x: 862
-        y: 790
-        width: 143
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     outline: []
