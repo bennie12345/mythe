@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a5e7ad69feff114429611409079a12fd
-timeCreated: 1455872028
+timeCreated: 1455873072
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -73,7 +73,7 @@ TextureImporter:
         y: 794
         width: 23
         height: 131
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -84,7 +84,7 @@ TextureImporter:
         y: 794
         width: 23
         height: 131
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -95,18 +95,18 @@ TextureImporter:
         y: 805
         width: 109
         height: 108
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 34.5, y: 54}
-        - {x: -54.5, y: -35}
-        - {x: -54.5, y: -41}
-        - {x: -41.5, y: -54}
-        - {x: -35.5, y: -54}
-        - {x: 54.5, y: 36}
-        - {x: 54.5, y: 41}
-        - {x: 41.5, y: 54}
+      - - {x: 89, y: 108}
+        - {x: 0, y: 19}
+        - {x: 0, y: 13}
+        - {x: 13, y: 0}
+        - {x: 19, y: 0}
+        - {x: 109, y: 90}
+        - {x: 109, y: 95}
+        - {x: 96, y: 108}
     - name: Zwaard_placeholder_3
       rect:
         serializedVersion: 2
@@ -114,18 +114,18 @@ TextureImporter:
         y: 805
         width: 109
         height: 108
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 34.5, y: 54}
-        - {x: -54.5, y: -35}
-        - {x: -54.5, y: -41}
-        - {x: -41.5, y: -54}
-        - {x: -35.5, y: -54}
-        - {x: 54.5, y: 36}
-        - {x: 54.5, y: 41}
-        - {x: 41.5, y: 54}
+      - - {x: 89, y: 108}
+        - {x: 0, y: 19}
+        - {x: 0, y: 13}
+        - {x: 13, y: 0}
+        - {x: 19, y: 0}
+        - {x: 109, y: 90}
+        - {x: 109, y: 95}
+        - {x: 96, y: 108}
     - name: Zwaard_placeholder_4
       rect:
         serializedVersion: 2
@@ -133,7 +133,7 @@ TextureImporter:
         y: 618
         width: 131
         height: 23
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -144,7 +144,7 @@ TextureImporter:
         y: 618
         width: 131
         height: 23
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -155,18 +155,18 @@ TextureImporter:
         y: 575
         width: 109
         height: 108
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -41.5, y: 54}
-        - {x: -54.5, y: 41}
-        - {x: -54.5, y: 35}
-        - {x: 34.5, y: -54}
-        - {x: 40.5, y: -54}
-        - {x: 54.5, y: -40}
-        - {x: 54.5, y: -35}
-        - {x: -34.5, y: 54}
+      - - {x: 13, y: 108}
+        - {x: 0, y: 95}
+        - {x: 0, y: 89}
+        - {x: 89, y: 0}
+        - {x: 95, y: 0}
+        - {x: 109, y: 14}
+        - {x: 109, y: 19}
+        - {x: 20, y: 108}
     - name: Zwaard_placeholder_7
       rect:
         serializedVersion: 2
@@ -174,18 +174,18 @@ TextureImporter:
         y: 575
         width: 109
         height: 108
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -41.5, y: 54}
-        - {x: -54.5, y: 41}
-        - {x: -54.5, y: 35}
-        - {x: 34.5, y: -54}
-        - {x: 40.5, y: -54}
-        - {x: 54.5, y: -40}
-        - {x: 54.5, y: -35}
-        - {x: -34.5, y: 54}
+      - - {x: 13, y: 108}
+        - {x: 0, y: 95}
+        - {x: 0, y: 89}
+        - {x: 89, y: 0}
+        - {x: 95, y: 0}
+        - {x: 109, y: 14}
+        - {x: 109, y: 19}
+        - {x: 20, y: 108}
     - name: Zwaard_placeholder_8
       rect:
         serializedVersion: 2
@@ -193,7 +193,7 @@ TextureImporter:
         y: 334
         width: 23
         height: 131
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -204,7 +204,7 @@ TextureImporter:
         y: 334
         width: 23
         height: 131
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -215,18 +215,18 @@ TextureImporter:
         y: 345
         width: 108
         height: 108
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 35, y: 54}
-        - {x: -54, y: -35}
-        - {x: -54, y: -41}
-        - {x: -41, y: -54}
-        - {x: -35, y: -54}
-        - {x: 54, y: 35}
-        - {x: 54, y: 42}
-        - {x: 42, y: 54}
+      - - {x: 89, y: 108}
+        - {x: 0, y: 19}
+        - {x: 0, y: 13}
+        - {x: 13, y: 0}
+        - {x: 19, y: 0}
+        - {x: 108, y: 89}
+        - {x: 108, y: 96}
+        - {x: 96, y: 108}
     - name: Zwaard_placeholder_11
       rect:
         serializedVersion: 2
@@ -234,18 +234,18 @@ TextureImporter:
         y: 345
         width: 108
         height: 108
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 35, y: 54}
-        - {x: -54, y: -35}
-        - {x: -54, y: -41}
-        - {x: -41, y: -54}
-        - {x: -35, y: -54}
-        - {x: 54, y: 35}
-        - {x: 54, y: 42}
-        - {x: 42, y: 54}
+      - - {x: 89, y: 108}
+        - {x: 0, y: 19}
+        - {x: 0, y: 13}
+        - {x: 13, y: 0}
+        - {x: 19, y: 0}
+        - {x: 108, y: 89}
+        - {x: 108, y: 96}
+        - {x: 96, y: 108}
     - name: Zwaard_placeholder_12
       rect:
         serializedVersion: 2
@@ -253,7 +253,7 @@ TextureImporter:
         y: 158
         width: 131
         height: 23
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -264,7 +264,7 @@ TextureImporter:
         y: 158
         width: 131
         height: 23
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -275,18 +275,18 @@ TextureImporter:
         y: 115
         width: 109
         height: 108
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -41.5, y: 54}
-        - {x: -54.5, y: 41}
-        - {x: -54.5, y: 35}
-        - {x: 34.5, y: -54}
-        - {x: 40.5, y: -54}
-        - {x: 54.5, y: -40}
-        - {x: 54.5, y: -35}
-        - {x: -34.5, y: 54}
+      - - {x: 13, y: 108}
+        - {x: 0, y: 95}
+        - {x: 0, y: 89}
+        - {x: 89, y: 0}
+        - {x: 95, y: 0}
+        - {x: 109, y: 14}
+        - {x: 109, y: 19}
+        - {x: 20, y: 108}
     - name: Zwaard_placeholder_15
       rect:
         serializedVersion: 2
@@ -294,18 +294,18 @@ TextureImporter:
         y: 115
         width: 109
         height: 108
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -41.5, y: 54}
-        - {x: -54.5, y: 41}
-        - {x: -54.5, y: 35}
-        - {x: 34.5, y: -54}
-        - {x: 40.5, y: -54}
-        - {x: 54.5, y: -40}
-        - {x: 54.5, y: -35}
-        - {x: -34.5, y: 54}
+      - - {x: 13, y: 108}
+        - {x: 0, y: 95}
+        - {x: 0, y: 89}
+        - {x: 89, y: 0}
+        - {x: 95, y: 0}
+        - {x: 109, y: 14}
+        - {x: 109, y: 19}
+        - {x: 20, y: 108}
     outline: []
   spritePackingTag: 
   userData: 
