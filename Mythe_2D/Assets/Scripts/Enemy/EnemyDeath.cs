@@ -6,12 +6,11 @@ public class EnemyDeath : MonoBehaviour {
 
     private float _enemyDamage = 1f;
     private CameraShake _cameraShakeScript;
-    static ulong addScore = 0;
-    static string scoreCount = "0";
-    [SerializeField]private Text playerScore;
+    private Score _scoreScript;
 
     void Start()
     {
+        _scoreScript = GameObject.FindWithTag(Tags.UITag).GetComponent<Score>();
         _cameraShakeScript = GameObject.FindWithTag(Tags.mainCameraTag).GetComponent<CameraShake>();
     }
 
@@ -38,9 +37,7 @@ public class EnemyDeath : MonoBehaviour {
     {
         _cameraShakeScript.Shake();
         Destroy(this.gameObject);
-        addScore = addScore + 1;
-        scoreCount = addScore.ToString();
-        playerScore.text = scoreCount;
+        _scoreScript.UpdateScore(1f);
     }
 
 }
