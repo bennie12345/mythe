@@ -4,22 +4,29 @@ using System.Collections;
 
 public class Score : MonoBehaviour {
 
-    private float _score = 0;
-    [SerializeField]private Text _scoreText;
+    [SerializeField] private Text _scoreText;
 
-	// Use this for initialization
-	void Start () {
-	    
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	    
-	}
+    private int _score = 0;
+    public int ScoreValue
+    {
+        get
+        {
+            return _score;
+        }
+    }
 
-    public void UpdateScore(float pointsAdded)
+    public void UpdateScore(int pointsAdded)
     {
         _score += pointsAdded;
         _scoreText.text = " " + _score;
+    }
+
+    public void StoreHighscore(int newHighscore)
+    {
+        int oldHighscore = PlayerPrefs.GetInt("ScoreValue", 0);
+        if(newHighscore > oldHighscore)
+        {
+            PlayerPrefs.SetInt("ScoreValue", newHighscore);
+        }
     }
 }

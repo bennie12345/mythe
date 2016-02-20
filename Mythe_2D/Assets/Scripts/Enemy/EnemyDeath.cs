@@ -37,7 +37,7 @@ public class EnemyDeath : MonoBehaviour {
     {
         _cameraShakeScript.Shake();
         Destroy(this.gameObject);
-        _scoreScript.UpdateScore(1f);
+        _scoreScript.UpdateScore(1);
     }
 
 }

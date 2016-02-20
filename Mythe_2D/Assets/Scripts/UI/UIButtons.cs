@@ -42,6 +42,7 @@ public class UIButtons : MonoBehaviour {
 
     public void QuitGame()
     {
+        PlayerPrefs.DeleteAll();
         Application.Quit();
     }
 }

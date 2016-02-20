@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
 
+    private Score _scoreScript;
     private Rigidbody2D _rb2D;
     private float _health = 2f;
     public float Health
@@ -42,6 +43,7 @@ public class Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
     {
+        _scoreScript = GameObject.FindWithTag(Tags.UITag).GetComponent<Score>();
         _rb2D = this.GetComponent<Rigidbody2D>();
         this.gameObject.tag = Tags.playerTag;
         _sword = GameObject.FindWithTag(Tags.swordTag);
@@ -79,6 +81,7 @@ public class Player : MonoBehaviour {
         if (_health <= 0)
         {
             SceneManager.LoadScene(Scenes.gameOverScene);
+            _scoreScript.StoreHighscore(_scoreScript.ScoreValue);
         }
     }
 
@@ -119,6 +122,5 @@ public class Player : MonoBehaviour {
     {
         yield return new WaitForSeconds(_swordDuration);
         _usingSword = false;
-
     }
 }
