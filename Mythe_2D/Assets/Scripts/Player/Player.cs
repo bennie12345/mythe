@@ -80,8 +80,9 @@ public class Player : MonoBehaviour {
     {
         if (_health <= 0)
         {
-            SceneManager.LoadScene(Scenes.gameOverScene);
             _scoreScript.StoreHighscore(_scoreScript.ScoreValue);
+            _scoreScript.StoreCurrentScore(_scoreScript.CurrentScore);
+            SceneManager.LoadScene(Scenes.gameOverScene);
         }
     }
 

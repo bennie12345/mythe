@@ -15,6 +15,14 @@ public class Score : MonoBehaviour {
         }
     }
 
+    public int CurrentScore
+    {
+        get
+        {
+            return _score;
+        }
+    }
+
     public void UpdateScore(int pointsAdded)
     {
         _score += pointsAdded;
@@ -28,5 +36,10 @@ public class Score : MonoBehaviour {
         {
             PlayerPrefs.SetInt("ScoreValue", newHighscore);
         }
+    }
+
+    public void StoreCurrentScore(int currentScore)
+    {
+        PlayerPrefs.SetInt("CurrentScore", currentScore);
     }
 }
