@@ -35,7 +35,7 @@ public class BackgroundScrolling : MonoBehaviour
 
         float width = renderer.bounds.size.x;
        // Debug.Log("calc" + calc);
-        if (newPosition.x < worldedge.x - width/2)
+        if (newPosition.x < worldedge.x - width/1)
         {
             //Debug.Log("verplaats");
             Vector2 newpos = transform.position;
