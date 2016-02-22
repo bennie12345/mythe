@@ -38,7 +38,19 @@ public class Player : MonoBehaviour {
         }
     }
 
-    [SerializeField]private float _moveForce = 10;
+    [SerializeField]private float _moveSpeed;
+    public float MoveSpeed
+    {
+        get
+        {
+            return _moveSpeed;
+        }
+
+        set
+        {
+            _moveSpeed = value;
+        }
+    }
 
 	// Use this for initialization
 	void Start () 
@@ -63,7 +75,7 @@ public class Player : MonoBehaviour {
 
     void MovePlayer()
     {
-        Vector2 moveVec = new Vector2(CrossPlatformInputManager.GetAxis("Horizontal") * _moveForce, CrossPlatformInputManager.GetAxis("Vertical") * _moveForce);
+        Vector2 moveVec = new Vector2(CrossPlatformInputManager.GetAxis("Horizontal") * _moveSpeed, CrossPlatformInputManager.GetAxis("Vertical") * _moveSpeed);
 
         _rb2D.velocity = moveVec;
     }
