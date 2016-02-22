@@ -3,12 +3,14 @@ using System.Collections;
 
 public class BackgroundScrollings : MonoBehaviour
 {
-    [SerializeField]private float _speed = 0.5f;
+    [SerializeField]private float _speed;
+    private float _widthOffset = 2;
     private Vector3 _beginPosition;
     private Vector3 _newPosition;
     private Renderer _renderer;
     [SerializeField]private Camera _camera;
     private Vector3 _worldedge;
+    
 	// Use this for initialization
 	void Start ()
     {
@@ -28,10 +30,10 @@ public class BackgroundScrollings : MonoBehaviour
 
         float width = _renderer.bounds.size.x;
 
-        if (_newPosition.x < _worldedge.x - width/2)
+        if (_newPosition.x < _worldedge.x - width / _widthOffset)
         {
             Vector2 newpos = transform.position;
-            newpos.x += width*2;
+            newpos.x += width * _widthOffset;
             transform.position = _newPosition = newpos;
         }
 	}
