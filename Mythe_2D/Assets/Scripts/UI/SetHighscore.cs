@@ -19,7 +19,7 @@ public class SetHighscore : MonoBehaviour {
     
     void SetHighScore()
     {
-        _highscoreText.text = "Best: " + PlayerPrefs.GetInt("ScoreValue");
+        _highscoreText.text = "Best Score: " + PlayerPrefs.GetInt("ScoreValue");
     }
 
     void SetCurrentScore()
