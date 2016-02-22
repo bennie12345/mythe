@@ -26,16 +26,17 @@ public class BackgroundScrolling : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-        Vector3 offset = new Vector3(Time.time * speed, 0);
+        Vector2 offset = new Vector2(Time.time * speed, 0);
         //renderer.material.mainTextureOffset = offset;
         newPosition.x -= Time.deltaTime * speed;
         transform.position = newPosition;
+        renderer.material.mainTextureOffset = offset;
        
         //Debug.Log("np" + newPosition.x);
 
         float width = renderer.bounds.size.x;
        // Debug.Log("calc" + calc);
-        if (newPosition.x < worldedge.x - width/1)
+        if (newPosition.x < worldedge.x - width/2)
         {
             //Debug.Log("verplaats");
             Vector2 newpos = transform.position;
