@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e6af257f83b80d44abfda8c6a745fc1b
-timeCreated: 1455881954
+timeCreated: 1456124161
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -129,8 +129,8 @@ TextureImporter:
         y: 7686
         width: 152
         height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Laser_placeholder_1
