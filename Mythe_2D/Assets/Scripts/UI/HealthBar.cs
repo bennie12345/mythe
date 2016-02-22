@@ -8,14 +8,11 @@ public class HealthBar : MonoBehaviour {
     private float _healthbarOffset;
     private Player _playerScript;
 
-
-	// Use this for initialization
 	void Start () {
         _playerScript = GameObject.FindWithTag(Tags.playerTag).GetComponent<Player>();
         _healthbarOffset = _playerScript.Health;
 	}
 	
-	// Update is called once per frame
 	void Update () {
         UpdateHealthbar();
 	}

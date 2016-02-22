@@ -8,7 +8,7 @@ public class EnemySpawner : MonoBehaviour
     private float _timeUntilSpawn = 0f;
     [SerializeField]private float _startTime = 0f;
     [SerializeField]private float _secondsBetweenSpawn = 3f;
-    // Use this for initialization
+
     void Start()
     {
 
@@ -21,7 +21,6 @@ public class EnemySpawner : MonoBehaviour
             enemy.transform.position = transform.position;
     }
 
-    // Update is called once per frame
     void Update()
     {
 
