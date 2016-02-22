@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/TestScenes/soufyan_testscene.unity
+=======
+- path: Assets/TestScenes/daniel_testscene.unity
+>>>>>>> fc4290591692d2d052a59bde9dce456a3cfb6720
   isLoaded: 1
   isActive: 1

@@ -1,11 +1,25 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
 
+    private Score _scoreScript;
     private Rigidbody2D _rb2D;
     private float _health = 2f;
+    public float Health
+    {
+        get
+        {
+            return _health;
+        }
+        
+        set
+        {
+            _health = value;
+        }
+    }
     private float _playerBoundX = 6.5f;
     private float _playerBoundY = 4f;
     private float _swordDuration = 2f;
@@ -29,6 +43,7 @@ public class Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
     {
+        _scoreScript = GameObject.FindWithTag(Tags.UITag).GetComponent<Score>();
         _rb2D = this.GetComponent<Rigidbody2D>();
         this.gameObject.tag = Tags.playerTag;
         _sword = GameObject.FindWithTag(Tags.swordTag);
@@ -63,9 +78,11 @@ public class Player : MonoBehaviour {
 
     void KillPlayer()
     {
-        if (_health == 0)
+        if (_health <= 0)
         {
-            //Destroy(this.gameObject)
+            _scoreScript.StoreHighscore(_scoreScript.ScoreValue);
+            _scoreScript.StoreCurrentScore(_scoreScript.CurrentScore);
+            SceneManager.LoadScene(Scenes.gameOverScene);
         }
     }
 
@@ -106,6 +123,5 @@ public class Player : MonoBehaviour {
     {
         yield return new WaitForSeconds(_swordDuration);
         _usingSword = false;
-
     }
 }

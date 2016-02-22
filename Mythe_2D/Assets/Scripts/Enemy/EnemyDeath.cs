@@ -7,11 +7,14 @@ public class EnemyDeath : MonoBehaviour {
     private float _enemyDamage = 1f;
     private CameraShake _cameraShakeScript;
     private Score _scoreScript;
+    private SlowTime _slowTimeScript;
+    [SerializeField]private ParticleSystem _deathParticles;
 
     void Start()
     {
         _scoreScript = GameObject.FindWithTag(Tags.UITag).GetComponent<Score>();
         _cameraShakeScript = GameObject.FindWithTag(Tags.mainCameraTag).GetComponent<CameraShake>();
+        _slowTimeScript = GameObject.FindWithTag(Tags.UITag).GetComponent<SlowTime>();
     }
 
    	void OnTriggerEnter2D(Collider2D other)
@@ -36,8 +39,10 @@ public class EnemyDeath : MonoBehaviour {
     void DestroyEnemy()
     {
         _cameraShakeScript.Shake();
+        _scoreScript.UpdateScore(1);
+        _slowTimeScript.SlowTheTime();
+        ParticleSystem particleInstance = Instantiate(_deathParticles, this.transform.position, Quaternion.Euler(0, 90, -90)) as ParticleSystem;
         Destroy(this.gameObject);
-        _scoreScript.UpdateScore(1f);
     }
 
 }
