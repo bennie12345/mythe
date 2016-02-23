@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+sceneSetups: []
+=======
 sceneSetups:
 - path: Assets/TestScenes/benjamin_testscene.unity
   isLoaded: 1
   isActive: 1
+>>>>>>> 9b08d1f7048a4fb2a6e6d54d738a36f92c5fc71b
