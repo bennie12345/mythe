@@ -41,7 +41,7 @@ public class EnemyDeath : MonoBehaviour {
         _cameraShakeScript.Shake();
         _scoreScript.UpdateScore(1);
         _slowTimeScript.SlowTheTime();
-        ParticleSystem particleInstance = Instantiate(_deathParticles, this.transform.position, Quaternion.Euler(0, 90, -90)) as ParticleSystem;
+        Instantiate(_deathParticles, this.transform.position, Quaternion.Euler(0, 90, -90));
         Destroy(this.gameObject);
     }
 

@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class EnemyMovement : MonoBehaviour {
-    [SerializeField] private int movespeed = 1;
+    [SerializeField] private int _moveSpeed = 1;
     private Vector2 userDirection = Vector2.right;
 
 	void Update () 
@@ -12,6 +12,6 @@ public class EnemyMovement : MonoBehaviour {
 
     void MoveEnemy()
     {
-        transform.Translate(userDirection * movespeed * Time.deltaTime);
+        transform.Translate(userDirection * _moveSpeed * Time.deltaTime);
     }
 }
