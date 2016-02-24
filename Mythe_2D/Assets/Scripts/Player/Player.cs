@@ -7,7 +7,7 @@ public class Player : MonoBehaviour {
 
     private Score _scoreScript;
     private Rigidbody2D _rb2D;
-    private float _health = 2f;
+    private float _health = 100f;
     public float Health
     {
         get

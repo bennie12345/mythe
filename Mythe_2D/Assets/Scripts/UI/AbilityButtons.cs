@@ -50,7 +50,7 @@ public class AbilityButtons : MonoBehaviour {
             StartCoroutine(ActivateTimer(Laserbeam, 1.5f));
             _laserCooldown = LaserCD;
             _cooldownManager.LaserCooldown = _laserCooldown;
-            _playerScript.MoveSpeed = 2.5f;
+            //_playerScript.MoveSpeed = 2.5f;
         }
     }
 

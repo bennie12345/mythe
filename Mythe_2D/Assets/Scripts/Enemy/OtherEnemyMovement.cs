@@ -6,7 +6,9 @@ public class OtherEnemyMovement : MonoBehaviour
     [SerializeField]
     private int _moveSpeed = 1;
 
-    private float _enemyBounds;
+    private int _updownMoveSpeed;
+
+    private int _enemyBounds;
 
     private Vector2 _moveLeft = Vector2.left;
     private Vector2 _moveUpDown = Vector2.down;
@@ -15,13 +17,13 @@ public class OtherEnemyMovement : MonoBehaviour
 
     void Start()
     {
-        _enemyBounds = Random.Range(1, 5);
+        _enemyBounds = RandomRange(1, 5);
+        _updownMoveSpeed = RandomRange(3, 7);
     }
 
     void FixedUpdate()
     {
         MoveEnemy();
-       
     }
 
     void MoveEnemy()
@@ -30,11 +32,11 @@ public class OtherEnemyMovement : MonoBehaviour
 
         if (_movingUp == false)
         {
-            transform.Translate(_moveUpDown * _moveSpeed * Time.deltaTime);
+            transform.Translate(_moveUpDown * _updownMoveSpeed * Time.deltaTime);
         }
         else
         {
-            transform.Translate(-_moveUpDown * _moveSpeed * Time.deltaTime);
+            transform.Translate(-_moveUpDown * _updownMoveSpeed * Time.deltaTime);
         }
 
         if (this.transform.position.y >= _enemyBounds)
@@ -46,6 +48,11 @@ public class OtherEnemyMovement : MonoBehaviour
         {
             _movingUp = true;
         }
+    }
+
+    int RandomRange(int min, int max)
+    {
+        return Random.Range(min, max);
     }
 
 }
