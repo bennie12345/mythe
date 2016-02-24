@@ -46,8 +46,13 @@ public class Cooldowns : MonoBehaviour {
         ResetCooldown();
 	}
 
-    void ResetCooldown()
+    void ResetCooldown(/*float cooldown, float minCooldown*/)
     {
+        /*if(cooldown >= minCooldown)
+        {
+            cooldown -= Time.deltaTime;
+        }*/
+
         if (_medusaCooldown >= _minCooldown)
         {
             _medusaCooldown -= Time.deltaTime;
