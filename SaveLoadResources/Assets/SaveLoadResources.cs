@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 public class SaveLoadResources : MonoBehaviour {
 
@@ -11,17 +13,33 @@ public class SaveLoadResources : MonoBehaviour {
 
     public void SaveResources()
     {
-        PlayerPrefs.SetInt("Gold", gold);
-        Debug.Log("resources saved");
+        BinaryFormatter bf = new BinaryFormatter();
+        FileStream file = File.Create(Application.persistentDataPath + "/SaveData.kappa");
+        SaveData saveData = new SaveData();
+        saveData.gold = gold;
+
+        bf.Serialize(file, saveData);
+        file.Close();
+
+        Debug.Log(Application.persistentDataPath);
     }
 
     public void LoadResources()
     {
-        if(PlayerPrefs.HasKey("Gold"))
+        if(File.Exists(Application.persistentDataPath + "/SaveData.kappa"))
         {
-            gold = PlayerPrefs.GetInt("Gold");
-            Debug.Log("resources loaded");
+            BinaryFormatter bf = new BinaryFormatter();
+            FileStream file = File.Open(Application.persistentDataPath + "/SaveData.kappa", FileMode.Open);
+
+            SaveData saveData = (SaveData)bf.Deserialize(file);
+            gold = saveData.gold;
+            file.Close();
         }
-       
     }
+}
+
+[System.Serializable]
+public class SaveData
+{
+    public int gold;
 }
