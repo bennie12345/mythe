@@ -2,10 +2,13 @@
 using System.Collections;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityEngine.SceneManagement;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 public class Player : MonoBehaviour {
 
     private Score _scoreScript;
+    private CurrentScore _currentScoreScript;
     private Rigidbody2D _rb2D;
     private float _health = 2f;
     public float Health
@@ -59,7 +62,8 @@ public class Player : MonoBehaviour {
         _rb2D = this.GetComponent<Rigidbody2D>();
         this.gameObject.tag = Tags.playerTag;
         _sword = GameObject.FindWithTag(Tags.swordTag);
-	}
+        _currentScoreScript = GameObject.FindWithTag(Tags.currentScoreTag).GetComponent<CurrentScore>();
+    }
 	
 	// Update is called once per frame
     void FixedUpdate()
@@ -93,7 +97,7 @@ public class Player : MonoBehaviour {
         if (_health <= 0)
         {
             _scoreScript.StoreHighscore(_scoreScript.ScoreValue);
-            _scoreScript.StoreCurrentScore(_scoreScript.CurrentScore);
+            _currentScoreScript.CurrentScoreValue = _scoreScript.ScoreValue;
             SceneManager.LoadScene(Scenes.gameOverScene);
         }
     }

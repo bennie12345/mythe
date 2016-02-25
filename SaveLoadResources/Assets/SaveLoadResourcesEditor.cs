@@ -11,7 +11,7 @@ public class SaveLoadResourcesEditor : Editor
         SaveLoadResources saveLoadResources = (SaveLoadResources)target;
 
         DrawDefaultInspector();
-        EditorGUILayout.LabelField("Gold", saveLoadResources.Gold.ToString());
+        //EditorGUILayout.LabelField("Gold", saveLoadResources.Gold.ToString());
         GUILayout.BeginHorizontal();
         if(GUILayout.Button("Save Game"))
         {
