@@ -7,20 +7,21 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField]private GameObject _otherEnemy;
     private GameObject _selectedEnemy;
 
-    private int _whichEnemy = 1;
-    private int _secondsBetweenSpawn;
+    public float _whichEnemy;
+    public float _secondsBetweenSpawn;
 
-    private float _timeUntilSpawn;
-    private float _startTime;
+    public float _timeUntilSpawn;
+    public float _startTime;
 
     void Start()
     {
-        _startTime = RandomRange(1, 8);
+        _whichEnemy = RandomRange(1, 3);
+        _startTime = RandomRange(1, 5);
     }
 
     void EnemyToSpawn()
     {
-        if (_whichEnemy == 1)
+        if (_whichEnemy <= 1.5f)
         {
             _selectedEnemy = _flyingEnemy;
         }
@@ -41,11 +42,11 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnDelay()
     {
-        _timeUntilSpawn = Time.time - _startTime;
+        _timeUntilSpawn = Time.timeSinceLevelLoad - _startTime;
 
         if (_timeUntilSpawn >= _secondsBetweenSpawn)
         {
-            _startTime = Time.time;
+            _startTime = Time.timeSinceLevelLoad;
             _timeUntilSpawn = 0;
             _secondsBetweenSpawn = RandomRange(5, 8);
             SpawnEnemy();
@@ -59,7 +60,7 @@ public class EnemySpawner : MonoBehaviour
         SpawnDelay();
     }
 
-    int RandomRange(int min, int max)
+    float RandomRange(float min, float max)
     {
         return Random.Range(min, max);
     }
