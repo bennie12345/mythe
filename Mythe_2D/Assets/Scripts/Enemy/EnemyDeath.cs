@@ -9,6 +9,7 @@ public class EnemyDeath : MonoBehaviour {
     private Score _scoreScript;
     private SlowTime _slowTimeScript;
     [SerializeField]private ParticleSystem _deathParticles;
+    [SerializeField]private GameObject stonedEnemy;
 
     void Start()
     {
@@ -30,6 +31,12 @@ public class EnemyDeath : MonoBehaviour {
             DestroyEnemy();
         }
 
+        if(other.gameObject.tag == Tags.medusaTag)
+        {
+            CreateStonedEnemy();
+            DestroyEnemy();
+        }
+
         if (other.gameObject.tag == Tags.swordTag)
         {
             DestroyEnemy();
@@ -43,6 +50,11 @@ public class EnemyDeath : MonoBehaviour {
         _slowTimeScript.SlowTheTime();
         Instantiate(_deathParticles, this.transform.position, Quaternion.Euler(0, 90, -90));
         Destroy(this.gameObject);
+    }
+
+    void CreateStonedEnemy()
+    {
+        Instantiate(stonedEnemy,transform.position,transform.rotation);
     }
 
 }

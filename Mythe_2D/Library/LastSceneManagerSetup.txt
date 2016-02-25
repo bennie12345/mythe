@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/GameOver.unity
+=======
+- path: Assets/TestScenes/lorenzo_testscene.unity
+>>>>>>> origin/master
   isLoaded: 1
   isActive: 1

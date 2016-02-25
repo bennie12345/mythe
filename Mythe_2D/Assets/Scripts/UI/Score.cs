@@ -40,8 +40,6 @@ public class Score : MonoBehaviour {
 
             bf.Serialize(file, saveScore);
             file.Close();
-
-            Debug.Log(Application.persistentDataPath);
         }
     }
 

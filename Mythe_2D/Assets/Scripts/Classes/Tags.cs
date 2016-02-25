@@ -13,4 +13,5 @@ public static class Tags {
     public static readonly string soundsObjectTag = "SoundsObject";
     public static readonly string UITag = "UITag";
     public static readonly string currentScoreTag = "CurrentScoreObject";
+    public static readonly string medusaTag = "medusaAbility";
 }
