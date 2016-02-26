@@ -38,19 +38,18 @@ public class ObjectPool : MonoBehaviour
     /// The object prefabs which the pool can handle
     /// by The amount of objects of each type to buffer.
     /// </summary>
-    protected ObjectPoolEntry[] Entries;
+    [SerializeField]public ObjectPoolEntry[] Entries;
 
     /// <summary>
     /// The pooled objects currently available.
     /// Indexed by the index of the objectPrefabs
     /// </summary>
-    [HideInInspector]
-    protected List<GameObject>[] Pool;
+    [HideInInspector]public List<GameObject>[] Pool;
 
     /// <summary>
     /// The container object that we will keep unused pooled objects so we dont clog up the editor with objects.
     /// </summary>
-    protected GameObject ContainerObject;
+    private GameObject _containerObject;
 
     void OnEnable()
     {
@@ -60,7 +59,7 @@ public class ObjectPool : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        ContainerObject = new GameObject("ObjectPool");
+        _containerObject = new GameObject("ObjectPool");
 
         //Loop through the object prefabs and make a new list for each one.
         //We do this because the pool can only support prefabs set to it in the editor,
@@ -151,7 +150,7 @@ public class ObjectPool : MonoBehaviour
 
             obj.SetActive(false);
 
-            obj.transform.parent = ContainerObject.transform;
+            obj.transform.parent = _containerObject.transform;
 
             Pool[i].Add(obj);
 

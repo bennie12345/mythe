@@ -5,7 +5,8 @@ public class EnemySpawner : MonoBehaviour
 {
     [SerializeField]private GameObject _flyingEnemy;
     [SerializeField]private GameObject _otherEnemy;
-    private GameObject _selectedEnemy;
+    //private GameObject _selectedEnemy;
+    private string _selectedEnemy;
 
     private float _whichEnemy;
     private float _secondsBetweenSpawn;
@@ -23,11 +24,11 @@ public class EnemySpawner : MonoBehaviour
     {
         if (_whichEnemy <= 2f)
         {
-            _selectedEnemy = _flyingEnemy;
+            _selectedEnemy = "FlyingEnemy";
         }
         else
         {
-            _selectedEnemy = _otherEnemy;
+            _selectedEnemy = "OtherEnemy";
         }
     }
 
@@ -35,9 +36,10 @@ public class EnemySpawner : MonoBehaviour
     {
         _whichEnemy = RandomRange(1, 3);
 
-        GameObject enemy = Instantiate(_selectedEnemy) as GameObject;
+        //GameObject enemy = Instantiate(_selectedEnemy) as GameObject;
+        ObjectPool.instance.GetObjectForType(_selectedEnemy, true).transform.position = transform.position;
 
-        enemy.transform.position = transform.position;
+        //enemy.transform.position = transform.position;
     }
 
     void SpawnDelay()
