@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class CurrentScore : MonoBehaviour {
 
@@ -18,7 +19,13 @@ public class CurrentScore : MonoBehaviour {
 
     void Awake()
     {
-        DontDestroyOnLoad(transform.gameObject);
+        GameObject[] obj = GameObject.FindGameObjectsWithTag(Tags.currentScoreTag);
+        if(obj.Length > 1)
+        {
+            Destroy(obj[1]);
+        }
+
+        DontDestroyOnLoad(this.gameObject);
     }
 
 }

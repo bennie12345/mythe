@@ -11,7 +11,7 @@ public class SetHighscore : MonoBehaviour {
     private int _highscoreValue;
     [SerializeField] private Text _currentScoreText;
     private int _currentScoreValue;
-    // Use this for initialization
+
     void Start () {
         GetHighscore();
         _currentScoreScript = GameObject.FindWithTag(Tags.currentScoreTag).GetComponent<CurrentScore>();
