@@ -41,18 +41,12 @@ public class Cooldowns : MonoBehaviour {
         }
     }
 	
-	// Update is called once per frame
 	void Update () {
         ResetCooldown();
 	}
 
-    void ResetCooldown(/*float cooldown, float minCooldown*/)
+    void ResetCooldown()
     {
-        /*if(cooldown >= minCooldown)
-        {
-            cooldown -= Time.deltaTime;
-        }*/
-
         if (_medusaCooldown >= _minCooldown)
         {
             _medusaCooldown -= Time.deltaTime;

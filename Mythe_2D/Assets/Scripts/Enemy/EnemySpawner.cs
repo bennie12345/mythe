@@ -7,11 +7,11 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField]private GameObject _otherEnemy;
     private GameObject _selectedEnemy;
 
-    public float _whichEnemy;
-    public float _secondsBetweenSpawn;
+    private float _whichEnemy;
+    private float _secondsBetweenSpawn;
 
-    public float _timeUntilSpawn;
-    public float _startTime;
+    private float _timeUntilSpawn;
+    private float _startTime;
 
     void Start()
     {
@@ -21,7 +21,7 @@ public class EnemySpawner : MonoBehaviour
 
     void EnemyToSpawn()
     {
-        if (_whichEnemy <= 1.5f)
+        if (_whichEnemy <= 2f)
         {
             _selectedEnemy = _flyingEnemy;
         }
