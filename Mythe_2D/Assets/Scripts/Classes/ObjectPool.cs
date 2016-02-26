@@ -24,13 +24,36 @@ public class ObjectPool : MonoBehaviour
         /// the object to pre instantiate
         /// </summary>
         [SerializeField]
-        public GameObject Prefab;
+        private GameObject _prefab;
+        public GameObject Prefab
+        {
+            get
+            {
+                return _prefab;
+            }
+
+            set
+            {
+                _prefab = value;
+            }
+        }
 
         /// <summary>
         /// quantity of object to pre-instantiate
         /// </summary>
         [SerializeField]
-        public int Count;
+        private int _count;
+        public int Count
+        {
+            get
+            {
+                return _count;
+            }
+            set
+            {
+                _count = value;
+            }
+        }
     }
     #endregion
 
@@ -38,13 +61,13 @@ public class ObjectPool : MonoBehaviour
     /// The object prefabs which the pool can handle
     /// by The amount of objects of each type to buffer.
     /// </summary>
-    [SerializeField]public ObjectPoolEntry[] Entries;
+    [SerializeField]private ObjectPoolEntry[] Entries;
 
     /// <summary>
     /// The pooled objects currently available.
     /// Indexed by the index of the objectPrefabs
     /// </summary>
-    [HideInInspector]public List<GameObject>[] Pool;
+    [HideInInspector]private List<GameObject>[] Pool;
 
     /// <summary>
     /// The container object that we will keep unused pooled objects so we dont clog up the editor with objects.
@@ -126,7 +149,9 @@ public class ObjectPool : MonoBehaviour
             }
             if (!onlyPooled)
             {
-                return Instantiate(Entries[i].Prefab) as GameObject;
+                GameObject newObj = Instantiate(Entries[i].Prefab) as GameObject;
+                newObj.name = Entries[i].Prefab.name;
+                return newObj;
             }
         }
 
@@ -148,11 +173,11 @@ public class ObjectPool : MonoBehaviour
             if (Entries[i].Prefab.name != obj.name)
                 continue;
 
-            obj.SetActive(false);
+            Pool[i].Add(obj);
 
             obj.transform.parent = _containerObject.transform;
 
-            Pool[i].Add(obj);
+            obj.SetActive(false);
 
             return;
         }

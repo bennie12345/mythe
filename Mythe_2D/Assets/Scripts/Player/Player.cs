@@ -10,7 +10,7 @@ public class Player : MonoBehaviour {
     private Score _scoreScript;
     private CurrentScore _currentScoreScript;
     private Rigidbody2D _rb2D;
-    private float _health = 2f;
+    [SerializeField]private float _health = 2f;
     public float Health
     {
         get
