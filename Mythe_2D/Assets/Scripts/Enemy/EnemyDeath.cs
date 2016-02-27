@@ -51,7 +51,7 @@ public class EnemyDeath : MonoBehaviour {
         _cameraShakeScript.Shake();
         _scoreScript.UpdateScore(1);
         _slowTimeScript.SlowTheTime();
-        //Instantiate(_deathParticles, this.transform.position, Quaternion.Euler(0, 90, -90));
+
         if(gameObject.tag == Tags.enemyTag)
         {
             ObjectPool.instance.GetObjectForType(ObjectNames.flyingEnemyParticlesName,true).transform.position = transform.position;
@@ -61,12 +61,11 @@ public class EnemyDeath : MonoBehaviour {
             ObjectPool.instance.GetObjectForType(ObjectNames.otherEnemyParticlesName, true).transform.position = transform.position;
         }
         _objectPoolScript.PoolObject(this.gameObject);
-        //Destroy(this.gameObject);
     }
 
     void CreateStonedEnemy()
     {
-        //Instantiate(stonedEnemy,transform.position,transform.rotation);
+
         if (gameObject.tag == Tags.enemyTag)
         {
             ObjectPool.instance.GetObjectForType(ObjectNames.stonedFlyingEnemyName, true).transform.position = transform.position;
