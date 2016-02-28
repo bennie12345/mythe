@@ -10,5 +10,6 @@ public class ObjectNames : MonoBehaviour {
     public static readonly string flyingEnemyParticlesName = "FlyingEnemyDeathParticles";
     public static readonly string otherEnemyParticlesName = "OtherEnemyDeathParticles";
     public static readonly string medusaEffectGameObject = "MedusaEffectGameObj";
-    
+    public static readonly string slicedEnemy1 = "SlicedBird1";
+    public static readonly string slicedEnemy2 = "SlicedBird2";
 }

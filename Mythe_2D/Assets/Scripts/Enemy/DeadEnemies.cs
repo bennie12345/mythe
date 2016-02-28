@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class StoneEnemy : MonoBehaviour {
+public class DeadEnemies : MonoBehaviour {
 
 	void Update () {
         rotateEnemy(); 

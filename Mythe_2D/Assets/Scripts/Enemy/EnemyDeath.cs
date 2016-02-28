@@ -43,6 +43,7 @@ public class EnemyDeath : MonoBehaviour {
         if (other.gameObject.tag == Tags.swordTag)
         {
             DestroyEnemy();
+            CreatedSlicedEnemy();
         }
 	}
 
@@ -73,8 +74,18 @@ public class EnemyDeath : MonoBehaviour {
         else
         {
             ObjectPool.instance.GetObjectForType(ObjectNames.stonedOtherEnemyName, true).transform.position = transform.position;
+        }      
+    }
+
+    void CreatedSlicedEnemy()
+    {
+        if (gameObject.tag == Tags.enemyTag)
+        {
+            ObjectPool.instance.GetObjectForType(ObjectNames.slicedEnemy1, true).transform.position = transform.position;
+            ObjectPool.instance.GetObjectForType(ObjectNames.slicedEnemy2, true).transform.position = transform.position;
         }
-        
+        else
+            Debug.Log("rip andere enemy's sliced animation");
     }
 
 }
