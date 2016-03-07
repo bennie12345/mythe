@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class EnemyDeath : MonoBehaviour {
 
     private float _enemyDamage = 1f;
+    private float _sliceOffset = .1f;
     private CameraShake _cameraShakeScript;
     private Score _scoreScript;
     private SlowTime _slowTimeScript;
@@ -81,8 +82,11 @@ public class EnemyDeath : MonoBehaviour {
     {
         if (gameObject.tag == Tags.enemyTag)
         {
-            ObjectPool.instance.GetObjectForType(ObjectNames.slicedEnemy1, true).transform.position = transform.position;
-            ObjectPool.instance.GetObjectForType(ObjectNames.slicedEnemy2, true).transform.position = transform.position;
+            GameObject slicedEnemyOne = ObjectPool.instance.GetObjectForType(ObjectNames.slicedEnemy1, true);
+            slicedEnemyOne.transform.position = new Vector2(transform.position.x - _sliceOffset,transform.position.y);
+
+            GameObject slicedEnemyTwo = ObjectPool.instance.GetObjectForType(ObjectNames.slicedEnemy2, true);
+            slicedEnemyTwo.transform.position = new Vector2(transform.position.x + _sliceOffset, transform.position.y);
         }
         else
             Debug.Log("rip andere enemy's sliced animation");
