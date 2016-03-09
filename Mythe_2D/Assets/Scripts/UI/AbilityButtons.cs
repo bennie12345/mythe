@@ -17,8 +17,12 @@ public class AbilityButtons : MonoBehaviour {
     private float _swordCooldown = 0;
     private float _minCooldown = 0;
 
+    delegate void SoundDelegate(AudioClip clip);
+    SoundDelegate soundDelegate;
+
     void Start()
     {
+        soundDelegate = playSound;
         source = GetComponent<AudioSource>();
         _sounds = GameObject.FindWithTag("SoundsObject").GetComponent<Sounds>();
         _playerScript = GetComponentInParent<Player>();
@@ -45,11 +49,18 @@ public class AbilityButtons : MonoBehaviour {
     {
         if (_laserCooldown <= _minCooldown)
         {
-            source.PlayOneShot(_sounds.FiringMahLazor);
+            //source.PlayOneShot(_sounds.FiringMahLazor);
+            //soundDelegate = playSound;
+            soundDelegate(_sounds.FiringMahLazor);
             StartCoroutine(ActivateTimer(Laserbeam, 1.5f));
             _laserCooldown = LaserCD;
             _cooldownManager.LaserCooldown = _laserCooldown;
         }
+    }
+
+    void playSound(AudioClip clip)
+    {
+        source.PlayOneShot(clip);
     }
 
     IEnumerator ActivateTimer(GameObject obj, float activeTime)
@@ -64,11 +75,12 @@ public class AbilityButtons : MonoBehaviour {
     {
         if (_medusaCooldown <= _minCooldown)
         {
-            //GameObject shockwave = Instantiate(shockwaveObject, parentObject.transform.position, Quaternion.identity) as GameObject;
             GameObject shockwave = ObjectPool.instance.GetObjectForType(ObjectNames.medusaEffectGameObject, true);
             shockwave.transform.parent = parentObject.transform;
             shockwave.transform.position = parentObject.transform.position;
-            source.PlayOneShot(_sounds.MedusaSound);
+            //source.PlayOneShot(_sounds.MedusaSound);
+            //soundDelegate = playSound;
+            soundDelegate(_sounds.MedusaSound);
 
             _medusaCooldown = MedusaCD;
             _cooldownManager.MedusaCooldown = _medusaCooldown;
@@ -91,5 +103,4 @@ public class AbilityButtons : MonoBehaviour {
             _swordCooldown = _cooldownManager.SwordCooldown;
         }
     }
-
 }
