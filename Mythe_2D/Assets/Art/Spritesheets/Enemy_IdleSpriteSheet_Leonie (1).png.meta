@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: 36c530edb37f93f48b9e98a07eb8eaf5
+timeCreated: 1457532249
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Enemy_IdleSpriteSheet_Leonie (1)_0
+    21300002: Enemy_IdleSpriteSheet_Leonie (1)_1
+    21300004: Enemy_IdleSpriteSheet_Leonie (1)_2
+    21300006: Enemy_IdleSpriteSheet_Leonie (1)_3
+    21300008: Enemy_IdleSpriteSheet_Leonie (1)_4
+    21300010: Enemy_IdleSpriteSheet_Leonie (1)_5
+    21300012: Enemy_IdleSpriteSheet_Leonie (1)_6
+    21300014: Enemy_IdleSpriteSheet_Leonie (1)_7
+    21300016: Enemy_IdleSpriteSheet_Leonie (1)_8
+    21300018: Enemy_IdleSpriteSheet_Leonie (1)_9
+    21300020: Enemy_IdleSpriteSheet_Leonie (1)_10
+    21300022: Enemy_IdleSpriteSheet_Leonie (1)_11
+    21300024: Enemy_IdleSpriteSheet_Leonie (1)_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Enemy_IdleSpriteSheet_Leonie (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 442.76923
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 53.5}
+        - {x: -33, y: 53.5}
+        - {x: -41, y: 47.5}
+        - {x: -51, y: 36.5}
+        - {x: -50, y: 27.5}
+        - {x: -56, y: 28.5}
+        - {x: -48, y: 43.5}
+        - {x: -49, y: 48.5}
+        - {x: -79, y: 52.5}
+        - {x: -79, y: -53.5}
+        - {x: -55, y: -53.5}
+        - {x: -53, y: -52.5}
+        - {x: -20, y: -41.5}
+        - {x: 75, y: 18.5}
+        - {x: 75, y: 35.5}
+      - - {x: 75, y: 2.5}
+        - {x: 75, y: -0.5}
+        - {x: 78, y: -3.5}
+        - {x: 79, y: -3.5}
+        - {x: 79, y: 5.5}
+        - {x: 78, y: 5.5}
+    - name: Enemy_IdleSpriteSheet_Leonie (1)_1
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 0
+        width: 442.76923
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.73523, y: 49.5}
+        - {x: -50.73523, y: 49.5}
+        - {x: -63.73523, y: 40.5}
+        - {x: -75.73523, y: 16.5}
+        - {x: -78.73523, y: 7.5}
+        - {x: -78.73523, y: -22.5}
+        - {x: -72.73523, y: -47.5}
+        - {x: -24.73523, y: -47.5}
+        - {x: 74.26477, y: 18.5}
+        - {x: 74.26477, y: 25.5}
+        - {x: 73.26477, y: 27.5}
+        - {x: -21.73523, y: 47.5}
+        - {x: -25.73523, y: 47.5}
+      - - {x: 76.26477, y: 1.5}
+        - {x: 78.26477, y: -0.5}
+        - {x: 79.26477, y: -0.5}
+        - {x: 79.26477, y: 7.5}
+        - {x: 76.26477, y: 6.5}
+    - name: Enemy_IdleSpriteSheet_Leonie (1)_2
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 0
+        width: 442.76923
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.97046, y: 49.5}
+        - {x: -57.97046, y: 45.5}
+        - {x: -75.97046, y: 19.5}
+        - {x: -78.97046, y: 10.5}
+        - {x: -78.97046, y: -8.5}
+        - {x: -61.97046, y: -42.5}
+        - {x: -57.97046, y: -43.5}
+        - {x: -15.970459, y: -43.5}
+        - {x: 75.02954, y: 12.5}
+        - {x: 75.02954, y: 37.5}
+        - {x: -21.970459, y: 49.5}
+      - - {x: 76.02954, y: 6.5}
+        - {x: 79.02954, y: 3.5}
+        - {x: 80.02954, y: 3.5}
+        - {x: 80.02954, y: 12.5}
+        - {x: 77.02954, y: 11.5}
+    - name: Enemy_IdleSpriteSheet_Leonie (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 0
+        width: 442.76923
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78.70569, y: 49.5}
+        - {x: -78.70569, y: -13.5}
+        - {x: -60.70569, y: -39.5}
+        - {x: -38.70569, y: -39.5}
+        - {x: -16.705688, y: -8.5}
+        - {x: 75.29431, y: 9.5}
+        - {x: 75.29431, y: 49.5}
+      - - {x: 77.29431, y: 9.5}
+        - {x: 79.29431, y: 7.5}
+        - {x: 80.29431, y: 7.5}
+        - {x: 80.29431, y: 14.5}
+        - {x: 77.29431, y: 13.5}
+    - name: Enemy_IdleSpriteSheet_Leonie (1)_4
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 0
+        width: 442.76923
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.940918, y: 49.5}
+        - {x: -51.940918, y: 49.5}
+        - {x: -78.94092, y: 29.5}
+        - {x: -78.94092, y: -34.5}
+        - {x: -77.94092, y: -36.5}
+        - {x: 12.059082, y: -36.5}
+        - {x: 75.05908, y: 13.5}
+        - {x: 75.05908, y: 17.5}
+        - {x: 74.05908, y: 19.5}
+    - name: Enemy_IdleSpriteSheet_Leonie (1)_5
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 0
+        width: 442.76923
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75.32385, y: 23.5}
+        - {x: 13.323853, y: 49.5}
+        - {x: -58.676147, y: 49.5}
+        - {x: -78.67615, y: 31.5}
+        - {x: -78.67615, y: -18.5}
+        - {x: -67.67615, y: -36.5}
+        - {x: -59.676147, y: -39.5}
+        - {x: -51.676147, y: -39.5}
+        - {x: -50.676147, y: -34.5}
+        - {x: -15.676147, y: -26.5}
+        - {x: 75.32385, y: -3.5}
+    - name: Enemy_IdleSpriteSheet_Leonie (1)_6
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 0
+        width: 442.76923
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.911377, y: 49.5}
+        - {x: -55.911377, y: 46.5}
+        - {x: -78.91138, y: 11.5}
+        - {x: -78.91138, y: -6.5}
+        - {x: -65.91138, y: -31.5}
+        - {x: -58.911377, y: -42.5}
+        - {x: -7.911377, y: -42.5}
+        - {x: 74.08862, y: -5.5}
+        - {x: 74.08862, y: 24.5}
+        - {x: 11.088623, y: 49.5}
+    - name: Enemy_IdleSpriteSheet_Leonie (1)_7
+      rect:
+        serializedVersion: 2
+        x: 3094
+        y: 0
+        width: 442.76923
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.646606, y: 49.5}
+        - {x: -57.646606, y: 40.5}
+        - {x: -78.64661, y: 14.5}
+        - {x: -78.64661, y: -8.5}
+        - {x: -68.64661, y: -34.5}
+        - {x: -56.646606, y: -44.5}
+        - {x: -50.646606, y: -44.5}
+        - {x: -49.646606, y: -43.5}
+        - {x: 76.35339, y: 3.5}
+        - {x: 76.35339, y: 23.5}
+        - {x: 21.353394, y: 49.5}
+    - name: Enemy_IdleSpriteSheet_Leonie (1)_8
+      rect:
+        serializedVersion: 2
+        x: 3536
+        y: 0
+        width: 442.76923
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.11816406, y: 50.5}
+        - {x: -58.881836, y: 50.5}
+        - {x: -78.881836, y: 33.5}
+        - {x: -78.881836, y: -8.5}
+        - {x: -71.881836, y: -34.5}
+        - {x: -59.881836, y: -44.5}
+        - {x: -24.881836, y: -44.5}
+        - {x: 76.118164, y: 14.5}
+        - {x: 76.118164, y: 25.5}
+        - {x: 70.118164, y: 27.5}
+    - name: Enemy_IdleSpriteSheet_Leonie (1)_9
+      rect:
+        serializedVersion: 2
+        x: 3978
+        y: 0
+        width: 442.76923
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.382935, y: 49.5}
+        - {x: -59.617065, y: 49.5}
+        - {x: -78.617065, y: 35.5}
+        - {x: -78.617065, y: -11.5}
+        - {x: -67.617065, y: -46.5}
+        - {x: -38.617065, y: -46.5}
+        - {x: 76.382935, y: 18.5}
+        - {x: 77.382935, y: 19.5}
+        - {x: 77.382935, y: 28.5}
+    - name: Enemy_IdleSpriteSheet_Leonie (1)_10
+      rect:
+        serializedVersion: 2
+        x: 4420
+        y: 0
+        width: 442.76923
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.852295, y: 49.5}
+        - {x: -77.852295, y: 15.5}
+        - {x: -77.852295, y: -11.5}
+        - {x: -62.852295, y: -47.5}
+        - {x: -36.852295, y: -47.5}
+        - {x: 76.147705, y: 25.5}
+        - {x: 77.147705, y: 26.5}
+        - {x: 77.147705, y: 33.5}
+        - {x: -15.852295, y: 49.5}
+    - name: Enemy_IdleSpriteSheet_Leonie (1)_11
+      rect:
+        serializedVersion: 2
+        x: 4862
+        y: 0
+        width: 442.76923
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.587524, y: 50.5}
+        - {x: -65.587524, y: 45.5}
+        - {x: -77.587524, y: 18.5}
+        - {x: -77.587524, y: -11.5}
+        - {x: -59.587524, y: -47.5}
+        - {x: -42.587524, y: -47.5}
+        - {x: 16.412476, y: -12.5}
+        - {x: 75.412476, y: 32.5}
+        - {x: 75.412476, y: 50.5}
+    - name: Enemy_IdleSpriteSheet_Leonie (1)_12
+      rect:
+        serializedVersion: 2
+        x: 5304
+        y: 0
+        width: 442.76923
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.177246, y: 53.5}
+        - {x: -37.822754, y: 53.5}
+        - {x: -39.822754, y: 46.5}
+        - {x: -47.822754, y: 37.5}
+        - {x: -44.822754, y: 41.5}
+        - {x: -46.822754, y: 47.5}
+        - {x: -52.822754, y: 51.5}
+        - {x: -77.822754, y: 7.5}
+        - {x: -77.822754, y: -11.5}
+        - {x: -57.822754, y: -51.5}
+        - {x: -38.822754, y: -51.5}
+        - {x: 77.177246, y: 19.5}
+        - {x: 78.177246, y: 21.5}
+        - {x: 78.177246, y: 28.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
