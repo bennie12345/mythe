@@ -1,29 +1,40 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 public class SetHighscore : MonoBehaviour {
 
+    private CurrentScore _currentScoreScript;
     [SerializeField] private Text _highscoreText;
+    private int _highscoreValue;
     [SerializeField] private Text _currentScoreText;
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        SetHighScore();
+    private int _currentScoreValue;
+
+    void Start () {
+        GetHighscore();
+        _currentScoreScript = GameObject.FindWithTag(Tags.currentScoreTag).GetComponent<CurrentScore>();
         SetCurrentScore();
-	}
-    
-    void SetHighScore()
+    }
+
+    void GetHighscore()
     {
-        _highscoreText.text = "Best Score: " + PlayerPrefs.GetInt("ScoreValue");
+        if (File.Exists(Application.persistentDataPath + "/HighScoreData.kappa"))
+        {
+            BinaryFormatter bf = new BinaryFormatter();
+            FileStream file = File.Open(Application.persistentDataPath + "/HighScoreData.kappa", FileMode.Open);
+
+            HighScore saveData = (HighScore)bf.Deserialize(file);
+            _highscoreValue = saveData.highScore;
+            file.Close();
+        }
+        _highscoreText.text = "Best Score: " + _highscoreValue;
     }
 
     void SetCurrentScore()
     {
-        _currentScoreText.text = "Your Score: " + PlayerPrefs.GetInt("CurrentScore");
+        _currentScoreValue = _currentScoreScript.CurrentScoreValue;
+        _currentScoreText.text = "Your score: " + _currentScoreValue;
     }
 }

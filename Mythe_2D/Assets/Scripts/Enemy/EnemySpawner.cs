@@ -3,35 +3,67 @@ using System.Collections;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [SerializeField]private GameObject _enemy;
+    [SerializeField]private GameObject _flyingEnemy;
+    [SerializeField]private GameObject _otherEnemy;
+    //private GameObject _selectedEnemy;
+    private string _selectedEnemy;
 
-    private float _timeUntilSpawn = 0f;
-    [SerializeField]private float _startTime = 0f;
-    [SerializeField]private float _secondsBetweenSpawn = 3f;
+    private float _whichEnemy;
+    private float _secondsBetweenSpawn;
+
+    private float _timeUntilSpawn;
+    private float _startTime;
 
     void Start()
     {
+        _whichEnemy = RandomRange(1, 3);
+        _startTime = RandomRange(1, 5);
+    }
 
+    void EnemyToSpawn()
+    {
+        if (_whichEnemy <= 2f)
+        {
+            _selectedEnemy = "FlyingEnemy";
+        }
+        else
+        {
+            _selectedEnemy = "OtherEnemy";
+        }
     }
 
     void SpawnEnemy()
     {
-            GameObject enemy = Instantiate(_enemy) as GameObject;
+        _whichEnemy = RandomRange(1, 3);
 
-            enemy.transform.position = transform.position;
+        //GameObject enemy = Instantiate(_selectedEnemy) as GameObject;
+        ObjectPool.instance.GetObjectForType(_selectedEnemy, true).transform.position = transform.position;
+
+        //enemy.transform.position = transform.position;
+    }
+
+    void SpawnDelay()
+    {
+        _timeUntilSpawn = Time.timeSinceLevelLoad - _startTime;
+
+        if (_timeUntilSpawn >= _secondsBetweenSpawn)
+        {
+            _startTime = Time.timeSinceLevelLoad;
+            _timeUntilSpawn = 0;
+            _secondsBetweenSpawn = RandomRange(5, 8);
+            SpawnEnemy();
+        }
     }
 
     void Update()
     {
+        EnemyToSpawn();
 
-        _timeUntilSpawn = Time.time - _startTime;
+        SpawnDelay();
+    }
 
-        if (_timeUntilSpawn >= _secondsBetweenSpawn)
-        {
-            _startTime = Time.time;
-            _timeUntilSpawn = 0;
-            _secondsBetweenSpawn = Random.Range(5.5f, 8);
-            SpawnEnemy();
-        }
+    float RandomRange(float min, float max)
+    {
+        return Random.Range(min, max);
     }
 }

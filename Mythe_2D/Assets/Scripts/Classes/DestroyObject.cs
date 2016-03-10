@@ -3,15 +3,22 @@ using System.Collections;
 
 public class DestroyObject : MonoBehaviour {
 
-    [SerializeField]private float destroyTime;
+    [SerializeField]private float _destroyTime;
+    private ObjectPool _objectPoolScript;
 
 	void Start () 
     {
-        DestroyTheObject();
+        _objectPoolScript = GameObject.FindWithTag(Tags.objectPoolTag).GetComponent<ObjectPool>();
 	}
 
-    void DestroyTheObject()
+    void OnEnable()
     {
-        Destroy(this.gameObject, destroyTime);
+        StartCoroutine(DestroyTheObject());
+    }
+
+    IEnumerator DestroyTheObject()
+    {
+        yield return new WaitForSeconds(_destroyTime);
+        _objectPoolScript.PoolObject(this.gameObject);
     }
 }

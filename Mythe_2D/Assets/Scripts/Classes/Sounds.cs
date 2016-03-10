@@ -27,13 +27,8 @@ public class Sounds : MonoBehaviour {
             _firingMahLazor = value;
         }
     }
-	// Use this for initialization
+
 	void Start () {
         this.gameObject.tag = Tags.soundsObjectTag;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
 	}
 }

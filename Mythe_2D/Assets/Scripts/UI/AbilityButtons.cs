@@ -8,7 +8,6 @@ public class AbilityButtons : MonoBehaviour {
     private Sounds _sounds;
 
     [SerializeField]private GameObject shockwaveObject;
-    [SerializeField]private ParticleSystem particles;
     [SerializeField]private GameObject parentObject;
     [SerializeField]private GameObject Laserbeam;
     private AudioSource source;
@@ -18,8 +17,12 @@ public class AbilityButtons : MonoBehaviour {
     private float _swordCooldown = 0;
     private float _minCooldown = 0;
 
+    delegate void SoundDelegate(AudioClip clip);
+    SoundDelegate soundDelegate;
+
     void Start()
     {
+        soundDelegate = playSound;
         source = GetComponent<AudioSource>();
         _sounds = GameObject.FindWithTag("SoundsObject").GetComponent<Sounds>();
         _playerScript = GetComponentInParent<Player>();
@@ -46,12 +49,18 @@ public class AbilityButtons : MonoBehaviour {
     {
         if (_laserCooldown <= _minCooldown)
         {
-            source.PlayOneShot(_sounds.FiringMahLazor);
-            StartCoroutine(ActivateTimer(Laserbeam, 2f));
+            //source.PlayOneShot(_sounds.FiringMahLazor);
+            //soundDelegate = playSound;
+            soundDelegate(_sounds.FiringMahLazor);
+            StartCoroutine(ActivateTimer(Laserbeam, 1.5f));
             _laserCooldown = LaserCD;
             _cooldownManager.LaserCooldown = _laserCooldown;
-            _playerScript.MoveSpeed = 2.5f;
         }
+    }
+
+    void playSound(AudioClip clip)
+    {
+        source.PlayOneShot(clip);
     }
 
     IEnumerator ActivateTimer(GameObject obj, float activeTime)
@@ -66,15 +75,16 @@ public class AbilityButtons : MonoBehaviour {
     {
         if (_medusaCooldown <= _minCooldown)
         {
-            //ParticleSystem instantiatedObject = Instantiate(particles, parentObject.transform.position, Quaternion.Euler(0, 90, -90)) as ParticleSystem;
-            //instantiatedObject.transform.parent = parentObject.transform;
-            GameObject shockwave = Instantiate(shockwaveObject, parentObject.transform.position, Quaternion.identity) as GameObject;
+            GameObject shockwave = ObjectPool.instance.GetObjectForType(ObjectNames.medusaEffectGameObject, true);
             shockwave.transform.parent = parentObject.transform;
-            source.PlayOneShot(_sounds.MedusaSound);
+            shockwave.transform.position = parentObject.transform.position;
+            //source.PlayOneShot(_sounds.MedusaSound);
+            //soundDelegate = playSound;
+            soundDelegate(_sounds.MedusaSound);
 
             _medusaCooldown = MedusaCD;
             _cooldownManager.MedusaCooldown = _medusaCooldown;
-            StartCoroutine(ActivateTimer(parentObject, 0.75f));
+            StartCoroutine(ActivateTimer(parentObject, 1f));
         }
     }
 
@@ -93,5 +103,4 @@ public class AbilityButtons : MonoBehaviour {
             _swordCooldown = _cooldownManager.SwordCooldown;
         }
     }
-
 }
