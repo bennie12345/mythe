@@ -11,8 +11,7 @@ public class BackgroundScrolling : MonoBehaviour
     private Renderer renderer;
     public Camera camera;
     private Vector3 worldedge;
-	
-    // Use this for initialization
+	// Use this for initialization
 	void Start ()
     {
         beginPosition = transform.position;
@@ -20,24 +19,30 @@ public class BackgroundScrolling : MonoBehaviour
         renderer = GetComponent<Renderer>();
         Vector3 distance = camera.transform.position - transform.position;
         worldedge = camera.ScreenToWorldPoint(new Vector3(0, 0, distance.z));
+        //Debug.Log("distance" + distance.z);
+        //Debug.Log(mesh.bounds);
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
-        Vector3 offset = new Vector3(Time.time * speed, 0,0);
-        newPosition.x -= Time.deltaTime * speed; //object is scrolling
+        Vector2 offset = new Vector2(Time.time * speed, 0);
+        //renderer.material.mainTextureOffset = offset;
+        newPosition.x -= Time.deltaTime * speed;
         transform.position = newPosition;
         renderer.material.mainTextureOffset = offset;
+       
+        //Debug.Log("np" + newPosition.x);
 
         float width = renderer.bounds.size.x;
-       
-        //when the object will spawn
+       // Debug.Log("calc" + calc);
         if (newPosition.x < worldedge.x - width/2)
         {
-            Vector3 newpos = transform.position;
-            newpos.x += width * 2; //the width of the object
+            //Debug.Log("verplaats");
+            Vector2 newpos = transform.position;
+            newpos.x += width * 2;
             transform.position = newPosition = newpos;
+            //Debug.Log("reset");
         }
 	}
 }

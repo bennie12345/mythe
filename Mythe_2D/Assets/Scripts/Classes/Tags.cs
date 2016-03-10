@@ -18,5 +18,5 @@ public static class Tags {
     public static readonly string objectPoolTag = "ObjectPool";
     public static readonly string slicedBirdOneTag = "SlicedBirdOne";
     public static readonly string slicedBirdTwoTag = "SlicedBirdTwo";
-    public static readonly string FlashingScreenObject = "FlashingScreenObject";
+
 }

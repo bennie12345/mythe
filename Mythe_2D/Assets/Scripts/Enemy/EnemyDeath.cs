@@ -90,6 +90,6 @@ public class EnemyDeath : MonoBehaviour {
         }
         else
             Debug.Log("rip andere enemy's sliced animation");
-        }
+    }
 
 }

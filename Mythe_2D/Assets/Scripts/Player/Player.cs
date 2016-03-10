@@ -7,7 +7,6 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public class Player : MonoBehaviour {
 
-    private FlashingScreen flashingScreen;
     private Score _scoreScript;
     private CurrentScore _currentScoreScript;
     private Rigidbody2D _rb2D;
@@ -59,7 +58,6 @@ public class Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
     {
-        flashingScreen = GameObject.FindWithTag(Tags.FlashingScreenObject).GetComponent<FlashingScreen>();
         _scoreScript = GameObject.FindWithTag(Tags.UITag).GetComponent<Score>();
         _rb2D = this.GetComponent<Rigidbody2D>();
         this.gameObject.tag = Tags.playerTag;
@@ -91,7 +89,6 @@ public class Player : MonoBehaviour {
         if (_usingSword == false)
         {
             _health -= _damage;
-            flashingScreen.StartFade();
         }
     }
 
