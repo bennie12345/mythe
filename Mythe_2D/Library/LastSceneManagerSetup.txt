@@ -1,4 +1,20 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Main.unity
   isLoaded: 1
   isActive: 1
+=======
+- path: Assets/TestScenes/soufyan_testscene.unity
+  isLoaded: 1
+  isActive: 1
+=======
+<<<<<<< HEAD
+sceneSetups:
+- path: Assets/TestScenes/leonie_testscene.unity
+  isLoaded: 1
+  isActive: 1
+=======
+sceneSetups: []
+>>>>>>> 3059913eeab7d5a137bf1f58927f2efd69587141
+>>>>>>> 498104e3ddf2bd2167bee307075adc3ddeaa518f
+>>>>>>> origin/master
