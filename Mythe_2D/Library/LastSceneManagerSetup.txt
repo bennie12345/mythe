@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 sceneSetups:
-- path: Assets/TestScenes/leonie_testscene.unity
+- path: Assets/Scenes/Main.unity
   isLoaded: 1
   isActive: 1
-=======
-sceneSetups: []
->>>>>>> 3059913eeab7d5a137bf1f58927f2efd69587141
