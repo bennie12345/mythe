@@ -6,10 +6,10 @@ public class AbilityButtons : MonoBehaviour {
     private Cooldowns _cooldownManager;
     private Player _playerScript;
     private Sounds _sounds;
+    private CameraShake _cameraShakeScript;
 
-    [SerializeField]private GameObject shockwaveObject;
     [SerializeField]private GameObject parentObject;
-    [SerializeField]private GameObject Laserbeam;
+    [SerializeField]private GameObject LaserbeamParent;
     private AudioSource source;
 
     private float _laserCooldown = 0;
@@ -22,6 +22,7 @@ public class AbilityButtons : MonoBehaviour {
 
     void Start()
     {
+        _cameraShakeScript = GameObject.FindWithTag(Tags.mainCameraTag).GetComponent<CameraShake>();
         soundDelegate = playSound;
         source = GetComponent<AudioSource>();
         _sounds = GameObject.FindWithTag("SoundsObject").GetComponent<Sounds>();
@@ -49,10 +50,14 @@ public class AbilityButtons : MonoBehaviour {
     {
         if (_laserCooldown <= _minCooldown)
         {
+            GameObject laserbeam = ObjectPool.instance.GetObjectForType(ObjectNames.laserBeam, true);
+            laserbeam.transform.parent = LaserbeamParent.transform;
+            laserbeam.transform.position = LaserbeamParent.transform.position;
+            _cameraShakeScript.Shake();
             //source.PlayOneShot(_sounds.FiringMahLazor);
             //soundDelegate = playSound;
             soundDelegate(_sounds.FiringMahLazor);
-            StartCoroutine(ActivateTimer(Laserbeam, 1.5f));
+            StartCoroutine(ActivateTimer(LaserbeamParent, 1.5f));
             _laserCooldown = LaserCD;
             _cooldownManager.LaserCooldown = _laserCooldown;
         }

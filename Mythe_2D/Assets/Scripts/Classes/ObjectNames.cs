@@ -13,4 +13,5 @@ public class ObjectNames : MonoBehaviour {
     public static readonly string slicedEnemy1 = "SlicedBird1";
     public static readonly string slicedEnemy2 = "SlicedBird2";
     public static readonly string flashingScreenParticles = "flashingScreenImages";
+    public static readonly string laserBeam = "LaserBeam";
 }
