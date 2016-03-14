@@ -101,6 +101,7 @@ public class Player : MonoBehaviour {
         {
             _scoreScript.StoreHighscore(_scoreScript.ScoreValue);
             _currentScoreScript.CurrentScoreValue = _scoreScript.ScoreValue;
+            LoadingScreen.Show();
             SceneManager.LoadScene(Scenes.gameOverScene);
         }
     }

@@ -25,23 +25,29 @@ public class UIButtons : MonoBehaviour {
 
             if (SceneManager.GetActiveScene().name == Scenes.gameScene || SceneManager.GetActiveScene().name == Scenes.gameOverScene || SceneManager.GetActiveScene().name == Scenes.instructionsScreen)
             {
-                SceneManager.LoadScene(Scenes.mainMenuScene);
+                LoadScene(Scenes.mainMenuScene);
             }
         }
     }
 
     public void PlayGame()
     {
-        SceneManager.LoadScene(Scenes.gameScene);
+        LoadScene(Scenes.gameScene);
     }
 
     public void Instructions()
     {
-        SceneManager.LoadScene(Scenes.instructionsScreen);
+        LoadScene(Scenes.instructionsScreen);
     }
 
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    private void LoadScene(string sceneToLoad)
+    {
+        LoadingScreen.Show();
+        SceneManager.LoadScene(sceneToLoad);
     }
 }
