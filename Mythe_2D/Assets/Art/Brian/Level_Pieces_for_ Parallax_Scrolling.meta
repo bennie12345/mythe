@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Mythe_2D/Assets/Art/Brian/Level_Pieces_for_ Parallax_Scrolling.meta
+guid: ddda8bfc7487f6c43994dfbf101819e6
+folderAsset: yes
+timeCreated: 1457600413
+=======
 guid: da504ccf699c71e4a81617178d1e293d
 folderAsset: yes
 timeCreated: 1457601919
+>>>>>>> 1847a2dd969ef2841173d5e61f81b23b8fe424a8:Mythe_2D/Assets/Art/Brian/Level_Pieces_for_ Parallax_Scrolling.meta
 licenseType: Free
 DefaultImporter:
   userData: 
