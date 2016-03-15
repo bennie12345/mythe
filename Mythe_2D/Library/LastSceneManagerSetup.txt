@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/TestScenes/nick_testscene.unity
+=======
+- path: Assets/Scenes/Main.unity
+>>>>>>> 9e9b2c7844221d54b9ae811743472fa819b16c92
   isLoaded: 1
   isActive: 1
