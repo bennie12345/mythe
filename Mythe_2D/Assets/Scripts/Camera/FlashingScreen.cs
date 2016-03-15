@@ -25,12 +25,20 @@ public class FlashingScreen : MonoBehaviour {
         if (fade == true && flashingImage.color != startingColor)
         {
             flashingImage.color = Color.Lerp(flashingImage.color, Color.clear, fadeSpeed * Time.deltaTime);
+            StartCoroutine(FadeCoroutine(1.5f));
         }
 
         if(flashingImage.color == startingColor)
         {
             fade = false;
         }
+    }
+
+    IEnumerator FadeCoroutine(float waitTime)
+    {
+        flashingImage.color = Color.Lerp(flashingImage.color, Color.clear, fadeSpeed * Time.deltaTime);
+        yield return new WaitForSeconds(waitTime);
+
     }
 
     public void StartFade()
