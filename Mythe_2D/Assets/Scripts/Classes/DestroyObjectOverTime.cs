@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DestroyObject : MonoBehaviour {
+public class DestroyObjectOverTime : MonoBehaviour {
 
     [SerializeField]private float _destroyTime;
     private ObjectPool _objectPoolScript;
