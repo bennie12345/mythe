@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LoadingScreen : MonoBehaviour
 {
-    public Texture2D texture;
+    [SerializeField]private Image _loadingScreen;
     static LoadingScreen instance;
 
     void Awake()
@@ -16,10 +17,9 @@ public class LoadingScreen : MonoBehaviour
             return;
         }
         instance = this;
-        gameObject.AddComponent<GUITexture>().enabled = false;
-        GetComponent<GUITexture>().texture = texture;
         transform.position = new Vector3(0.5f, 0.5f, 1f);
         DontDestroyOnLoad(this);
+        _loadingScreen.enabled = false;
     }
 
     void Update()
@@ -34,7 +34,7 @@ public class LoadingScreen : MonoBehaviour
         {
             return;
         }
-        instance.GetComponent<GUITexture>().enabled = true;
+        instance._loadingScreen.enabled = true;
     }
 
     public static void Hide()
@@ -43,7 +43,7 @@ public class LoadingScreen : MonoBehaviour
         {
             return;
         }
-        instance.GetComponent<GUITexture>().enabled = false;
+        instance._loadingScreen.enabled = false;
     }
 
     static bool InstanceExists()
