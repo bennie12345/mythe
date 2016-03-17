@@ -8,17 +8,17 @@ public class BackgroundScrolling : MonoBehaviour
 
     private Vector3 beginPosition;
     private Vector3 newPosition;
-    private Renderer renderer;
-    public Camera camera;
+    private Renderer _renderer;
+    public Camera _camera;
     private Vector3 worldedge;
 	// Use this for initialization
 	void Start ()
     {
         beginPosition = transform.position;
         newPosition = beginPosition;
-        renderer = GetComponent<Renderer>();
-        Vector3 distance = camera.transform.position - transform.position;
-        worldedge = camera.ScreenToWorldPoint(new Vector3(0, 0, distance.z));
+        _renderer = GetComponent<Renderer>();
+        Vector3 distance = _camera.transform.position - transform.position;
+        worldedge = _camera.ScreenToWorldPoint(new Vector3(0, 0, distance.z));
         //Debug.Log("distance" + distance.z);
         //Debug.Log(mesh.bounds);
 	}
@@ -30,11 +30,11 @@ public class BackgroundScrolling : MonoBehaviour
         //renderer.material.mainTextureOffset = offset;
         newPosition.x -= Time.deltaTime * speed;
         transform.position = newPosition;
-        renderer.material.mainTextureOffset = offset;
+        _renderer.material.mainTextureOffset = offset;
        
         //Debug.Log("np" + newPosition.x);
 
-        float width = renderer.bounds.size.x;
+        float width = _renderer.bounds.size.x;
        // Debug.Log("calc" + calc);
         if (newPosition.x < worldedge.x - width/2)
         {

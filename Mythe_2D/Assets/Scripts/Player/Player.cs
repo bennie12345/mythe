@@ -59,7 +59,7 @@ public class Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
     {
-        flashingScreen = GameObject.FindWithTag(Tags.FlashingScreenObject).GetComponent<FlashingScreen>();
+        flashingScreen = GameObject.FindWithTag(Tags.flashingScreenObjectTag).GetComponent<FlashingScreen>();
         _scoreScript = GameObject.FindWithTag(Tags.UITag).GetComponent<Score>();
         _rb2D = this.GetComponent<Rigidbody2D>();
         this.gameObject.tag = Tags.playerTag;
