@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: 42cc153e8ed19fd4cbc732cd9d2d9176
+timeCreated: 1458205048
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Enemy2_IdleSpriteSheet_Leonie_0
+    21300002: Enemy2_IdleSpriteSheet_Leonie_1
+    21300004: Enemy2_IdleSpriteSheet_Leonie_2
+    21300006: Enemy2_IdleSpriteSheet_Leonie_3
+    21300008: Enemy2_IdleSpriteSheet_Leonie_4
+    21300010: Enemy2_IdleSpriteSheet_Leonie_5
+    21300012: Enemy2_IdleSpriteSheet_Leonie_6
+    21300014: Enemy2_IdleSpriteSheet_Leonie_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Enemy2_IdleSpriteSheet_Leonie_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 549
+        width: 315
+        height: 406
+      alignment: 9
+      pivot: {x: 0.38313663, y: 0.41266605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 120.31196, y: 49.45758}
+        - {x: 193.31195, y: 238.45758}
+        - {x: 92.31196, y: 238.45758}
+        - {x: 17.311958, y: 151.45758}
+        - {x: -120.68804, y: -22.54242}
+        - {x: -120.68804, y: -80.54242}
+        - {x: 5.3119583, y: -164.54242}
+        - {x: 42.31196, y: -164.54242}
+        - {x: 84.31196, y: -148.54242}
+        - {x: 122.31196, y: -164.54242}
+        - {x: 193.31195, y: -164.54242}
+        - {x: 194.31195, y: -157.54242}
+        - {x: 194.31195, y: -117.54242}
+        - {x: 102.31196, y: -11.542419}
+    - name: Enemy2_IdleSpriteSheet_Leonie_1
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 549
+        width: 315
+        height: 406
+      alignment: 9
+      pivot: {x: 0.38640872, y: 0.41477644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 140.28125, y: 87.60077}
+        - {x: 136.28125, y: 123.60077}
+        - {x: 124.28125, y: 123.60077}
+        - {x: 32.28125, y: 76.60077}
+        - {x: -121.71875, y: -6.399231}
+        - {x: -121.71875, y: -62.39923}
+        - {x: -4.71875, y: -162.39923}
+        - {x: 193.28125, y: -162.39923}
+        - {x: 193.28125, y: -113.39923}
+        - {x: 110.28125, y: 12.600769}
+    - name: Enemy2_IdleSpriteSheet_Leonie_2
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 549
+        width: 315
+        height: 404
+      alignment: 9
+      pivot: {x: 0.38301092, y: 0.43203464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 103.35156, y: 32.458008}
+        - {x: -75.64844, y: 32.458008}
+        - {x: -120.64844, y: 12.458008}
+        - {x: -120.64844, y: -58.541992}
+        - {x: -35.648438, y: -119.54199}
+        - {x: -1.6484375, y: -174.54199}
+        - {x: 171.35156, y: -174.54199}
+        - {x: 194.35156, y: -138.54199}
+        - {x: 194.35156, y: -124.54199}
+        - {x: 160.35156, y: 3.4580078}
+    - name: Enemy2_IdleSpriteSheet_Leonie_3
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 549
+        width: 315
+        height: 406
+      alignment: 9
+      pivot: {x: 0.37154135, y: 0.4341491}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74.03552, y: 24.735474}
+        - {x: -117.03552, y: -18.264526}
+        - {x: -117.03552, y: -61.264526}
+        - {x: 13.964478, y: -163.26453}
+        - {x: 174.96448, y: -163.26453}
+        - {x: 197.96448, y: -140.26453}
+        - {x: 197.96448, y: -108.26453}
+        - {x: 117.96448, y: 24.735474}
+    - name: Enemy2_IdleSpriteSheet_Leonie_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 315
+        height: 406
+      alignment: 9
+      pivot: {x: 0.38071704, y: 0.5533926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.074135, y: 22.322601}
+        - {x: -31.925865, y: 22.322601}
+        - {x: -117.925865, y: -24.677399}
+        - {x: -119.925865, y: -30.677399}
+        - {x: -119.925865, y: -59.6774}
+        - {x: -100.925865, y: -73.6774}
+        - {x: 22.074135, y: -140.6774}
+        - {x: 107.074135, y: -224.6774}
+        - {x: 146.07413, y: -224.6774}
+        - {x: 195.07413, y: -137.6774}
+        - {x: 195.07413, y: -122.6774}
+        - {x: 106.074135, y: -6.6773987}
+    - name: Enemy2_IdleSpriteSheet_Leonie_5
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 21
+        width: 315
+        height: 406
+      alignment: 9
+      pivot: {x: 0.3738353, y: 0.5409343}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81.24188, y: 21.380661}
+        - {x: -73.75812, y: 21.380661}
+        - {x: -117.75812, y: -2.619339}
+        - {x: -117.75812, y: -48.61934}
+        - {x: -116.75812, y: -49.61934}
+        - {x: -98.75812, y: -60.61934}
+        - {x: 13.241882, y: -163.61934}
+        - {x: 175.24188, y: -163.61934}
+        - {x: 197.24188, y: -144.61934}
+        - {x: 197.24188, y: -123.61934}
+        - {x: 104.24188, y: -11.619339}
+    - name: Enemy2_IdleSpriteSheet_Leonie_6
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 21
+        width: 315
+        height: 406
+      alignment: 9
+      pivot: {x: 0.38301092, y: 0.5391546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74.64844, y: 33.10324}
+        - {x: -120.64844, y: -2.896759}
+        - {x: -120.64844, y: -57.89676}
+        - {x: -10.6484375, y: -103.89676}
+        - {x: 39.351562, y: -174.89676}
+        - {x: 194.35156, y: -174.89676}
+        - {x: 194.35156, y: -66.89676}
+        - {x: 80.35156, y: 33.10324}
+    - name: Enemy2_IdleSpriteSheet_Leonie_7
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 21
+        width: 315
+        height: 406
+      alignment: 9
+      pivot: {x: 0.3875988, y: 0.5302558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122.90637, y: 112.71614}
+        - {x: 12.906372, y: 112.71614}
+        - {x: -19.093628, y: 99.71614}
+        - {x: -122.09363, y: -3.2838593}
+        - {x: -122.09363, y: -110.28386}
+        - {x: -15.093628, y: -164.28386}
+        - {x: 192.90637, y: -164.28386}
+        - {x: 192.90637, y: -104.28386}
+        - {x: 142.90637, y: 99.71614}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
