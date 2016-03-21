@@ -3,15 +3,15 @@ using System.Collections;
 
 public class ObjectNames : MonoBehaviour {
 
-    public static readonly string flyingEnemyName = "FlyingEnemy";
-    public static readonly string otherEnemyName = "OtherEnemy";
-    public static readonly string stonedFlyingEnemyName = "StonedEnemy";
-    public static readonly string stonedOtherEnemyName = "OtherStonedEnemy";
-    public static readonly string flyingEnemyParticlesName = "FlyingEnemyDeathParticles";
-    public static readonly string otherEnemyParticlesName = "OtherEnemyDeathParticles";
-    public static readonly string medusaEffectGameObject = "MedusaEffectGameObj";
-    public static readonly string slicedEnemy1 = "SlicedBird1";
-    public static readonly string slicedEnemy2 = "SlicedBird2";
-    public static readonly string flashingScreenParticles = "flashingScreenImages";
-    public static readonly string laserBeam = "LaserBeam";
+    public static readonly string birdEnemyName = "BirdEnemy";
+    public static readonly string fishEnemyName = "FishEnemy";
+    public static readonly string stonedBirdEnemyName = "StoneBird";
+    public static readonly string stonedFishEnemyName = "StoneFish";
+    public static readonly string birdEnemyParticlesName = "BirdEnemyDeathParticles";
+    public static readonly string fishEnemyParticlesName = "FishEnemyDeathParticles";
+    public static readonly string medusaEffectGameObjectName = "MedusaEffectGameObj";
+    public static readonly string birdSlicedEnemyOne = "BirdSlicedOne";
+    public static readonly string birdSlicedEnemyTwo = "BirdSlicedTwo";
+    public static readonly string laserBeamName = "LaserBeam";
+    public static readonly string fishEnemyDisintegratedName = "FishEnemyDisintegrated";
 }

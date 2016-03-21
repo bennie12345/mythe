@@ -54,13 +54,13 @@ public class EnemyDeath : MonoBehaviour {
         _scoreScript.UpdateScore(1);
         _slowTimeScript.SlowTheTime();
 
-        if(gameObject.tag == Tags.enemyTag)
+        if(gameObject.tag == Tags.birdEnemyTag)
         {
-            ObjectPool.instance.GetObjectForType(ObjectNames.flyingEnemyParticlesName,true).transform.position = transform.position;
+            ObjectPool.instance.GetObjectForType(ObjectNames.birdEnemyParticlesName,true).transform.position = transform.position;
         }
         else
         {
-            ObjectPool.instance.GetObjectForType(ObjectNames.otherEnemyParticlesName, true).transform.position = transform.position;
+            ObjectPool.instance.GetObjectForType(ObjectNames.fishEnemyParticlesName, true).transform.position = transform.position;
         }
         _objectPoolScript.PoolObject(this.gameObject);
     }
@@ -68,28 +68,40 @@ public class EnemyDeath : MonoBehaviour {
     void CreateStonedEnemy()
     {
 
-        if (gameObject.tag == Tags.enemyTag)
+        if (gameObject.tag == Tags.birdEnemyTag)
         {
-            ObjectPool.instance.GetObjectForType(ObjectNames.stonedFlyingEnemyName, true).transform.position = transform.position;
+            ObjectPool.instance.GetObjectForType(ObjectNames.stonedBirdEnemyName, true).transform.position = transform.position;
         }
         else
         {
-            ObjectPool.instance.GetObjectForType(ObjectNames.stonedOtherEnemyName, true).transform.position = transform.position;
+            ObjectPool.instance.GetObjectForType(ObjectNames.stonedFishEnemyName, true).transform.position = transform.position;
         }      
     }
 
     void CreatedSlicedEnemy()
     {
-        if (gameObject.tag == Tags.enemyTag)
+        if (gameObject.tag == Tags.birdEnemyTag)
         {
-            GameObject slicedEnemyOne = ObjectPool.instance.GetObjectForType(ObjectNames.slicedEnemy1, true);
+            GameObject slicedEnemyOne = ObjectPool.instance.GetObjectForType(ObjectNames.birdSlicedEnemyOne, true);
             slicedEnemyOne.transform.position = new Vector2(transform.position.x - _sliceOffset,transform.position.y);
 
-            GameObject slicedEnemyTwo = ObjectPool.instance.GetObjectForType(ObjectNames.slicedEnemy2, true);
+            GameObject slicedEnemyTwo = ObjectPool.instance.GetObjectForType(ObjectNames.birdSlicedEnemyTwo, true);
             slicedEnemyTwo.transform.position = new Vector2(transform.position.x + _sliceOffset, transform.position.y);
         }
         else
             Debug.Log("rip andere enemy's sliced animation");
+    }
+
+    void CreateDisintegratedEnemy()
+    {
+        if (gameObject.tag == Tags.birdEnemyTag)
+        {
+            //ObjectPool.instance.GetObjectForType(ObjectNames.stonedFlyingEnemyName, true).transform.position = transform.position;
+        }
+        else
+        {
+            ObjectPool.instance.GetObjectForType(ObjectNames.fishEnemyDisintegratedName, true).transform.position = transform.position;
+        } 
     }
 
 }

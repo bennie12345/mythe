@@ -24,11 +24,11 @@ public class EnemySpawner : MonoBehaviour
     {
         if (_whichEnemy <= 2f)
         {
-            _selectedEnemy = "FlyingEnemy";
+            _selectedEnemy = "BirdEnemy";
         }
         else
         {
-            _selectedEnemy = "OtherEnemy";
+            _selectedEnemy = "FishEnemy";
         }
     }
 

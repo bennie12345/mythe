@@ -4,7 +4,7 @@ using System.Collections;
 public static class Tags {
 
     public static readonly string playerTag = "Player";
-	public static readonly string enemyTag = "Enemy";
+	public static readonly string birdEnemyTag = "BirdEnemy";
     public static readonly string mainCameraTag = "Main Camera";
     public static readonly string abilityButtonsTag = "AbilityButtons";
     public static readonly string swordTag = "Sword";
@@ -14,9 +14,9 @@ public static class Tags {
     public static readonly string UITag = "UITag";
     public static readonly string currentScoreTag = "CurrentScoreObject";
     public static readonly string medusaTag = "MedusaAbility";
-    public static readonly string otherEnemyTag = "OtherEnemy";
+    public static readonly string fishEnemyTag = "FishEnemy";
     public static readonly string objectPoolTag = "ObjectPool";
     public static readonly string slicedBirdOneTag = "SlicedBirdOne";
     public static readonly string slicedBirdTwoTag = "SlicedBirdTwo";
-    public static readonly string FlashingScreenObject = "FlashingScreenObject"; 
+    public static readonly string flashingScreenObjectTag = "FlashingScreenObject";
 }

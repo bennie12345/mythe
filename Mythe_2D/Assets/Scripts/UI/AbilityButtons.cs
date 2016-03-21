@@ -50,7 +50,7 @@ public class AbilityButtons : MonoBehaviour {
     {
         if (_laserCooldown <= _minCooldown)
         {
-            GameObject laserbeam = ObjectPool.instance.GetObjectForType(ObjectNames.laserBeam, true);
+            GameObject laserbeam = ObjectPool.instance.GetObjectForType(ObjectNames.laserBeamName, true);
             laserbeam.transform.parent = LaserbeamParent.transform;
             laserbeam.transform.position = LaserbeamParent.transform.position;
             _cameraShakeScript.Shake();
@@ -80,7 +80,7 @@ public class AbilityButtons : MonoBehaviour {
     {
         if (_medusaCooldown <= _minCooldown)
         {
-            GameObject shockwave = ObjectPool.instance.GetObjectForType(ObjectNames.medusaEffectGameObject, true);
+            GameObject shockwave = ObjectPool.instance.GetObjectForType(ObjectNames.medusaEffectGameObjectName, true);
             shockwave.transform.parent = parentObject.transform;
             shockwave.transform.position = parentObject.transform.position;
             //source.PlayOneShot(_sounds.MedusaSound);
