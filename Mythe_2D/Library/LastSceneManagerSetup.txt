@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/TestScenes/daniel_testscene.unity
-=======
-- path: Assets/Scenes/MainMenu.unity
->>>>>>> 990b4da42ac562f9292d817c56fdfe4f15751072
+- path: Assets/TestScenes/paralax.unity
   isLoaded: 1
   isActive: 1
