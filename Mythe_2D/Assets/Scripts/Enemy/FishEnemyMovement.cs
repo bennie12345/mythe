@@ -1,13 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class OtherEnemyMovement : MonoBehaviour
+public class FishEnemyMovement : MonoBehaviour
 {
     [SerializeField]
     private int _moveSpeed = 1;
-
     private int _updownMoveSpeed;
-
     private int _enemyBounds;
 
     private Vector2 _moveLeft = Vector2.left;

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class FlyingEnemyMovement : MonoBehaviour {
+public class BirdEnemyMovement : MonoBehaviour {
     [SerializeField] private int _moveSpeed;
     private Vector2 _moveLeft = Vector2.right;
 
