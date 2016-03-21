@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/TestScenes/paralax.unity
-=======
-- path: Assets/Scenes/Instructions.unity
->>>>>>> 4dfb9fad7ab51345f74baff9fff956a7f3cf583d
   isLoaded: 1
   isActive: 1
