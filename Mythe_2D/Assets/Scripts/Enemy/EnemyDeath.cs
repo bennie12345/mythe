@@ -46,6 +46,12 @@ public class EnemyDeath : MonoBehaviour {
             DestroyEnemy();
             CreatedSlicedEnemy();
         }
+
+        if(other.gameObject.tag == Tags.laserTag)
+        {
+            DestroyEnemy();
+            CreateDisintegratedEnemy();
+        }
 	}
 
     void DestroyEnemy()
@@ -56,11 +62,11 @@ public class EnemyDeath : MonoBehaviour {
 
         if(gameObject.tag == Tags.birdEnemyTag)
         {
-            ObjectPool.instance.GetObjectForType(ObjectNames.birdEnemyParticlesName,true).transform.position = transform.position;
+            //ObjectPool.instance.GetObjectForType(ObjectNames.birdEnemyParticlesName,true).transform.position = transform.position;
         }
         else
         {
-            ObjectPool.instance.GetObjectForType(ObjectNames.fishEnemyParticlesName, true).transform.position = transform.position;
+            //ObjectPool.instance.GetObjectForType(ObjectNames.fishEnemyParticlesName, true).transform.position = transform.position;
         }
         _objectPoolScript.PoolObject(this.gameObject);
     }
@@ -96,7 +102,7 @@ public class EnemyDeath : MonoBehaviour {
     {
         if (gameObject.tag == Tags.birdEnemyTag)
         {
-            //ObjectPool.instance.GetObjectForType(ObjectNames.stonedFlyingEnemyName, true).transform.position = transform.position;
+            //ObjectPool.instance.GetObjectForType(ObjectNames.birdEnemyDisintegratedName, true).transform.position = transform.position;
         }
         else
         {
