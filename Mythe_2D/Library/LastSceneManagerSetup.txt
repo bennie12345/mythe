@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/TestScenes/paralax.unity
+- path: Assets/TestScenes/daniel_testscene.unity
   isLoaded: 1
   isActive: 1
