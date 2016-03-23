@@ -1,4 +1,12 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Main.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/Main.unity
+=======
+- path: Assets/TestScenes/brian_testscene.unity
+>>>>>>> origin/master
+>>>>>>> 11fbb3bb27aef7a98aa3e2bbd433817cb47a28d4
   isLoaded: 1
   isActive: 1
