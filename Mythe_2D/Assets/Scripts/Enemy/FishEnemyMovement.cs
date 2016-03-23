@@ -5,8 +5,6 @@ public class FishEnemyMovement : MonoBehaviour
 {
     [SerializeField]
     private int _moveSpeed = 1;
-    //private int _updownMoveSpeed;
-    
 
     private Vector2 _moveLeft = Vector2.left;
     private Vector2 _targetPos;
@@ -19,7 +17,7 @@ public class FishEnemyMovement : MonoBehaviour
 
     void Start()
     {
-        _enemyBounds = 4;
+        _enemyBounds = RandomRange(2,5);
     }
 
     void FixedUpdate()
@@ -53,7 +51,7 @@ public class FishEnemyMovement : MonoBehaviour
         }
     }
 
-    int RandomRange(int min, int max)
+    float RandomRange(float min, float max)
     {
         return Random.Range(min, max);
     }
