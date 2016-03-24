@@ -5,7 +5,7 @@ public class FishEnemyDeath : EnemyDeath, IKillable
 {
 
     // Use this for initialization
-    void Start()
+    protected override void Start()
     {
         base.Start();
         _stoneEnemy = ObjectNames.fishStoneEnemyName;

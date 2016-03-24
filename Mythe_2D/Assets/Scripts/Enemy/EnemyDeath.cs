@@ -2,7 +2,8 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class EnemyDeath : MonoBehaviour, IKillable{
+public class EnemyDeath : MonoBehaviour, IKillable
+{
 
     private float _enemyDamage = 1f;
 
@@ -15,7 +16,7 @@ public class EnemyDeath : MonoBehaviour, IKillable{
     private SlowTime _slowTimeScript;
     private ObjectPool _objectPoolScript;
 
-    protected void Start()
+    protected virtual void Start()
     {
         _scoreScript = GameObject.FindWithTag(Tags.UITag).GetComponent<Score>();
         _cameraShakeScript = GameObject.FindWithTag(Tags.mainCameraTag).GetComponent<CameraShake>();
@@ -23,15 +24,15 @@ public class EnemyDeath : MonoBehaviour, IKillable{
         _objectPoolScript = GameObject.FindWithTag(Tags.objectPoolTag).GetComponent<ObjectPool>();
     }
 
-   	void OnTriggerEnter2D(Collider2D other)
-	{
+    void OnTriggerEnter2D(Collider2D other)
+    {
         if (other.gameObject.tag == Tags.playerTag)
         {
             other.SendMessage("ApplyDamage", _enemyDamage);
             Kill();
         }
 
-        if(other.gameObject.tag == Tags.medusaTag)
+        if (other.gameObject.tag == Tags.medusaTag)
         {
             CreateStoneEnemy();
             Kill();
@@ -43,12 +44,12 @@ public class EnemyDeath : MonoBehaviour, IKillable{
             Kill();
         }
 
-        if(other.gameObject.tag == Tags.laserTag)
+        if (other.gameObject.tag == Tags.laserTag)
         {
             CreateDisintegratedEnemy();
             Kill();
         }
-	}
+    }
 
     public void Kill()
     {
