@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour, IKillable {
 
     private FlashingScreen flashingScreen;
     private Score _scoreScript;
@@ -72,7 +72,7 @@ public class Player : MonoBehaviour {
     {
         MovePlayer();
 
-        KillPlayer();
+        Kill();
 
         SwordIsUsed();
 
@@ -95,7 +95,7 @@ public class Player : MonoBehaviour {
         }
     }
 
-    void KillPlayer()
+    public void Kill()
     {
         if (_health <= 0)
         {

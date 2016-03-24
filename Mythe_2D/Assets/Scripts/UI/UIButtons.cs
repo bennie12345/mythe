@@ -40,6 +40,11 @@ public class UIButtons : MonoBehaviour {
         LoadScene(Scenes.instructionsScreen);
     }
 
+    public void MainMenu()
+    {
+        LoadScene(Scenes.mainMenuScene);
+    }
+
     public void QuitGame()
     {
         Application.Quit();

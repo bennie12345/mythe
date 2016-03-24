@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class EnemyDeath : MonoBehaviour {
+public class EnemyDeath : MonoBehaviour, IKillable{
 
     private float _enemyDamage = 1f;
     private float _sliceOffset = .1f;
@@ -27,41 +27,33 @@ public class EnemyDeath : MonoBehaviour {
         if (other.gameObject.tag == Tags.playerTag)
         {
             other.SendMessage("ApplyDamage", _enemyDamage);
-            DestroyEnemy();
-        }
-
-        if (other.gameObject.tag == Tags.abilities)
-        {
-            DestroyEnemy();
+            Kill();
         }
 
         if(other.gameObject.tag == Tags.medusaTag)
         {
             CreateStonedEnemy();
-            DestroyEnemy();
+            Kill();
         }
 
         if (other.gameObject.tag == Tags.swordTag)
         {
-            DestroyEnemy();
+            Kill();
             CreatedSlicedEnemy();
+        }
+
+        if(other.gameObject.tag == Tags.laserTag)
+        {
+            Kill();
+            CreateDisintegratedEnemy();
         }
 	}
 
-    void DestroyEnemy()
+    public void Kill()
     {
         _cameraShakeScript.Shake();
         _scoreScript.UpdateScore(1);
         _slowTimeScript.SlowTheTime();
-
-        if(gameObject.tag == Tags.birdEnemyTag)
-        {
-            ObjectPool.instance.GetObjectForType(ObjectNames.birdEnemyParticlesName,true).transform.position = transform.position;
-        }
-        else
-        {
-            ObjectPool.instance.GetObjectForType(ObjectNames.fishEnemyParticlesName, true).transform.position = transform.position;
-        }
         _objectPoolScript.PoolObject(this.gameObject);
     }
 
@@ -96,7 +88,7 @@ public class EnemyDeath : MonoBehaviour {
     {
         if (gameObject.tag == Tags.birdEnemyTag)
         {
-            //ObjectPool.instance.GetObjectForType(ObjectNames.stonedFlyingEnemyName, true).transform.position = transform.position;
+            //ObjectPool.instance.GetObjectForType(ObjectNames.birdEnemyDisintegratedName, true).transform.position = transform.position;
         }
         else
         {

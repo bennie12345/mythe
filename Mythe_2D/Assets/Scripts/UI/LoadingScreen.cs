@@ -3,11 +3,15 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+//with every scene change use: LoadingScreen.Show();
 public class LoadingScreen : MonoBehaviour
 {
+    //make a UI image in a seperate canvas and place it at the highest order in layer
+    //put the script on the seperate camvas element
     [SerializeField]private Image _loadingScreen;
     static LoadingScreen instance;
 
+    //initialize instance of loadingscreen and make sure it persists throughout other scenes (DontDestroyOnLoad(this))
     void Awake()
     {
         if (instance)
@@ -22,12 +26,14 @@ public class LoadingScreen : MonoBehaviour
         _loadingScreen.enabled = false;
     }
 
+    //check if unity isn't loading a scene, if so, hide the loadingscreen
     void Update()
     {
         if (!Application.isLoadingLevel)
             Hide();
     }
 
+    //show the loadingscreen
     public static void Show()
     {
         if (!InstanceExists())
@@ -37,6 +43,7 @@ public class LoadingScreen : MonoBehaviour
         instance._loadingScreen.enabled = true;
     }
 
+    //hide the loadinscreen
     public static void Hide()
     {
         if (!InstanceExists())
@@ -46,6 +53,7 @@ public class LoadingScreen : MonoBehaviour
         instance._loadingScreen.enabled = false;
     }
 
+    //check if the loadingscreen exists
     static bool InstanceExists()
     {
         if (!instance)
@@ -53,7 +61,5 @@ public class LoadingScreen : MonoBehaviour
             return false;
         }
         return true;
-
     }
-
 }
