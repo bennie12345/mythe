@@ -1,9 +1,31 @@
 fileFormatVersion: 2
 guid: dfeced4b1e0453246941054443f292fb
-timeCreated: 1458903965
+timeCreated: 1458928088
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: FishEnemy_DeathBySword_Leonie_Nick_0
+    21300002: FishEnemy_DeathBySword_Leonie_Nick_1
+    21300004: FishEnemy_DeathBySword_Leonie_Nick_2
+    21300006: FishEnemy_DeathBySword_Leonie_Nick_3
+    21300008: FishEnemy_DeathBySword_Leonie_Nick_4
+    21300010: FishEnemy_DeathBySword_Leonie_Nick_5
+    21300012: FishEnemy_DeathBySword_Leonie_Nick_6
+    21300014: FishEnemy_DeathBySword_Leonie_Nick_8
+    21300016: FishEnemy_DeathBySword_Leonie_Nick_12
+    21300018: FishEnemy_DeathBySword_Leonie_Nick_14
+    21300020: FishEnemy_DeathBySword_Leonie_Nick_7
+    21300022: FishEnemy_DeathBySword_Leonie_Nick_9
+    21300024: FishEnemy_DeathBySword_Leonie_Nick_10
+    21300026: FishEnemy_DeathBySword_Leonie_Nick_11
+    21300028: FishEnemy_DeathBySword_Leonie_Nick_13
+    21300030: FishEnemy_DeathBySword_Leonie_Nick_15
+    21300032: FishEnemy_DeathBySword_Leonie_Nick_16
+    21300034: FishEnemy_DeathBySword_Leonie_Nick_17
+    21300036: FishEnemy_DeathBySword_Leonie_Nick_18
+    21300038: FishEnemy_DeathBySword_Leonie_Nick_19
+    21300040: FishEnemy_DeathBySword_Leonie_Nick_20
+    21300042: FishEnemy_DeathBySword_Leonie_Nick_21
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -49,7 +71,573 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: FishEnemy_DeathBySword_Leonie_Nick_0
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 3707
+        width: 424
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 68.5}
+        - {x: -86, y: 68.5}
+        - {x: -89, y: 63.5}
+        - {x: -106, y: 11.5}
+        - {x: -106, y: -17.5}
+        - {x: -80, y: -63.5}
+        - {x: -75, y: -67.5}
+        - {x: -70, y: -67.5}
+        - {x: -69, y: -66.5}
+        - {x: 107, y: -18.5}
+        - {x: 107, y: 25.5}
+      - - {x: 104, y: -3.5}
+        - {x: 106, y: -5.5}
+        - {x: 107, y: -5.5}
+        - {x: 107, y: -0.5}
+        - {x: 105, y: -0.5}
+    - name: FishEnemy_DeathBySword_Leonie_Nick_1
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 3707
+        width: 424
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -106, y: 68}
+        - {x: -106, y: -67}
+        - {x: -67, y: -67}
+        - {x: 107, y: -19}
+        - {x: 107, y: 38}
+        - {x: 56, y: 68}
+      - - {x: 104, y: -3}
+        - {x: 106, y: -5}
+        - {x: 107, y: -5}
+        - {x: 107, y: 0}
+        - {x: 105, y: 0}
+    - name: FishEnemy_DeathBySword_Leonie_Nick_2
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 3707
+        width: 424
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 97, y: 19}
+        - {x: -31, y: 70}
+        - {x: -84, y: 70}
+        - {x: -89, y: 67}
+        - {x: -106, y: 10}
+        - {x: -106, y: -19}
+        - {x: -81, y: -66}
+        - {x: -76, y: -69}
+        - {x: -70, y: -69}
+        - {x: -69, y: -68}
+        - {x: 107, y: -2}
+        - {x: 107, y: 21}
+      - - {x: 104, y: -5}
+        - {x: 106, y: -7}
+        - {x: 107, y: -7}
+        - {x: 107, y: -2}
+        - {x: 105, y: -2}
+    - name: FishEnemy_DeathBySword_Leonie_Nick_3
+      rect:
+        serializedVersion: 2
+        x: 2573
+        y: 3707
+        width: 424
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -80, y: -69}
+        - {x: -54, y: -69}
+        - {x: 107, y: -22}
+        - {x: 107, y: 36}
+        - {x: 38, y: 70}
+        - {x: -103, y: 70}
+        - {x: -106, y: 51}
+        - {x: -106, y: -27}
+      - - {x: 104, y: -5}
+        - {x: 106, y: -7}
+        - {x: 107, y: -7}
+        - {x: 107, y: -2}
+        - {x: 105, y: -2}
+    - name: FishEnemy_DeathBySword_Leonie_Nick_4
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 3707
+        width: 424
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 64.5}
+        - {x: -73, y: 64.5}
+        - {x: -106, y: 36.5}
+        - {x: -106, y: -31.5}
+        - {x: -92, y: -54.5}
+        - {x: -76, y: -63.5}
+        - {x: -70, y: -63.5}
+        - {x: -69, y: -62.5}
+        - {x: 107, y: 3.5}
+        - {x: 107, y: 26.5}
+      - - {x: 104, y: 0.5}
+        - {x: 106, y: -1.5}
+        - {x: 107, y: -1.5}
+        - {x: 107, y: 3.5}
+        - {x: 105, y: 3.5}
+    - name: FishEnemy_DeathBySword_Leonie_Nick_5
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 3087
+        width: 426
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 106.5, y: 10.5}
+        - {x: 83.5, y: 29.5}
+        - {x: -17.5, y: 62.5}
+        - {x: -69.5, y: 62.5}
+        - {x: -71.5, y: 61.5}
+        - {x: -106.5, y: 14.5}
+        - {x: -106.5, y: -27.5}
+        - {x: -95.5, y: -61.5}
+        - {x: -60.5, y: -61.5}
+        - {x: -38.5, y: -40.5}
+        - {x: 105.5, y: -3.5}
+        - {x: 107.5, y: -2.5}
+        - {x: 107.5, y: 7.5}
+    - name: FishEnemy_DeathBySword_Leonie_Nick_6
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 3079
+        width: 426
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: -61.5}
+        - {x: 106.5, y: 11.5}
+        - {x: 106.5, y: 43.5}
+        - {x: 62.5, y: 59.5}
+        - {x: -92.5, y: 59.5}
+        - {x: -106.5, y: 37.5}
+        - {x: -106.5, y: -21.5}
+        - {x: -99.5, y: -55.5}
+        - {x: -93.5, y: -61.5}
+        - {x: -70.5, y: -61.5}
+        - {x: -66.5, y: -59.5}
+        - {x: -56.5, y: -49.5}
+        - {x: -41.5, y: -61.5}
+    - name: FishEnemy_DeathBySword_Leonie_Nick_8
+      rect:
+        serializedVersion: 2
+        x: 2131
+        y: 3257
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: FishEnemy_DeathBySword_Leonie_Nick_12
+      rect:
+        serializedVersion: 2
+        x: 2919
+        y: 3253
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: FishEnemy_DeathBySword_Leonie_Nick_14
+      rect:
+        serializedVersion: 2
+        x: 3710
+        y: 3238
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: FishEnemy_DeathBySword_Leonie_Nick_7
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 3075
+        width: 426
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -105.5, y: 16.5}
+        - {x: -105.5, y: -29.5}
+        - {x: -101.5, y: -61.5}
+        - {x: -60.5, y: -61.5}
+        - {x: -34.5, y: -43.5}
+        - {x: -34.5, y: 53.5}
+        - {x: -58.5, y: 53.5}
+        - {x: -93.5, y: 40.5}
+      - - {x: 34.5, y: 34.5}
+        - {x: -37.5, y: 11.5}
+        - {x: -37.5, y: -30.5}
+        - {x: -14.5, y: -56.5}
+        - {x: 10.5, y: -56.5}
+        - {x: 107.5, y: 2.5}
+        - {x: 107.5, y: 13.5}
+        - {x: 90.5, y: 34.5}
+    - name: FishEnemy_DeathBySword_Leonie_Nick_9
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 1701
+        width: 600
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: 31.5}
+        - {x: 45, y: -15.5}
+        - {x: 81, y: -60.5}
+        - {x: 101, y: -60.5}
+        - {x: 135, y: -33.5}
+        - {x: 135, y: -8.5}
+        - {x: 85, y: 31.5}
+      - - {x: -95, y: 49.5}
+        - {x: -120, y: 49.5}
+        - {x: -150, y: 42.5}
+        - {x: -150, y: -8.5}
+        - {x: -57, y: -8.5}
+        - {x: -57, y: 0.5}
+        - {x: -62, y: 15.5}
+    - name: FishEnemy_DeathBySword_Leonie_Nick_10
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 3061
+        width: 426
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59.5, y: 39.5}
+        - {x: 38.5, y: 31.5}
+        - {x: 22.5, y: 24.5}
+        - {x: -31.5, y: -7.5}
+        - {x: -31.5, y: -19.5}
+        - {x: -28.5, y: -34.5}
+        - {x: -4.5, y: -61.5}
+        - {x: 34.5, y: -61.5}
+        - {x: 106.5, y: 11.5}
+        - {x: 106.5, y: 34.5}
+        - {x: 89.5, y: 39.5}
+      - - {x: -85.5, y: 52.5}
+        - {x: -106.5, y: 25.5}
+        - {x: -106.5, y: -55.5}
+        - {x: -87.5, y: -55.5}
+        - {x: -61.5, y: -41.5}
+        - {x: -39.5, y: 1.5}
+        - {x: -32.5, y: 22.5}
+        - {x: -32.5, y: 52.5}
+    - name: FishEnemy_DeathBySword_Leonie_Nick_11
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 3040
+        width: 426
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.5, y: 44.5}
+        - {x: 28.5, y: 33.5}
+        - {x: -17.5, y: -9.5}
+        - {x: -17.5, y: -21.5}
+        - {x: -6.5, y: -49.5}
+        - {x: 8.5, y: -61.5}
+        - {x: 45.5, y: -61.5}
+        - {x: 107.5, y: 1.5}
+        - {x: 107.5, y: 37.5}
+        - {x: 101.5, y: 44.5}
+      - - {x: -69.5, y: 53.5}
+        - {x: -102.5, y: 24.5}
+        - {x: -102.5, y: -46.5}
+        - {x: -80.5, y: -46.5}
+        - {x: -29.5, y: -19.5}
+        - {x: -21.5, y: 9.5}
+        - {x: -21.5, y: 53.5}
+      - - {x: 97.5, y: 50.5}
+        - {x: 99.5, y: 48.5}
+        - {x: 104.5, y: 51.5}
+        - {x: 103.5, y: 54.5}
+        - {x: 100.5, y: 54.5}
+        - {x: 97.5, y: 51.5}
+    - name: FishEnemy_DeathBySword_Leonie_Nick_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 2396
+        width: 426
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102.5, y: 48.5}
+        - {x: 46.5, y: 48.5}
+        - {x: -6.5, y: -7.5}
+        - {x: -6.5, y: -29.5}
+        - {x: -0.5, y: -36.5}
+        - {x: 27.5, y: -57.5}
+        - {x: 51.5, y: -57.5}
+        - {x: 103.5, y: 8.5}
+        - {x: 105.5, y: 10.5}
+        - {x: 105.5, y: 37.5}
+      - - {x: -16.5, y: 46.5}
+        - {x: -16.5, y: 57.5}
+        - {x: -17.5, y: 59.5}
+        - {x: -54.5, y: 59.5}
+        - {x: -97.5, y: 50.5}
+        - {x: -106.5, y: 25.5}
+        - {x: -106.5, y: -30.5}
+        - {x: -96.5, y: -30.5}
+        - {x: -62.5, y: -18.5}
+        - {x: -51.5, y: -7.5}
+        - {x: -36.5, y: 8.5}
+    - name: FishEnemy_DeathBySword_Leonie_Nick_15
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 2393
+        width: 426
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 91.5, y: 44.5}
+        - {x: 65.5, y: 44.5}
+        - {x: 47.5, y: 31.5}
+        - {x: 13.5, y: -0.5}
+        - {x: 13.5, y: -34.5}
+        - {x: 21.5, y: -56.5}
+        - {x: 46.5, y: -60.5}
+        - {x: 65.5, y: -60.5}
+        - {x: 68.5, y: -58.5}
+        - {x: 107.5, y: 14.5}
+        - {x: 107.5, y: 27.5}
+      - - {x: -69.5, y: 51.5}
+        - {x: -87.5, y: 47.5}
+        - {x: -106.5, y: -2.5}
+        - {x: -106.5, y: -28.5}
+        - {x: -35.5, y: -28.5}
+        - {x: -6.5, y: 5.5}
+        - {x: -6.5, y: 48.5}
+        - {x: -13.5, y: 51.5}
+    - name: FishEnemy_DeathBySword_Leonie_Nick_16
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 2370
+        width: 426
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73.5, y: 43.5}
+        - {x: 57.5, y: 31.5}
+        - {x: 27.5, y: -0.5}
+        - {x: 27.5, y: -34.5}
+        - {x: 34.5, y: -52.5}
+        - {x: 47.5, y: -56.5}
+        - {x: 92.5, y: -56.5}
+        - {x: 104.5, y: -11.5}
+        - {x: 104.5, y: 37.5}
+        - {x: 103.5, y: 43.5}
+      - - {x: -0.5, y: 47.5}
+        - {x: -11.5, y: 52.5}
+        - {x: -52.5, y: 52.5}
+        - {x: -83.5, y: 48.5}
+        - {x: -103.5, y: 2.5}
+        - {x: -106.5, y: -7.5}
+        - {x: -106.5, y: -15.5}
+        - {x: -56.5, y: -15.5}
+        - {x: -28.5, y: 2.5}
+        - {x: -0.5, y: 38.5}
+    - name: FishEnemy_DeathBySword_Leonie_Nick_17
+      rect:
+        serializedVersion: 2
+        x: 2501
+        y: 2360
+        width: 426
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75.5, y: 38.5}
+        - {x: 58.5, y: 29.5}
+        - {x: 46.5, y: -27.5}
+        - {x: 46.5, y: -49.5}
+        - {x: 58.5, y: -58.5}
+        - {x: 65.5, y: -60.5}
+        - {x: 107.5, y: -60.5}
+        - {x: 107.5, y: 30.5}
+        - {x: 101.5, y: 38.5}
+      - - {x: -32.5, y: 50.5}
+        - {x: -77.5, y: 50.5}
+        - {x: -106.5, y: 17.5}
+        - {x: -106.5, y: -11.5}
+        - {x: -30.5, y: -11.5}
+        - {x: -25.5, y: -10.5}
+        - {x: 1.5, y: 28.5}
+        - {x: 1.5, y: 40.5}
+        - {x: -18.5, y: 48.5}
+    - name: FishEnemy_DeathBySword_Leonie_Nick_18
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 2355
+        width: 500
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75, y: 35.5}
+        - {x: 61, y: 18.5}
+        - {x: 52, y: -45.5}
+        - {x: 52, y: -52.5}
+        - {x: 69, y: -61.5}
+        - {x: 114, y: -61.5}
+        - {x: 114, y: 11.5}
+        - {x: 110, y: 35.5}
+      - - {x: -83, y: 49.5}
+        - {x: -86, y: 45.5}
+        - {x: -122, y: 4.5}
+        - {x: -122, y: -8.5}
+        - {x: -114, y: -11.5}
+        - {x: -54, y: -11.5}
+        - {x: -17, y: -0.5}
+        - {x: -8, y: 11.5}
+        - {x: -8, y: 37.5}
+        - {x: -45, y: 49.5}
+    - name: FishEnemy_DeathBySword_Leonie_Nick_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1727
+        width: 500
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99, y: 38.5}
+        - {x: 66, y: 38.5}
+        - {x: 54, y: 32.5}
+        - {x: 54, y: -25.5}
+        - {x: 60, y: -58.5}
+        - {x: 118, y: -58.5}
+        - {x: 123, y: -57.5}
+        - {x: 123, y: -8.5}
+        - {x: 108, y: 31.5}
+      - - {x: -54, y: 46.5}
+        - {x: -77, y: 52.5}
+        - {x: -85, y: 52.5}
+        - {x: -125, y: 19.5}
+        - {x: -125, y: 6.5}
+        - {x: -123, y: 0.5}
+        - {x: -94, y: -7.5}
+        - {x: -58, y: -7.5}
+        - {x: -15, y: 14.5}
+        - {x: -15, y: 21.5}
+        - {x: -26, y: 37.5}
+    - name: FishEnemy_DeathBySword_Leonie_Nick_20
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1717
+        width: 550
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 104.5, y: 24.5}
+        - {x: 93.5, y: 37.5}
+        - {x: 55.5, y: 37.5}
+        - {x: 55.5, y: -52.5}
+        - {x: 67.5, y: -58.5}
+        - {x: 93.5, y: -58.5}
+        - {x: 107.5, y: -56.5}
+        - {x: 131.5, y: -44.5}
+        - {x: 131.5, y: -37.5}
+        - {x: 128.5, y: -31.5}
+      - - {x: -91.5, y: 52.5}
+        - {x: -137.5, y: 23.5}
+        - {x: -137.5, y: 11.5}
+        - {x: -123.5, y: -5.5}
+        - {x: -24.5, y: -5.5}
+        - {x: -24.5, y: 14.5}
+        - {x: -35.5, y: 33.5}
+        - {x: -64.5, y: 47.5}
+        - {x: -80.5, y: 52.5}
+    - name: FishEnemy_DeathBySword_Leonie_Nick_21
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1707
+        width: 600
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 101, y: 35.5}
+        - {x: 69, y: 35.5}
+        - {x: 59, y: 21.5}
+        - {x: 59, y: 0.5}
+        - {x: 84, y: -59.5}
+        - {x: 100, y: -59.5}
+        - {x: 116, y: -57.5}
+        - {x: 143, y: -39.5}
+        - {x: 143, y: -31.5}
+        - {x: 137, y: -25.5}
+      - - {x: -71, y: 52.5}
+        - {x: -97, y: 52.5}
+        - {x: -117, y: 41.5}
+        - {x: -142, y: 28.5}
+        - {x: -142, y: 3.5}
+        - {x: -114, y: -5.5}
+        - {x: -34, y: -5.5}
+        - {x: -30, y: -1.5}
+        - {x: -30, y: 18.5}
     outline: []
   spritePackingTag: 
   userData: 
