@@ -2,7 +2,8 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class EnemyDeath : MonoBehaviour, IKillable{
+public class EnemyDeath : MonoBehaviour, IKillable
+{
 
     private float _enemyDamage = 1f;
 
@@ -10,28 +11,42 @@ public class EnemyDeath : MonoBehaviour, IKillable{
     protected string _slicedEnemy;
     protected string _disintegratedEnemy;
 
+    private Sounds _sounds;
+
     private CameraShake _cameraShakeScript;
     private Score _scoreScript;
     private SlowTime _slowTimeScript;
     private ObjectPool _objectPoolScript;
+    private AudioSource source;
 
-    protected void Start()
+    delegate void SoundDelegate(AudioClip clip);
+    SoundDelegate soundDelegate;
+
+
+    void playSound(AudioClip clip)
+    {
+        source.PlayOneShot(clip);
+    }
+
+    protected virtual void Start()
     {
         _scoreScript = GameObject.FindWithTag(Tags.UITag).GetComponent<Score>();
         _cameraShakeScript = GameObject.FindWithTag(Tags.mainCameraTag).GetComponent<CameraShake>();
         _slowTimeScript = GameObject.FindWithTag(Tags.UITag).GetComponent<SlowTime>();
         _objectPoolScript = GameObject.FindWithTag(Tags.objectPoolTag).GetComponent<ObjectPool>();
+        soundDelegate = playSound;
     }
 
-   	void OnTriggerEnter2D(Collider2D other)
-	{
+    void OnTriggerEnter2D(Collider2D other)
+    {
         if (other.gameObject.tag == Tags.playerTag)
         {
             other.SendMessage("ApplyDamage", _enemyDamage);
+            soundDelegate(_sounds.PlayerHit);
             Kill();
         }
 
-        if(other.gameObject.tag == Tags.medusaTag)
+        if (other.gameObject.tag == Tags.medusaTag)
         {
             CreateStoneEnemy();
             Kill();
@@ -43,17 +58,18 @@ public class EnemyDeath : MonoBehaviour, IKillable{
             Kill();
         }
 
-        if(other.gameObject.tag == Tags.laserTag)
+        if (other.gameObject.tag == Tags.laserTag)
         {
             CreateDisintegratedEnemy();
             Kill();
         }
-	}
+    }
 
     public void Kill()
     {
         _cameraShakeScript.Shake();
         _scoreScript.UpdateScore(1);
+        soundDelegate(_sounds.EnemyDeath);
         _slowTimeScript.SlowTheTime();
         _objectPoolScript.PoolObject(this.gameObject);
     }
@@ -71,6 +87,7 @@ public class EnemyDeath : MonoBehaviour, IKillable{
     void CreateDisintegratedEnemy()
     {
         ObjectPool.instance.GetObjectForType(_disintegratedEnemy, true).transform.position = transform.position;
+        soundDelegate(_sounds.DisintegrateSound);
     }
 
 }

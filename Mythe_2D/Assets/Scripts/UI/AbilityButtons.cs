@@ -43,6 +43,7 @@ public class AbilityButtons : MonoBehaviour {
             _playerScript.UsingSword = true;
             _swordCooldown = SwordCD;
             _cooldownManager.SwordCooldown = _swordCooldown;
+            soundDelegate(_sounds.SwordSound);
         }
     }
 
@@ -54,8 +55,6 @@ public class AbilityButtons : MonoBehaviour {
             laserbeam.transform.parent = LaserbeamParent.transform;
             laserbeam.transform.position = LaserbeamParent.transform.position;
             _cameraShakeScript.Shake();
-            //source.PlayOneShot(_sounds.FiringMahLazor);
-            //soundDelegate = playSound;
             soundDelegate(_sounds.FiringMahLazor);
             StartCoroutine(ActivateTimer(LaserbeamParent, 1.5f));
             _laserCooldown = LaserCD;
@@ -83,8 +82,6 @@ public class AbilityButtons : MonoBehaviour {
             GameObject shockwave = ObjectPool.instance.GetObjectForType(ObjectNames.medusaEffectGameObjectName, true);
             shockwave.transform.parent = parentObject.transform;
             shockwave.transform.position = parentObject.transform.position;
-            //source.PlayOneShot(_sounds.MedusaSound);
-            //soundDelegate = playSound;
             soundDelegate(_sounds.MedusaSound);
 
             _medusaCooldown = MedusaCD;
