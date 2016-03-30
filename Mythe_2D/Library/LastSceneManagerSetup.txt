@@ -1,4 +1,12 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/TestScenes/soufyan_testscene.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/MainMenu.unity
+=======
+- path: Assets/Scenes/Main.unity
+>>>>>>> 174cb9ed00b76d705932849ac7f1e65686e8947e
+>>>>>>> a5666691b8f58d84a923c8fe9a5a5a6d09b5a7b0
   isLoaded: 1
   isActive: 1
