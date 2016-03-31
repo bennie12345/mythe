@@ -15,7 +15,6 @@ public class EnemyDeath : MonoBehaviour, IKillable
 
     private CameraShake _cameraShakeScript;
     private Score _scoreScript;
-    private SlowTime _slowTimeScript;
     private ObjectPool _objectPoolScript;
     private AudioSource source;
 
@@ -32,7 +31,6 @@ public class EnemyDeath : MonoBehaviour, IKillable
     {
         _scoreScript = GameObject.FindWithTag(Tags.UITag).GetComponent<Score>();
         _cameraShakeScript = GameObject.FindWithTag(Tags.mainCameraTag).GetComponent<CameraShake>();
-        _slowTimeScript = GameObject.FindWithTag(Tags.UITag).GetComponent<SlowTime>();
         _objectPoolScript = GameObject.FindWithTag(Tags.objectPoolTag).GetComponent<ObjectPool>();
         soundDelegate = playSound;
     }
@@ -69,8 +67,11 @@ public class EnemyDeath : MonoBehaviour, IKillable
     {
         _cameraShakeScript.Shake();
         _scoreScript.UpdateScore(1);
+<<<<<<< HEAD
+=======
         soundDelegate(_sounds.EnemyDeath);
         _slowTimeScript.SlowTheTime();
+>>>>>>> origin/master
         _objectPoolScript.PoolObject(this.gameObject);
     }
 

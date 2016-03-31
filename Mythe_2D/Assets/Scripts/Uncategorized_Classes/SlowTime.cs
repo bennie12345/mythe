@@ -3,8 +3,8 @@ using System.Collections;
 
 public class SlowTime : MonoBehaviour {
 
-    private float _slowAmout = 0.75f;
-    private float _slowDuration = 0.15f;
+    private float _slowAmount = 0.5f;
+    private float _slowDuration = .25f;
     private float _originalTime = 1.0f;
 
     public void SlowTheTime()
@@ -14,7 +14,7 @@ public class SlowTime : MonoBehaviour {
 
     IEnumerator SlowTimeDuration()
     {
-        Time.timeScale = _slowAmout;
+        Time.timeScale = _slowAmount;
         yield return new WaitForSeconds(_slowDuration);
         Time.timeScale = _originalTime;
     }
