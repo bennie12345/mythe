@@ -67,11 +67,7 @@ public class EnemyDeath : MonoBehaviour, IKillable
     {
         _cameraShakeScript.Shake();
         _scoreScript.UpdateScore(1);
-<<<<<<< HEAD
-=======
-        soundDelegate(_sounds.EnemyDeath);
-        _slowTimeScript.SlowTheTime();
->>>>>>> origin/master
+        //soundDelegate(_sounds.EnemyDeath);
         _objectPoolScript.PoolObject(this.gameObject);
     }
 
@@ -88,7 +84,7 @@ public class EnemyDeath : MonoBehaviour, IKillable
     void CreateDisintegratedEnemy()
     {
         ObjectPool.instance.GetObjectForType(_disintegratedEnemy, true).transform.position = transform.position;
-        soundDelegate(_sounds.DisintegrateSound);
+        //soundDelegate(_sounds.DisintegrateSound);
     }
 
 }
