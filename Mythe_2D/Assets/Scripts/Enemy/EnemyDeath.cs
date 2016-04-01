@@ -40,7 +40,7 @@ public class EnemyDeath : MonoBehaviour, IKillable
         if (other.gameObject.tag == Tags.playerTag)
         {
             other.SendMessage("ApplyDamage", _enemyDamage);
-            soundDelegate(_sounds.PlayerHit);
+            //soundDelegate(_sounds.PlayerHit);
             Kill();
         }
 
@@ -66,7 +66,7 @@ public class EnemyDeath : MonoBehaviour, IKillable
     public void Kill()
     {
         _cameraShakeScript.Shake();
-        _scoreScript.UpdateScore(1);
+        _scoreScript.UpdateScore(10);
         //soundDelegate(_sounds.EnemyDeath);
         _objectPoolScript.PoolObject(this.gameObject);
     }
