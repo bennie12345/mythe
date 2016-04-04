@@ -44,6 +44,7 @@ public class AbilityButtons : MonoBehaviour {
             _swordCooldown = SwordCD;
             _cooldownManager.SwordCooldown = _swordCooldown;
             soundDelegate(_sounds.SwordSound);
+            StartCoroutine(SetAnimationBool());
         }
     }
 
@@ -73,6 +74,12 @@ public class AbilityButtons : MonoBehaviour {
         yield return new WaitForSeconds(activeTime);
         _playerScript.MoveSpeed = 5f;
         obj.SetActive(false);
+    }
+
+    IEnumerator SetAnimationBool()
+    {
+        yield return new WaitForSeconds(2.5f);
+        _playerScript.UsingSword = false;
     }
 
     public void UseMedusaHead(float MedusaCD)
