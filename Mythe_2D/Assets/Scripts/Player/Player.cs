@@ -12,6 +12,8 @@ public class Player : MonoBehaviour, IKillable {
     private CurrentScore _currentScoreScript;
     private SlowTime _slowTimeScript;
     private Rigidbody2D _rb2D;
+    private Animator _anim;
+
     [SerializeField]private float _health = 2f;
     public float Health
     {
@@ -61,6 +63,7 @@ public class Player : MonoBehaviour, IKillable {
 	// Use this for initialization
 	void Start () 
     {
+        _anim = GetComponent<Animator>();
         flashingScreen = GameObject.FindWithTag(Tags.flashingScreenObjectTag).GetComponent<FlashingScreen>();
         _scoreScript = GameObject.FindWithTag(Tags.UITag).GetComponent<Score>();
         _slowTimeScript = GameObject.FindWithTag(Tags.UITag).GetComponent<SlowTime>();
@@ -116,11 +119,11 @@ public class Player : MonoBehaviour, IKillable {
         if (_usingSword == true)
         {
             StartCoroutine(SwordDuration());
-            _sword.SetActive(true);
+            _anim.SetBool("isUsingSword", true);
         }
         else
         {
-            _sword.SetActive(false);
+            _anim.SetBool("isUsingSword", false);
         }
     }
 

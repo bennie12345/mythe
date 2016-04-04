@@ -24,9 +24,22 @@ public class Score : MonoBehaviour {
         _scoreText.text = " " + _score;
     }
 
+    IEnumerator PassiveScore()
+    {
+        UpdateScore(1);
+        yield return new WaitForSeconds(1f);
+    }
+
+    void GivePassiveScore()
+    {
+        StartCoroutine(PassiveScore());
+    }
+
     void Start()
     {
         GetHighscore();
+
+        InvokeRepeating("GivePassiveScore", 1, 1f);
     }
 
     public void StoreHighscore(int newHighscore)
