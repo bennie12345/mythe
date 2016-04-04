@@ -40,7 +40,7 @@ public class EnemyDeath : MonoBehaviour, IKillable
         if (other.gameObject.tag == Tags.playerTag)
         {
             other.SendMessage("ApplyDamage", _enemyDamage);
-            soundDelegate(_sounds.PlayerHit);
+            //soundDelegate(_sounds.PlayerHit);
             Kill();
         }
 
@@ -66,9 +66,14 @@ public class EnemyDeath : MonoBehaviour, IKillable
     public void Kill()
     {
         _cameraShakeScript.Shake();
+<<<<<<< HEAD
         _scoreScript.UpdateScore(1);
         soundDelegate(_sounds.EnemyDeath);
         _slowTimeScript.SlowTheTime();
+=======
+        _scoreScript.UpdateScore(10);
+        //soundDelegate(_sounds.EnemyDeath);
+>>>>>>> 06b88b6ad42ab4471530088b9fbe1fa8ecbebf38
         _objectPoolScript.PoolObject(this.gameObject);
     }
 
@@ -85,7 +90,7 @@ public class EnemyDeath : MonoBehaviour, IKillable
     void CreateDisintegratedEnemy()
     {
         ObjectPool.instance.GetObjectForType(_disintegratedEnemy, true).transform.position = transform.position;
-        soundDelegate(_sounds.DisintegrateSound);
+        //soundDelegate(_sounds.DisintegrateSound);
     }
 
 }
