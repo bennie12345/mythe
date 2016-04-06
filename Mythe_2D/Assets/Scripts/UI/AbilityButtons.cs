@@ -10,6 +10,7 @@ public class AbilityButtons : MonoBehaviour {
 
     [SerializeField]private GameObject parentObject;
     [SerializeField]private GameObject LaserbeamParent;
+    [SerializeField]private GameObject _swordHitbox;
     private AudioSource source;
 
     private float _laserCooldown = 0;
@@ -41,6 +42,7 @@ public class AbilityButtons : MonoBehaviour {
         if (_playerScript.UsingSword == false && _swordCooldown <= _minCooldown) 
         {
             _playerScript.UsingSword = true;
+            StartCoroutine(ActivateTimer(_swordHitbox, 1.75f));
             _swordCooldown = SwordCD;
             _cooldownManager.SwordCooldown = _swordCooldown;
             soundDelegate(_sounds.SwordSound);
