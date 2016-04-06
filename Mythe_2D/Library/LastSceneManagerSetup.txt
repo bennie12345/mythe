@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/MainMenu.unity
-=======
-- path: Assets/Scenes/Main.unity
->>>>>>> 174cb9ed00b76d705932849ac7f1e65686e8947e
+- path: Assets/TestScenes/lorenzo_testscene.unity
   isLoaded: 1
   isActive: 1

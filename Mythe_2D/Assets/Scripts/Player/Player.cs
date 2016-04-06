@@ -10,7 +10,10 @@ public class Player : MonoBehaviour, IKillable {
     private FlashingScreen flashingScreen;
     private Score _scoreScript;
     private CurrentScore _currentScoreScript;
+    private SlowTime _slowTimeScript;
     private Rigidbody2D _rb2D;
+    private Animator _anim;
+
     [SerializeField]private float _health = 2f;
     public float Health
     {
@@ -27,6 +30,7 @@ public class Player : MonoBehaviour, IKillable {
     private float _playerBoundX = 6.5f;
     private float _playerBoundY = 4f;
     private float _swordDuration = 2f;
+
     private GameObject _sword;
     private bool _usingSword = false;
     public bool UsingSword
@@ -59,8 +63,10 @@ public class Player : MonoBehaviour, IKillable {
 	// Use this for initialization
 	void Start () 
     {
+        _anim = GetComponent<Animator>();
         flashingScreen = GameObject.FindWithTag(Tags.flashingScreenObjectTag).GetComponent<FlashingScreen>();
         _scoreScript = GameObject.FindWithTag(Tags.UITag).GetComponent<Score>();
+        _slowTimeScript = GameObject.FindWithTag(Tags.UITag).GetComponent<SlowTime>();
         _rb2D = this.GetComponent<Rigidbody2D>();
         this.gameObject.tag = Tags.playerTag;
         _sword = GameObject.FindWithTag(Tags.swordTag);
@@ -90,6 +96,7 @@ public class Player : MonoBehaviour, IKillable {
     {
         if (_usingSword == false)
         {
+            _slowTimeScript.SlowTheTime();
             _health -= _damage;
             flashingScreen.StartFade();
         }
@@ -99,6 +106,7 @@ public class Player : MonoBehaviour, IKillable {
     {
         if (_health <= 0)
         {
+            Time.timeScale = 1.0f;
             _scoreScript.StoreHighscore(_scoreScript.ScoreValue);
             _currentScoreScript.CurrentScoreValue = _scoreScript.ScoreValue;
             LoadingScreen.Show();
@@ -111,11 +119,11 @@ public class Player : MonoBehaviour, IKillable {
         if (_usingSword == true)
         {
             StartCoroutine(SwordDuration());
-            _sword.SetActive(true);
+            _anim.SetBool("isUsingSword", true);
         }
         else
         {
-            _sword.SetActive(false);
+            _anim.SetBool("isUsingSword", false);
         }
     }
 
