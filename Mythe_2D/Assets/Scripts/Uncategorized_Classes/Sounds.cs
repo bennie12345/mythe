@@ -3,42 +3,55 @@ using System.Collections;
 
 public class Sounds : MonoBehaviour {
 
-    [SerializeField]private AudioClip _playerHit;
-    public AudioClip PlayerHit
+    [SerializeField]private AudioClip _playerHitSound;
+    public AudioClip PlayerHitSound
     {
         get
         {
-            return _playerHit;
+            return _playerHitSound;
         }
         set
         {
-            _playerHit = value;
+            _playerHitSound = value;
         }
     }
 
-    [SerializeField]private AudioClip _enemyDeath;
-    public AudioClip EnemyDeath
+    [SerializeField]private AudioClip _enemyStoneDeathSound;
+    public AudioClip EnemyStoneDeathSound
     {
         get
         {
-            return _enemyDeath;
+            return _enemyStoneDeathSound;
         }
         set
         {
-            _enemyDeath = value;
+            _enemyStoneDeathSound = value;
         }
     }
 
-    [SerializeField]private AudioClip _disintegrateSound;
-    public AudioClip DisintegrateSound
+    [SerializeField]private AudioClip _enemyDisintegrateDeathSound;
+    public AudioClip EnemyDisintegratDeathSound
     {
         get
         {
-            return _disintegrateSound;
+            return _enemyDisintegrateDeathSound;
         }
         set
         {
-            _disintegrateSound = value;
+            _enemyDisintegrateDeathSound = value;
+        }
+    }
+
+    [SerializeField]private AudioClip _enemySwordDeathSound;
+    public AudioClip EnemySwordDeathSound
+    {
+        get
+        {
+            return _enemySwordDeathSound;
+        }
+        set
+        {
+            _enemySwordDeathSound = value;
         }
     }
 
@@ -68,16 +81,16 @@ public class Sounds : MonoBehaviour {
         }
     }
 
-    [SerializeField]private AudioClip _firingMahLazor;
-    public AudioClip FiringMahLazor
+    [SerializeField]private AudioClip _laserSound;
+    public AudioClip LaserSound
     {
         get
         {
-            return _firingMahLazor;
+            return _laserSound;
         }
         set
         {
-            _firingMahLazor = value;
+            _laserSound = value;
         }
     }
 

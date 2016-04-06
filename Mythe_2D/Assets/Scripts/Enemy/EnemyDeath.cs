@@ -16,7 +16,7 @@ public class EnemyDeath : MonoBehaviour, IKillable
     private CameraShake _cameraShakeScript;
     private Score _scoreScript;
     private ObjectPool _objectPoolScript;
-    //private AudioSource source;
+    private AudioSource source;
 
     delegate void SoundDelegate(AudioClip clip);
     SoundDelegate soundDelegate;
@@ -24,7 +24,7 @@ public class EnemyDeath : MonoBehaviour, IKillable
 
     void playSound(AudioClip clip)
     {
-        //source.PlayOneShot(clip);
+        source.PlayOneShot(clip);
     }
 
     protected virtual void Start()
@@ -33,8 +33,8 @@ public class EnemyDeath : MonoBehaviour, IKillable
         _cameraShakeScript = GameObject.FindWithTag(Tags.mainCameraTag).GetComponent<CameraShake>();
         _objectPoolScript = GameObject.FindWithTag(Tags.objectPoolTag).GetComponent<ObjectPool>();
         _sounds = GameObject.FindWithTag("SoundsObject").GetComponent<Sounds>();
-        //source = GetComponent<AudioSource>();
-        //soundDelegate = playSound;
+        source = _sounds.GetComponent<AudioSource>();
+        soundDelegate = playSound;
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -42,7 +42,7 @@ public class EnemyDeath : MonoBehaviour, IKillable
         if (other.gameObject.tag == Tags.playerTag)
         {
             other.SendMessage("ApplyDamage", _enemyDamage);
-            //soundDelegate(_sounds.PlayerHit);
+            soundDelegate(_sounds.PlayerHitSound);
             Kill();
         }
 
@@ -69,28 +69,32 @@ public class EnemyDeath : MonoBehaviour, IKillable
     {
         _cameraShakeScript.Shake();
         _scoreScript.UpdateScore(1);
+<<<<<<< HEAD
+=======
         soundDelegate(_sounds.EnemyDeath);
         //_slowTimeScript.SlowTheTime();
         _scoreScript.UpdateScore(1);
+>>>>>>> 76ea1d8a4ef72272ac0ba2505598426bc430432c
         _scoreScript.UpdateScore(10);
-        //soundDelegate(_sounds.EnemyDeath);
         _objectPoolScript.PoolObject(this.gameObject);
     }
 
     void CreateStoneEnemy()
     {
         ObjectPool.instance.GetObjectForType(_stoneEnemy, true).transform.position = transform.position;
+        soundDelegate(_sounds.EnemyStoneDeathSound);
     }
 
     void CreatedSlicedEnemy()
     {
         ObjectPool.instance.GetObjectForType(_slicedEnemy, true).transform.position = transform.position;
+        soundDelegate(_sounds.EnemySwordDeathSound);
     }
 
     void CreateDisintegratedEnemy()
     {
         ObjectPool.instance.GetObjectForType(_disintegratedEnemy, true).transform.position = transform.position;
-        //soundDelegate(_sounds.DisintegrateSound);
+        soundDelegate(_sounds.EnemyDisintegratDeathSound);
     }
 
 }
