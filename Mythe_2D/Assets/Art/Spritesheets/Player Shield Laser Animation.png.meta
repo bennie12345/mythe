@@ -1,0 +1,3591 @@
+fileFormatVersion: 2
+guid: 7cfd114ba863ba549bf21f1ee4d96846
+timeCreated: 1459760660
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Player Shield Laser Animation_0
+    21300002: Player Shield Laser Animation_1
+    21300004: Player Shield Laser Animation_2
+    21300006: Player Shield Laser Animation_3
+    21300008: Player Shield Laser Animation_4
+    21300010: Player Shield Laser Animation_5
+    21300012: Player Shield Laser Animation_6
+    21300014: Player Shield Laser Animation_7
+    21300016: Player Shield Laser Animation_8
+    21300018: Player Shield Laser Animation_9
+    21300020: Player Shield Laser Animation_10
+    21300022: Player Shield Laser Animation_11
+    21300024: Player Shield Laser Animation_12
+    21300026: Player Shield Laser Animation_13
+    21300028: Player Shield Laser Animation_14
+    21300030: Player Shield Laser Animation_15
+    21300032: Player Shield Laser Animation_16
+    21300034: Player Shield Laser Animation_17
+    21300036: Player Shield Laser Animation_18
+    21300038: Player Shield Laser Animation_19
+    21300040: Player Shield Laser Animation_20
+    21300042: Player Shield Laser Animation_21
+    21300044: Player Shield Laser Animation_22
+    21300046: Player Shield Laser Animation_23
+    21300048: Player Shield Laser Animation_24
+    21300050: Player Shield Laser Animation_25
+    21300052: Player Shield Laser Animation_26
+    21300054: Player Shield Laser Animation_27
+    21300056: Player Shield Laser Animation_28
+    21300058: Player Shield Laser Animation_29
+    21300060: Player Shield Laser Animation_30
+    21300062: Player Shield Laser Animation_31
+    21300064: Player Shield Laser Animation_32
+    21300066: Player Shield Laser Animation_33
+    21300068: Player Shield Laser Animation_34
+    21300070: Player Shield Laser Animation_35
+    21300072: Player Shield Laser Animation_36
+    21300074: Player Shield Laser Animation_37
+    21300076: Player Shield Laser Animation_38
+    21300078: Player Shield Laser Animation_39
+    21300080: Player Shield Laser Animation_40
+    21300082: Player Shield Laser Animation_41
+    21300084: Player Shield Laser Animation_42
+    21300086: Player Shield Laser Animation_43
+    21300088: Player Shield Laser Animation_44
+    21300090: Player Shield Laser Animation_45
+    21300092: Player Shield Laser Animation_46
+    21300094: Player Shield Laser Animation_47
+    21300096: Player Shield Laser Animation_48
+    21300098: Player Shield Laser Animation_49
+    21300100: Player Shield Laser Animation_50
+    21300102: Player Shield Laser Animation_51
+    21300104: Player Shield Laser Animation_52
+    21300106: Player Shield Laser Animation_53
+    21300108: Player Shield Laser Animation_54
+    21300110: Player Shield Laser Animation_55
+    21300112: Player Shield Laser Animation_56
+    21300114: Player Shield Laser Animation_57
+    21300116: Player Shield Laser Animation_58
+    21300118: Player Shield Laser Animation_59
+    21300120: Player Shield Laser Animation_60
+    21300122: Player Shield Laser Animation_61
+    21300124: Player Shield Laser Animation_62
+    21300126: Player Shield Laser Animation_63
+    21300128: Player Shield Laser Animation_64
+    21300130: Player Shield Laser Animation_65
+    21300132: Player Shield Laser Animation_66
+    21300134: Player Shield Laser Animation_67
+    21300136: Player Shield Laser Animation_68
+    21300138: Player Shield Laser Animation_69
+    21300140: Player Shield Laser Animation_70
+    21300142: Player Shield Laser Animation_71
+    21300144: Player Shield Laser Animation_72
+    21300146: Player Shield Laser Animation_73
+    21300148: Player Shield Laser Animation_74
+    21300150: Player Shield Laser Animation_75
+    21300152: Player Shield Laser Animation_76
+    21300154: Player Shield Laser Animation_77
+    21300156: Player Shield Laser Animation_78
+    21300158: Player Shield Laser Animation_79
+    21300160: Player Shield Laser Animation_80
+    21300162: Player Shield Laser Animation_81
+    21300164: Player Shield Laser Animation_82
+    21300166: Player Shield Laser Animation_83
+    21300168: Player Shield Laser Animation_84
+    21300170: Player Shield Laser Animation_85
+    21300172: Player Shield Laser Animation_86
+    21300174: Player Shield Laser Animation_87
+    21300176: Player Shield Laser Animation_88
+    21300178: Player Shield Laser Animation_89
+    21300180: Player Shield Laser Animation_90
+    21300182: Player Shield Laser Animation_91
+    21300184: Player Shield Laser Animation_92
+    21300186: Player Shield Laser Animation_93
+    21300188: Player Shield Laser Animation_94
+    21300190: Player Shield Laser Animation_95
+    21300192: Player Shield Laser Animation_96
+    21300194: Player Shield Laser Animation_97
+    21300196: Player Shield Laser Animation_98
+    21300198: Player Shield Laser Animation_99
+    21300200: Player Shield Laser Animation_100
+    21300202: Player Shield Laser Animation_101
+    21300204: Player Shield Laser Animation_102
+    21300206: Player Shield Laser Animation_103
+    21300208: Player Shield Laser Animation_104
+    21300210: Player Shield Laser Animation_105
+    21300212: Player Shield Laser Animation_106
+    21300214: Player Shield Laser Animation_107
+    21300216: Player Shield Laser Animation_108
+    21300218: Player Shield Laser Animation_109
+    21300220: Player Shield Laser Animation_110
+    21300222: Player Shield Laser Animation_111
+    21300224: Player Shield Laser Animation_112
+    21300226: Player Shield Laser Animation_113
+    21300228: Player Shield Laser Animation_114
+    21300230: Player Shield Laser Animation_115
+    21300232: Player Shield Laser Animation_116
+    21300234: Player Shield Laser Animation_117
+    21300236: Player Shield Laser Animation_118
+    21300238: Player Shield Laser Animation_119
+    21300240: Player Shield Laser Animation_120
+    21300242: Player Shield Laser Animation_121
+    21300244: Player Shield Laser Animation_122
+    21300246: Player Shield Laser Animation_123
+    21300248: Player Shield Laser Animation_124
+    21300250: Player Shield Laser Animation_125
+    21300252: Player Shield Laser Animation_126
+    21300254: Player Shield Laser Animation_127
+    21300256: Player Shield Laser Animation_128
+    21300258: Player Shield Laser Animation_129
+    21300260: Player Shield Laser Animation_130
+    21300262: Player Shield Laser Animation_131
+    21300264: Player Shield Laser Animation_132
+    21300266: Player Shield Laser Animation_133
+    21300268: Player Shield Laser Animation_134
+    21300270: Player Shield Laser Animation_135
+    21300272: Player Shield Laser Animation_136
+    21300274: Player Shield Laser Animation_137
+    21300276: Player Shield Laser Animation_138
+    21300278: Player Shield Laser Animation_139
+    21300280: Player Shield Laser Animation_140
+    21300282: Player Shield Laser Animation_141
+    21300284: Player Shield Laser Animation_142
+    21300286: Player Shield Laser Animation_143
+    21300288: Player Shield Laser Animation_144
+    21300290: Player Shield Laser Animation_145
+    21300292: Player Shield Laser Animation_146
+    21300294: Player Shield Laser Animation_147
+    21300296: Player Shield Laser Animation_148
+    21300298: Player Shield Laser Animation_149
+    21300300: Player Shield Laser Animation_150
+    21300302: Player Shield Laser Animation_151
+    21300304: Player Shield Laser Animation_152
+    21300306: Player Shield Laser Animation_153
+    21300308: Player Shield Laser Animation_154
+    21300310: Player Shield Laser Animation_155
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Player Shield Laser Animation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9150
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: -20.962524}
+        - {x: 43.5, y: -8.962524}
+        - {x: 43.5, y: -3.9625244}
+        - {x: 41.5, y: 4.0374756}
+        - {x: 10.5, y: 19.037476}
+        - {x: -1.5, y: 19.037476}
+        - {x: -27.5, y: 13.037476}
+        - {x: -28.5, y: 4.0374756}
+        - {x: -24.5, y: 2.0374756}
+        - {x: -16.5, y: 2.0374756}
+        - {x: -17.5, y: 1.0374756}
+        - {x: -41.5, y: 5.0374756}
+        - {x: -46.5, y: 19.037476}
+        - {x: -78.5, y: 19.037476}
+        - {x: -78.5, y: -34.962524}
+        - {x: -66.5, y: -46.962524}
+        - {x: 29.5, y: -46.962524}
+        - {x: 43.5, y: -29.962524}
+        - {x: 43.5, y: -22.962524}
+      - - {x: 10.5, y: -45.962524}
+        - {x: 13.5, y: -44.962524}
+        - {x: 13.5, y: -41.962524}
+        - {x: 10.5, y: -40.962524}
+        - {x: 8.5, y: -42.962524}
+    - name: Player Shield Laser Animation_1
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 9150
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: -20.962524}
+        - {x: 39, y: -16.962524}
+        - {x: 45, y: -4.9625244}
+        - {x: 35, y: 6.0374756}
+        - {x: 26, y: 6.0374756}
+        - {x: 14, y: 13.037476}
+        - {x: 8, y: 17.037476}
+        - {x: -18, y: 16.037476}
+        - {x: -27, y: 11.037476}
+        - {x: -27, y: 5.0374756}
+        - {x: -49, y: 19.037476}
+        - {x: -59, y: 19.037476}
+        - {x: -71, y: 15.037476}
+        - {x: -78, y: 4.0374756}
+        - {x: -78, y: -47.962524}
+        - {x: 37, y: -47.962524}
+        - {x: 45, y: -31.962524}
+        - {x: 45, y: -24.962524}
+        - {x: 41, y: -21.962524}
+    - name: Player Shield Laser Animation_2
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 9150
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 20.037476}
+        - {x: -22.5, y: 20.037476}
+        - {x: -27.5, y: 15.037476}
+        - {x: -22.5, y: 6.0374756}
+        - {x: -16.5, y: 7.0374756}
+        - {x: -34.5, y: -1.9625244}
+        - {x: -56.5, y: 19.037476}
+        - {x: -68.5, y: 14.037476}
+        - {x: -73.5, y: 7.0374756}
+        - {x: -73.5, y: 5.0374756}
+        - {x: -70.5, y: 2.0374756}
+        - {x: -66.5, y: 1.0374756}
+        - {x: -70.5, y: 1.0374756}
+        - {x: -78.5, y: -8.962524}
+        - {x: -78.5, y: -24.962524}
+        - {x: -74.5, y: -26.962524}
+        - {x: -71.5, y: -24.962524}
+        - {x: -64.5, y: -46.962524}
+        - {x: 40.5, y: -46.962524}
+        - {x: 43.5, y: -42.962524}
+        - {x: 43.5, y: 7.0374756}
+    - name: Player Shield Laser Animation_3
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 9150
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76, y: 26.037476}
+        - {x: -78, y: 24.037476}
+        - {x: -78, y: -46.962524}
+        - {x: 44, y: -46.962524}
+        - {x: 44, y: -0.9625244}
+        - {x: 4, y: 26.037476}
+    - name: Player Shield Laser Animation_4
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 9150
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.5, y: -23.962524}
+        - {x: 42.5, y: -2.9625244}
+        - {x: 31.5, y: 8.037476}
+        - {x: -2.5, y: 31.037476}
+        - {x: -12.5, y: 31.037476}
+        - {x: -17.5, y: 28.037476}
+        - {x: -10.5, y: 16.037476}
+        - {x: -70.5, y: 21.037476}
+        - {x: -78.5, y: 2.0374756}
+        - {x: -78.5, y: -34.962524}
+        - {x: -70.5, y: -47.962524}
+        - {x: 42.5, y: -47.962524}
+        - {x: 42.5, y: -38.962524}
+        - {x: 38.5, y: -34.962524}
+    - name: Player Shield Laser Animation_5
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 9150
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 4.0374756}
+        - {x: 8, y: 35.037476}
+        - {x: -6, y: 35.037476}
+        - {x: -9, y: 26.037476}
+        - {x: -70, y: 10.037476}
+        - {x: -78, y: -0.9625244}
+        - {x: -78, y: -41.962524}
+        - {x: -73, y: -50.962524}
+        - {x: 37, y: -50.962524}
+        - {x: 40, y: -47.962524}
+        - {x: 40, y: -43.962524}
+        - {x: 43, y: -28.962524}
+    - name: Player Shield Laser Animation_6
+      rect:
+        serializedVersion: 2
+        x: 4476
+        y: 9150
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.5, y: -7.9625244}
+        - {x: 42.5, y: -1.9625244}
+        - {x: 9.5, y: 37.037476}
+        - {x: 0.5, y: 37.037476}
+        - {x: -1.5, y: 30.037476}
+        - {x: -71.5, y: 6.0374756}
+        - {x: -78.5, y: -6.9625244}
+        - {x: -78.5, y: -17.962524}
+        - {x: -77.5, y: -20.962524}
+        - {x: -62.5, y: -47.962524}
+        - {x: -57.5, y: -54.962524}
+        - {x: 39.5, y: -54.962524}
+        - {x: 36.5, y: -46.962524}
+        - {x: 32.5, y: -43.962524}
+        - {x: 29.5, y: -42.962524}
+    - name: Player Shield Laser Animation_7
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 9150
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 39.037476}
+        - {x: -9, y: 39.037476}
+        - {x: -68, y: 7.0374756}
+        - {x: -78, y: -6.9625244}
+        - {x: -78, y: -19.962524}
+        - {x: -71, y: -17.962524}
+        - {x: -63, y: -54.962524}
+        - {x: -48, y: -57.962524}
+        - {x: 44, y: -57.962524}
+        - {x: 44, y: 18.037476}
+        - {x: 25, y: 35.037476}
+    - name: Player Shield Laser Animation_8
+      rect:
+        serializedVersion: 2
+        x: 5968
+        y: 9150
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 39.037476}
+        - {x: 18.5, y: 39.037476}
+        - {x: 16.5, y: 35.037476}
+        - {x: 16.5, y: 27.037476}
+        - {x: -76.5, y: 8.037476}
+        - {x: -78.5, y: 6.0374756}
+        - {x: -78.5, y: -43.962524}
+        - {x: -68.5, y: -60.962524}
+        - {x: 33.5, y: -60.962524}
+        - {x: 43.5, y: -30.962524}
+        - {x: 43.5, y: 9.037476}
+        - {x: 30.5, y: 35.037476}
+    - name: Player Shield Laser Animation_9
+      rect:
+        serializedVersion: 2
+        x: 6714
+        y: 9150
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: 14.037476}
+        - {x: 41, y: 26.037476}
+        - {x: 36, y: 36.037476}
+        - {x: 18, y: 36.037476}
+        - {x: -70, y: 14.037476}
+        - {x: -78, y: 4.0374756}
+        - {x: -78, y: -54.962524}
+        - {x: -71, y: -61.962524}
+        - {x: 21, y: -61.962524}
+        - {x: 24, y: -54.962524}
+        - {x: 20, y: -50.962524}
+        - {x: 45, y: -16.962524}
+    - name: Player Shield Laser Animation_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8540
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 31.06836}
+        - {x: -78.5, y: 9.068359}
+        - {x: -78.5, y: -6.9316406}
+        - {x: -73.5, y: -8.931641}
+        - {x: -70.5, y: -8.931641}
+        - {x: -74.5, y: -9.931641}
+        - {x: -78.5, y: -8.931641}
+        - {x: -78.5, y: -59.93164}
+        - {x: -77.5, y: -62.93164}
+        - {x: 30.5, y: -62.93164}
+        - {x: 44.5, y: -46.93164}
+        - {x: 44.5, y: 31.06836}
+    - name: Player Shield Laser Animation_11
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 8540
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: 23.06836}
+        - {x: 4, y: 23.06836}
+        - {x: -64, y: 13.068359}
+        - {x: -76, y: -0.9316406}
+        - {x: -76, y: -52.93164}
+        - {x: -34, y: -61.93164}
+        - {x: 17, y: -61.93164}
+        - {x: 48, y: -15.931641}
+        - {x: 46, y: -8.931641}
+        - {x: 50, y: 7.0683594}
+    - name: Player Shield Laser Animation_12
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 8540
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: -0.9316406}
+        - {x: 29.5, y: -0.9316406}
+        - {x: 47.5, y: 1.0683594}
+        - {x: 51.5, y: 5.0683594}
+        - {x: 51.5, y: 15.068359}
+        - {x: -72.5, y: 15.068359}
+        - {x: -76.5, y: -1.9316406}
+        - {x: -72.5, y: -6.9316406}
+        - {x: -77.5, y: -17.93164}
+        - {x: -77.5, y: -29.93164}
+        - {x: -76.5, y: -37.93164}
+        - {x: -68.5, y: -42.93164}
+        - {x: -55.5, y: -51.93164}
+        - {x: -28.5, y: -60.93164}
+        - {x: 15.5, y: -60.93164}
+        - {x: 49.5, y: -9.931641}
+        - {x: 37.5, y: -2.9316406}
+        - {x: 31.5, y: -0.9316406}
+    - name: Player Shield Laser Animation_13
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 8540
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52, y: 11.068359}
+        - {x: 23, y: 10.068359}
+        - {x: -3, y: 12.068359}
+        - {x: -66, y: 12.068359}
+        - {x: -76, y: -1.9316406}
+        - {x: -76, y: -3.9316406}
+        - {x: -71, y: -5.9316406}
+        - {x: -76, y: -12.931641}
+        - {x: -76, y: -40.93164}
+        - {x: -74, y: -52.93164}
+        - {x: -44, y: -57.93164}
+        - {x: 9, y: -57.93164}
+        - {x: 42, y: -28.93164}
+        - {x: 54, y: -5.9316406}
+        - {x: 54, y: 8.068359}
+    - name: Player Shield Laser Animation_14
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 8540
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72.5, y: 10.068359}
+        - {x: -76.5, y: -6.9316406}
+        - {x: -73.5, y: -9.931641}
+        - {x: -70.5, y: -9.931641}
+        - {x: -75.5, y: -9.931641}
+        - {x: -77.5, y: -12.931641}
+        - {x: -78.5, y: -17.93164}
+        - {x: -78.5, y: -31.93164}
+        - {x: -71.5, y: -32.93164}
+        - {x: -68.5, y: -27.93164}
+        - {x: -55.5, y: -50.93164}
+        - {x: -53.5, y: -52.93164}
+        - {x: -51.5, y: -52.93164}
+        - {x: -46.5, y: -50.93164}
+        - {x: -36.5, y: -55.93164}
+        - {x: 13.5, y: -55.93164}
+        - {x: 55.5, y: -16.93164}
+        - {x: 55.5, y: 10.068359}
+    - name: Player Shield Laser Animation_15
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 8540
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51, y: 8.068359}
+        - {x: -68, y: 6.0683594}
+        - {x: -78, y: -6.9316406}
+        - {x: -78, y: -37.93164}
+        - {x: -70, y: -52.93164}
+        - {x: 19, y: -52.93164}
+        - {x: 43, y: -47.93164}
+        - {x: 57, y: -24.93164}
+        - {x: 57, y: 5.0683594}
+        - {x: 46, y: 8.068359}
+    - name: Player Shield Laser Animation_16
+      rect:
+        serializedVersion: 2
+        x: 4476
+        y: 8540
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: 7.0683594}
+        - {x: -6.5, y: 7.0683594}
+        - {x: -78.5, y: 3.0683594}
+        - {x: -78.5, y: -19.93164}
+        - {x: -71.5, y: -18.93164}
+        - {x: -54.5, y: -52.93164}
+        - {x: -2.5, y: -52.93164}
+        - {x: 53.5, y: -17.93164}
+        - {x: 56.5, y: -11.931641}
+        - {x: 56.5, y: -1.9316406}
+    - name: Player Shield Laser Animation_17
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 8540
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76, y: 6.0683594}
+        - {x: -78, y: -1.9316406}
+        - {x: -78, y: -35.93164}
+        - {x: -66, y: -52.93164}
+        - {x: 1, y: -52.93164}
+        - {x: 58, y: -16.93164}
+        - {x: 58, y: -6.9316406}
+        - {x: 45, y: 6.0683594}
+    - name: Player Shield Laser Animation_18
+      rect:
+        serializedVersion: 2
+        x: 5968
+        y: 8540
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -70.5, y: -52.93164}
+        - {x: 7.5, y: -52.93164}
+        - {x: 55.5, y: -36.93164}
+        - {x: 55.5, y: -5.9316406}
+        - {x: 49.5, y: 12.068359}
+        - {x: -78.5, y: 12.068359}
+        - {x: -78.5, y: -32.93164}
+    - name: Player Shield Laser Animation_19
+      rect:
+        serializedVersion: 2
+        x: 6714
+        y: 8540
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76, y: 15.068359}
+        - {x: -77, y: -0.9316406}
+        - {x: -73, y: -5.9316406}
+        - {x: -77, y: -16.93164}
+        - {x: -77, y: -28.93164}
+        - {x: -71, y: -29.93164}
+        - {x: -61, y: -52.93164}
+        - {x: -22, y: -52.93164}
+        - {x: 55, y: -32.93164}
+        - {x: 55, y: 9.068359}
+        - {x: 34, y: 15.068359}
+    - name: Player Shield Laser Animation_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7930
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 13.099121}
+        - {x: -65.5, y: 13.099121}
+        - {x: -71.5, y: 10.099121}
+        - {x: -78.5, y: 2.099121}
+        - {x: -78.5, y: 0.099121094}
+        - {x: -75.5, y: -5.900879}
+        - {x: -69.5, y: -4.900879}
+        - {x: -65.5, y: 1.0991211}
+        - {x: -57.5, y: -8.900879}
+        - {x: -72.5, y: -5.900879}
+        - {x: -76.5, y: -10.900879}
+        - {x: -78.5, y: -13.900879}
+        - {x: -78.5, y: -37.90088}
+        - {x: -61.5, y: -52.90088}
+        - {x: -30.5, y: -52.90088}
+        - {x: 52.5, y: -34.90088}
+        - {x: 52.5, y: -14.900879}
+        - {x: 43.5, y: 2.099121}
+        - {x: 31.5, y: 9.099121}
+        - {x: -17.5, y: 5.099121}
+    - name: Player Shield Laser Animation_21
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 7930
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78, y: 10.099121}
+        - {x: -78, y: -40.90088}
+        - {x: -73, y: -52.90088}
+        - {x: 16, y: -52.90088}
+        - {x: 51, y: -41.90088}
+        - {x: 51, y: 8.099121}
+        - {x: 7, y: 10.099121}
+    - name: Player Shield Laser Animation_22
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 7930
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78.5, y: 8.099121}
+        - {x: -78.5, y: -48.90088}
+        - {x: -76.5, y: -51.90088}
+        - {x: 47.5, y: -51.90088}
+        - {x: 47.5, y: 8.099121}
+    - name: Player Shield Laser Animation_23
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 7930
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 7.099121}
+        - {x: 22, y: 7.099121}
+        - {x: -16, y: 4.099121}
+        - {x: -44, y: 7.099121}
+        - {x: -71, y: 7.099121}
+        - {x: -78, y: -3.900879}
+        - {x: -78, y: -31.900879}
+        - {x: -56, y: -51.90088}
+        - {x: -54, y: -52.90088}
+        - {x: -51, y: -52.90088}
+        - {x: -45, y: -50.90088}
+        - {x: -29, y: -46.90088}
+        - {x: -19, y: -44.90088}
+        - {x: 46, y: -51.90088}
+    - name: Player Shield Laser Animation_24
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 7930
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.5, y: 7.099121}
+        - {x: -74.5, y: 6.099121}
+        - {x: -78.5, y: 1.0991211}
+        - {x: -78.5, y: -36.90088}
+        - {x: -68.5, y: -51.90088}
+        - {x: 9.5, y: -51.90088}
+        - {x: 41.5, y: -45.90088}
+        - {x: 41.5, y: 7.099121}
+    - name: Player Shield Laser Animation_25
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 7930
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66, y: 8.099121}
+        - {x: -78, y: -1.9008789}
+        - {x: -78, y: -42.90088}
+        - {x: -75, y: -52.90088}
+        - {x: 43, y: -52.90088}
+        - {x: 43, y: 8.099121}
+    - name: Player Shield Laser Animation_26
+      rect:
+        serializedVersion: 2
+        x: 4476
+        y: 7930
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 7.099121}
+        - {x: -69.5, y: 6.099121}
+        - {x: -78.5, y: -1.9008789}
+        - {x: -78.5, y: -49.90088}
+        - {x: -73.5, y: -51.90088}
+        - {x: 41.5, y: -51.90088}
+        - {x: 41.5, y: 2.099121}
+        - {x: 32.5, y: 7.099121}
+    - name: Player Shield Laser Animation_27
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 7930
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78, y: 6.099121}
+        - {x: -78, y: -33.90088}
+        - {x: -55, y: -54.90088}
+        - {x: 33, y: -54.90088}
+        - {x: 43, y: -23.900879}
+        - {x: 43, y: 4.099121}
+        - {x: 42, y: 6.099121}
+    - name: Player Shield Laser Animation_28
+      rect:
+        serializedVersion: 2
+        x: 5968
+        y: 7930
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72.5, y: 6.099121}
+        - {x: -78.5, y: -6.900879}
+        - {x: -78.5, y: -27.900879}
+        - {x: -71.5, y: -28.900879}
+        - {x: -65.5, y: -53.90088}
+        - {x: -44.5, y: -56.90088}
+        - {x: 29.5, y: -56.90088}
+        - {x: 42.5, y: -36.90088}
+        - {x: 42.5, y: 4.099121}
+        - {x: 40.5, y: 6.099121}
+    - name: Player Shield Laser Animation_29
+      rect:
+        serializedVersion: 2
+        x: 6714
+        y: 7930
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73, y: 8.099121}
+        - {x: -77, y: 2.099121}
+        - {x: -77, y: -57.90088}
+        - {x: 43, y: -57.90088}
+        - {x: 44, y: -54.90088}
+        - {x: 44, y: 8.099121}
+    - name: Player Shield Laser Animation_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7320
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.5, y: 8.130005}
+        - {x: -77.5, y: -3.869995}
+        - {x: -76.5, y: -8.869995}
+        - {x: -71.5, y: -10.869995}
+        - {x: -65.5, y: -5.869995}
+        - {x: -66.5, y: -12.869995}
+        - {x: -73.5, y: -11.869995}
+        - {x: -77.5, y: -14.869995}
+        - {x: -77.5, y: -56.869995}
+        - {x: 25.5, y: -56.869995}
+        - {x: 38.5, y: -32.869995}
+        - {x: 42.5, y: -24.869995}
+        - {x: 42.5, y: 4.130005}
+        - {x: 27.5, y: 8.130005}
+    - name: Player Shield Laser Animation_31
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 7320
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73, y: 9.130005}
+        - {x: -75, y: 3.130005}
+        - {x: -75, y: -5.869995}
+        - {x: -73, y: -9.869995}
+        - {x: -69, y: -8.869995}
+        - {x: -75, y: -19.869995}
+        - {x: -75, y: -34.869995}
+        - {x: -73, y: -36.869995}
+        - {x: -60, y: -55.869995}
+        - {x: 9, y: -55.869995}
+        - {x: 44, y: -21.869995}
+        - {x: 44, y: 7.130005}
+        - {x: 36, y: 9.130005}
+    - name: Player Shield Laser Animation_32
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 7320
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -75.5, y: -42.869995}
+        - {x: -73.5, y: -52.869995}
+        - {x: 18.5, y: -52.869995}
+        - {x: 43.5, y: -43.869995}
+        - {x: 43.5, y: -1.8699951}
+        - {x: 36.5, y: 9.130005}
+        - {x: -72.5, y: 9.130005}
+        - {x: -75.5, y: 5.130005}
+    - name: Player Shield Laser Animation_33
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 7320
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 6.130005}
+        - {x: -14, y: 7.130005}
+        - {x: -20, y: 8.130005}
+        - {x: -67, y: 8.130005}
+        - {x: -75, y: 4.130005}
+        - {x: -75, y: -6.869995}
+        - {x: -72, y: -9.869995}
+        - {x: -69, y: -9.869995}
+        - {x: -75, y: -18.869995}
+        - {x: -75, y: -34.869995}
+        - {x: -64, y: -51.869995}
+        - {x: 19, y: -51.869995}
+        - {x: 39, y: -22.869995}
+        - {x: 44, y: -10.869995}
+        - {x: 44, y: -1.8699951}
+    - name: Player Shield Laser Animation_34
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 7320
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: -44.869995}
+        - {x: 43.5, y: -20.869995}
+        - {x: 43.5, y: 0.13000488}
+        - {x: 18.5, y: 8.130005}
+        - {x: -76.5, y: 8.130005}
+        - {x: -76.5, y: -33.869995}
+        - {x: -73.5, y: -37.869995}
+        - {x: -59.5, y: -51.869995}
+        - {x: -42.5, y: -51.869995}
+        - {x: -15.5, y: -45.869995}
+        - {x: -10.5, y: -38.869995}
+        - {x: -9.5, y: -31.869995}
+        - {x: -9.5, y: -29.869995}
+    - name: Player Shield Laser Animation_35
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 7320
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: 7.130005}
+        - {x: -76, y: 3.130005}
+        - {x: -76, y: -51.869995}
+        - {x: -27, y: -51.869995}
+        - {x: 40, y: -30.869995}
+        - {x: 44, y: -11.869995}
+        - {x: 44, y: -2.869995}
+        - {x: 40, y: 7.130005}
+    - name: Player Shield Laser Animation_36
+      rect:
+        serializedVersion: 2
+        x: 4476
+        y: 7320
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72.5, y: 6.130005}
+        - {x: -75.5, y: -4.869995}
+        - {x: -76.5, y: -8.869995}
+        - {x: -73.5, y: -11.869995}
+        - {x: -70.5, y: -11.869995}
+        - {x: -72.5, y: -13.869995}
+        - {x: -76.5, y: -16.869995}
+        - {x: -76.5, y: -32.869995}
+        - {x: -66.5, y: -51.869995}
+        - {x: -22.5, y: -51.869995}
+        - {x: 34.5, y: -32.869995}
+        - {x: 43.5, y: -15.869995}
+        - {x: 43.5, y: 0.13000488}
+        - {x: 36.5, y: 6.130005}
+    - name: Player Shield Laser Animation_37
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 7320
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65, y: 7.130005}
+        - {x: -72, y: -0.8699951}
+        - {x: -75, y: -6.869995}
+        - {x: -75, y: -9.869995}
+        - {x: -71, y: -13.869995}
+        - {x: -73, y: -13.869995}
+        - {x: -76, y: -16.869995}
+        - {x: -76, y: -33.869995}
+        - {x: -70, y: -35.869995}
+        - {x: -66, y: -30.869995}
+        - {x: -56, y: -49.869995}
+        - {x: -54, y: -51.869995}
+        - {x: -21, y: -51.869995}
+        - {x: 45, y: -22.869995}
+        - {x: 45, y: -0.8699951}
+        - {x: 24, y: 7.130005}
+    - name: Player Shield Laser Animation_38
+      rect:
+        serializedVersion: 2
+        x: 5968
+        y: 7320
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: 0.13000488}
+        - {x: 28.5, y: 10.130005}
+        - {x: -56.5, y: 10.130005}
+        - {x: -77.5, y: 2.130005}
+        - {x: -77.5, y: -8.869995}
+        - {x: -73.5, y: -12.869995}
+        - {x: -71.5, y: -12.869995}
+        - {x: -74.5, y: -12.869995}
+        - {x: -77.5, y: -13.869995}
+        - {x: -77.5, y: -32.869995}
+        - {x: -75.5, y: -33.869995}
+        - {x: -71.5, y: -33.869995}
+        - {x: -67.5, y: -29.869995}
+        - {x: -58.5, y: -45.869995}
+        - {x: -55.5, y: -51.869995}
+        - {x: -32.5, y: -51.869995}
+        - {x: 1.5, y: -43.869995}
+        - {x: 28.5, y: -30.869995}
+        - {x: 43.5, y: -17.869995}
+    - name: Player Shield Laser Animation_39
+      rect:
+        serializedVersion: 2
+        x: 6714
+        y: 7320
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -41.869995}
+        - {x: 32, y: -32.869995}
+        - {x: 45, y: -17.869995}
+        - {x: 45, y: -2.869995}
+        - {x: 21, y: 11.130005}
+        - {x: -59, y: 11.130005}
+        - {x: -67, y: 10.130005}
+        - {x: -77, y: -6.869995}
+        - {x: -77, y: -32.869995}
+        - {x: -76, y: -34.869995}
+        - {x: -65, y: -30.869995}
+        - {x: -58, y: -46.869995}
+        - {x: -56, y: -51.869995}
+        - {x: -52, y: -51.869995}
+        - {x: -18, y: -45.869995}
+        - {x: -8, y: -30.869995}
+        - {x: -8, y: -28.869995}
+    - name: Player Shield Laser Animation_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6710
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 12.160889}
+        - {x: -71.5, y: 6.1608887}
+        - {x: -78.5, y: -0.8391113}
+        - {x: -78.5, y: -51.83911}
+        - {x: -13.5, y: -51.83911}
+        - {x: 32.5, y: -29.839111}
+        - {x: 43.5, y: -17.839111}
+        - {x: 43.5, y: 3.1608887}
+        - {x: 26.5, y: 12.160889}
+    - name: Player Shield Laser Animation_41
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 6710
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 13.160889}
+        - {x: -37, y: 13.160889}
+        - {x: -64, y: 9.160889}
+        - {x: -77, y: -6.8391113}
+        - {x: -78, y: -20.839111}
+        - {x: -78, y: -27.839111}
+        - {x: -71, y: -32.83911}
+        - {x: -56, y: -49.83911}
+        - {x: -54, y: -51.83911}
+        - {x: -18, y: -51.83911}
+        - {x: 37, y: -39.83911}
+        - {x: 45, y: -19.839111}
+        - {x: 45, y: -2.8391113}
+    - name: Player Shield Laser Animation_42
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 6710
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78.5, y: 14.160889}
+        - {x: -78.5, y: -31.839111}
+        - {x: -70.5, y: -51.83911}
+        - {x: 43.5, y: -51.83911}
+        - {x: 43.5, y: 14.160889}
+    - name: Player Shield Laser Animation_43
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 6710
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78, y: -8.839111}
+        - {x: -78, y: -30.839111}
+        - {x: -71, y: -51.83911}
+        - {x: 9, y: -51.83911}
+        - {x: 44, y: -40.83911}
+        - {x: 44, y: -2.8391113}
+        - {x: 41, y: 5.1608887}
+        - {x: 19, y: 15.160889}
+        - {x: -23, y: 15.160889}
+        - {x: -63, y: 7.1608887}
+    - name: Player Shield Laser Animation_44
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 6710
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 15.160889}
+        - {x: -38.5, y: 15.160889}
+        - {x: -78.5, y: 3.1608887}
+        - {x: -78.5, y: -41.83911}
+        - {x: -71.5, y: -51.83911}
+        - {x: -22.5, y: -51.83911}
+        - {x: 3.5, y: -41.83911}
+        - {x: 39.5, y: -19.839111}
+        - {x: 43.5, y: -12.839111}
+        - {x: 43.5, y: 0.16088867}
+    - name: Player Shield Laser Animation_45
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 6710
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 16.160889}
+        - {x: -66, y: 10.160889}
+        - {x: -78, y: -1.8391113}
+        - {x: -78, y: -50.83911}
+        - {x: 23, y: -50.83911}
+        - {x: 44, y: -23.839111}
+        - {x: 44, y: 13.160889}
+        - {x: 36, y: 16.160889}
+    - name: Player Shield Laser Animation_46
+      rect:
+        serializedVersion: 2
+        x: 4476
+        y: 6710
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: 16.160889}
+        - {x: -50.5, y: 16.160889}
+        - {x: -78.5, y: 6.1608887}
+        - {x: -78.5, y: -22.839111}
+        - {x: -72.5, y: -23.839111}
+        - {x: -67.5, y: -50.83911}
+        - {x: -6.5, y: -50.83911}
+        - {x: 8.5, y: -47.83911}
+        - {x: 35.5, y: -28.839111}
+        - {x: 42.5, y: -12.839111}
+        - {x: 42.5, y: 4.1608887}
+    - name: Player Shield Laser Animation_47
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 6710
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 17.160889}
+        - {x: -35, y: 17.160889}
+        - {x: -78, y: 3.1608887}
+        - {x: -78, y: -30.839111}
+        - {x: -58, y: -50.83911}
+        - {x: 11, y: -50.83911}
+        - {x: 44, y: -11.839111}
+        - {x: 44, y: 8.160889}
+      - - {x: 10, y: -43.83911}
+        - {x: 13, y: -42.83911}
+        - {x: 13, y: -39.83911}
+        - {x: 10, y: -38.83911}
+        - {x: 8, y: -40.83911}
+    - name: Player Shield Laser Animation_48
+      rect:
+        serializedVersion: 2
+        x: 5968
+        y: 6710
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 18.160889}
+        - {x: -61.5, y: 7.1608887}
+        - {x: -78.5, y: -1.8391113}
+        - {x: -78.5, y: -20.839111}
+        - {x: -73.5, y: -21.839111}
+        - {x: -66.5, y: -50.83911}
+        - {x: -0.5, y: -50.83911}
+        - {x: 9.5, y: -48.83911}
+        - {x: 42.5, y: -11.839111}
+        - {x: 42.5, y: 12.160889}
+        - {x: 34.5, y: 18.160889}
+    - name: Player Shield Laser Animation_49
+      rect:
+        serializedVersion: 2
+        x: 6714
+        y: 6710
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: -11.839111}
+        - {x: 44, y: -8.839111}
+        - {x: 44, y: 4.1608887}
+        - {x: 26, y: 18.160889}
+        - {x: -3, y: 18.160889}
+        - {x: -78, y: 7.1608887}
+        - {x: -78, y: -20.839111}
+        - {x: -67, y: -16.839111}
+        - {x: -56, y: -48.83911}
+        - {x: -54, y: -50.83911}
+        - {x: -16, y: -50.83911}
+        - {x: 10, y: -46.83911}
+        - {x: 33, y: -22.839111}
+    - name: Player Shield Laser Animation_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6100
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.5, y: 3.1916504}
+        - {x: 18.5, y: 18.19165}
+        - {x: -27.5, y: 18.19165}
+        - {x: -76.5, y: 6.1916504}
+        - {x: -78.5, y: 0.19165039}
+        - {x: -78.5, y: -23.80835}
+        - {x: -59.5, y: -50.80835}
+        - {x: -26.5, y: -50.80835}
+        - {x: 10.5, y: -47.80835}
+        - {x: 41.5, y: -17.80835}
+        - {x: 42.5, y: -15.80835}
+    - name: Player Shield Laser Animation_51
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 6100
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78, y: 18.19165}
+        - {x: -78, y: -43.80835}
+        - {x: -73, y: -50.80835}
+        - {x: 16, y: -50.80835}
+        - {x: 43, y: -12.80835}
+        - {x: 43, y: 18.19165}
+    - name: Player Shield Laser Animation_52
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 6100
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 18.19165}
+        - {x: -78.5, y: 1.1916504}
+        - {x: -78.5, y: -20.80835}
+        - {x: -69.5, y: -17.80835}
+        - {x: -62.5, y: -50.80835}
+        - {x: 23.5, y: -50.80835}
+        - {x: 42.5, y: -12.80835}
+        - {x: 42.5, y: 6.1916504}
+        - {x: 14.5, y: 18.19165}
+    - name: Player Shield Laser Animation_53
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 6100
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -70, y: 18.19165}
+        - {x: -77, y: -1.8083496}
+        - {x: -78, y: -6.8083496}
+        - {x: -78, y: -20.80835}
+        - {x: -72, y: -21.80835}
+        - {x: -69, y: -16.80835}
+        - {x: -62, y: -48.80835}
+        - {x: -60, y: -50.80835}
+        - {x: -34, y: -50.80835}
+        - {x: 21, y: -39.80835}
+        - {x: 44, y: -11.80835}
+        - {x: 44, y: 16.19165}
+        - {x: 43, y: 18.19165}
+    - name: Player Shield Laser Animation_54
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 6100
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74.5, y: 18.19165}
+        - {x: -78.5, y: 14.19165}
+        - {x: -78.5, y: -35.80835}
+        - {x: -66.5, y: -50.80835}
+        - {x: 11.5, y: -50.80835}
+        - {x: 42.5, y: -27.80835}
+        - {x: 42.5, y: 18.19165}
+    - name: Player Shield Laser Animation_55
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 6100
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 18.19165}
+        - {x: -78, y: 6.1916504}
+        - {x: -78, y: -22.80835}
+        - {x: -73, y: -23.80835}
+        - {x: -69, y: -18.80835}
+        - {x: -58, y: -50.80835}
+        - {x: -29, y: -50.80835}
+        - {x: 28, y: -41.80835}
+        - {x: 44, y: -13.80835}
+        - {x: 44, y: 6.1916504}
+        - {x: 27, y: 18.19165}
+    - name: Player Shield Laser Animation_56
+      rect:
+        serializedVersion: 2
+        x: 4476
+        y: 6100
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 18.19165}
+        - {x: -78.5, y: 6.1916504}
+        - {x: -78.5, y: -23.80835}
+        - {x: -74.5, y: -23.80835}
+        - {x: -73.5, y: -50.80835}
+        - {x: 32.5, y: -50.80835}
+        - {x: 42.5, y: -22.80835}
+        - {x: 42.5, y: 8.19165}
+        - {x: 29.5, y: 18.19165}
+    - name: Player Shield Laser Animation_57
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 6100
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 19.19165}
+        - {x: -78, y: 8.19165}
+        - {x: -78, y: -50.80835}
+        - {x: 20, y: -50.80835}
+        - {x: 44, y: -40.80835}
+        - {x: 44, y: 7.1916504}
+        - {x: 28, y: 19.19165}
+    - name: Player Shield Laser Animation_58
+      rect:
+        serializedVersion: 2
+        x: 5968
+        y: 6100
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78.5, y: 19.19165}
+        - {x: -78.5, y: -50.80835}
+        - {x: 42.5, y: -50.80835}
+        - {x: 42.5, y: 19.19165}
+    - name: Player Shield Laser Animation_59
+      rect:
+        serializedVersion: 2
+        x: 6714
+        y: 6100
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 19.19165}
+        - {x: -10, y: 19.19165}
+        - {x: -66, y: 10.19165}
+        - {x: -78, y: -4.8083496}
+        - {x: -78, y: -26.80835}
+        - {x: -76, y: -29.80835}
+        - {x: -70, y: -26.80835}
+        - {x: -62, y: -50.80835}
+        - {x: -42, y: -50.80835}
+        - {x: -17, y: -47.80835}
+        - {x: 36, y: -35.80835}
+        - {x: 44, y: -17.80835}
+        - {x: 44, y: 5.1916504}
+    - name: Player Shield Laser Animation_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5490
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.5, y: 19.222534}
+        - {x: -74.5, y: 16.222534}
+        - {x: -78.5, y: -2.7774658}
+        - {x: -78.5, y: -32.777466}
+        - {x: -71.5, y: -50.777466}
+        - {x: 9.5, y: -50.777466}
+        - {x: 29.5, y: -45.777466}
+        - {x: 42.5, y: -16.777466}
+        - {x: 42.5, y: 7.222534}
+        - {x: 27.5, y: 19.222534}
+    - name: Player Shield Laser Animation_61
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 5490
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78, y: 19.222534}
+        - {x: -78, y: -29.777466}
+        - {x: -74, y: -50.777466}
+        - {x: 20, y: -50.777466}
+        - {x: 44, y: -25.777466}
+        - {x: 44, y: 8.222534}
+        - {x: 27, y: 19.222534}
+    - name: Player Shield Laser Animation_62
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 5490
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 19.222534}
+        - {x: -42.5, y: -2.7774658}
+        - {x: -44.5, y: -4.777466}
+        - {x: -68.5, y: 7.222534}
+        - {x: -78.5, y: -8.777466}
+        - {x: -78.5, y: -28.777466}
+        - {x: -71.5, y: -29.777466}
+        - {x: -69.5, y: -25.777466}
+        - {x: -62.5, y: -50.777466}
+        - {x: -6.5, y: -50.777466}
+        - {x: 32.5, y: -43.777466}
+        - {x: 42.5, y: -14.777466}
+        - {x: 42.5, y: 5.222534}
+        - {x: 11.5, y: 19.222534}
+    - name: Player Shield Laser Animation_63
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 5490
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 19.222534}
+        - {x: -77, y: 3.2225342}
+        - {x: -77, y: -32.777466}
+        - {x: -67, y: -27.777466}
+        - {x: -57, y: -50.777466}
+        - {x: -43, y: -50.777466}
+        - {x: 30, y: -33.777466}
+        - {x: 44, y: -11.777466}
+        - {x: 44, y: 7.222534}
+        - {x: 35, y: 19.222534}
+    - name: Player Shield Laser Animation_64
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 5490
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 18.222534}
+        - {x: -7.5, y: 18.222534}
+        - {x: -69.5, y: 8.222534}
+        - {x: -78.5, y: -7.777466}
+        - {x: -78.5, y: -40.777466}
+        - {x: -68.5, y: -50.777466}
+        - {x: -25.5, y: -50.777466}
+        - {x: 43.5, y: -29.777466}
+        - {x: 43.5, y: -3.7774658}
+        - {x: 33.5, y: 11.222534}
+    - name: Player Shield Laser Animation_65
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 5490
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 15.222534}
+        - {x: -77, y: 3.2225342}
+        - {x: -77, y: -31.777466}
+        - {x: -70, y: -32.777466}
+        - {x: -66, y: -29.777466}
+        - {x: -60, y: -49.777466}
+        - {x: -37, y: -49.777466}
+        - {x: -32, y: -48.777466}
+        - {x: 44, y: -22.777466}
+        - {x: 44, y: 15.222534}
+    - name: Player Shield Laser Animation_66
+      rect:
+        serializedVersion: 2
+        x: 4476
+        y: 5490
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 16.222534}
+        - {x: -75.5, y: 12.222534}
+        - {x: -77.5, y: 2.2225342}
+        - {x: -77.5, y: -33.777466}
+        - {x: -72.5, y: -32.777466}
+        - {x: -67.5, y: -28.777466}
+        - {x: -60.5, y: -48.777466}
+        - {x: -59.5, y: -49.777466}
+        - {x: -24.5, y: -49.777466}
+        - {x: 32.5, y: -30.777466}
+        - {x: 43.5, y: -12.777466}
+        - {x: 43.5, y: 16.222534}
+    - name: Player Shield Laser Animation_67
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 5490
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76, y: 19.222534}
+        - {x: -76, y: -32.777466}
+        - {x: -70, y: -34.777466}
+        - {x: -63, y: -49.777466}
+        - {x: -28, y: -49.777466}
+        - {x: 35, y: -32.777466}
+        - {x: 44, y: -18.777466}
+        - {x: 44, y: 19.222534}
+    - name: Player Shield Laser Animation_68
+      rect:
+        serializedVersion: 2
+        x: 5968
+        y: 5490
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76.5, y: 16.222534}
+        - {x: -76.5, y: -49.777466}
+        - {x: 45.5, y: -49.777466}
+        - {x: 45.5, y: 22.222534}
+        - {x: -54.5, y: 22.222534}
+        - {x: -73.5, y: 19.222534}
+    - name: Player Shield Laser Animation_69
+      rect:
+        serializedVersion: 2
+        x: 6714
+        y: 5490
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -75, y: -49.777466}
+        - {x: 2, y: -49.777466}
+        - {x: 39, y: -37.777466}
+        - {x: 49, y: 0.22253418}
+        - {x: 49, y: 24.222534}
+        - {x: -38, y: 24.222534}
+        - {x: -75, y: 18.222534}
+    - name: Player Shield Laser Animation_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4880
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -77.5, y: -49.746643}
+        - {x: 18.5, y: -49.746643}
+        - {x: 47.5, y: -19.746643}
+        - {x: 47.5, y: 24.253357}
+        - {x: -10.5, y: 24.253357}
+        - {x: -77.5, y: 11.253357}
+    - name: Player Shield Laser Animation_71
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 4880
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -77, y: -49.746643}
+        - {x: 8, y: -49.746643}
+        - {x: 49, y: -35.746643}
+        - {x: 49, y: 24.253357}
+        - {x: -35, y: 24.253357}
+        - {x: -77, y: 14.253357}
+    - name: Player Shield Laser Animation_72
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 4880
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78.5, y: -46.746643}
+        - {x: -76.5, y: -49.746643}
+        - {x: -15.5, y: -49.746643}
+        - {x: 47.5, y: -26.746643}
+        - {x: 47.5, y: 24.253357}
+        - {x: -34.5, y: 24.253357}
+        - {x: -78.5, y: 16.253357}
+    - name: Player Shield Laser Animation_73
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 4880
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78, y: -49.746643}
+        - {x: 6, y: -49.746643}
+        - {x: 49, y: -19.746643}
+        - {x: 49, y: 24.253357}
+        - {x: -14, y: 24.253357}
+        - {x: -78, y: 11.253357}
+    - name: Player Shield Laser Animation_74
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 4880
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 5.253357}
+        - {x: 27.5, y: 4.253357}
+        - {x: 24.5, y: 0.25335693}
+        - {x: 22.5, y: 0.25335693}
+        - {x: 23.5, y: 0.25335693}
+        - {x: 27.5, y: 4.253357}
+        - {x: 37.5, y: 9.253357}
+        - {x: 48.5, y: 17.253357}
+        - {x: 47.5, y: 21.253357}
+        - {x: 46.5, y: 24.253357}
+        - {x: -43.5, y: 24.253357}
+        - {x: -78.5, y: -3.746643}
+        - {x: -78.5, y: -47.746643}
+        - {x: -74.5, y: -49.746643}
+        - {x: -23.5, y: -49.746643}
+        - {x: 32.5, y: -36.746643}
+        - {x: 50.5, y: -10.746643}
+        - {x: 50.5, y: -0.74664307}
+        - {x: 48.5, y: 4.253357}
+    - name: Player Shield Laser Animation_75
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 4880
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 37.253357}
+        - {x: 17, y: 37.253357}
+        - {x: -78, y: -3.746643}
+        - {x: -78, y: -47.746643}
+        - {x: -74, y: -49.746643}
+        - {x: 65, y: -49.746643}
+        - {x: 69, y: -43.746643}
+        - {x: 69, y: 11.253357}
+    - name: Player Shield Laser Animation_76
+      rect:
+        serializedVersion: 2
+        x: 4476
+        y: 4880
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: 36.253357}
+        - {x: 5.5, y: 36.253357}
+        - {x: -76.5, y: 0.25335693}
+        - {x: -78.5, y: -2.746643}
+        - {x: -78.5, y: -46.746643}
+        - {x: -76.5, y: -49.746643}
+        - {x: 57.5, y: -49.746643}
+        - {x: 63.5, y: -48.746643}
+        - {x: 65.5, y: -45.746643}
+        - {x: 65.5, y: -1.7466431}
+        - {x: 64.5, y: 3.253357}
+    - name: Player Shield Laser Animation_77
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 4880
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 35.253357}
+        - {x: 6, y: 35.253357}
+        - {x: -78, y: -1.7466431}
+        - {x: -78, y: -43.746643}
+        - {x: -71, y: -49.746643}
+        - {x: 65, y: -49.746643}
+        - {x: 65, y: 22.253357}
+        - {x: 59, y: 26.253357}
+    - name: Player Shield Laser Animation_78
+      rect:
+        serializedVersion: 2
+        x: 5968
+        y: 4880
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: 34.253357}
+        - {x: 33.5, y: 34.253357}
+        - {x: 22.5, y: 18.253357}
+        - {x: -75.5, y: 14.253357}
+        - {x: -78.5, y: 4.253357}
+        - {x: -78.5, y: -51.746643}
+        - {x: 60.5, y: -51.746643}
+        - {x: 62.5, y: -42.746643}
+        - {x: 62.5, y: 1.2533569}
+        - {x: 56.5, y: 12.253357}
+    - name: Player Shield Laser Animation_79
+      rect:
+        serializedVersion: 2
+        x: 6714
+        y: 4880
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 33.253357}
+        - {x: -78, y: 3.253357}
+        - {x: -78, y: -39.746643}
+        - {x: -61, y: -54.746643}
+        - {x: 60, y: -54.746643}
+        - {x: 63, y: -47.746643}
+        - {x: 63, y: 8.253357}
+        - {x: 51, y: 33.253357}
+    - name: Player Shield Laser Animation_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4270
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78.5, y: 0.2841797}
+        - {x: -78.5, y: -55.71582}
+        - {x: -72.5, y: -57.71582}
+        - {x: 61.5, y: -57.71582}
+        - {x: 61.5, y: 5.2841797}
+        - {x: 50.5, y: 31.28418}
+        - {x: 9.5, y: 31.28418}
+        - {x: -71.5, y: 3.2841797}
+    - name: Player Shield Laser Animation_81
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 4270
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 28.28418}
+        - {x: 5, y: 28.28418}
+        - {x: -18, y: 24.28418}
+        - {x: -78, y: 4.2841797}
+        - {x: -78, y: -45.71582}
+        - {x: -73, y: -54.71582}
+        - {x: -31, y: -56.71582}
+        - {x: -12, y: -59.71582}
+        - {x: 51, y: -59.71582}
+        - {x: 62, y: -37.71582}
+        - {x: 62, y: 11.28418}
+        - {x: 61, y: 17.28418}
+      - - {x: 15, y: -36.71582}
+        - {x: 18, y: -35.71582}
+        - {x: 18, y: -32.71582}
+        - {x: 15, y: -31.71582}
+        - {x: 13, y: -33.71582}
+    - name: Player Shield Laser Animation_82
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 4270
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78.5, y: -38.71582}
+        - {x: -67.5, y: -59.71582}
+        - {x: 57.5, y: -59.71582}
+        - {x: 57.5, y: 30.28418}
+        - {x: -12.5, y: 30.28418}
+        - {x: -78.5, y: 17.28418}
+    - name: Player Shield Laser Animation_83
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 4270
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78, y: -59.71582}
+        - {x: 55, y: -59.71582}
+        - {x: 59, y: -39.71582}
+        - {x: 59, y: 19.28418}
+        - {x: 54, y: 30.28418}
+        - {x: 30, y: 30.28418}
+        - {x: -73, y: 8.28418}
+        - {x: -78, y: 1.2841797}
+    - name: Player Shield Laser Animation_84
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 4270
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 30.28418}
+        - {x: -78.5, y: 0.2841797}
+        - {x: -78.5, y: -49.71582}
+        - {x: -64.5, y: -59.71582}
+        - {x: 58.5, y: -59.71582}
+        - {x: 58.5, y: 30.28418}
+    - name: Player Shield Laser Animation_85
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 4270
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 30.28418}
+        - {x: -78, y: 3.2841797}
+        - {x: -78, y: -29.71582}
+        - {x: -76, y: -33.71582}
+        - {x: -48, y: -27.71582}
+        - {x: -43, y: -28.71582}
+        - {x: -42, y: -28.71582}
+        - {x: -44, y: -28.71582}
+        - {x: -51, y: -30.71582}
+        - {x: -78, y: -48.71582}
+        - {x: -78, y: -59.71582}
+        - {x: 61, y: -59.71582}
+        - {x: 61, y: 27.28418}
+        - {x: 59, y: 30.28418}
+    - name: Player Shield Laser Animation_86
+      rect:
+        serializedVersion: 2
+        x: 4476
+        y: 4270
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 6.2841797}
+        - {x: 56.5, y: 29.28418}
+        - {x: 56.5, y: 30.28418}
+        - {x: 16.5, y: 30.28418}
+        - {x: -78.5, y: 3.2841797}
+        - {x: -78.5, y: -33.71582}
+        - {x: -60.5, y: -48.71582}
+        - {x: -51.5, y: -51.71582}
+        - {x: -17.5, y: -48.71582}
+        - {x: 40.5, y: -59.71582}
+        - {x: 50.5, y: -59.71582}
+        - {x: 59.5, y: -33.71582}
+        - {x: 60.5, y: -14.71582}
+    - name: Player Shield Laser Animation_87
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 4270
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78, y: -26.71582}
+        - {x: -58, y: -49.71582}
+        - {x: -48, y: -48.71582}
+        - {x: -8, y: -58.71582}
+        - {x: 62, y: -58.71582}
+        - {x: 62, y: 30.28418}
+        - {x: 16, y: 30.28418}
+        - {x: -78, y: 15.28418}
+    - name: Player Shield Laser Animation_88
+      rect:
+        serializedVersion: 2
+        x: 5968
+        y: 4270
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.5, y: 31.28418}
+        - {x: -63.5, y: 31.28418}
+        - {x: -78.5, y: 30.28418}
+        - {x: -78.5, y: -58.71582}
+        - {x: 49.5, y: -58.71582}
+        - {x: 52.5, y: -56.71582}
+        - {x: 61.5, y: -38.71582}
+        - {x: 61.5, y: 29.28418}
+    - name: Player Shield Laser Animation_89
+      rect:
+        serializedVersion: 2
+        x: 6714
+        y: 4270
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78, y: -7.7158203}
+        - {x: -78, y: -26.71582}
+        - {x: -69, y: -52.71582}
+        - {x: -15, y: -57.71582}
+        - {x: 62, y: -57.71582}
+        - {x: 62, y: 32.28418}
+        - {x: 26, y: 32.28418}
+        - {x: -73, y: 12.28418}
+    - name: Player Shield Laser Animation_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3660
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78.5, y: -37.684998}
+        - {x: -73.5, y: -55.684998}
+        - {x: 59.5, y: -55.684998}
+        - {x: 61.5, y: -48.684998}
+        - {x: 61.5, y: 34.315002}
+        - {x: -2.5, y: 34.315002}
+        - {x: -78.5, y: 23.315002}
+    - name: Player Shield Laser Animation_91
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 3660
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78, y: -18.684998}
+        - {x: -78, y: -30.684998}
+        - {x: -54, y: -54.684998}
+        - {x: 63, y: -54.684998}
+        - {x: 63, y: 32.315002}
+        - {x: 59, y: 35.315002}
+        - {x: 33, y: 35.315002}
+        - {x: -61, y: 12.315002}
+        - {x: -77, y: 2.3150024}
+    - name: Player Shield Laser Animation_92
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 3660
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: 36.315002}
+        - {x: -66.5, y: 12.315002}
+        - {x: -75.5, y: 0.31500244}
+        - {x: -78.5, y: -17.684998}
+        - {x: -78.5, y: -32.684998}
+        - {x: -58.5, y: -51.684998}
+        - {x: -33.5, y: -47.684998}
+        - {x: -19.5, y: -44.684998}
+        - {x: -8.5, y: -32.684998}
+        - {x: 49.5, y: -53.684998}
+        - {x: 55.5, y: -53.684998}
+        - {x: 59.5, y: -52.684998}
+        - {x: 62.5, y: -43.684998}
+        - {x: 62.5, y: 1.3150024}
+        - {x: 56.5, y: 36.315002}
+    - name: Player Shield Laser Animation_93
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 3660
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 38.315002}
+        - {x: -65, y: 15.315002}
+        - {x: -76, y: -3.6849976}
+        - {x: -71, y: -5.6849976}
+        - {x: -66, y: -4.6849976}
+        - {x: -75, y: -8.684998}
+        - {x: -77, y: -23.684998}
+        - {x: -72, y: -26.684998}
+        - {x: -67, y: -24.684998}
+        - {x: -61, y: -47.684998}
+        - {x: -58, y: -49.684998}
+        - {x: -47, y: -47.684998}
+        - {x: -11, y: -51.684998}
+        - {x: 64, y: -51.684998}
+        - {x: 64, y: -1.6849976}
+        - {x: 61, y: 6.3150024}
+        - {x: 55, y: 24.315002}
+        - {x: 51, y: 38.315002}
+    - name: Player Shield Laser Animation_94
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 3660
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 38.315002}
+        - {x: -77.5, y: 19.315002}
+        - {x: -77.5, y: -50.684998}
+        - {x: 62.5, y: -50.684998}
+        - {x: 62.5, y: 18.315002}
+        - {x: 51.5, y: 38.315002}
+    - name: Player Shield Laser Animation_95
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 3660
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47, y: 36.315002}
+        - {x: 45, y: 35.315002}
+        - {x: -64, y: 12.315002}
+        - {x: -73, y: 0.31500244}
+        - {x: -73, y: -2.6849976}
+        - {x: -70, y: -5.6849976}
+        - {x: -69, y: -5.6849976}
+        - {x: -66, y: -4.6849976}
+        - {x: -64, y: -5.6849976}
+        - {x: -69, y: -5.6849976}
+        - {x: -72, y: -7.6849976}
+        - {x: -74, y: -12.684998}
+        - {x: -75, y: -15.684998}
+        - {x: -77, y: -22.684998}
+        - {x: -77, y: -23.684998}
+        - {x: -72, y: -28.684998}
+        - {x: -60, y: -53.684998}
+        - {x: 63, y: -53.684998}
+        - {x: 63, y: 13.315002}
+        - {x: 52, y: 36.315002}
+    - name: Player Shield Laser Animation_96
+      rect:
+        serializedVersion: 2
+        x: 4476
+        y: 3660
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 35.315002}
+        - {x: -64.5, y: 13.315002}
+        - {x: -76.5, y: 0.31500244}
+        - {x: -77.5, y: -8.684998}
+        - {x: -77.5, y: -34.684998}
+        - {x: -60.5, y: -52.684998}
+        - {x: -43.5, y: -54.684998}
+        - {x: 61.5, y: -54.684998}
+        - {x: 61.5, y: 20.315002}
+        - {x: 55.5, y: 35.315002}
+    - name: Player Shield Laser Animation_97
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 3660
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -77, y: -52.684998}
+        - {x: -76, y: -56.684998}
+        - {x: 55, y: -56.684998}
+        - {x: 63, y: -45.684998}
+        - {x: 63, y: 25.315002}
+        - {x: 62, y: 33.315002}
+        - {x: 38, y: 33.315002}
+        - {x: -77, y: 12.315002}
+    - name: Player Shield Laser Animation_98
+      rect:
+        serializedVersion: 2
+        x: 5968
+        y: 3660
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56.5, y: 31.315002}
+        - {x: 43.5, y: 31.315002}
+        - {x: -77.5, y: 9.315002}
+        - {x: -77.5, y: -37.684998}
+        - {x: -68.5, y: -51.684998}
+        - {x: -5.5, y: -58.684998}
+        - {x: 55.5, y: -58.684998}
+        - {x: 61.5, y: -39.684998}
+        - {x: 61.5, y: 17.315002}
+        - {x: 60.5, y: 22.315002}
+    - name: Player Shield Laser Animation_99
+      rect:
+        serializedVersion: 2
+        x: 6714
+        y: 3660
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 29.315002}
+        - {x: -67, y: 8.315002}
+        - {x: -76, y: -3.6849976}
+        - {x: -76, y: -59.684998}
+        - {x: 63, y: -59.684998}
+        - {x: 63, y: 29.315002}
+      - - {x: 15, y: -37.684998}
+        - {x: 18, y: -36.684998}
+        - {x: 18, y: -33.684998}
+        - {x: 15, y: -32.684998}
+        - {x: 13, y: -34.684998}
+    - name: Player Shield Laser Animation_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3050
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.5, y: 26.345825}
+        - {x: 59.5, y: 27.345825}
+        - {x: 47.5, y: 27.345825}
+        - {x: -69.5, y: 8.345825}
+        - {x: -77.5, y: -4.654175}
+        - {x: -77.5, y: -44.654175}
+        - {x: -70.5, y: -61.654175}
+        - {x: 47.5, y: -61.654175}
+        - {x: 54.5, y: -45.654175}
+        - {x: 59.5, y: -34.654175}
+        - {x: 62.5, y: -13.654175}
+    - name: Player Shield Laser Animation_101
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 3050
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76, y: -0.6541748}
+        - {x: -76, y: -58.654175}
+        - {x: 52, y: -58.654175}
+        - {x: 61, y: -49.654175}
+        - {x: 62, y: -40.654175}
+        - {x: 62, y: 31.345825}
+        - {x: 20, y: 31.345825}
+        - {x: -70, y: 7.345825}
+    - name: Player Shield Laser Animation_102
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 3050
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 35.345825}
+        - {x: -70.5, y: 6.345825}
+        - {x: -77.5, y: -8.654175}
+        - {x: -77.5, y: -53.654175}
+        - {x: 61.5, y: -53.654175}
+        - {x: 61.5, y: 12.345825}
+        - {x: 54.5, y: 35.345825}
+    - name: Player Shield Laser Animation_103
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 3050
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 38.345825}
+        - {x: -77, y: 6.345825}
+        - {x: -77, y: -48.654175}
+        - {x: 64, y: -48.654175}
+        - {x: 64, y: 20.345825}
+        - {x: 61, y: 38.345825}
+    - name: Player Shield Laser Animation_104
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 3050
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: -44.654175}
+        - {x: 65.5, y: -42.654175}
+        - {x: 65.5, y: -7.654175}
+        - {x: 38.5, y: 40.345825}
+        - {x: 11.5, y: 40.345825}
+        - {x: -78.5, y: 4.345825}
+        - {x: -78.5, y: -22.654175}
+        - {x: -69.5, y: -18.654175}
+        - {x: -62.5, y: -42.654175}
+        - {x: -59.5, y: -48.654175}
+        - {x: -55.5, y: -48.654175}
+        - {x: -49.5, y: -46.654175}
+        - {x: -41.5, y: -40.654175}
+        - {x: -32.5, y: -48.654175}
+        - {x: 6.5, y: -48.654175}
+    - name: Player Shield Laser Animation_105
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 3050
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 8.345825}
+        - {x: 43, y: 41.345825}
+        - {x: -17, y: 41.345825}
+        - {x: -37, y: 32.345825}
+        - {x: -77, y: 4.345825}
+        - {x: -77, y: -35.654175}
+        - {x: -65, y: -47.654175}
+        - {x: 31, y: -47.654175}
+        - {x: 66, y: -39.654175}
+        - {x: 68, y: -39.654175}
+        - {x: 68, y: -17.654175}
+    - name: Player Shield Laser Animation_106
+      rect:
+        serializedVersion: 2
+        x: 4476
+        y: 3050
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 41.345825}
+        - {x: -7.5, y: 41.345825}
+        - {x: -58.5, y: 11.345825}
+        - {x: -78.5, y: -1.6541748}
+        - {x: -78.5, y: -40.654175}
+        - {x: -65.5, y: -47.654175}
+        - {x: 35.5, y: -47.654175}
+        - {x: 69.5, y: -37.654175}
+        - {x: 69.5, y: -14.654175}
+        - {x: 44.5, y: 34.345825}
+    - name: Player Shield Laser Animation_107
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 3050
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -77, y: 39.345825}
+        - {x: -77, y: -47.654175}
+        - {x: 37, y: -47.654175}
+        - {x: 71, y: -42.654175}
+        - {x: 71, y: 19.345825}
+        - {x: 67, y: 39.345825}
+    - name: Player Shield Laser Animation_108
+      rect:
+        serializedVersion: 2
+        x: 5968
+        y: 3050
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78.5, y: -3.6541748}
+        - {x: -78.5, y: -28.654175}
+        - {x: -72.5, y: -28.654175}
+        - {x: -48.5, y: -27.654175}
+        - {x: -43.5, y: -27.654175}
+        - {x: -45.5, y: -27.654175}
+        - {x: -54.5, y: -33.654175}
+        - {x: -62.5, y: -42.654175}
+        - {x: -62.5, y: -47.654175}
+        - {x: 1.5, y: -47.654175}
+        - {x: 71.5, y: -34.654175}
+        - {x: 71.5, y: 10.345825}
+        - {x: 70.5, y: 18.345825}
+        - {x: 20.5, y: 37.345825}
+        - {x: -21.5, y: 37.345825}
+        - {x: -74.5, y: 14.345825}
+    - name: Player Shield Laser Animation_109
+      rect:
+        serializedVersion: 2
+        x: 6714
+        y: 3050
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 34.345825}
+        - {x: -77, y: 10.345825}
+        - {x: -77, y: -27.654175}
+        - {x: -76, y: -30.654175}
+        - {x: -72, y: -28.654175}
+        - {x: -69, y: -47.654175}
+        - {x: -8, y: -47.654175}
+        - {x: 73, y: -27.654175}
+        - {x: 73, y: 0.3458252}
+        - {x: 55, y: 22.345825}
+        - {x: 24, y: 34.345825}
+    - name: Player Shield Laser Animation_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2440
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54.5, y: 21.376678}
+        - {x: 40.5, y: 31.376678}
+        - {x: -12.5, y: 31.376678}
+        - {x: -19.5, y: 29.376678}
+        - {x: -78.5, y: 10.376678}
+        - {x: -78.5, y: -4.6233215}
+        - {x: -71.5, y: -7.6233215}
+        - {x: -66.5, y: -7.6233215}
+        - {x: -74.5, y: -7.6233215}
+        - {x: -78.5, y: -16.623322}
+        - {x: -78.5, y: -42.62332}
+        - {x: -70.5, y: -47.62332}
+        - {x: -3.5, y: -47.62332}
+        - {x: 31.5, y: -37.62332}
+        - {x: 72.5, y: -13.623322}
+        - {x: 72.5, y: -3.6233215}
+    - name: Player Shield Laser Animation_111
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 2440
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74, y: 30.376678}
+        - {x: -77, y: 24.376678}
+        - {x: -77, y: -42.62332}
+        - {x: -59, y: -47.62332}
+        - {x: 7, y: -47.62332}
+        - {x: 73, y: -8.623322}
+        - {x: 73, y: 5.3766785}
+        - {x: 60, y: 30.376678}
+    - name: Player Shield Laser Animation_112
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 2440
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: 29.376678}
+        - {x: 6.5, y: 29.376678}
+        - {x: -4.5, y: 27.376678}
+        - {x: -16.5, y: 21.376678}
+        - {x: -16.5, y: 18.376678}
+        - {x: -59.5, y: 13.376678}
+        - {x: -73.5, y: 1.3766785}
+        - {x: -69.5, y: -5.6233215}
+        - {x: -64.5, y: -4.6233215}
+        - {x: -74.5, y: -11.623322}
+        - {x: -77.5, y: -17.623322}
+        - {x: -77.5, y: -34.62332}
+        - {x: -68.5, y: -43.62332}
+        - {x: -60.5, y: -47.62332}
+        - {x: -3.5, y: -47.62332}
+        - {x: 70.5, y: -4.6233215}
+        - {x: 70.5, y: 8.376678}
+        - {x: 49.5, y: 28.376678}
+    - name: Player Shield Laser Animation_113
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 2440
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -77, y: 31.376678}
+        - {x: -77, y: -38.62332}
+        - {x: -76, y: -47.62332}
+        - {x: 8, y: -47.62332}
+        - {x: 70, y: -3.6233215}
+        - {x: 70, y: 17.376678}
+        - {x: 54, y: 31.376678}
+    - name: Player Shield Laser Animation_114
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 2440
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.5, y: 9.376678}
+        - {x: 47.5, y: 36.37668}
+        - {x: -78.5, y: 36.37668}
+        - {x: -78.5, y: -26.623322}
+        - {x: -75.5, y: -28.623322}
+        - {x: -72.5, y: -28.623322}
+        - {x: -69.5, y: -25.623322}
+        - {x: -61.5, y: -45.62332}
+        - {x: -59.5, y: -47.62332}
+        - {x: -50.5, y: -46.62332}
+        - {x: -39.5, y: -47.62332}
+        - {x: -25.5, y: -47.62332}
+        - {x: -14.5, y: -46.62332}
+        - {x: 64.5, y: -9.623322}
+    - name: Player Shield Laser Animation_115
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 2440
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76, y: 43.37668}
+        - {x: -77, y: 42.37668}
+        - {x: -77, y: -30.623322}
+        - {x: -61, y: -47.62332}
+        - {x: -15, y: -47.62332}
+        - {x: 60, y: -13.623322}
+        - {x: 60, y: 6.3766785}
+        - {x: 43, y: 43.37668}
+    - name: Player Shield Laser Animation_116
+      rect:
+        serializedVersion: 2
+        x: 4476
+        y: 2440
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 51.37668}
+        - {x: -19.5, y: 51.37668}
+        - {x: -71.5, y: 1.3766785}
+        - {x: -78.5, y: -6.6233215}
+        - {x: -78.5, y: -34.62332}
+        - {x: -71.5, y: -47.62332}
+        - {x: -15.5, y: -47.62332}
+        - {x: 52.5, y: -14.623322}
+        - {x: 52.5, y: 7.3766785}
+        - {x: 18.5, y: 45.37668}
+    - name: Player Shield Laser Animation_117
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 2440
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 57.37668}
+        - {x: -39, y: 57.37668}
+        - {x: -77, y: 30.376678}
+        - {x: -77, y: -36.62332}
+        - {x: -70, y: -33.62332}
+        - {x: -66, y: -28.623322}
+        - {x: -62, y: -47.62332}
+        - {x: -21, y: -47.62332}
+        - {x: 45, y: -21.623322}
+        - {x: 45, y: 11.376678}
+        - {x: 34, y: 45.37668}
+    - name: Player Shield Laser Animation_118
+      rect:
+        serializedVersion: 2
+        x: 5968
+        y: 2440
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: 10.376678}
+        - {x: 22.5, y: 45.37668}
+        - {x: 6.5, y: 62.37668}
+        - {x: -3.5, y: 62.37668}
+        - {x: -15.5, y: 44.37668}
+        - {x: -69.5, y: 8.376678}
+        - {x: -77.5, y: -7.6233215}
+        - {x: -77.5, y: -13.623322}
+        - {x: -74.5, y: -14.623322}
+        - {x: -70.5, y: -14.623322}
+        - {x: -77.5, y: -18.623322}
+        - {x: -77.5, y: -21.623322}
+        - {x: -74.5, y: -40.62332}
+        - {x: -62.5, y: -47.62332}
+        - {x: 1.5, y: -47.62332}
+        - {x: 33.5, y: -36.62332}
+        - {x: 43.5, y: -18.623322}
+    - name: Player Shield Laser Animation_119
+      rect:
+        serializedVersion: 2
+        x: 6714
+        y: 2440
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 49.37668}
+        - {x: -18, y: 41.37668}
+        - {x: -75, y: 2.3766785}
+        - {x: -75, y: -45.62332}
+        - {x: -67, y: -42.62332}
+        - {x: -63, y: -38.62332}
+        - {x: -63, y: -36.62332}
+        - {x: -63, y: -47.62332}
+        - {x: -5, y: -47.62332}
+        - {x: 58, y: -20.623322}
+        - {x: 59, y: 1.3766785}
+        - {x: 59, y: 49.37668}
+    - name: Player Shield Laser Animation_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1830
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 45.4075}
+        - {x: -75.5, y: 16.407501}
+        - {x: -76.5, y: 13.407501}
+        - {x: -76.5, y: -39.5925}
+        - {x: -69.5, y: -40.5925}
+        - {x: -65.5, y: -35.5925}
+        - {x: -65.5, y: -33.5925}
+        - {x: -62.5, y: -46.5925}
+        - {x: -61.5, y: -47.5925}
+        - {x: -22.5, y: -47.5925}
+        - {x: 42.5, y: -21.592499}
+        - {x: 55.5, y: 21.407501}
+        - {x: 55.5, y: 45.4075}
+    - name: Player Shield Laser Animation_121
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1830
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76, y: -13.592499}
+        - {x: -73, y: -14.592499}
+        - {x: -71, y: -14.592499}
+        - {x: -75, y: -18.592499}
+        - {x: -75, y: -33.5925}
+        - {x: -72, y: -36.5925}
+        - {x: -71, y: -46.5925}
+        - {x: 30, y: -46.5925}
+        - {x: 44, y: -45.5925}
+        - {x: 54, y: -14.592499}
+        - {x: 54, y: 42.4075}
+        - {x: -2, y: 42.4075}
+        - {x: -76, y: 17.407501}
+    - name: Player Shield Laser Animation_122
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1830
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 39.4075}
+        - {x: -77.5, y: 17.407501}
+        - {x: -77.5, y: -31.592499}
+        - {x: -70.5, y: -33.5925}
+        - {x: -75.5, y: -46.5925}
+        - {x: 31.5, y: -46.5925}
+        - {x: 51.5, y: -19.592499}
+        - {x: 51.5, y: 39.4075}
+    - name: Player Shield Laser Animation_123
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 1830
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 36.4075}
+        - {x: -14, y: 34.4075}
+        - {x: -76, y: 0.40750122}
+        - {x: -76, y: -34.5925}
+        - {x: -70, y: -46.5925}
+        - {x: 16, y: -46.5925}
+        - {x: 42, y: -42.5925}
+        - {x: 50, y: -7.592499}
+        - {x: 50, y: 36.4075}
+    - name: Player Shield Laser Animation_124
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 1830
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -77.5, y: 4.407501}
+        - {x: -77.5, y: -34.5925}
+        - {x: -66.5, y: -46.5925}
+        - {x: -9.5, y: -46.5925}
+        - {x: 46.5, y: -16.592499}
+        - {x: 46.5, y: 33.4075}
+        - {x: 0.5, y: 33.4075}
+        - {x: -70.5, y: 19.407501}
+    - name: Player Shield Laser Animation_125
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 1830
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 29.407501}
+        - {x: -68, y: 4.407501}
+        - {x: -77, y: -7.592499}
+        - {x: -77, y: -30.592499}
+        - {x: -72, y: -46.5925}
+        - {x: -6, y: -46.5925}
+        - {x: 46, y: -32.5925}
+        - {x: 46, y: 29.407501}
+    - name: Player Shield Laser Animation_126
+      rect:
+        serializedVersion: 2
+        x: 4476
+        y: 1830
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 26.407501}
+        - {x: -76.5, y: 11.407501}
+        - {x: -77.5, y: 6.407501}
+        - {x: -77.5, y: -25.592499}
+        - {x: -64.5, y: -46.5925}
+        - {x: -7.5, y: -46.5925}
+        - {x: 45.5, y: -17.592499}
+        - {x: 45.5, y: 26.407501}
+    - name: Player Shield Laser Animation_127
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 1830
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 22.407501}
+        - {x: 20, y: 22.407501}
+        - {x: -77, y: 2.4075012}
+        - {x: -77, y: -34.5925}
+        - {x: -63, y: -46.5925}
+        - {x: -17, y: -46.5925}
+        - {x: 34, y: -27.592499}
+        - {x: 48, y: -11.592499}
+    - name: Player Shield Laser Animation_128
+      rect:
+        serializedVersion: 2
+        x: 5968
+        y: 1830
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 18.407501}
+        - {x: -74.5, y: 9.407501}
+        - {x: -78.5, y: -2.5924988}
+        - {x: -78.5, y: -42.5925}
+        - {x: -77.5, y: -46.5925}
+        - {x: -6.5, y: -46.5925}
+        - {x: 47.5, y: -18.592499}
+        - {x: 47.5, y: 18.407501}
+    - name: Player Shield Laser Animation_129
+      rect:
+        serializedVersion: 2
+        x: 6714
+        y: 1830
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51, y: 16.407501}
+        - {x: -77, y: 6.407501}
+        - {x: -77, y: -20.592499}
+        - {x: -74, y: -23.592499}
+        - {x: -72, y: -23.592499}
+        - {x: -64, y: -45.5925}
+        - {x: -64, y: -46.5925}
+        - {x: -26, y: -46.5925}
+        - {x: 37, y: -34.5925}
+        - {x: 49, y: -18.592499}
+        - {x: 49, y: 16.407501}
+    - name: Player Shield Laser Animation_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1220
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.5, y: 18.43834}
+        - {x: -78.5, y: 0.43833923}
+        - {x: -78.5, y: -43.56166}
+        - {x: -76.5, y: -46.56166}
+        - {x: 5.5, y: -46.56166}
+        - {x: 48.5, y: -18.56166}
+        - {x: 48.5, y: 18.43834}
+    - name: Player Shield Laser Animation_131
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1220
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: 18.43834}
+        - {x: -77, y: 17.43834}
+        - {x: -77, y: 12.438339}
+        - {x: -68, y: -4.561661}
+        - {x: -63, y: -4.561661}
+        - {x: -66, y: -5.561661}
+        - {x: -70, y: -4.561661}
+        - {x: -77, y: -5.561661}
+        - {x: -77, y: -46.56166}
+        - {x: 19, y: -46.56166}
+        - {x: 50, y: -22.56166}
+        - {x: 50, y: 15.438339}
+        - {x: 46, y: 18.43834}
+    - name: Player Shield Laser Animation_132
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1220
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: 18.43834}
+        - {x: -39.5, y: 18.43834}
+        - {x: -77.5, y: 6.438339}
+        - {x: -77.5, y: -44.56166}
+        - {x: -72.5, y: -46.56166}
+        - {x: 1.5, y: -46.56166}
+        - {x: 41.5, y: -20.56166}
+        - {x: 49.5, y: -8.561661}
+        - {x: 49.5, y: 14.438339}
+    - name: Player Shield Laser Animation_133
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 1220
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 15.438339}
+        - {x: -59, y: 11.438339}
+        - {x: -75, y: 0.43833923}
+        - {x: -77, y: -4.561661}
+        - {x: -77, y: -41.56166}
+        - {x: -75, y: -46.56166}
+        - {x: 29, y: -46.56166}
+        - {x: 52, y: -9.561661}
+        - {x: 52, y: 14.438339}
+        - {x: 50, y: 15.438339}
+    - name: Player Shield Laser Animation_134
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 1220
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 13.438339}
+        - {x: -62.5, y: 11.438339}
+        - {x: -77.5, y: -6.561661}
+        - {x: -77.5, y: -27.56166}
+        - {x: -71.5, y: -46.56166}
+        - {x: 1.5, y: -46.56166}
+        - {x: 38.5, y: -40.56166}
+        - {x: 50.5, y: -19.56166}
+        - {x: 50.5, y: 8.438339}
+        - {x: 45.5, y: 13.438339}
+    - name: Player Shield Laser Animation_135
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 1220
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66, y: 10.438339}
+        - {x: -76, y: -2.5616608}
+        - {x: -76, y: -17.56166}
+        - {x: -71, y: -46.56166}
+        - {x: 5, y: -46.56166}
+        - {x: 16, y: -44.56166}
+        - {x: 47, y: -15.561661}
+        - {x: 52, y: -2.5616608}
+        - {x: 52, y: 10.438339}
+    - name: Player Shield Laser Animation_136
+      rect:
+        serializedVersion: 2
+        x: 4476
+        y: 1220
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 13.438339}
+        - {x: -76.5, y: -2.5616608}
+        - {x: -76.5, y: -43.56166}
+        - {x: -74.5, y: -46.56166}
+        - {x: -10.5, y: -46.56166}
+        - {x: 49.5, y: -31.56166}
+        - {x: 51.5, y: -18.56166}
+        - {x: 51.5, y: 11.438339}
+        - {x: 18.5, y: 13.438339}
+    - name: Player Shield Laser Animation_137
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 1220
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -70, y: 15.438339}
+        - {x: -76, y: 9.438339}
+        - {x: -76, y: -46.56166}
+        - {x: -17, y: -46.56166}
+        - {x: 46, y: -22.56166}
+        - {x: 53, y: -10.561661}
+        - {x: 53, y: 15.438339}
+    - name: Player Shield Laser Animation_138
+      rect:
+        serializedVersion: 2
+        x: 5968
+        y: 1220
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: 16.43834}
+        - {x: -77.5, y: 4.438339}
+        - {x: -77.5, y: -34.56166}
+        - {x: -69.5, y: -46.56166}
+        - {x: -5.5, y: -46.56166}
+        - {x: 34.5, y: -40.56166}
+        - {x: 52.5, y: -12.561661}
+        - {x: 52.5, y: 15.438339}
+        - {x: 51.5, y: 16.43834}
+    - name: Player Shield Laser Animation_139
+      rect:
+        serializedVersion: 2
+        x: 6714
+        y: 1220
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 17.43834}
+        - {x: 12, y: 17.43834}
+        - {x: 10, y: 15.438339}
+        - {x: 10, y: 9.438339}
+        - {x: 13, y: 4.438339}
+        - {x: 11, y: 6.438339}
+        - {x: -2, y: 7.438339}
+        - {x: -58, y: 14.438339}
+        - {x: -73, y: 0.43833923}
+        - {x: -77, y: -12.561661}
+        - {x: -77, y: -37.56166}
+        - {x: -64, y: -46.56166}
+        - {x: 14, y: -46.56166}
+        - {x: 54, y: -15.561661}
+        - {x: 54, y: 14.438339}
+        - {x: 52, y: 14.438339}
+    - name: Player Shield Laser Animation_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 610
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 18.46917}
+        - {x: 13.5, y: 18.46917}
+        - {x: 10.5, y: 14.46917}
+        - {x: 9.5, y: 10.46917}
+        - {x: -2.5, y: 7.4691696}
+        - {x: -12.5, y: 1.4691696}
+        - {x: -53.5, y: 15.46917}
+        - {x: -71.5, y: 5.4691696}
+        - {x: -71.5, y: 0.46916962}
+        - {x: -68.5, y: -2.5308304}
+        - {x: -63.5, y: -2.5308304}
+        - {x: -76.5, y: -8.53083}
+        - {x: -78.5, y: -22.53083}
+        - {x: -78.5, y: -31.53083}
+        - {x: -64.5, y: -46.53083}
+        - {x: -10.5, y: -46.53083}
+        - {x: 30.5, y: -35.53083}
+        - {x: 52.5, y: 1.4691696}
+        - {x: 52.5, y: 11.46917}
+    - name: Player Shield Laser Animation_141
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 610
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: 18.46917}
+        - {x: -77, y: 13.46917}
+        - {x: -77, y: -44.53083}
+        - {x: -75, y: -46.53083}
+        - {x: 31, y: -46.53083}
+        - {x: 54, y: 0.46916962}
+        - {x: 54, y: 12.46917}
+        - {x: 49, y: 18.46917}
+    - name: Player Shield Laser Animation_142
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 610
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -77.5, y: -38.53083}
+        - {x: -66.5, y: -46.53083}
+        - {x: 12.5, y: -46.53083}
+        - {x: 52.5, y: -25.53083}
+        - {x: 52.5, y: 19.46917}
+        - {x: -45.5, y: 19.46917}
+        - {x: -77.5, y: 16.46917}
+    - name: Player Shield Laser Animation_143
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 610
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73, y: 19.46917}
+        - {x: -67, y: 5.4691696}
+        - {x: -62, y: 3.4691696}
+        - {x: -75, y: -17.53083}
+        - {x: -76, y: -23.53083}
+        - {x: -76, y: -34.53083}
+        - {x: -75, y: -36.53083}
+        - {x: -68, y: -38.53083}
+        - {x: -65, y: -46.53083}
+        - {x: 37, y: -46.53083}
+        - {x: 44, y: -43.53083}
+        - {x: 54, y: -15.53083}
+        - {x: 54, y: 19.46917}
+    - name: Player Shield Laser Animation_144
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 610
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -70.5, y: 19.46917}
+        - {x: -76.5, y: -19.53083}
+        - {x: -76.5, y: -36.53083}
+        - {x: -73.5, y: -37.53083}
+        - {x: -65.5, y: -34.53083}
+        - {x: -50.5, y: -29.53083}
+        - {x: -48.5, y: -27.53083}
+        - {x: -51.5, y: -30.53083}
+        - {x: -55.5, y: -32.53083}
+        - {x: -60.5, y: -37.53083}
+        - {x: -62.5, y: -43.53083}
+        - {x: -59.5, y: -46.53083}
+        - {x: 31.5, y: -46.53083}
+        - {x: 52.5, y: -31.53083}
+        - {x: 52.5, y: 19.46917}
+    - name: Player Shield Laser Animation_145
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 610
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 19.46917}
+        - {x: -74, y: 1.4691696}
+        - {x: -76, y: -8.53083}
+        - {x: -76, y: -46.53083}
+        - {x: 37, y: -46.53083}
+        - {x: 38, y: -37.53083}
+        - {x: 53, y: -19.53083}
+        - {x: 53, y: 19.46917}
+    - name: Player Shield Laser Animation_146
+      rect:
+        serializedVersion: 2
+        x: 4476
+        y: 610
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 18.46917}
+        - {x: -78.5, y: 11.46917}
+        - {x: -78.5, y: -33.53083}
+        - {x: -69.5, y: -49.53083}
+        - {x: 34.5, y: -49.53083}
+        - {x: 51.5, y: -15.53083}
+        - {x: 51.5, y: 18.46917}
+    - name: Player Shield Laser Animation_147
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 610
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 18.46917}
+        - {x: -78, y: 15.46917}
+        - {x: -78, y: -54.53083}
+        - {x: 43, y: -54.53083}
+        - {x: 53, y: -27.53083}
+        - {x: 53, y: 10.46917}
+        - {x: 40, y: 18.46917}
+    - name: Player Shield Laser Animation_148
+      rect:
+        serializedVersion: 2
+        x: 5968
+        y: 610
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 17.46917}
+        - {x: -78.5, y: 9.46917}
+        - {x: -78.5, y: -24.53083}
+        - {x: -67.5, y: -20.53083}
+        - {x: -63.5, y: -41.53083}
+        - {x: -65.5, y: -53.53083}
+        - {x: -44.5, y: -57.53083}
+        - {x: 24.5, y: -57.53083}
+        - {x: 51.5, y: 1.4691696}
+        - {x: 51.5, y: 12.46917}
+        - {x: 45.5, y: 17.46917}
+    - name: Player Shield Laser Animation_149
+      rect:
+        serializedVersion: 2
+        x: 6714
+        y: 610
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46, y: 16.46917}
+        - {x: -78, y: 5.4691696}
+        - {x: -78, y: -18.53083}
+        - {x: -72, y: -20.53083}
+        - {x: -62, y: -43.53083}
+        - {x: -61, y: -46.53083}
+        - {x: -29, y: -46.53083}
+        - {x: -1, y: -58.53083}
+        - {x: 12, y: -58.53083}
+        - {x: 45, y: -21.53083}
+        - {x: 52, y: -1.5308304}
+        - {x: 52, y: 16.46917}
+    - name: Player Shield Laser Animation_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: 13}
+        - {x: 2.5, y: 13}
+        - {x: -76.5, y: 8}
+        - {x: -78.5, y: 1}
+        - {x: -78.5, y: -45}
+        - {x: -51.5, y: -58}
+        - {x: 20.5, y: -58}
+        - {x: 43.5, y: -16}
+        - {x: 50.5, y: 0}
+        - {x: 50.5, y: 11}
+    - name: Player Shield Laser Animation_151
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 0
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 22}
+        - {x: -78, y: 5}
+        - {x: -78, y: -33}
+        - {x: -63, y: -51}
+        - {x: -29, y: -60}
+        - {x: 32, y: -60}
+        - {x: 52, y: -23}
+        - {x: 52, y: 14}
+        - {x: 43, y: 22}
+    - name: Player Shield Laser Animation_152
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 0
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: 28}
+        - {x: -26.5, y: 28}
+        - {x: -77.5, y: 10}
+        - {x: -77.5, y: -49}
+        - {x: -74.5, y: -60}
+        - {x: 20.5, y: -60}
+        - {x: 21.5, y: -53}
+        - {x: 51.5, y: -19}
+        - {x: 51.5, y: 20}
+    - name: Player Shield Laser Animation_153
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 0
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 30}
+        - {x: -27, y: 30}
+        - {x: -59, y: 15}
+        - {x: -77, y: 4}
+        - {x: -77, y: -24}
+        - {x: -65, y: -55}
+        - {x: -45, y: -56}
+        - {x: 28, y: -56}
+        - {x: 31, y: -50}
+        - {x: 52, y: -3}
+        - {x: 52, y: 15}
+    - name: Player Shield Laser Animation_154
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 0
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78.5, y: 29}
+        - {x: -78.5, y: -40}
+        - {x: -73.5, y: -51}
+        - {x: 41.5, y: -51}
+        - {x: 51.5, y: -44}
+        - {x: 51.5, y: 29}
+    - name: Player Shield Laser Animation_155
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 0
+        width: 746
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 24}
+        - {x: -14, y: 24}
+        - {x: -19, y: 17}
+        - {x: -9, y: 10}
+        - {x: -62, y: 20}
+        - {x: -74, y: 6}
+        - {x: -71, y: -1}
+        - {x: -66, y: -1}
+        - {x: -72, y: -6}
+        - {x: -78, y: -16}
+        - {x: -78, y: -49}
+        - {x: 34, y: -49}
+        - {x: 41, y: -45}
+        - {x: 48, y: -31}
+        - {x: 53, y: -9}
+        - {x: 53, y: 21}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
