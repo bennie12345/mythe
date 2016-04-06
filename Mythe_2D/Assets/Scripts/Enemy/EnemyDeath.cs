@@ -72,12 +72,17 @@ public class EnemyDeath : MonoBehaviour, IKillable
 <<<<<<< HEAD
         _scoreScript.UpdateScore(1);
 <<<<<<< HEAD
+<<<<<<< HEAD
         soundDelegate(_sounds.EnemyDeath);
         //_slowTimeScript.SlowTheTime();
 =======
 >>>>>>> origin/master
 =======
         _scoreScript.UpdateScore(1);
+        //soundDelegate(_sounds.EnemyDeath);
+        //_slowTimeScript.SlowTheTime();
+>>>>>>> ae36a6cb9769c80e87722fa0a29c8d7037b8b68f
+=======
         //soundDelegate(_sounds.EnemyDeath);
         //_slowTimeScript.SlowTheTime();
 >>>>>>> ae36a6cb9769c80e87722fa0a29c8d7037b8b68f
