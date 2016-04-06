@@ -24,8 +24,8 @@ public class AbilityButtons : MonoBehaviour {
     {
         _cameraShakeScript = GameObject.FindWithTag(Tags.mainCameraTag).GetComponent<CameraShake>();
         soundDelegate = playSound;
-        source = GetComponent<AudioSource>();
         _sounds = GameObject.FindWithTag("SoundsObject").GetComponent<Sounds>();
+        source = _sounds.GetComponent<AudioSource>();
         _playerScript = GetComponentInParent<Player>();
         _cooldownManager = GetComponentInParent<Cooldowns>();
         this.gameObject.tag = Tags.abilityButtonsTag;
@@ -56,7 +56,7 @@ public class AbilityButtons : MonoBehaviour {
             laserbeam.transform.parent = LaserbeamParent.transform;
             laserbeam.transform.position = LaserbeamParent.transform.position;
             _cameraShakeScript.Shake();
-            soundDelegate(_sounds.FiringMahLazor);
+            soundDelegate(_sounds.LaserSound);
             StartCoroutine(ActivateTimer(LaserbeamParent, 1.5f));
             _laserCooldown = LaserCD;
             _cooldownManager.LaserCooldown = _laserCooldown;
