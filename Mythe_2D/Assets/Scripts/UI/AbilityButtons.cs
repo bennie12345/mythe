@@ -46,11 +46,11 @@ public class AbilityButtons : MonoBehaviour {
             _swordCooldown = SwordCD;
             _cooldownManager.SwordCooldown = _swordCooldown;
             soundDelegate(_sounds.SwordSound);
-            StartCoroutine(SetAnimationBool());
+            StartCoroutine(SetAnimationBool(_playerScript.UsingSword, 2.5f));
         }
     }
 
-    public void UseLasor(float LaserCD)
+    public void UseLaser(float LaserCD)
     {
         if (_laserCooldown <= _minCooldown)
         {
@@ -62,6 +62,19 @@ public class AbilityButtons : MonoBehaviour {
             StartCoroutine(ActivateTimer(LaserbeamParent, 1.5f));
             _laserCooldown = LaserCD;
             _cooldownManager.LaserCooldown = _laserCooldown;
+        }
+    }
+
+    public void UseMedusaHead(float MedusaCD)
+    {
+        if (_medusaCooldown <= _minCooldown)
+        {
+            _playerScript.UsingMedusaHead = true;
+            _medusaCooldown = MedusaCD;
+            _cooldownManager.MedusaCooldown = _medusaCooldown;
+            StartCoroutine(SetAnimationBool(_playerScript.UsingMedusaHead, 2f));
+            StartCoroutine(MedusaDelay(1f));
+           
         }
     }
 
@@ -78,25 +91,20 @@ public class AbilityButtons : MonoBehaviour {
         obj.SetActive(false);
     }
 
-    IEnumerator SetAnimationBool()
+    IEnumerator SetAnimationBool(bool isUsingItem, float itemCooldown)
     {
-        yield return new WaitForSeconds(2.5f);
-        _playerScript.UsingSword = false;
+        yield return new WaitForSeconds(itemCooldown);
+        isUsingItem = false;  
     }
 
-    public void UseMedusaHead(float MedusaCD)
+    IEnumerator MedusaDelay(float delay)
     {
-        if (_medusaCooldown <= _minCooldown)
-        {
-            GameObject shockwave = ObjectPool.instance.GetObjectForType(ObjectNames.medusaEffectGameObjectName, true);
-            shockwave.transform.parent = parentObject.transform;
-            shockwave.transform.position = parentObject.transform.position;
-            soundDelegate(_sounds.MedusaSound);
-
-            _medusaCooldown = MedusaCD;
-            _cooldownManager.MedusaCooldown = _medusaCooldown;
-            StartCoroutine(ActivateTimer(parentObject, 1f));
-        }
+        yield return new WaitForSeconds(delay);
+        GameObject shockwave = ObjectPool.instance.GetObjectForType(ObjectNames.medusaEffectGameObjectName, true);
+        shockwave.transform.parent = parentObject.transform;
+        shockwave.transform.position = parentObject.transform.position;
+        soundDelegate(_sounds.MedusaSound);
+        StartCoroutine(ActivateTimer(parentObject, 1f));
     }
 
     public void ResetCooldowns()
