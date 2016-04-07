@@ -29,7 +29,6 @@ public class Player : MonoBehaviour, IKillable {
     }
     private float _playerBoundX = 6.5f;
     private float _playerBoundY = 4f;
-    private float _swordDuration = 2f;
 
     private GameObject _sword;
     private bool _usingSword = false;
@@ -43,6 +42,20 @@ public class Player : MonoBehaviour, IKillable {
         set
         {
             _usingSword = value;
+        }
+    }
+
+    private bool _usingMedusaHead = false;
+    public bool UsingMedusaHead
+    {
+        get
+        {
+            return _usingMedusaHead;
+        }
+
+        set
+        {
+            _usingMedusaHead = value;
         }
     }
 
@@ -82,6 +95,8 @@ public class Player : MonoBehaviour, IKillable {
 
         SwordIsUsed();
 
+        MedusaHeadIsUsed();
+
         PlayerBounds();
     }
 
@@ -118,12 +133,25 @@ public class Player : MonoBehaviour, IKillable {
     {
         if (_usingSword == true)
         {
-            StartCoroutine(SwordDuration());
+            StartCoroutine(ItemDuration(_usingSword, 2.5f));
             _anim.SetBool("isUsingSword", true);
         }
         else
         {
             _anim.SetBool("isUsingSword", false);
+        }
+    }
+
+    void MedusaHeadIsUsed()
+    {
+        if (_usingMedusaHead == true)
+        {
+            StartCoroutine(ItemDuration(_usingMedusaHead, 2f));
+            _anim.SetBool("isUsingMedusaHead", true);
+        }
+        else
+        {
+            _anim.SetBool("isUsingMedusaHead", false);
         }
     }
 
@@ -147,9 +175,11 @@ public class Player : MonoBehaviour, IKillable {
         }
     }
 
-    IEnumerator SwordDuration()
+    IEnumerator ItemDuration(bool usingItem, float itemDuration)
     {
-        yield return new WaitForSeconds(_swordDuration);
-        _usingSword = false;
+        yield return new WaitForSeconds(itemDuration);
+        usingItem = false;
+        UsingMedusaHead = false;
+        UsingSword = false;
     }
 }

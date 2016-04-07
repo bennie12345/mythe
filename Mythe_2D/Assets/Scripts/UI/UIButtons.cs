@@ -44,6 +44,10 @@ public class UIButtons : MonoBehaviour {
     {
         LoadScene(Scenes.mainMenuScene);
     }
+    public void Credits()
+    {
+        Application.LoadLevel("Credits");
+    }
 
     public void QuitGame()
     {
