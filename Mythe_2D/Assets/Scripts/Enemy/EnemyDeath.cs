@@ -68,15 +68,7 @@ public class EnemyDeath : MonoBehaviour, IKillable
     public void Kill()
     {
         _cameraShakeScript.Shake();
-<<<<<<< HEAD
-        _scoreScript.UpdateScore(1);
-        soundDelegate(_sounds.EnemyDeath);
-        //_slowTimeScript.SlowTheTime();
         _scoreScript.UpdateScore(10);
-        //soundDelegate(_sounds.EnemyDeath);
-=======
-        _scoreScript.UpdateScore(10);
->>>>>>> 2e3c2b11a7e1c44d7efc5249d3f336acc0881024
         _objectPoolScript.PoolObject(this.gameObject);
     }
 
