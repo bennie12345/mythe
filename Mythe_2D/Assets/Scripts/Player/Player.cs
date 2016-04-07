@@ -30,7 +30,6 @@ public class Player : MonoBehaviour, IKillable {
     private float _playerBoundX = 6.5f;
     private float _playerBoundY = 4f;
 
-    private GameObject _sword;
     private bool _usingSword = false;
     public bool UsingSword
     {
@@ -82,7 +81,6 @@ public class Player : MonoBehaviour, IKillable {
         _slowTimeScript = GameObject.FindWithTag(Tags.UITag).GetComponent<SlowTime>();
         _rb2D = this.GetComponent<Rigidbody2D>();
         this.gameObject.tag = Tags.playerTag;
-        _sword = GameObject.FindWithTag(Tags.swordTag);
         _currentScoreScript = GameObject.FindWithTag(Tags.currentScoreTag).GetComponent<CurrentScore>();
     }
 	

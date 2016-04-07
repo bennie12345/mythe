@@ -23,7 +23,7 @@ public class UIButtons : MonoBehaviour {
                 Application.Quit();
             }
 
-            if (SceneManager.GetActiveScene().name == Scenes.gameScene || SceneManager.GetActiveScene().name == Scenes.gameOverScene || SceneManager.GetActiveScene().name == Scenes.instructionsScreen)
+            if (SceneManager.GetActiveScene().name == Scenes.gameScene || SceneManager.GetActiveScene().name == Scenes.gameOverScene || SceneManager.GetActiveScene().name == Scenes.instructionsScene)
             {
                 LoadScene(Scenes.mainMenuScene);
             }
@@ -37,7 +37,7 @@ public class UIButtons : MonoBehaviour {
 
     public void Instructions()
     {
-        LoadScene(Scenes.instructionsScreen);
+        LoadScene(Scenes.instructionsScene);
     }
 
     public void MainMenu()
@@ -46,7 +46,7 @@ public class UIButtons : MonoBehaviour {
     }
     public void Credits()
     {
-        Application.LoadLevel("Credits");
+        LoadScene(Scenes.creditsScene);
     }
 
     public void QuitGame()
