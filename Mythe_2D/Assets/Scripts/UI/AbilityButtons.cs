@@ -8,8 +8,8 @@ public class AbilityButtons : MonoBehaviour {
     private Sounds _sounds;
     private CameraShake _cameraShakeScript;
 
-    [SerializeField]private GameObject parentObject;
-    [SerializeField]private GameObject LaserbeamParent;
+    [SerializeField]private GameObject _parentObject;
+    [SerializeField]private GameObject _laserbeamParent;
     [SerializeField]private GameObject _swordHitbox;
     private AudioSource source;
 
@@ -46,7 +46,7 @@ public class AbilityButtons : MonoBehaviour {
             _swordCooldown = SwordCD;
             _cooldownManager.SwordCooldown = _swordCooldown;
             soundDelegate(_sounds.SwordSound);
-            StartCoroutine(SetAnimationBool(_playerScript.UsingSword, 2.5f));
+            StartCoroutine(SetAnimationBool(_playerScript.UsingMedusaHead, 2f));
         }
     }
 
@@ -54,14 +54,11 @@ public class AbilityButtons : MonoBehaviour {
     {
         if (_laserCooldown <= _minCooldown)
         {
-            GameObject laserbeam = ObjectPool.instance.GetObjectForType(ObjectNames.laserBeamName, true);
-            laserbeam.transform.parent = LaserbeamParent.transform;
-            laserbeam.transform.position = LaserbeamParent.transform.position;
-            _cameraShakeScript.Shake();
-            soundDelegate(_sounds.LaserSound);
-            StartCoroutine(ActivateTimer(LaserbeamParent, 1.5f));
+            _playerScript.UsingLaser = true;
             _laserCooldown = LaserCD;
             _cooldownManager.LaserCooldown = _laserCooldown;
+            StartCoroutine(AbilityDelay(1f, "Laser"));
+            StartCoroutine(SetAnimationBool(_playerScript.UsingMedusaHead, 1.5f));
         }
     }
 
@@ -72,9 +69,8 @@ public class AbilityButtons : MonoBehaviour {
             _playerScript.UsingMedusaHead = true;
             _medusaCooldown = MedusaCD;
             _cooldownManager.MedusaCooldown = _medusaCooldown;
+            StartCoroutine(AbilityDelay(1f, "MedusaHead"));
             StartCoroutine(SetAnimationBool(_playerScript.UsingMedusaHead, 2f));
-            StartCoroutine(MedusaDelay(1f));
-           
         }
     }
 
@@ -87,24 +83,38 @@ public class AbilityButtons : MonoBehaviour {
     {
         obj.SetActive(true);
         yield return new WaitForSeconds(activeTime);
-        _playerScript.MoveSpeed = 5f;
         obj.SetActive(false);
     }
 
     IEnumerator SetAnimationBool(bool isUsingItem, float itemCooldown)
     {
         yield return new WaitForSeconds(itemCooldown);
-        isUsingItem = false;  
+        isUsingItem = false;
     }
 
-    IEnumerator MedusaDelay(float delay)
+    IEnumerator AbilityDelay(float delay, string whichAbility)
     {
         yield return new WaitForSeconds(delay);
-        GameObject shockwave = ObjectPool.instance.GetObjectForType(ObjectNames.medusaEffectGameObjectName, true);
-        shockwave.transform.parent = parentObject.transform;
-        shockwave.transform.position = parentObject.transform.position;
-        soundDelegate(_sounds.MedusaSound);
-        StartCoroutine(ActivateTimer(parentObject, 1f));
+        
+        if(whichAbility == "MedusaHead")
+        {
+            GameObject shockwave = ObjectPool.instance.GetObjectForType(ObjectNames.medusaEffectGameObjectName, true);
+            shockwave.transform.parent = _parentObject.transform;
+            shockwave.transform.position = _parentObject.transform.position;
+            soundDelegate(_sounds.MedusaSound);
+            StartCoroutine(ActivateTimer(_parentObject, 1f));
+        }
+
+        else if(whichAbility == "Laser")
+        {
+            GameObject laserbeam = ObjectPool.instance.GetObjectForType(ObjectNames.laserBeamName, true);
+            laserbeam.transform.parent = _laserbeamParent.transform;
+            laserbeam.transform.position = _laserbeamParent.transform.position;
+            _cameraShakeScript.Shake();
+            soundDelegate(_sounds.LaserSound);
+            StartCoroutine(ActivateTimer(_laserbeamParent, 1.5f));
+        }
+        
     }
 
     public void ResetCooldowns()
