@@ -1,0 +1,1418 @@
+fileFormatVersion: 2
+guid: 942e3782a93e56249a5a07b6d92e4d5d
+timeCreated: 1460017472
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: menugood_eva_part2_0
+    21300002: menugood_eva_part2_1
+    21300004: menugood_eva_part2_2
+    21300006: menugood_eva_part2_3
+    21300008: menugood_eva_part2_4
+    21300010: menugood_eva_part2_5
+    21300012: menugood_eva_part2_6
+    21300014: menugood_eva_part2_7
+    21300016: menugood_eva_part2_8
+    21300018: menugood_eva_part2_9
+    21300020: menugood_eva_part2_10
+    21300022: menugood_eva_part2_11
+    21300024: menugood_eva_part2_12
+    21300026: menugood_eva_part2_13
+    21300028: menugood_eva_part2_14
+    21300030: menugood_eva_part2_15
+    21300032: menugood_eva_part2_16
+    21300034: menugood_eva_part2_17
+    21300036: menugood_eva_part2_18
+    21300038: menugood_eva_part2_19
+    21300040: menugood_eva_part2_20
+    21300042: menugood_eva_part2_21
+    21300044: menugood_eva_part2_22
+    21300046: menugood_eva_part2_23
+    21300048: menugood_eva_part2_24
+    21300050: menugood_eva_part2_25
+    21300052: menugood_eva_part2_26
+    21300054: menugood_eva_part2_27
+    21300056: menugood_eva_part2_28
+    21300058: menugood_eva_part2_29
+    21300060: menugood_eva_part2_30
+    21300062: menugood_eva_part2_31
+    21300064: menugood_eva_part2_32
+    21300066: menugood_eva_part2_33
+    21300068: menugood_eva_part2_34
+    21300070: menugood_eva_part2_35
+    21300072: menugood_eva_part2_36
+    21300074: menugood_eva_part2_37
+    21300076: menugood_eva_part2_38
+    21300078: menugood_eva_part2_39
+    21300080: menugood_eva_part2_40
+    21300082: menugood_eva_part2_41
+    21300084: menugood_eva_part2_42
+    21300086: menugood_eva_part2_43
+    21300088: menugood_eva_part2_44
+    21300090: menugood_eva_part2_45
+    21300092: menugood_eva_part2_46
+    21300094: menugood_eva_part2_47
+    21300096: menugood_eva_part2_48
+    21300098: menugood_eva_part2_49
+    21300100: menugood_eva_part2_50
+    21300102: menugood_eva_part2_51
+    21300104: menugood_eva_part2_52
+    21300106: menugood_eva_part2_53
+    21300108: menugood_eva_part2_54
+    21300110: menugood_eva_part2_55
+    21300112: menugood_eva_part2_56
+    21300114: menugood_eva_part2_57
+    21300116: menugood_eva_part2_58
+    21300118: menugood_eva_part2_59
+    21300120: menugood_eva_part2_60
+    21300122: menugood_eva_part2_61
+    21300124: menugood_eva_part2_62
+    21300126: menugood_eva_part2_63
+    21300128: menugood_eva_part2_64
+    21300130: menugood_eva_part2_65
+    21300132: menugood_eva_part2_66
+    21300134: menugood_eva_part2_67
+    21300136: menugood_eva_part2_68
+    21300138: menugood_eva_part2_69
+    21300140: menugood_eva_part2_70
+    21300142: menugood_eva_part2_71
+    21300144: menugood_eva_part2_72
+    21300146: menugood_eva_part2_73
+    21300148: menugood_eva_part2_74
+    21300150: menugood_eva_part2_75
+    21300152: menugood_eva_part2_76
+    21300154: menugood_eva_part2_77
+    21300156: menugood_eva_part2_78
+    21300158: menugood_eva_part2_79
+    21300160: menugood_eva_part2_80
+    21300162: menugood_eva_part2_81
+    21300164: menugood_eva_part2_82
+    21300166: menugood_eva_part2_83
+    21300168: menugood_eva_part2_84
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: menugood_eva_part2_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 2749
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.98, y: 67.359985}
+        - {x: -116.98, y: -66.640015}
+        - {x: 118.02, y: -66.640015}
+        - {x: 118.02, y: 67.359985}
+    - name: menugood_eva_part2_1
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 2749
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28, y: 67.359985}
+        - {x: -117.28, y: -66.640015}
+        - {x: 118.72, y: -66.640015}
+        - {x: 118.72, y: 67.359985}
+    - name: menugood_eva_part2_2
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 2749
+        width: 368
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72003, y: 67.359985}
+        - {x: -117.72003, y: -66.640015}
+        - {x: 118.27997, y: -66.640015}
+        - {x: 118.27997, y: 67.359985}
+    - name: menugood_eva_part2_3
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 2749
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.52002, y: 67.359985}
+        - {x: -117.52002, y: -66.640015}
+        - {x: 118.47998, y: -66.640015}
+        - {x: 118.47998, y: 67.359985}
+    - name: menugood_eva_part2_4
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 2749
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.17999, y: 67.359985}
+        - {x: -117.17999, y: -66.640015}
+        - {x: 117.82001, y: -66.640015}
+        - {x: 117.82001, y: 67.359985}
+    - name: menugood_eva_part2_5
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 2749
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.97998, y: 67.359985}
+        - {x: -116.97998, y: -66.640015}
+        - {x: 118.02002, y: -66.640015}
+        - {x: 118.02002, y: 67.359985}
+    - name: menugood_eva_part2_6
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 2749
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28003, y: 67.359985}
+        - {x: -117.28003, y: -66.640015}
+        - {x: 118.71997, y: -66.640015}
+        - {x: 118.71997, y: 67.359985}
+    - name: menugood_eva_part2_7
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 2749
+        width: 368
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72009, y: 67.359985}
+        - {x: -117.72009, y: -66.640015}
+        - {x: 118.27991, y: -66.640015}
+        - {x: 118.27991, y: 67.359985}
+    - name: menugood_eva_part2_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 2527
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.98, y: 67.27991}
+        - {x: -116.98, y: -66.72009}
+        - {x: 118.02, y: -66.72009}
+        - {x: 118.02, y: 67.27991}
+    - name: menugood_eva_part2_9
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 2527
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28, y: 67.27991}
+        - {x: -117.28, y: -66.72009}
+        - {x: 118.72, y: -66.72009}
+        - {x: 118.72, y: 67.27991}
+    - name: menugood_eva_part2_10
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 2527
+        width: 368
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72003, y: 67.27991}
+        - {x: -117.72003, y: -66.72009}
+        - {x: 118.27997, y: -66.72009}
+        - {x: 118.27997, y: 67.27991}
+    - name: menugood_eva_part2_11
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 2527
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.52002, y: 67.27991}
+        - {x: -117.52002, y: -66.72009}
+        - {x: 118.47998, y: -66.72009}
+        - {x: 118.47998, y: 67.27991}
+    - name: menugood_eva_part2_12
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 2527
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.17999, y: 67.27991}
+        - {x: -117.17999, y: -66.72009}
+        - {x: 117.82001, y: -66.72009}
+        - {x: 117.82001, y: 67.27991}
+    - name: menugood_eva_part2_13
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 2527
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.97998, y: 67.27991}
+        - {x: -116.97998, y: -66.72009}
+        - {x: 118.02002, y: -66.72009}
+        - {x: 118.02002, y: 67.27991}
+    - name: menugood_eva_part2_14
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 2527
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28003, y: 67.27991}
+        - {x: -117.28003, y: -66.72009}
+        - {x: 118.71997, y: -66.72009}
+        - {x: 118.71997, y: 67.27991}
+    - name: menugood_eva_part2_15
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 2527
+        width: 368
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72009, y: 67.27991}
+        - {x: -117.72009, y: -66.72009}
+        - {x: 118.27991, y: -66.72009}
+        - {x: 118.27991, y: 67.27991}
+    - name: menugood_eva_part2_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 2307
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.98, y: 67.47998}
+        - {x: -116.98, y: -66.52002}
+        - {x: 118.02, y: -66.52002}
+        - {x: 118.02, y: 67.47998}
+    - name: menugood_eva_part2_17
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 2307
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28, y: 67.47998}
+        - {x: -117.28, y: -66.52002}
+        - {x: 118.72, y: -66.52002}
+        - {x: 118.72, y: 67.47998}
+    - name: menugood_eva_part2_18
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 2307
+        width: 368
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72003, y: 67.47998}
+        - {x: -117.72003, y: -66.52002}
+        - {x: 118.27997, y: -66.52002}
+        - {x: 118.27997, y: 67.47998}
+    - name: menugood_eva_part2_19
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 2307
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.52002, y: 67.47998}
+        - {x: -117.52002, y: -66.52002}
+        - {x: 118.47998, y: -66.52002}
+        - {x: 118.47998, y: 67.47998}
+    - name: menugood_eva_part2_20
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 2307
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.17999, y: 67.47998}
+        - {x: -117.17999, y: -66.52002}
+        - {x: 117.82001, y: -66.52002}
+        - {x: 117.82001, y: 67.47998}
+    - name: menugood_eva_part2_21
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 2307
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.97998, y: 67.47998}
+        - {x: -116.97998, y: -66.52002}
+        - {x: 118.02002, y: -66.52002}
+        - {x: 118.02002, y: 67.47998}
+    - name: menugood_eva_part2_22
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 2307
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28003, y: 67.47998}
+        - {x: -117.28003, y: -66.52002}
+        - {x: 118.71997, y: -66.52002}
+        - {x: 118.71997, y: 67.47998}
+    - name: menugood_eva_part2_23
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 2307
+        width: 368
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72009, y: 67.47998}
+        - {x: -117.72009, y: -66.52002}
+        - {x: 118.27991, y: -66.52002}
+        - {x: 118.27991, y: 67.47998}
+    - name: menugood_eva_part2_24
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 2085
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.98, y: 67.400024}
+        - {x: -116.98, y: -66.599976}
+        - {x: 118.02, y: -66.599976}
+        - {x: 118.02, y: 67.400024}
+    - name: menugood_eva_part2_25
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 2085
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28, y: 67.400024}
+        - {x: -117.28, y: -66.599976}
+        - {x: 118.72, y: -66.599976}
+        - {x: 118.72, y: 67.400024}
+    - name: menugood_eva_part2_26
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 2085
+        width: 368
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72003, y: 67.400024}
+        - {x: -117.72003, y: -66.599976}
+        - {x: 118.27997, y: -66.599976}
+        - {x: 118.27997, y: 67.400024}
+    - name: menugood_eva_part2_27
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 2085
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.52002, y: 67.400024}
+        - {x: -117.52002, y: -66.599976}
+        - {x: 118.47998, y: -66.599976}
+        - {x: 118.47998, y: 67.400024}
+    - name: menugood_eva_part2_28
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 2085
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.17999, y: 67.400024}
+        - {x: -117.17999, y: -66.599976}
+        - {x: 117.82001, y: -66.599976}
+        - {x: 117.82001, y: 67.400024}
+    - name: menugood_eva_part2_29
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 2085
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.97998, y: 67.400024}
+        - {x: -116.97998, y: -66.599976}
+        - {x: 118.02002, y: -66.599976}
+        - {x: 118.02002, y: 67.400024}
+    - name: menugood_eva_part2_30
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 2085
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28003, y: 67.400024}
+        - {x: -117.28003, y: -66.599976}
+        - {x: 118.71997, y: -66.599976}
+        - {x: 118.71997, y: 67.400024}
+    - name: menugood_eva_part2_31
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 2085
+        width: 368
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72009, y: 67.400024}
+        - {x: -117.72009, y: -66.599976}
+        - {x: 118.27991, y: -66.599976}
+        - {x: 118.27991, y: 67.400024}
+    - name: menugood_eva_part2_32
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1865
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.98, y: 67.599976}
+        - {x: -116.98, y: -66.400024}
+        - {x: 118.02, y: -66.400024}
+        - {x: 118.02, y: 67.599976}
+    - name: menugood_eva_part2_33
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1865
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28, y: 67.599976}
+        - {x: -117.28, y: -66.400024}
+        - {x: 118.72, y: -66.400024}
+        - {x: 118.72, y: 67.599976}
+    - name: menugood_eva_part2_34
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1865
+        width: 368
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72003, y: 67.599976}
+        - {x: -117.72003, y: -66.400024}
+        - {x: 118.27997, y: -66.400024}
+        - {x: 118.27997, y: 67.599976}
+    - name: menugood_eva_part2_35
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1865
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.52002, y: 67.599976}
+        - {x: -117.52002, y: -66.400024}
+        - {x: 118.47998, y: -66.400024}
+        - {x: 118.47998, y: 67.599976}
+    - name: menugood_eva_part2_36
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 1865
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.17999, y: 67.599976}
+        - {x: -117.17999, y: -66.400024}
+        - {x: 117.82001, y: -66.400024}
+        - {x: 117.82001, y: 67.599976}
+    - name: menugood_eva_part2_37
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1865
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.97998, y: 67.599976}
+        - {x: -116.97998, y: -66.400024}
+        - {x: 118.02002, y: -66.400024}
+        - {x: 118.02002, y: 67.599976}
+    - name: menugood_eva_part2_38
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 1865
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28003, y: 67.599976}
+        - {x: -117.28003, y: -66.400024}
+        - {x: 118.71997, y: -66.400024}
+        - {x: 118.71997, y: 67.599976}
+    - name: menugood_eva_part2_39
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 1865
+        width: 368
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72009, y: 67.599976}
+        - {x: -117.72009, y: -66.400024}
+        - {x: 118.27991, y: -66.400024}
+        - {x: 118.27991, y: 67.599976}
+    - name: menugood_eva_part2_40
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1643
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.98, y: 67.52002}
+        - {x: -116.98, y: -66.47998}
+        - {x: 118.02, y: -66.47998}
+        - {x: 118.02, y: 67.52002}
+    - name: menugood_eva_part2_41
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1643
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28, y: 67.52002}
+        - {x: -117.28, y: -66.47998}
+        - {x: 118.72, y: -66.47998}
+        - {x: 118.72, y: 67.52002}
+    - name: menugood_eva_part2_42
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1643
+        width: 368
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72003, y: 67.52002}
+        - {x: -117.72003, y: -66.47998}
+        - {x: 118.27997, y: -66.47998}
+        - {x: 118.27997, y: 67.52002}
+    - name: menugood_eva_part2_43
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1643
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.52002, y: 67.52002}
+        - {x: -117.52002, y: -65.47998}
+        - {x: -116.52002, y: -66.47998}
+        - {x: 118.47998, y: -66.47998}
+        - {x: 118.47998, y: 67.52002}
+    - name: menugood_eva_part2_44
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 1643
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.17999, y: 67.52002}
+        - {x: -117.17999, y: -66.47998}
+        - {x: 117.82001, y: -66.47998}
+        - {x: 117.82001, y: 67.52002}
+    - name: menugood_eva_part2_45
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1643
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.97998, y: 67.52002}
+        - {x: -116.97998, y: -66.47998}
+        - {x: 118.02002, y: -66.47998}
+        - {x: 118.02002, y: 67.52002}
+    - name: menugood_eva_part2_46
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 1643
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28003, y: 67.52002}
+        - {x: -117.28003, y: -66.47998}
+        - {x: 118.71997, y: -66.47998}
+        - {x: 118.71997, y: 67.52002}
+    - name: menugood_eva_part2_47
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 1643
+        width: 368
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72009, y: 67.52002}
+        - {x: -117.72009, y: -66.47998}
+        - {x: 118.27991, y: -66.47998}
+        - {x: 118.27991, y: 67.52002}
+    - name: menugood_eva_part2_48
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1423
+        width: 366
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.98, y: 67.71997}
+        - {x: -116.98, y: -66.28003}
+        - {x: 118.02, y: -66.28003}
+        - {x: 118.02, y: 67.71997}
+    - name: menugood_eva_part2_49
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1423
+        width: 367
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28, y: 67.71997}
+        - {x: -117.28, y: -66.28003}
+        - {x: 118.72, y: -66.28003}
+        - {x: 118.72, y: 67.71997}
+    - name: menugood_eva_part2_50
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1423
+        width: 368
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72003, y: 67.71997}
+        - {x: -117.72003, y: -66.28003}
+        - {x: 118.27997, y: -66.28003}
+        - {x: 118.27997, y: 67.71997}
+    - name: menugood_eva_part2_51
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1423
+        width: 367
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.52002, y: 67.71997}
+        - {x: -117.52002, y: -66.28003}
+        - {x: 118.47998, y: -66.28003}
+        - {x: 118.47998, y: 67.71997}
+    - name: menugood_eva_part2_52
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 1423
+        width: 366
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.17999, y: 67.71997}
+        - {x: -117.17999, y: -66.28003}
+        - {x: 117.82001, y: -66.28003}
+        - {x: 117.82001, y: 67.71997}
+    - name: menugood_eva_part2_53
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1423
+        width: 366
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.97998, y: 67.71997}
+        - {x: -116.97998, y: -66.28003}
+        - {x: 118.02002, y: -66.28003}
+        - {x: 118.02002, y: 67.71997}
+    - name: menugood_eva_part2_54
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 1423
+        width: 367
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28003, y: 67.71997}
+        - {x: -117.28003, y: -66.28003}
+        - {x: 118.71997, y: -66.28003}
+        - {x: 118.71997, y: 67.71997}
+    - name: menugood_eva_part2_55
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 1423
+        width: 368
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72009, y: 67.71997}
+        - {x: -117.72009, y: -66.28003}
+        - {x: 118.27991, y: -66.28003}
+        - {x: 118.27991, y: 67.71997}
+    - name: menugood_eva_part2_56
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1202
+        width: 366
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.98, y: 66.77997}
+        - {x: -116.98, y: -66.22003}
+        - {x: 118.02, y: -66.22003}
+        - {x: 118.02, y: 66.77997}
+    - name: menugood_eva_part2_57
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1202
+        width: 367
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28, y: 66.77997}
+        - {x: -117.28, y: -66.22003}
+        - {x: 118.72, y: -66.22003}
+        - {x: 118.72, y: 66.77997}
+    - name: menugood_eva_part2_58
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1202
+        width: 368
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72003, y: 66.77997}
+        - {x: -117.72003, y: -66.22003}
+        - {x: 118.27997, y: -66.22003}
+        - {x: 118.27997, y: 66.77997}
+    - name: menugood_eva_part2_59
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1202
+        width: 367
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.52002, y: 66.77997}
+        - {x: -117.52002, y: -66.22003}
+        - {x: 118.47998, y: -66.22003}
+        - {x: 118.47998, y: 66.77997}
+    - name: menugood_eva_part2_60
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 1202
+        width: 366
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.17999, y: 66.77997}
+        - {x: -117.17999, y: -66.22003}
+        - {x: 117.82001, y: -66.22003}
+        - {x: 117.82001, y: 66.77997}
+    - name: menugood_eva_part2_61
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1202
+        width: 366
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.97998, y: 66.77997}
+        - {x: -116.97998, y: -66.22003}
+        - {x: 118.02002, y: -66.22003}
+        - {x: 118.02002, y: 66.77997}
+    - name: menugood_eva_part2_62
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 1202
+        width: 367
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28003, y: 66.77997}
+        - {x: -117.28003, y: -66.22003}
+        - {x: 118.71997, y: -66.22003}
+        - {x: 118.71997, y: 66.77997}
+    - name: menugood_eva_part2_63
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 1202
+        width: 368
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72009, y: 66.77997}
+        - {x: -117.72009, y: -66.22003}
+        - {x: 118.27991, y: -66.22003}
+        - {x: 118.27991, y: 66.77997}
+    - name: menugood_eva_part2_64
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 980
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.98, y: 67.20001}
+        - {x: -116.98, y: -66.79999}
+        - {x: 118.02, y: -66.79999}
+        - {x: 118.02, y: 67.20001}
+    - name: menugood_eva_part2_65
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 980
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28, y: 67.20001}
+        - {x: -117.28, y: -66.79999}
+        - {x: 118.72, y: -66.79999}
+        - {x: 118.72, y: 67.20001}
+    - name: menugood_eva_part2_66
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 980
+        width: 368
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72003, y: 67.20001}
+        - {x: -117.72003, y: -66.79999}
+        - {x: 118.27997, y: -66.79999}
+        - {x: 118.27997, y: 67.20001}
+    - name: menugood_eva_part2_67
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 980
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.52002, y: 67.20001}
+        - {x: -117.52002, y: -66.79999}
+        - {x: 118.47998, y: -66.79999}
+        - {x: 118.47998, y: 67.20001}
+    - name: menugood_eva_part2_68
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 980
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.17999, y: 67.20001}
+        - {x: -117.17999, y: -66.79999}
+        - {x: 117.82001, y: -66.79999}
+        - {x: 117.82001, y: 67.20001}
+    - name: menugood_eva_part2_69
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 980
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.97998, y: 67.20001}
+        - {x: -116.97998, y: -66.79999}
+        - {x: 118.02002, y: -66.79999}
+        - {x: 118.02002, y: 67.20001}
+    - name: menugood_eva_part2_70
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 980
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28003, y: 67.20001}
+        - {x: -117.28003, y: -66.79999}
+        - {x: 118.71997, y: -66.79999}
+        - {x: 118.71997, y: 67.20001}
+    - name: menugood_eva_part2_71
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 980
+        width: 368
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72009, y: 67.20001}
+        - {x: -117.72009, y: -66.79999}
+        - {x: 118.27991, y: -66.79999}
+        - {x: 118.27991, y: 67.20001}
+    - name: menugood_eva_part2_72
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 760
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.98, y: 67.399994}
+        - {x: -116.98, y: -66.600006}
+        - {x: 118.02, y: -66.600006}
+        - {x: 118.02, y: 67.399994}
+    - name: menugood_eva_part2_73
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 760
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28, y: 67.399994}
+        - {x: -117.28, y: -66.600006}
+        - {x: 118.72, y: -66.600006}
+        - {x: 118.72, y: 67.399994}
+    - name: menugood_eva_part2_74
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 760
+        width: 368
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72003, y: 67.399994}
+        - {x: -117.72003, y: -66.600006}
+        - {x: 118.27997, y: -66.600006}
+        - {x: 118.27997, y: 67.399994}
+    - name: menugood_eva_part2_75
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 760
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.52002, y: 67.399994}
+        - {x: -117.52002, y: -66.600006}
+        - {x: 118.47998, y: -66.600006}
+        - {x: 118.47998, y: 67.399994}
+    - name: menugood_eva_part2_76
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 760
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.17999, y: 67.399994}
+        - {x: -117.17999, y: -66.600006}
+        - {x: 117.82001, y: -66.600006}
+        - {x: 117.82001, y: 67.399994}
+    - name: menugood_eva_part2_77
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 760
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.97998, y: 67.399994}
+        - {x: -116.97998, y: -66.600006}
+        - {x: 118.02002, y: -66.600006}
+        - {x: 118.02002, y: 67.399994}
+    - name: menugood_eva_part2_78
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 760
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28003, y: 67.399994}
+        - {x: -117.28003, y: -66.600006}
+        - {x: 118.71997, y: -66.600006}
+        - {x: 118.71997, y: 67.399994}
+    - name: menugood_eva_part2_79
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 760
+        width: 368
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72009, y: 67.399994}
+        - {x: -117.72009, y: -66.600006}
+        - {x: 118.27991, y: -66.600006}
+        - {x: 118.27991, y: 67.399994}
+    - name: menugood_eva_part2_80
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 538
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.98, y: 67.32001}
+        - {x: -116.98, y: -66.67999}
+        - {x: 118.02, y: -66.67999}
+        - {x: 118.02, y: 67.32001}
+    - name: menugood_eva_part2_81
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 538
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.28, y: 67.32001}
+        - {x: -117.28, y: -66.67999}
+        - {x: 118.72, y: -66.67999}
+        - {x: 118.72, y: 67.32001}
+    - name: menugood_eva_part2_82
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 538
+        width: 368
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.72003, y: 67.32001}
+        - {x: -117.72003, y: -66.67999}
+        - {x: 118.27997, y: -66.67999}
+        - {x: 118.27997, y: 67.32001}
+    - name: menugood_eva_part2_83
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 538
+        width: 367
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.52002, y: 67.32001}
+        - {x: -117.52002, y: -66.67999}
+        - {x: 118.47998, y: -66.67999}
+        - {x: 118.47998, y: 67.32001}
+    - name: menugood_eva_part2_84
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 538
+        width: 366
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.17999, y: 67.32001}
+        - {x: -117.17999, y: -66.67999}
+        - {x: 117.82001, y: -66.67999}
+        - {x: 117.82001, y: 67.32001}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
