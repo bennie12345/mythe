@@ -11,11 +11,14 @@ public class SetHighscore : MonoBehaviour {
     private int _highscoreValue;
     [SerializeField] private Text _currentScoreText;
     private int _currentScoreValue;
+    private Animator _anim;
 
     void Start () {
         GetHighscore();
         _currentScoreScript = GameObject.FindWithTag(Tags.currentScoreTag).GetComponent<CurrentScore>();
+        _anim = GameObject.FindWithTag("Victory").GetComponent<Animator>();
         SetCurrentScore();
+        CheckForVictory();
     }
 
     void GetHighscore()
@@ -36,5 +39,13 @@ public class SetHighscore : MonoBehaviour {
     {
         _currentScoreValue = _currentScoreScript.CurrentScoreValue;
         _currentScoreText.text = "Your score: " + _currentScoreValue;
+    }
+
+    void CheckForVictory()
+    {
+        if(_currentScoreValue >= 500)
+        {
+            _anim.SetBool("Win", true);
+        }
     }
 }

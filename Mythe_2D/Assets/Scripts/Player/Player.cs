@@ -30,7 +30,6 @@ public class Player : MonoBehaviour, IKillable {
     private float _playerBoundX = 6.5f;
     private float _playerBoundY = 4f;
 
-    private GameObject _sword;
     private bool _usingSword = false;
     public bool UsingSword
     {
@@ -59,6 +58,21 @@ public class Player : MonoBehaviour, IKillable {
         }
     }
 
+    private bool _usingLaser = false;
+    public bool UsingLaser
+    {
+        get
+        {
+            return _usingLaser;
+        }
+
+        set
+        {
+            _usingLaser = value;
+        }
+    }
+
+
     [SerializeField]private float _moveSpeed;
     public float MoveSpeed
     {
@@ -82,7 +96,6 @@ public class Player : MonoBehaviour, IKillable {
         _slowTimeScript = GameObject.FindWithTag(Tags.UITag).GetComponent<SlowTime>();
         _rb2D = this.GetComponent<Rigidbody2D>();
         this.gameObject.tag = Tags.playerTag;
-        _sword = GameObject.FindWithTag(Tags.swordTag);
         _currentScoreScript = GameObject.FindWithTag(Tags.currentScoreTag).GetComponent<CurrentScore>();
     }
 	
@@ -96,6 +109,8 @@ public class Player : MonoBehaviour, IKillable {
         SwordIsUsed();
 
         MedusaHeadIsUsed();
+
+        LaserIsUsed();
 
         PlayerBounds();
     }
@@ -133,7 +148,7 @@ public class Player : MonoBehaviour, IKillable {
     {
         if (_usingSword == true)
         {
-            StartCoroutine(ItemDuration(_usingSword, 2.5f));
+            StartCoroutine(ItemDuration("Sword", 2.5f));
             _anim.SetBool("isUsingSword", true);
         }
         else
@@ -146,12 +161,25 @@ public class Player : MonoBehaviour, IKillable {
     {
         if (_usingMedusaHead == true)
         {
-            StartCoroutine(ItemDuration(_usingMedusaHead, 2f));
+            StartCoroutine(ItemDuration("MedusaHead", 2f));
             _anim.SetBool("isUsingMedusaHead", true);
         }
         else
         {
             _anim.SetBool("isUsingMedusaHead", false);
+        }
+    }
+
+    void LaserIsUsed()
+    {
+        if (_usingLaser == true)
+        {
+            StartCoroutine(ItemDuration("Laser", 2f));
+            _anim.SetBool("isUsingLaser", true);
+        }
+        else
+        {
+            _anim.SetBool("isUsingLaser", false);
         }
     }
 
@@ -175,11 +203,20 @@ public class Player : MonoBehaviour, IKillable {
         }
     }
 
-    IEnumerator ItemDuration(bool usingItem, float itemDuration)
+    IEnumerator ItemDuration(string whichItem, float itemDuration)
     {
         yield return new WaitForSeconds(itemDuration);
-        usingItem = false;
-        UsingMedusaHead = false;
-        UsingSword = false;
+        if(whichItem == "Laser")
+        {
+            _usingLaser = false;
+        }
+        else if(whichItem == "MedusaHead")
+        {
+            _usingMedusaHead = false;
+        }
+        else
+        {
+            UsingSword = false;
+        }
     }
 }

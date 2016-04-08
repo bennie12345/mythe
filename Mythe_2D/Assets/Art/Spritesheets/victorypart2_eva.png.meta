@@ -1,0 +1,554 @@
+fileFormatVersion: 2
+guid: e89442dad3d6a4f42b58205dca0e2e17
+timeCreated: 1460120312
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: victorypart2_eva_0
+    21300002: victorypart2_eva_1
+    21300004: victorypart2_eva_2
+    21300006: victorypart2_eva_3
+    21300008: victorypart2_eva_4
+    21300010: victorypart2_eva_5
+    21300012: victorypart2_eva_6
+    21300014: victorypart2_eva_7
+    21300016: victorypart2_eva_8
+    21300018: victorypart2_eva_9
+    21300020: victorypart2_eva_10
+    21300022: victorypart2_eva_11
+    21300024: victorypart2_eva_12
+    21300026: victorypart2_eva_13
+    21300028: victorypart2_eva_14
+    21300030: victorypart2_eva_15
+    21300032: victorypart2_eva_16
+    21300034: victorypart2_eva_17
+    21300036: victorypart2_eva_18
+    21300038: victorypart2_eva_19
+    21300040: victorypart2_eva_20
+    21300042: victorypart2_eva_21
+    21300044: victorypart2_eva_22
+    21300046: victorypart2_eva_23
+    21300048: victorypart2_eva_24
+    21300050: victorypart2_eva_25
+    21300052: victorypart2_eva_26
+    21300054: victorypart2_eva_27
+    21300056: victorypart2_eva_28
+    21300058: victorypart2_eva_29
+    21300060: victorypart2_eva_30
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: victorypart2_eva_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3199
+        width: 683
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -189.07513, y: 108.18982}
+        - {x: -189.07513, y: -106.81018}
+        - {x: 189.92487, y: -106.81018}
+        - {x: 189.92487, y: 108.18982}
+    - name: victorypart2_eva_1
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 3199
+        width: 683
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -189.01025, y: 108.18982}
+        - {x: -189.01025, y: -106.81018}
+        - {x: 189.98975, y: -106.81018}
+        - {x: 189.98975, y: 108.18982}
+    - name: victorypart2_eva_2
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 3199
+        width: 681
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -188.89185, y: 108.18982}
+        - {x: -188.89185, y: -106.81018}
+        - {x: 189.10815, y: -106.81018}
+        - {x: 189.10815, y: 108.18982}
+    - name: victorypart2_eva_3
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 3199
+        width: 681
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -188.82703, y: 108.18982}
+        - {x: -188.82703, y: -106.81018}
+        - {x: 189.17297, y: -106.81018}
+        - {x: 189.17297, y: 108.18982}
+    - name: victorypart2_eva_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2776
+        width: 683
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -189.07513, y: 108.05359}
+        - {x: -189.07513, y: -106.94641}
+        - {x: 189.92487, y: -106.94641}
+        - {x: 189.92487, y: 108.05359}
+    - name: victorypart2_eva_5
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 2776
+        width: 683
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -189.01025, y: 108.05359}
+        - {x: -189.01025, y: -106.94641}
+        - {x: 189.98975, y: -106.94641}
+        - {x: 189.98975, y: 108.05359}
+    - name: victorypart2_eva_6
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 2776
+        width: 681
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -188.89185, y: 108.05359}
+        - {x: -188.89185, y: -106.94641}
+        - {x: 189.10815, y: -106.94641}
+        - {x: 189.10815, y: 108.05359}
+    - name: victorypart2_eva_7
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 2776
+        width: 681
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -188.82703, y: 108.05359}
+        - {x: -188.82703, y: -106.94641}
+        - {x: 189.17297, y: -106.94641}
+        - {x: 189.17297, y: 108.05359}
+    - name: victorypart2_eva_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2355
+        width: 683
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -189.07513, y: 107.524414}
+        - {x: -189.07513, y: -106.475586}
+        - {x: 189.92487, y: -106.475586}
+        - {x: 189.92487, y: 107.524414}
+    - name: victorypart2_eva_9
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 2355
+        width: 683
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -189.01025, y: 107.524414}
+        - {x: -189.01025, y: -106.475586}
+        - {x: 189.98975, y: -106.475586}
+        - {x: 189.98975, y: 107.524414}
+    - name: victorypart2_eva_10
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 2355
+        width: 681
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -188.89185, y: 107.524414}
+        - {x: -188.89185, y: -106.475586}
+        - {x: 189.10815, y: -106.475586}
+        - {x: 189.10815, y: 107.524414}
+    - name: victorypart2_eva_11
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 2355
+        width: 681
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -188.82703, y: 107.524414}
+        - {x: -188.82703, y: -106.475586}
+        - {x: 189.17297, y: -106.475586}
+        - {x: 189.17297, y: 107.524414}
+    - name: victorypart2_eva_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1932
+        width: 683
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -189.07513, y: 107.88818}
+        - {x: -189.07513, y: -107.11182}
+        - {x: 189.92487, y: -107.11182}
+        - {x: 189.92487, y: 107.88818}
+    - name: victorypart2_eva_13
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1932
+        width: 683
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -189.01025, y: 107.88818}
+        - {x: -189.01025, y: -107.11182}
+        - {x: 189.98975, y: -107.11182}
+        - {x: 189.98975, y: 107.88818}
+    - name: victorypart2_eva_14
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 1932
+        width: 681
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -188.89185, y: 107.88818}
+        - {x: -188.89185, y: -107.11182}
+        - {x: 189.10815, y: -107.11182}
+        - {x: 189.10815, y: 107.88818}
+    - name: victorypart2_eva_15
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 1932
+        width: 681
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -188.82703, y: 107.88818}
+        - {x: -188.82703, y: -107.11182}
+        - {x: 189.17297, y: -107.11182}
+        - {x: 189.17297, y: 107.88818}
+    - name: victorypart2_eva_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1511
+        width: 683
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -189.07513, y: 107.35895}
+        - {x: -189.07513, y: -106.64105}
+        - {x: 189.92487, y: -106.64105}
+        - {x: 189.92487, y: 107.35895}
+    - name: victorypart2_eva_17
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1511
+        width: 683
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -189.01025, y: 107.35895}
+        - {x: -189.01025, y: -106.64105}
+        - {x: 189.98975, y: -106.64105}
+        - {x: 189.98975, y: 107.35895}
+    - name: victorypart2_eva_18
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1511
+        width: 683
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -189.15942, y: 107.35895}
+        - {x: -189.15942, y: -106.64105}
+        - {x: 189.84058, y: -106.64105}
+        - {x: 189.84058, y: 107.35895}
+    - name: victorypart2_eva_19
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 1511
+        width: 681
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -188.82703, y: 107.35895}
+        - {x: -188.82703, y: -106.64105}
+        - {x: 189.17297, y: -106.64105}
+        - {x: 189.17297, y: 107.35895}
+    - name: victorypart2_eva_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1089
+        width: 683
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -189.07513, y: 108.276245}
+        - {x: -189.07513, y: -106.723755}
+        - {x: 189.92487, y: -106.723755}
+        - {x: 189.92487, y: 108.276245}
+    - name: victorypart2_eva_21
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1089
+        width: 683
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -189.01025, y: 108.276245}
+        - {x: -189.01025, y: -106.723755}
+        - {x: 189.98975, y: -106.723755}
+        - {x: 189.98975, y: 108.276245}
+    - name: victorypart2_eva_22
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 1089
+        width: 681
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -188.89185, y: 108.276245}
+        - {x: -188.89185, y: -106.723755}
+        - {x: 189.10815, y: -106.723755}
+        - {x: 189.10815, y: 108.276245}
+    - name: victorypart2_eva_23
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 1089
+        width: 681
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -188.82703, y: 108.276245}
+        - {x: -188.82703, y: -106.723755}
+        - {x: 189.17297, y: -106.723755}
+        - {x: 189.17297, y: 108.276245}
+    - name: victorypart2_eva_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 666
+        width: 683
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -189.07513, y: 108.140015}
+        - {x: -189.07513, y: -106.859985}
+        - {x: 189.92487, y: -106.859985}
+        - {x: 189.92487, y: 108.140015}
+    - name: victorypart2_eva_25
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 666
+        width: 683
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -189.01025, y: 108.140015}
+        - {x: -189.01025, y: -105.859985}
+        - {x: -188.01025, y: -106.859985}
+        - {x: 189.98975, y: -106.859985}
+        - {x: 189.98975, y: 108.140015}
+    - name: victorypart2_eva_26
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 666
+        width: 681
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -188.89185, y: 108.140015}
+        - {x: -188.89185, y: -106.859985}
+        - {x: 189.10815, y: -106.859985}
+        - {x: 189.10815, y: 108.140015}
+    - name: victorypart2_eva_27
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 666
+        width: 681
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -188.82703, y: 108.140015}
+        - {x: -188.82703, y: -106.859985}
+        - {x: 189.17297, y: -106.859985}
+        - {x: 189.17297, y: 108.140015}
+    - name: victorypart2_eva_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 245
+        width: 683
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -189.07513, y: 107.61081}
+        - {x: -189.07513, y: -106.38919}
+        - {x: 189.92487, y: -106.38919}
+        - {x: 189.92487, y: 107.61081}
+    - name: victorypart2_eva_29
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 245
+        width: 683
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -189.01025, y: 107.61081}
+        - {x: -189.01025, y: -106.38919}
+        - {x: 189.98975, y: -106.38919}
+        - {x: 189.98975, y: 107.61081}
+    - name: victorypart2_eva_30
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 245
+        width: 681
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -188.89185, y: 107.61081}
+        - {x: -188.89185, y: -106.38919}
+        - {x: 189.10815, y: -106.38919}
+        - {x: 189.10815, y: 107.61081}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -11,6 +11,8 @@ public class ObjectNames : MonoBehaviour {
     public static readonly string fishSlicedEnemyName = "FishSliced";
     public static readonly string fishEnemyDisintegratedName = "FishEnemyDisintegrated";
     public static readonly string birdEnemyDisintegratedName = "BirdEnemyDisintegrated";
+    public static readonly string deadBirdName = "DeadBird";
+    public static readonly string deadFishName = "DeadFish";
     public static readonly string medusaEffectGameObjectName = "MedusaEffectGameObj";
     public static readonly string laserBeamName = "LaserBeam";
 }
