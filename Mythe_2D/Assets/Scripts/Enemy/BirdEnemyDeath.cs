@@ -11,6 +11,7 @@ public class BirdEnemyDeath : EnemyDeath, IKillable
         _stoneEnemy = ObjectNames.birdStoneEnemyName;
         _slicedEnemy = ObjectNames.birdSlicedEnemyName;
         _disintegratedEnemy = ObjectNames.birdEnemyDisintegratedName;
+        _deadEnemy = ObjectNames.deadBirdName;
     }
 
 }
