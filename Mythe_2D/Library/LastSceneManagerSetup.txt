@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/TestScenes/eva_testscene.unity
+=======
+- path: Assets/Scenes/MainMenu.unity
+>>>>>>> c11e2ab1a5966c0d2fa4690c872c571783aecd7b
   isLoaded: 1
   isActive: 1
