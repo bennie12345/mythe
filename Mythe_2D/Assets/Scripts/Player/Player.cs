@@ -218,6 +218,5 @@ public class Player : MonoBehaviour, IKillable {
         {
             UsingSword = false;
         }
-        
     }
 }
