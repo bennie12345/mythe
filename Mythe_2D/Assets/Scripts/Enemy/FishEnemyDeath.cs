@@ -11,6 +11,7 @@ public class FishEnemyDeath : EnemyDeath, IKillable
         _stoneEnemy = ObjectNames.fishStoneEnemyName;
         _slicedEnemy = ObjectNames.fishSlicedEnemyName;
         _disintegratedEnemy = ObjectNames.fishEnemyDisintegratedName;
+        _deadEnemy = ObjectNames.deadFishName;
     }
 
 }

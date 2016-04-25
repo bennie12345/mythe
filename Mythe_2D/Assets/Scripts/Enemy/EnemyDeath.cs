@@ -10,6 +10,7 @@ public class EnemyDeath : MonoBehaviour, IKillable
     protected string _stoneEnemy;
     protected string _slicedEnemy;
     protected string _disintegratedEnemy;
+    protected string _deadEnemy;
 
     private Sounds _sounds;
 
@@ -43,6 +44,7 @@ public class EnemyDeath : MonoBehaviour, IKillable
         {
             other.SendMessage("ApplyDamage", _enemyDamage);
             soundDelegate(_sounds.PlayerHitSound);
+            CreateDeadEnemy();
             Kill();
         }
 
@@ -68,6 +70,7 @@ public class EnemyDeath : MonoBehaviour, IKillable
     public void Kill()
     {
         _cameraShakeScript.Shake();
+<<<<<<< HEAD
         _scoreScript.UpdateScore(1);
         //soundDelegate(_sounds.EnemyDeath);
         //_slowTimeScript.SlowTheTime();
@@ -75,6 +78,9 @@ public class EnemyDeath : MonoBehaviour, IKillable
         //soundDelegate(_sounds.EnemyDeath);
         _scoreScript.UpdateScore(10);
         _scoreScript.UpdateScore(10);
+=======
+        _scoreScript.UpdateScore(10);
+>>>>>>> b96b84389f093c36d0ad89707cebca49a062ca29
         _objectPoolScript.PoolObject(this.gameObject);
     }
 
@@ -94,6 +100,11 @@ public class EnemyDeath : MonoBehaviour, IKillable
     {
         ObjectPool.instance.GetObjectForType(_disintegratedEnemy, true).transform.position = transform.position;
         soundDelegate(_sounds.EnemyDisintegratDeathSound);
+    }
+
+    void CreateDeadEnemy()
+    {
+        ObjectPool.instance.GetObjectForType(_deadEnemy, true).transform.position = transform.position;
     }
 
 }

@@ -3,15 +3,8 @@ using System.Collections;
 
 public class OffsetScroller : MonoBehaviour
 {
-
     public float scrollSpeed;
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
+    
     void Update()
     {
         float x = Mathf.Repeat(Time.time * scrollSpeed, 1);

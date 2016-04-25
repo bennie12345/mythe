@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 942e3782a93e56249a5a07b6d92e4d5d
-timeCreated: 1460017472
+timeCreated: 1460108450
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -143,7 +143,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -116.98, y: 67.359985}
@@ -155,46 +155,47 @@ TextureImporter:
         serializedVersion: 2
         x: 423
         y: 2749
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28, y: 67.359985}
-        - {x: -117.28, y: -66.640015}
-        - {x: 118.72, y: -66.640015}
-        - {x: 118.72, y: 67.359985}
+      - - {x: -116.78, y: 67.359985}
+        - {x: -116.78, y: -66.640015}
+        - {x: 118.22, y: -66.640015}
+        - {x: 118.22, y: 67.359985}
     - name: menugood_eva_part2_2
       rect:
         serializedVersion: 2
         x: 802
         y: 2749
-        width: 368
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72003, y: 67.359985}
-        - {x: -117.72003, y: -66.640015}
-        - {x: 118.27997, y: -66.640015}
-        - {x: 118.27997, y: 67.359985}
+      - - {x: -117.22003, y: 67.359985}
+        - {x: -117.22003, y: -66.640015}
+        - {x: 117.77997, y: -66.640015}
+        - {x: 117.77997, y: 67.359985}
     - name: menugood_eva_part2_3
       rect:
         serializedVersion: 2
         x: 1182
         y: 2749
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.52002, y: 67.359985}
-        - {x: -117.52002, y: -66.640015}
-        - {x: 118.47998, y: -66.640015}
-        - {x: 118.47998, y: 67.359985}
+      - - {x: -116.02002, y: 67.359985}
+        - {x: -117.02002, y: 66.359985}
+        - {x: -117.02002, y: -66.640015}
+        - {x: 117.97998, y: -66.640015}
+        - {x: 117.97998, y: 67.359985}
     - name: menugood_eva_part2_4
       rect:
         serializedVersion: 2
@@ -203,7 +204,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -117.17999, y: 67.359985}
@@ -218,7 +219,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -116.97998, y: 67.359985}
@@ -230,31 +231,31 @@ TextureImporter:
         serializedVersion: 2
         x: 2323
         y: 2749
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28003, y: 67.359985}
-        - {x: -117.28003, y: -66.640015}
-        - {x: 118.71997, y: -66.640015}
-        - {x: 118.71997, y: 67.359985}
+      - - {x: -116.78003, y: 67.359985}
+        - {x: -116.78003, y: -66.640015}
+        - {x: 118.21997, y: -66.640015}
+        - {x: 118.21997, y: 67.359985}
     - name: menugood_eva_part2_7
       rect:
         serializedVersion: 2
         x: 2702
         y: 2749
-        width: 368
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72009, y: 67.359985}
-        - {x: -117.72009, y: -66.640015}
-        - {x: 118.27991, y: -66.640015}
-        - {x: 118.27991, y: 67.359985}
+      - - {x: -117.22009, y: 67.359985}
+        - {x: -117.22009, y: -66.640015}
+        - {x: 117.77991, y: -66.640015}
+        - {x: 117.77991, y: 67.359985}
     - name: menugood_eva_part2_8
       rect:
         serializedVersion: 2
@@ -263,7 +264,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -116.98, y: 67.27991}
@@ -275,46 +276,46 @@ TextureImporter:
         serializedVersion: 2
         x: 423
         y: 2527
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28, y: 67.27991}
-        - {x: -117.28, y: -66.72009}
-        - {x: 118.72, y: -66.72009}
-        - {x: 118.72, y: 67.27991}
+      - - {x: -116.78, y: 67.27991}
+        - {x: -116.78, y: -66.72009}
+        - {x: 118.22, y: -66.72009}
+        - {x: 118.22, y: 67.27991}
     - name: menugood_eva_part2_10
       rect:
         serializedVersion: 2
         x: 802
         y: 2527
-        width: 368
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72003, y: 67.27991}
-        - {x: -117.72003, y: -66.72009}
-        - {x: 118.27997, y: -66.72009}
-        - {x: 118.27997, y: 67.27991}
+      - - {x: -117.22003, y: 67.27991}
+        - {x: -117.22003, y: -66.72009}
+        - {x: 117.77997, y: -66.72009}
+        - {x: 117.77997, y: 67.27991}
     - name: menugood_eva_part2_11
       rect:
         serializedVersion: 2
         x: 1182
         y: 2527
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.52002, y: 67.27991}
-        - {x: -117.52002, y: -66.72009}
-        - {x: 118.47998, y: -66.72009}
-        - {x: 118.47998, y: 67.27991}
+      - - {x: -117.02002, y: 67.27991}
+        - {x: -117.02002, y: -66.72009}
+        - {x: 117.97998, y: -66.72009}
+        - {x: 117.97998, y: 67.27991}
     - name: menugood_eva_part2_12
       rect:
         serializedVersion: 2
@@ -323,7 +324,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -117.17999, y: 67.27991}
@@ -338,7 +339,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -116.97998, y: 67.27991}
@@ -350,31 +351,31 @@ TextureImporter:
         serializedVersion: 2
         x: 2323
         y: 2527
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28003, y: 67.27991}
-        - {x: -117.28003, y: -66.72009}
-        - {x: 118.71997, y: -66.72009}
-        - {x: 118.71997, y: 67.27991}
+      - - {x: -116.78003, y: 67.27991}
+        - {x: -116.78003, y: -66.72009}
+        - {x: 118.21997, y: -66.72009}
+        - {x: 118.21997, y: 67.27991}
     - name: menugood_eva_part2_15
       rect:
         serializedVersion: 2
         x: 2702
         y: 2527
-        width: 368
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72009, y: 67.27991}
-        - {x: -117.72009, y: -66.72009}
-        - {x: 118.27991, y: -66.72009}
-        - {x: 118.27991, y: 67.27991}
+      - - {x: -117.22009, y: 67.27991}
+        - {x: -117.22009, y: -66.72009}
+        - {x: 117.77991, y: -66.72009}
+        - {x: 117.77991, y: 67.27991}
     - name: menugood_eva_part2_16
       rect:
         serializedVersion: 2
@@ -383,7 +384,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -116.98, y: 67.47998}
@@ -395,46 +396,46 @@ TextureImporter:
         serializedVersion: 2
         x: 423
         y: 2307
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28, y: 67.47998}
-        - {x: -117.28, y: -66.52002}
-        - {x: 118.72, y: -66.52002}
-        - {x: 118.72, y: 67.47998}
+      - - {x: -116.78, y: 67.47998}
+        - {x: -116.78, y: -66.52002}
+        - {x: 118.22, y: -66.52002}
+        - {x: 118.22, y: 67.47998}
     - name: menugood_eva_part2_18
       rect:
         serializedVersion: 2
         x: 802
         y: 2307
-        width: 368
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72003, y: 67.47998}
-        - {x: -117.72003, y: -66.52002}
-        - {x: 118.27997, y: -66.52002}
-        - {x: 118.27997, y: 67.47998}
+      - - {x: -117.22003, y: 67.47998}
+        - {x: -117.22003, y: -66.52002}
+        - {x: 117.77997, y: -66.52002}
+        - {x: 117.77997, y: 67.47998}
     - name: menugood_eva_part2_19
       rect:
         serializedVersion: 2
         x: 1182
         y: 2307
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.52002, y: 67.47998}
-        - {x: -117.52002, y: -66.52002}
-        - {x: 118.47998, y: -66.52002}
-        - {x: 118.47998, y: 67.47998}
+      - - {x: -117.02002, y: 67.47998}
+        - {x: -117.02002, y: -66.52002}
+        - {x: 117.97998, y: -66.52002}
+        - {x: 117.97998, y: 67.47998}
     - name: menugood_eva_part2_20
       rect:
         serializedVersion: 2
@@ -443,7 +444,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -117.17999, y: 67.47998}
@@ -458,7 +459,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -116.97998, y: 67.47998}
@@ -470,31 +471,31 @@ TextureImporter:
         serializedVersion: 2
         x: 2323
         y: 2307
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28003, y: 67.47998}
-        - {x: -117.28003, y: -66.52002}
-        - {x: 118.71997, y: -66.52002}
-        - {x: 118.71997, y: 67.47998}
+      - - {x: -116.78003, y: 67.47998}
+        - {x: -116.78003, y: -66.52002}
+        - {x: 118.21997, y: -66.52002}
+        - {x: 118.21997, y: 67.47998}
     - name: menugood_eva_part2_23
       rect:
         serializedVersion: 2
         x: 2702
         y: 2307
-        width: 368
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72009, y: 67.47998}
-        - {x: -117.72009, y: -66.52002}
-        - {x: 118.27991, y: -66.52002}
-        - {x: 118.27991, y: 67.47998}
+      - - {x: -117.22009, y: 67.47998}
+        - {x: -117.22009, y: -66.52002}
+        - {x: 117.77991, y: -66.52002}
+        - {x: 117.77991, y: 67.47998}
     - name: menugood_eva_part2_24
       rect:
         serializedVersion: 2
@@ -503,7 +504,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -116.98, y: 67.400024}
@@ -515,46 +516,46 @@ TextureImporter:
         serializedVersion: 2
         x: 423
         y: 2085
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28, y: 67.400024}
-        - {x: -117.28, y: -66.599976}
-        - {x: 118.72, y: -66.599976}
-        - {x: 118.72, y: 67.400024}
+      - - {x: -116.78, y: 67.400024}
+        - {x: -116.78, y: -66.599976}
+        - {x: 118.22, y: -66.599976}
+        - {x: 118.22, y: 67.400024}
     - name: menugood_eva_part2_26
       rect:
         serializedVersion: 2
         x: 802
         y: 2085
-        width: 368
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72003, y: 67.400024}
-        - {x: -117.72003, y: -66.599976}
-        - {x: 118.27997, y: -66.599976}
-        - {x: 118.27997, y: 67.400024}
+      - - {x: -117.22003, y: 67.400024}
+        - {x: -117.22003, y: -66.599976}
+        - {x: 117.77997, y: -66.599976}
+        - {x: 117.77997, y: 67.400024}
     - name: menugood_eva_part2_27
       rect:
         serializedVersion: 2
         x: 1182
         y: 2085
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.52002, y: 67.400024}
-        - {x: -117.52002, y: -66.599976}
-        - {x: 118.47998, y: -66.599976}
-        - {x: 118.47998, y: 67.400024}
+      - - {x: -117.02002, y: 67.400024}
+        - {x: -117.02002, y: -66.599976}
+        - {x: 117.97998, y: -66.599976}
+        - {x: 117.97998, y: 67.400024}
     - name: menugood_eva_part2_28
       rect:
         serializedVersion: 2
@@ -563,7 +564,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -117.17999, y: 67.400024}
@@ -578,7 +579,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -116.97998, y: 67.400024}
@@ -590,31 +591,31 @@ TextureImporter:
         serializedVersion: 2
         x: 2323
         y: 2085
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28003, y: 67.400024}
-        - {x: -117.28003, y: -66.599976}
-        - {x: 118.71997, y: -66.599976}
-        - {x: 118.71997, y: 67.400024}
+      - - {x: -116.78003, y: 67.400024}
+        - {x: -116.78003, y: -66.599976}
+        - {x: 118.21997, y: -66.599976}
+        - {x: 118.21997, y: 67.400024}
     - name: menugood_eva_part2_31
       rect:
         serializedVersion: 2
         x: 2702
         y: 2085
-        width: 368
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72009, y: 67.400024}
-        - {x: -117.72009, y: -66.599976}
-        - {x: 118.27991, y: -66.599976}
-        - {x: 118.27991, y: 67.400024}
+      - - {x: -117.22009, y: 67.400024}
+        - {x: -117.22009, y: -66.599976}
+        - {x: 117.77991, y: -66.599976}
+        - {x: 117.77991, y: 67.400024}
     - name: menugood_eva_part2_32
       rect:
         serializedVersion: 2
@@ -623,7 +624,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -116.98, y: 67.599976}
@@ -635,46 +636,46 @@ TextureImporter:
         serializedVersion: 2
         x: 423
         y: 1865
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28, y: 67.599976}
-        - {x: -117.28, y: -66.400024}
-        - {x: 118.72, y: -66.400024}
-        - {x: 118.72, y: 67.599976}
+      - - {x: -116.78, y: 67.599976}
+        - {x: -116.78, y: -66.400024}
+        - {x: 118.22, y: -66.400024}
+        - {x: 118.22, y: 67.599976}
     - name: menugood_eva_part2_34
       rect:
         serializedVersion: 2
         x: 802
         y: 1865
-        width: 368
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72003, y: 67.599976}
-        - {x: -117.72003, y: -66.400024}
-        - {x: 118.27997, y: -66.400024}
-        - {x: 118.27997, y: 67.599976}
+      - - {x: -117.22003, y: 67.599976}
+        - {x: -117.22003, y: -66.400024}
+        - {x: 117.77997, y: -66.400024}
+        - {x: 117.77997, y: 67.599976}
     - name: menugood_eva_part2_35
       rect:
         serializedVersion: 2
         x: 1182
         y: 1865
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.52002, y: 67.599976}
-        - {x: -117.52002, y: -66.400024}
-        - {x: 118.47998, y: -66.400024}
-        - {x: 118.47998, y: 67.599976}
+      - - {x: -117.02002, y: 67.599976}
+        - {x: -117.02002, y: -66.400024}
+        - {x: 117.97998, y: -66.400024}
+        - {x: 117.97998, y: 67.599976}
     - name: menugood_eva_part2_36
       rect:
         serializedVersion: 2
@@ -683,7 +684,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -117.17999, y: 67.599976}
@@ -698,7 +699,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -116.97998, y: 67.599976}
@@ -710,31 +711,31 @@ TextureImporter:
         serializedVersion: 2
         x: 2323
         y: 1865
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28003, y: 67.599976}
-        - {x: -117.28003, y: -66.400024}
-        - {x: 118.71997, y: -66.400024}
-        - {x: 118.71997, y: 67.599976}
+      - - {x: -116.78003, y: 67.599976}
+        - {x: -116.78003, y: -66.400024}
+        - {x: 118.21997, y: -66.400024}
+        - {x: 118.21997, y: 67.599976}
     - name: menugood_eva_part2_39
       rect:
         serializedVersion: 2
         x: 2702
         y: 1865
-        width: 368
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72009, y: 67.599976}
-        - {x: -117.72009, y: -66.400024}
-        - {x: 118.27991, y: -66.400024}
-        - {x: 118.27991, y: 67.599976}
+      - - {x: -117.22009, y: 67.599976}
+        - {x: -117.22009, y: -66.400024}
+        - {x: 117.77991, y: -66.400024}
+        - {x: 117.77991, y: 67.599976}
     - name: menugood_eva_part2_40
       rect:
         serializedVersion: 2
@@ -743,7 +744,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -116.98, y: 67.52002}
@@ -755,47 +756,47 @@ TextureImporter:
         serializedVersion: 2
         x: 423
         y: 1643
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28, y: 67.52002}
-        - {x: -117.28, y: -66.47998}
-        - {x: 118.72, y: -66.47998}
-        - {x: 118.72, y: 67.52002}
+      - - {x: -116.78, y: 67.52002}
+        - {x: -116.78, y: -66.47998}
+        - {x: 118.22, y: -66.47998}
+        - {x: 118.22, y: 67.52002}
     - name: menugood_eva_part2_42
       rect:
         serializedVersion: 2
         x: 802
         y: 1643
-        width: 368
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72003, y: 67.52002}
-        - {x: -117.72003, y: -66.47998}
-        - {x: 118.27997, y: -66.47998}
-        - {x: 118.27997, y: 67.52002}
+      - - {x: -117.22003, y: 67.52002}
+        - {x: -117.22003, y: -66.47998}
+        - {x: 117.77997, y: -66.47998}
+        - {x: 117.77997, y: 67.52002}
     - name: menugood_eva_part2_43
       rect:
         serializedVersion: 2
         x: 1182
         y: 1643
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.52002, y: 67.52002}
-        - {x: -117.52002, y: -65.47998}
-        - {x: -116.52002, y: -66.47998}
-        - {x: 118.47998, y: -66.47998}
-        - {x: 118.47998, y: 67.52002}
+      - - {x: -117.02002, y: 67.52002}
+        - {x: -117.02002, y: -65.47998}
+        - {x: -116.02002, y: -66.47998}
+        - {x: 117.97998, y: -66.47998}
+        - {x: 117.97998, y: 67.52002}
     - name: menugood_eva_part2_44
       rect:
         serializedVersion: 2
@@ -804,7 +805,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -117.17999, y: 67.52002}
@@ -819,7 +820,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -116.97998, y: 67.52002}
@@ -831,40 +832,40 @@ TextureImporter:
         serializedVersion: 2
         x: 2323
         y: 1643
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28003, y: 67.52002}
-        - {x: -117.28003, y: -66.47998}
-        - {x: 118.71997, y: -66.47998}
-        - {x: 118.71997, y: 67.52002}
+      - - {x: -116.78003, y: 67.52002}
+        - {x: -116.78003, y: -66.47998}
+        - {x: 118.21997, y: -66.47998}
+        - {x: 118.21997, y: 67.52002}
     - name: menugood_eva_part2_47
       rect:
         serializedVersion: 2
         x: 2702
         y: 1643
-        width: 368
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72009, y: 67.52002}
-        - {x: -117.72009, y: -66.47998}
-        - {x: 118.27991, y: -66.47998}
-        - {x: 118.27991, y: 67.52002}
+      - - {x: -117.22009, y: 67.52002}
+        - {x: -117.22009, y: -66.47998}
+        - {x: 117.77991, y: -66.47998}
+        - {x: 117.77991, y: 67.52002}
     - name: menugood_eva_part2_48
       rect:
         serializedVersion: 2
         x: 43
         y: 1423
         width: 366
-        height: 207
+        height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -116.98, y: 67.71997}
@@ -876,55 +877,55 @@ TextureImporter:
         serializedVersion: 2
         x: 423
         y: 1423
-        width: 367
-        height: 207
+        width: 366
+        height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28, y: 67.71997}
-        - {x: -117.28, y: -66.28003}
-        - {x: 118.72, y: -66.28003}
-        - {x: 118.72, y: 67.71997}
+      - - {x: -116.78, y: 67.71997}
+        - {x: -116.78, y: -66.28003}
+        - {x: 118.22, y: -66.28003}
+        - {x: 118.22, y: 67.71997}
     - name: menugood_eva_part2_50
       rect:
         serializedVersion: 2
         x: 802
         y: 1423
-        width: 368
-        height: 207
+        width: 366
+        height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72003, y: 67.71997}
-        - {x: -117.72003, y: -66.28003}
-        - {x: 118.27997, y: -66.28003}
-        - {x: 118.27997, y: 67.71997}
+      - - {x: -117.22003, y: 67.71997}
+        - {x: -117.22003, y: -66.28003}
+        - {x: 117.77997, y: -66.28003}
+        - {x: 117.77997, y: 67.71997}
     - name: menugood_eva_part2_51
       rect:
         serializedVersion: 2
         x: 1182
         y: 1423
-        width: 367
-        height: 207
+        width: 366
+        height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.52002, y: 67.71997}
-        - {x: -117.52002, y: -66.28003}
-        - {x: 118.47998, y: -66.28003}
-        - {x: 118.47998, y: 67.71997}
+      - - {x: -117.02002, y: 67.71997}
+        - {x: -117.02002, y: -66.28003}
+        - {x: 117.97998, y: -66.28003}
+        - {x: 117.97998, y: 67.71997}
     - name: menugood_eva_part2_52
       rect:
         serializedVersion: 2
         x: 1563
         y: 1423
         width: 366
-        height: 207
+        height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -117.17999, y: 67.71997}
@@ -937,9 +938,9 @@ TextureImporter:
         x: 1943
         y: 1423
         width: 366
-        height: 207
+        height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -116.97998, y: 67.71997}
@@ -951,151 +952,162 @@ TextureImporter:
         serializedVersion: 2
         x: 2323
         y: 1423
-        width: 367
-        height: 207
+        width: 366
+        height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28003, y: 67.71997}
-        - {x: -117.28003, y: -66.28003}
-        - {x: 118.71997, y: -66.28003}
-        - {x: 118.71997, y: 67.71997}
+      - - {x: -116.78003, y: 67.71997}
+        - {x: -116.78003, y: -66.28003}
+        - {x: 118.21997, y: -66.28003}
+        - {x: 118.21997, y: 67.71997}
     - name: menugood_eva_part2_55
       rect:
         serializedVersion: 2
         x: 2702
         y: 1423
-        width: 368
-        height: 207
+        width: 366
+        height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72009, y: 67.71997}
-        - {x: -117.72009, y: -66.28003}
-        - {x: 118.27991, y: -66.28003}
-        - {x: 118.27991, y: 67.71997}
+      - - {x: -117.22009, y: 67.71997}
+        - {x: -117.22009, y: -66.28003}
+        - {x: 117.77991, y: -66.28003}
+        - {x: 117.77991, y: 67.71997}
     - name: menugood_eva_part2_56
       rect:
         serializedVersion: 2
         x: 43
         y: 1202
         width: 366
-        height: 207
+        height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -116.98, y: 66.77997}
-        - {x: -116.98, y: -66.22003}
-        - {x: 118.02, y: -66.22003}
-        - {x: 118.02, y: 66.77997}
+      - - {x: -115.98, y: 67.27997}
+        - {x: -116.98, y: 66.27997}
+        - {x: -116.98, y: -66.72003}
+        - {x: 118.02, y: -66.72003}
+        - {x: 118.02, y: 66.27997}
+        - {x: 117.02, y: 67.27997}
     - name: menugood_eva_part2_57
       rect:
         serializedVersion: 2
         x: 423
         y: 1202
-        width: 367
-        height: 207
+        width: 366
+        height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28, y: 66.77997}
-        - {x: -117.28, y: -66.22003}
-        - {x: 118.72, y: -66.22003}
-        - {x: 118.72, y: 66.77997}
+      - - {x: -116.78, y: 66.27997}
+        - {x: -116.78, y: -66.72003}
+        - {x: 118.22, y: -66.72003}
+        - {x: 118.22, y: 67.27997}
+        - {x: -115.78, y: 67.27997}
     - name: menugood_eva_part2_58
       rect:
         serializedVersion: 2
         x: 802
         y: 1202
-        width: 368
-        height: 207
+        width: 366
+        height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72003, y: 66.77997}
-        - {x: -117.72003, y: -66.22003}
-        - {x: 118.27997, y: -66.22003}
-        - {x: 118.27997, y: 66.77997}
+      - - {x: -117.22003, y: 66.27997}
+        - {x: -117.22003, y: -66.72003}
+        - {x: 117.77997, y: -66.72003}
+        - {x: 117.77997, y: 67.27997}
+        - {x: -116.22003, y: 67.27997}
     - name: menugood_eva_part2_59
       rect:
         serializedVersion: 2
         x: 1182
         y: 1202
-        width: 367
-        height: 207
+        width: 366
+        height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.52002, y: 66.77997}
-        - {x: -117.52002, y: -66.22003}
-        - {x: 118.47998, y: -66.22003}
-        - {x: 118.47998, y: 66.77997}
+      - - {x: -117.02002, y: 66.27997}
+        - {x: -117.02002, y: -66.72003}
+        - {x: 117.97998, y: -66.72003}
+        - {x: 117.97998, y: 67.27997}
+        - {x: -116.02002, y: 67.27997}
     - name: menugood_eva_part2_60
       rect:
         serializedVersion: 2
         x: 1563
         y: 1202
         width: 366
-        height: 207
+        height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.17999, y: 66.77997}
-        - {x: -117.17999, y: -66.22003}
-        - {x: 117.82001, y: -66.22003}
-        - {x: 117.82001, y: 66.77997}
+      - - {x: -116.17999, y: 67.27997}
+        - {x: -117.17999, y: 66.27997}
+        - {x: -117.17999, y: -66.72003}
+        - {x: 117.82001, y: -66.72003}
+        - {x: 117.82001, y: 66.27997}
+        - {x: 116.82001, y: 67.27997}
     - name: menugood_eva_part2_61
       rect:
         serializedVersion: 2
         x: 1943
         y: 1202
         width: 366
-        height: 207
+        height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -116.97998, y: 66.77997}
-        - {x: -116.97998, y: -66.22003}
-        - {x: 118.02002, y: -66.22003}
-        - {x: 118.02002, y: 66.77997}
+      - - {x: -115.97998, y: 67.27997}
+        - {x: -116.97998, y: 66.27997}
+        - {x: -116.97998, y: -66.72003}
+        - {x: 118.02002, y: -66.72003}
+        - {x: 118.02002, y: 66.27997}
+        - {x: 117.02002, y: 67.27997}
     - name: menugood_eva_part2_62
       rect:
         serializedVersion: 2
         x: 2323
         y: 1202
-        width: 367
-        height: 207
+        width: 366
+        height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28003, y: 66.77997}
-        - {x: -117.28003, y: -66.22003}
-        - {x: 118.71997, y: -66.22003}
-        - {x: 118.71997, y: 66.77997}
+      - - {x: -116.78003, y: 66.27997}
+        - {x: -116.78003, y: -66.72003}
+        - {x: 118.21997, y: -66.72003}
+        - {x: 118.21997, y: 67.27997}
+        - {x: -115.78003, y: 67.27997}
     - name: menugood_eva_part2_63
       rect:
         serializedVersion: 2
         x: 2702
         y: 1202
-        width: 368
-        height: 207
+        width: 366
+        height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72009, y: 66.77997}
-        - {x: -117.72009, y: -66.22003}
-        - {x: 118.27991, y: -66.22003}
-        - {x: 118.27991, y: 66.77997}
+      - - {x: -117.22009, y: 66.27997}
+        - {x: -117.22009, y: -66.72003}
+        - {x: 117.77991, y: -66.72003}
+        - {x: 117.77991, y: 67.27997}
+        - {x: -116.22009, y: 67.27997}
     - name: menugood_eva_part2_64
       rect:
         serializedVersion: 2
@@ -1104,7 +1116,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -116.98, y: 67.20001}
@@ -1116,46 +1128,46 @@ TextureImporter:
         serializedVersion: 2
         x: 423
         y: 980
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28, y: 67.20001}
-        - {x: -117.28, y: -66.79999}
-        - {x: 118.72, y: -66.79999}
-        - {x: 118.72, y: 67.20001}
+      - - {x: -116.78, y: 67.20001}
+        - {x: -116.78, y: -66.79999}
+        - {x: 118.22, y: -66.79999}
+        - {x: 118.22, y: 67.20001}
     - name: menugood_eva_part2_66
       rect:
         serializedVersion: 2
         x: 802
         y: 980
-        width: 368
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72003, y: 67.20001}
-        - {x: -117.72003, y: -66.79999}
-        - {x: 118.27997, y: -66.79999}
-        - {x: 118.27997, y: 67.20001}
+      - - {x: -117.22003, y: 67.20001}
+        - {x: -117.22003, y: -66.79999}
+        - {x: 117.77997, y: -66.79999}
+        - {x: 117.77997, y: 67.20001}
     - name: menugood_eva_part2_67
       rect:
         serializedVersion: 2
         x: 1182
         y: 980
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.52002, y: 67.20001}
-        - {x: -117.52002, y: -66.79999}
-        - {x: 118.47998, y: -66.79999}
-        - {x: 118.47998, y: 67.20001}
+      - - {x: -117.02002, y: 67.20001}
+        - {x: -117.02002, y: -66.79999}
+        - {x: 117.97998, y: -66.79999}
+        - {x: 117.97998, y: 67.20001}
     - name: menugood_eva_part2_68
       rect:
         serializedVersion: 2
@@ -1164,7 +1176,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -117.17999, y: 67.20001}
@@ -1179,7 +1191,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -116.97998, y: 67.20001}
@@ -1191,31 +1203,31 @@ TextureImporter:
         serializedVersion: 2
         x: 2323
         y: 980
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28003, y: 67.20001}
-        - {x: -117.28003, y: -66.79999}
-        - {x: 118.71997, y: -66.79999}
-        - {x: 118.71997, y: 67.20001}
+      - - {x: -116.78003, y: 67.20001}
+        - {x: -116.78003, y: -66.79999}
+        - {x: 118.21997, y: -66.79999}
+        - {x: 118.21997, y: 67.20001}
     - name: menugood_eva_part2_71
       rect:
         serializedVersion: 2
         x: 2702
         y: 980
-        width: 368
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72009, y: 67.20001}
-        - {x: -117.72009, y: -66.79999}
-        - {x: 118.27991, y: -66.79999}
-        - {x: 118.27991, y: 67.20001}
+      - - {x: -117.22009, y: 67.20001}
+        - {x: -117.22009, y: -66.79999}
+        - {x: 117.77991, y: -66.79999}
+        - {x: 117.77991, y: 67.20001}
     - name: menugood_eva_part2_72
       rect:
         serializedVersion: 2
@@ -1224,7 +1236,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -116.98, y: 67.399994}
@@ -1236,46 +1248,46 @@ TextureImporter:
         serializedVersion: 2
         x: 423
         y: 760
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28, y: 67.399994}
-        - {x: -117.28, y: -66.600006}
-        - {x: 118.72, y: -66.600006}
-        - {x: 118.72, y: 67.399994}
+      - - {x: -116.78, y: 67.399994}
+        - {x: -116.78, y: -66.600006}
+        - {x: 118.22, y: -66.600006}
+        - {x: 118.22, y: 67.399994}
     - name: menugood_eva_part2_74
       rect:
         serializedVersion: 2
         x: 802
         y: 760
-        width: 368
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72003, y: 67.399994}
-        - {x: -117.72003, y: -66.600006}
-        - {x: 118.27997, y: -66.600006}
-        - {x: 118.27997, y: 67.399994}
+      - - {x: -117.22003, y: 67.399994}
+        - {x: -117.22003, y: -66.600006}
+        - {x: 117.77997, y: -66.600006}
+        - {x: 117.77997, y: 67.399994}
     - name: menugood_eva_part2_75
       rect:
         serializedVersion: 2
         x: 1182
         y: 760
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.52002, y: 67.399994}
-        - {x: -117.52002, y: -66.600006}
-        - {x: 118.47998, y: -66.600006}
-        - {x: 118.47998, y: 67.399994}
+      - - {x: -117.02002, y: 67.399994}
+        - {x: -117.02002, y: -66.600006}
+        - {x: 117.97998, y: -66.600006}
+        - {x: 117.97998, y: 67.399994}
     - name: menugood_eva_part2_76
       rect:
         serializedVersion: 2
@@ -1284,7 +1296,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -117.17999, y: 67.399994}
@@ -1299,7 +1311,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -116.97998, y: 67.399994}
@@ -1311,31 +1323,31 @@ TextureImporter:
         serializedVersion: 2
         x: 2323
         y: 760
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28003, y: 67.399994}
-        - {x: -117.28003, y: -66.600006}
-        - {x: 118.71997, y: -66.600006}
-        - {x: 118.71997, y: 67.399994}
+      - - {x: -116.78003, y: 67.399994}
+        - {x: -116.78003, y: -66.600006}
+        - {x: 118.21997, y: -66.600006}
+        - {x: 118.21997, y: 67.399994}
     - name: menugood_eva_part2_79
       rect:
         serializedVersion: 2
         x: 2702
         y: 760
-        width: 368
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72009, y: 67.399994}
-        - {x: -117.72009, y: -66.600006}
-        - {x: 118.27991, y: -66.600006}
-        - {x: 118.27991, y: 67.399994}
+      - - {x: -117.22009, y: 67.399994}
+        - {x: -117.22009, y: -66.600006}
+        - {x: 117.77991, y: -66.600006}
+        - {x: 117.77991, y: 67.399994}
     - name: menugood_eva_part2_80
       rect:
         serializedVersion: 2
@@ -1344,7 +1356,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -116.98, y: 67.32001}
@@ -1356,46 +1368,46 @@ TextureImporter:
         serializedVersion: 2
         x: 423
         y: 538
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.28, y: 67.32001}
-        - {x: -117.28, y: -66.67999}
-        - {x: 118.72, y: -66.67999}
-        - {x: 118.72, y: 67.32001}
+      - - {x: -116.78, y: 67.32001}
+        - {x: -116.78, y: -66.67999}
+        - {x: 118.22, y: -66.67999}
+        - {x: 118.22, y: 67.32001}
     - name: menugood_eva_part2_82
       rect:
         serializedVersion: 2
         x: 802
         y: 538
-        width: 368
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.72003, y: 67.32001}
-        - {x: -117.72003, y: -66.67999}
-        - {x: 118.27997, y: -66.67999}
-        - {x: 118.27997, y: 67.32001}
+      - - {x: -117.22003, y: 67.32001}
+        - {x: -117.22003, y: -66.67999}
+        - {x: 117.77997, y: -66.67999}
+        - {x: 117.77997, y: 67.32001}
     - name: menugood_eva_part2_83
       rect:
         serializedVersion: 2
         x: 1182
         y: 538
-        width: 367
+        width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -117.52002, y: 67.32001}
-        - {x: -117.52002, y: -66.67999}
-        - {x: 118.47998, y: -66.67999}
-        - {x: 118.47998, y: 67.32001}
+      - - {x: -117.02002, y: 67.32001}
+        - {x: -117.02002, y: -66.67999}
+        - {x: 117.97998, y: -66.67999}
+        - {x: 117.97998, y: 67.32001}
     - name: menugood_eva_part2_84
       rect:
         serializedVersion: 2
@@ -1404,7 +1416,7 @@ TextureImporter:
         width: 366
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -117.17999, y: 67.32001}
