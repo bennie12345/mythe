@@ -2,17 +2,17 @@
 
 **Perseus Joyride**
 
-> Perseus Joyride is een *2D Endless Runner* game die gemaakt is in Unity Engine en het is voor **Android** platform.
-> Deze game is gemaakt door 8 personen, 4 Devs en 4 Artists.
-> Het doel is met **Perseus Joyride** is dat je obstakels moet vermijden, vijanden vermoorden en dat je je eigen highscore kan verslaan.
+> Perseus Joyride is a *2D Endless Runner* made in Unity Engine for the **Android** platform.
+> This game was made by 8 people. 4 developers and 4 artists.
+> The goal in **Perseus Joyride** is avoiding obstacles by moving and killing enemies by using you abilities.
 
-> Hier zijn een paar scripts voor **Perseus Joyride** dat het waard is om te laten zien:
+> Here are some noteworthy scripts:
 
 - *https://github.com/buijldert/mythe/blob/master/Mythe_2D/Assets/Scripts/UI/SetHighscore.cs*
 - *https://github.com/buijldert/mythe/blob/master/Mythe_2D/Assets/Scripts/Classes/ObjectPool.cs*
 - *https://github.com/buijldert/mythe/blob/master/Mythe_2D/Assets/Scripts/UI/AbilityButtons.cs*
 
-> **Perseus Joyride** is gemaakt door:
+> **Perseus Joyride** is made by:
 
 - Daniel Hofman
 - Brian de Groot
@@ -22,7 +22,3 @@
 - Leonie Brandsma
 - Benjamin Uijldert
 - Nick Schmidt
-
-
-
-
