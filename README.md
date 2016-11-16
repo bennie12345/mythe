@@ -2,7 +2,7 @@
 
 > **Perseus Joyride**
 
-> Perseus Joyride is a *2D Endless Runner* made in Unity Engine for the **Android** platform.
+> Perseus Joyride is a **2D Endless Runner** made in the **Unity Engine** for the **Android** platform.
 > This game was made by 8 people. 4 developers and 4 artists.
 > The goal in **Perseus Joyride** is avoiding obstacles by moving and killing enemies by using you abilities.
 
