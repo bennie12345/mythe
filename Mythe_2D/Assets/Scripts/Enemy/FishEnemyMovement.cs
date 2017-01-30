@@ -15,17 +15,17 @@ public class FishEnemyMovement : MonoBehaviour
     private float _enemyBounds;
     private float _enemyBoundsOffset = 0.5f;
 
-    void Start()
+    private void Start()
     {
         _enemyBounds = RandomRange(2,5);
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         MoveEnemy();
     }
 
-    void MoveEnemy()
+    private void MoveEnemy()
     {
         transform.Translate(_moveLeft * _moveSpeed * Time.deltaTime);
         if (_movingUp == false)
@@ -51,7 +51,7 @@ public class FishEnemyMovement : MonoBehaviour
         }
     }
 
-    float RandomRange(float min, float max)
+    private float RandomRange(float min, float max)
     {
         return Random.Range(min, max);
     }

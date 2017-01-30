@@ -9,12 +9,12 @@ public class HealthBar : MonoBehaviour {
     private Player _playerScript;
     private float _healthOffset = 1;
 
-	void Start () 
+    private void Start () 
     {
-        _playerScript = GameObject.FindWithTag(Tags.playerTag).GetComponent<Player>();
+        _playerScript = GameObject.FindWithTag(Tags.PlayerTag).GetComponent<Player>();
 	}
-	
-	void Update () 
+
+    private void Update () 
     {
         UpdateHealthbar();
 	}

@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BirdEnemyMovement : MonoBehaviour {
+public class BirdEnemyMovement : MonoBehaviour
+{
+    //movement for the bird enemy
     [SerializeField] private float _moveSpeed;
     private Vector2 _moveLeft = Vector2.right;
 
@@ -10,28 +12,28 @@ public class BirdEnemyMovement : MonoBehaviour {
 
     private Animator _animator;
 
-    void Start()
+    private void Start()
     {
         _animator = gameObject.GetComponent<Animator>();
     }
 
-    void OnEnable()
+    private void OnEnable()
     {
         _repeatRate = Random.Range(1, 3);
         InvokeRepeating("StartIrregularMovement", 1, _repeatRate);
     }
 
-	void FixedUpdate () 
+    private void FixedUpdate () 
     {
         MoveEnemy();
     }
 
-    void MoveEnemy()
+    private void MoveEnemy()
     {
         transform.Translate(_moveLeft * _moveSpeed * Time.deltaTime);
     }
 
-    void StartIrregularMovement()
+    private void StartIrregularMovement()
     {
         if (gameObject.activeSelf)
         {
@@ -39,7 +41,7 @@ public class BirdEnemyMovement : MonoBehaviour {
         }
     }
 
-    IEnumerator IrregularMovement()
+    private IEnumerator IrregularMovement()
     {
         _moveSpeed = -8;
         _animator.speed = 2;

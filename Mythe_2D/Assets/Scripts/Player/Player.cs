@@ -7,7 +7,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public class Player : MonoBehaviour, IKillable {
 
-    private FlashingScreen flashingScreen;
+    private FlashingScreen _flashingScreen;
     private Score _scoreScript;
     private CurrentScore _currentScoreScript;
     private SlowTime _slowTimeScript;
@@ -30,50 +30,22 @@ public class Player : MonoBehaviour, IKillable {
     private float _playerBoundX = 6.5f;
     private float _playerBoundY = 4f;
 
-    private bool _usingSword = false;
-    public bool UsingSword
-    {
-        get
-        {
-            return _usingSword;
-        }
+    public bool UsingSword { get; set; }
 
-        set
-        {
-            _usingSword = value;
-        }
-    }
+    public bool UsingMedusaHead { get; set; }
 
-    private bool _usingMedusaHead = false;
-    public bool UsingMedusaHead
-    {
-        get
-        {
-            return _usingMedusaHead;
-        }
-
-        set
-        {
-            _usingMedusaHead = value;
-        }
-    }
-
-    private bool _usingLaser = false;
-    public bool UsingLaser
-    {
-        get
-        {
-            return _usingLaser;
-        }
-
-        set
-        {
-            _usingLaser = value;
-        }
-    }
+    public bool UsingLaser { get; set; }
 
 
     [SerializeField]private float _moveSpeed;
+
+    public Player()
+    {
+        UsingLaser = false;
+        UsingMedusaHead = false;
+        UsingSword = false;
+    }
+
     public float MoveSpeed
     {
         get
@@ -88,19 +60,19 @@ public class Player : MonoBehaviour, IKillable {
     }
 
 	// Use this for initialization
-	void Start () 
+    private void Start () 
     {
         _anim = GetComponent<Animator>();
-        flashingScreen = GameObject.FindWithTag(Tags.flashingScreenObjectTag).GetComponent<FlashingScreen>();
+        _flashingScreen = GameObject.FindWithTag(Tags.FlashingScreenObjectTag).GetComponent<FlashingScreen>();
         _scoreScript = GameObject.FindWithTag(Tags.UITag).GetComponent<Score>();
         _slowTimeScript = GameObject.FindWithTag(Tags.UITag).GetComponent<SlowTime>();
         _rb2D = this.GetComponent<Rigidbody2D>();
-        this.gameObject.tag = Tags.playerTag;
-        _currentScoreScript = GameObject.FindWithTag(Tags.currentScoreTag).GetComponent<CurrentScore>();
+        this.gameObject.tag = Tags.PlayerTag;
+        _currentScoreScript = GameObject.FindWithTag(Tags.CurrentScoreTag).GetComponent<CurrentScore>();
     }
 	
 	// Update is called once per frame
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         MovePlayer();
 
@@ -115,75 +87,74 @@ public class Player : MonoBehaviour, IKillable {
         PlayerBounds();
     }
 
-    void MovePlayer()
+    private void MovePlayer()
     {
-        Vector2 moveVec = new Vector2(CrossPlatformInputManager.GetAxis("Horizontal") * _moveSpeed, CrossPlatformInputManager.GetAxis("Vertical") * _moveSpeed);
+        var moveVec = new Vector2(CrossPlatformInputManager.GetAxis("Horizontal") * _moveSpeed, CrossPlatformInputManager.GetAxis("Vertical") * _moveSpeed);
 
         _rb2D.velocity = moveVec;
     }
 
-    void ApplyDamage(float _damage)
+    private void ApplyDamage(float damage)
     {
-        if (_usingSword == false)
-        {
-            _slowTimeScript.SlowTheTime();
-            _health -= _damage;
-            flashingScreen.StartFade();
-        }
+        if (UsingSword != false) return;
+        _slowTimeScript.SlowTheTime();
+        _health -= damage;
+        _flashingScreen.StartFade();
     }
 
     public void Kill()
     {
-        if (_health <= 0)
-        {
-            Time.timeScale = 1.0f;
-            _scoreScript.StoreHighscore(_scoreScript.ScoreValue);
-            _currentScoreScript.CurrentScoreValue = _scoreScript.ScoreValue;
-            LoadingScreen.Show();
-            SceneManager.LoadScene(Scenes.gameOverScene);
-        }
+        if (!(_health <= 0)) return;
+        Time.timeScale = 1.0f;
+        _scoreScript.StoreHighscore(_scoreScript.ScoreValue);
+        _currentScoreScript.CurrentScoreValue = _scoreScript.ScoreValue;
+        LoadingScreen.Show();
+        SceneManager.LoadScene(Scenes.GameOverScene);
     }
 
-    void SwordIsUsed()
+    private void SwordIsUsed()
     {
-        if (_usingSword == true)
+        switch (UsingSword)
         {
-            StartCoroutine(ItemDuration("Sword", 2.5f));
-            _anim.SetBool("isUsingSword", true);
-        }
-        else
-        {
-            _anim.SetBool("isUsingSword", false);
+            case true:
+                StartCoroutine(ItemDuration("Sword", 2.5f));
+                _anim.SetBool("isUsingSword", true);
+                break;
+            default:
+                _anim.SetBool("isUsingSword", false);
+                break;
         }
     }
 
-    void MedusaHeadIsUsed()
+    private void MedusaHeadIsUsed()
     {
-        if (_usingMedusaHead == true)
+        switch (UsingMedusaHead)
         {
-            StartCoroutine(ItemDuration("MedusaHead", 2f));
-            _anim.SetBool("isUsingMedusaHead", true);
-        }
-        else
-        {
-            _anim.SetBool("isUsingMedusaHead", false);
+            case true:
+                StartCoroutine(ItemDuration("MedusaHead", 2f));
+                _anim.SetBool("isUsingMedusaHead", true);
+                break;
+            default:
+                _anim.SetBool("isUsingMedusaHead", false);
+                break;
         }
     }
 
-    void LaserIsUsed()
+    private void LaserIsUsed()
     {
-        if (_usingLaser == true)
+        switch (UsingLaser)
         {
-            StartCoroutine(ItemDuration("Laser", 2f));
-            _anim.SetBool("isUsingLaser", true);
-        }
-        else
-        {
-            _anim.SetBool("isUsingLaser", false);
+            case true:
+                StartCoroutine(ItemDuration("Laser", 2f));
+                _anim.SetBool("isUsingLaser", true);
+                break;
+            default:
+                _anim.SetBool("isUsingLaser", false);
+                break;
         }
     }
 
-    void PlayerBounds()
+    private void PlayerBounds()
     {
         if (transform.position.x <= -_playerBoundX)
         {
@@ -203,20 +174,20 @@ public class Player : MonoBehaviour, IKillable {
         }
     }
 
-    IEnumerator ItemDuration(string whichItem, float itemDuration)
+    private IEnumerator ItemDuration(string whichItem, float itemDuration)
     {
         yield return new WaitForSeconds(itemDuration);
-        if(whichItem == "Laser")
+        switch (whichItem)
         {
-            _usingLaser = false;
-        }
-        else if(whichItem == "MedusaHead")
-        {
-            _usingMedusaHead = false;
-        }
-        else
-        {
-            UsingSword = false;
+            case "Laser":
+                UsingLaser = false;
+                break;
+            case "MedusaHead":
+                UsingMedusaHead = false;
+                break;
+            default:
+                UsingSword = false;
+                break;
         }
     }
 }

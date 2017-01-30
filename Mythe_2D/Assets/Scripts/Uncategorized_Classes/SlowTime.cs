@@ -12,7 +12,7 @@ public class SlowTime : MonoBehaviour {
         StartCoroutine(SlowTimeDuration());
     }
 
-    IEnumerator SlowTimeDuration()
+    private IEnumerator SlowTimeDuration()
     {
         Time.timeScale = _slowAmount;
         yield return new WaitForSeconds(_slowDuration);

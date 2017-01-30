@@ -8,10 +8,10 @@ public class BirdEnemyDeath : EnemyDeath, IKillable
     protected override void Start()
     {
         base.Start();
-        _stoneEnemy = ObjectNames.birdStoneEnemyName;
-        _slicedEnemy = ObjectNames.birdSlicedEnemyName;
-        _disintegratedEnemy = ObjectNames.birdEnemyDisintegratedName;
-        _deadEnemy = ObjectNames.deadBirdName;
+        StoneEnemy = ObjectNames.BirdStoneEnemyName;
+        SlicedEnemy = ObjectNames.BirdSlicedEnemyName;
+        DisintegratedEnemy = ObjectNames.BirdEnemyDisintegratedName;
+        DeadEnemy = ObjectNames.DeadBirdName;
     }
 
 }

@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CameraShake : MonoBehaviour {
+public class CameraShake : MonoBehaviour
+{
+    //makes the camera shake when the player is hit or the player kills something
     private bool _isShaking = false;
 
     private float _shakeDuration = 0.25f;
@@ -12,15 +14,15 @@ public class CameraShake : MonoBehaviour {
     private float _offsetYPos; //set to _originalYPos +/- _shakeIntensity
 
 	// Use this for initialization
-	void Start () 
+    private void Start () 
     {
-        this.gameObject.tag = Tags.mainCameraTag;
+        this.gameObject.tag = Tags.MainCameraTag;
         _offsetXPos = _originalXPos + _shakeIntensity;
         _offsetYPos = _originalXPos - _shakeIntensity;
 	}
 	
 	// Update is called once per frame
-	void Update () 
+    private void Update () 
     {
         CheckForShake();
 	}
@@ -33,7 +35,7 @@ public class CameraShake : MonoBehaviour {
     }
 
     //check if camera should be shaking, if yes, starts shaking
-    void CheckForShake()
+    private void CheckForShake()
     {
         if (_isShaking)
         {
@@ -46,7 +48,7 @@ public class CameraShake : MonoBehaviour {
     }
 
     //duration of the shake
-    IEnumerator CameraShaking()
+    private IEnumerator CameraShaking()
     {
         yield return new WaitForSeconds(_shakeDuration);
         _isShaking = false;

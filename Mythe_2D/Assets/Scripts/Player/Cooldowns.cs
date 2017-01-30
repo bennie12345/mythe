@@ -40,12 +40,12 @@ public class Cooldowns : MonoBehaviour {
             _laserCooldown = value;
         }
     }
-	
-	void Update () {
+
+    private void Update () {
         ResetCooldown();
 	}
 
-    void ResetCooldown()
+    private void ResetCooldown()
     {
         if (_medusaCooldown >= _minCooldown)
         {

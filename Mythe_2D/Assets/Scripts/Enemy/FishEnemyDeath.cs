@@ -8,10 +8,10 @@ public class FishEnemyDeath : EnemyDeath, IKillable
     protected override void Start()
     {
         base.Start();
-        _stoneEnemy = ObjectNames.fishStoneEnemyName;
-        _slicedEnemy = ObjectNames.fishSlicedEnemyName;
-        _disintegratedEnemy = ObjectNames.fishEnemyDisintegratedName;
-        _deadEnemy = ObjectNames.deadFishName;
+        StoneEnemy = ObjectNames.FishStoneEnemyName;
+        SlicedEnemy = ObjectNames.FishSlicedEnemyName;
+        DisintegratedEnemy = ObjectNames.FishEnemyDisintegratedName;
+        DeadEnemy = ObjectNames.DeadFishName;
     }
 
 }

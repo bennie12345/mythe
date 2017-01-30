@@ -2,51 +2,52 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class UIButtons : MonoBehaviour {
-    
-    void Start()
+public class UIButtons : MonoBehaviour
+{
+
+    private void Start()
     {
         this.gameObject.tag = Tags.UITag;
     }
 
-    void Update()
+    private void Update()
     {
         QuitApp();
     }
 
-    void QuitApp()
+    private void QuitApp()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (SceneManager.GetActiveScene().name == Scenes.mainMenuScene)
+            if (SceneManager.GetActiveScene().name == Scenes.MainMenuScene)
             {
                 Application.Quit();
             }
 
-            if (SceneManager.GetActiveScene().name == Scenes.gameScene || SceneManager.GetActiveScene().name == Scenes.gameOverScene || SceneManager.GetActiveScene().name == Scenes.instructionsScene)
+            if (SceneManager.GetActiveScene().name == Scenes.GameScene || SceneManager.GetActiveScene().name == Scenes.GameOverScene || SceneManager.GetActiveScene().name == Scenes.InstructionsScene)
             {
-                LoadScene(Scenes.mainMenuScene);
+                LoadScene(Scenes.MainMenuScene);
             }
         }
     }
 
     public void PlayGame()
     {
-        LoadScene(Scenes.gameScene);
+        LoadScene(Scenes.GameScene);
     }
 
     public void Instructions()
     {
-        LoadScene(Scenes.instructionsScene);
+        LoadScene(Scenes.InstructionsScene);
     }
 
     public void MainMenu()
     {
-        LoadScene(Scenes.mainMenuScene);
+        LoadScene(Scenes.MainMenuScene);
     }
     public void Credits()
     {
-        LoadScene(Scenes.creditsScene);
+        LoadScene(Scenes.CreditsScene);
     }
 
     public void QuitGame()

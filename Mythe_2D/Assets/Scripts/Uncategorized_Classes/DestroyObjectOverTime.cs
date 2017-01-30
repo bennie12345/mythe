@@ -6,17 +6,17 @@ public class DestroyObjectOverTime : MonoBehaviour {
     [SerializeField]private float _destroyTime;
     private ObjectPool _objectPoolScript;
 
-	void Start () 
+    private void Start () 
     {
-        _objectPoolScript = GameObject.FindWithTag(Tags.objectPoolTag).GetComponent<ObjectPool>();
+        _objectPoolScript = GameObject.FindWithTag(Tags.ObjectPoolTag).GetComponent<ObjectPool>();
 	}
 
-    void OnEnable()
+    private void OnEnable()
     {
         StartCoroutine(DestroyTheObject());
     }
 
-    IEnumerator DestroyTheObject()
+    private IEnumerator DestroyTheObject()
     {
         yield return new WaitForSeconds(_destroyTime);
         _objectPoolScript.PoolObject(this.gameObject);

@@ -3,6 +3,7 @@ using System.Collections;
 
 public class EnemySpawner : MonoBehaviour
 {
+    //spawner for both enemies which randomly spawns one of two enemies
     [SerializeField]private GameObject _flyingEnemy;
     [SerializeField]private GameObject _otherEnemy;
     
@@ -13,14 +14,14 @@ public class EnemySpawner : MonoBehaviour
 
     private bool _isSpawning;
 
-    void Start()
+    private void Start()
     {
         _whichEnemy = RandomRange(1, 3);
         _isSpawning = true;
         StartCoroutine(SpawnDelay());
     }
 
-    void EnemyToSpawn()
+    private void EnemyToSpawn()
     {
         if (_whichEnemy <= 2f)
         {
@@ -32,24 +33,24 @@ public class EnemySpawner : MonoBehaviour
         }
     }
 
-    void SpawnEnemy()
+    private void SpawnEnemy()
     {
         _whichEnemy = RandomRange(1, 3);
 
         ObjectPool.instance.GetObjectForType(_selectedEnemy, true).transform.position = transform.position;
     }
 
-    void Update()
+    private void Update()
     {
         EnemyToSpawn();
     }
 
-    float RandomRange(float min, float max)
+    private float RandomRange(float min, float max)
     {
         return Random.Range(min, max);
     }
 
-    IEnumerator SpawnDelay()
+    private IEnumerator SpawnDelay()
     {
         while(_isSpawning)
         {

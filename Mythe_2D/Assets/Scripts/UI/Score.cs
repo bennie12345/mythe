@@ -9,7 +9,7 @@ public class Score : MonoBehaviour {
     [SerializeField] private Text _scoreText;
 
     private int _oldHighscore;
-    private int _score = 0;
+    [SerializeField]private int _score = 0;
     public int ScoreValue
     {
         get
@@ -24,18 +24,18 @@ public class Score : MonoBehaviour {
         _scoreText.text = " " + _score;
     }
 
-    IEnumerator PassiveScore()
+    private IEnumerator PassiveScore()
     {
         UpdateScore(1);
         yield return new WaitForSeconds(1f);
     }
 
-    void GivePassiveScore()
+    private void GivePassiveScore()
     {
         StartCoroutine(PassiveScore());
     }
 
-    void Start()
+    private void Start()
     {
         GetHighscore();
 

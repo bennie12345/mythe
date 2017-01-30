@@ -4,46 +4,44 @@ using UnityEngine.UI;
 
 public class FlashingScreen : MonoBehaviour
 {
+    //shows a bloody screen when the player is hit
+    [SerializeField]private float _fadeSpeed;
+    private Color _startingColor;
+    private bool _fade = false;
+    [SerializeField]private Image _flashingImage;
+    private Color _red;
 
-    [SerializeField]
-    private float fadeSpeed;
-    private Color startingColor;
-    private bool fade = false;
-    [SerializeField]
-    private Image flashingImage;
-    private Color red;
-
-    void Start()
+    private void Start()
     {
-        red = flashingImage.color;
-        startingColor = Color.clear;
-        flashingImage.color = startingColor;
+        _red = _flashingImage.color;
+        _startingColor = Color.clear;
+        _flashingImage.color = _startingColor;
     }
 
-    void Update()
+    private void Update()
     {
         FadeToClear();
     }
 
-    void FadeToClear()
+    private void FadeToClear()
     {
-        if (fade == true && flashingImage.color != startingColor)
+        if (_fade == true && _flashingImage.color != _startingColor)
         {
             StartCoroutine(FadeCoroutine(1.5f));
         }
     }
 
-    IEnumerator FadeCoroutine(float waitTime)
+    private IEnumerator FadeCoroutine(float waitTime)
     {
-        flashingImage.color = Color.Lerp(flashingImage.color, Color.clear, fadeSpeed * Time.deltaTime);
+        _flashingImage.color = Color.Lerp(_flashingImage.color, Color.clear, _fadeSpeed * Time.deltaTime);
         yield return new WaitForSeconds(waitTime);
-        fade = false;
+        _fade = false;
 
     }
 
     public void StartFade()
     {
-        flashingImage.color = red;
-        fade = true;
+        _flashingImage.color = _red;
+        _fade = true;
     }
 }

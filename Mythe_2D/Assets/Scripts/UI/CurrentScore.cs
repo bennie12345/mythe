@@ -17,9 +17,9 @@ public class CurrentScore : MonoBehaviour {
         }
     }
 
-    void Awake()
+    private void Awake()
     {
-        GameObject[] obj = GameObject.FindGameObjectsWithTag(Tags.currentScoreTag);
+        GameObject[] obj = GameObject.FindGameObjectsWithTag(Tags.CurrentScoreTag);
         if(obj.Length > 1)
         {
             Destroy(obj[1]);

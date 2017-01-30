@@ -18,21 +18,22 @@ public class AbilityButtons : MonoBehaviour {
     private float _swordCooldown = 0;
     private float _minCooldown = 0;
 
-    delegate void SoundDelegate(AudioClip clip);
-    SoundDelegate soundDelegate;
+    private delegate void SoundDelegate(AudioClip clip);
 
-    void Start()
+    private SoundDelegate soundDelegate;
+
+    private void Start()
     {
-        _cameraShakeScript = GameObject.FindWithTag(Tags.mainCameraTag).GetComponent<CameraShake>();
+        _cameraShakeScript = GameObject.FindWithTag(Tags.MainCameraTag).GetComponent<CameraShake>();
         soundDelegate = playSound;
         _sounds = GameObject.FindWithTag("SoundsObject").GetComponent<Sounds>();
         source = _sounds.GetComponent<AudioSource>();
         _playerScript = GetComponentInParent<Player>();
         _cooldownManager = GetComponentInParent<Cooldowns>();
-        this.gameObject.tag = Tags.abilityButtonsTag;
+        this.gameObject.tag = Tags.AbilityButtonsTag;
     }
 
-    void Update()
+    private void Update()
     {
         ResetCooldowns();
     }
@@ -74,31 +75,31 @@ public class AbilityButtons : MonoBehaviour {
         }
     }
 
-    void playSound(AudioClip clip)
+    private void playSound(AudioClip clip)
     {
         source.PlayOneShot(clip);
     }
 
-    IEnumerator ActivateTimer(GameObject obj, float activeTime)
+    private IEnumerator ActivateTimer(GameObject obj, float activeTime)
     {
         obj.SetActive(true);
         yield return new WaitForSeconds(activeTime);
         obj.SetActive(false);
     }
 
-    IEnumerator SetAnimationBool(bool isUsingItem, float itemCooldown)
+    private IEnumerator SetAnimationBool(bool isUsingItem, float itemCooldown)
     {
         yield return new WaitForSeconds(itemCooldown);
         isUsingItem = false;
     }
 
-    IEnumerator AbilityDelay(float delay, string whichAbility)
+    private IEnumerator AbilityDelay(float delay, string whichAbility)
     {
         yield return new WaitForSeconds(delay);
         
         if(whichAbility == "MedusaHead")
         {
-            GameObject shockwave = ObjectPool.instance.GetObjectForType(ObjectNames.medusaEffectGameObjectName, true);
+            GameObject shockwave = ObjectPool.instance.GetObjectForType(ObjectNames.MedusaEffectGameObjectName, true);
             shockwave.transform.parent = _parentObject.transform;
             shockwave.transform.position = _parentObject.transform.position;
             soundDelegate(_sounds.MedusaSound);
@@ -107,7 +108,7 @@ public class AbilityButtons : MonoBehaviour {
 
         else if(whichAbility == "Laser")
         {
-            GameObject laserbeam = ObjectPool.instance.GetObjectForType(ObjectNames.laserBeamName, true);
+            GameObject laserbeam = ObjectPool.instance.GetObjectForType(ObjectNames.LaserBeamName, true);
             laserbeam.transform.parent = _laserbeamParent.transform;
             laserbeam.transform.position = _laserbeamParent.transform.position;
             _cameraShakeScript.Shake();

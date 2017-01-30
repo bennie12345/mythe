@@ -13,15 +13,15 @@ public class SetHighscore : MonoBehaviour {
     private int _currentScoreValue;
     private Animator _anim;
 
-    void Start () {
+    private void Start () {
         GetHighscore();
-        _currentScoreScript = GameObject.FindWithTag(Tags.currentScoreTag).GetComponent<CurrentScore>();
+        _currentScoreScript = GameObject.FindWithTag(Tags.CurrentScoreTag).GetComponent<CurrentScore>();
         _anim = GameObject.FindWithTag("Victory").GetComponent<Animator>();
         SetCurrentScore();
         CheckForVictory();
     }
 
-    void GetHighscore()
+    private void GetHighscore()
     {
         if (File.Exists(Application.persistentDataPath + "/HighScoreData.kappa"))
         {
@@ -35,13 +35,13 @@ public class SetHighscore : MonoBehaviour {
         _highscoreText.text = "Best Score: " + _highscoreValue;
     }
 
-    void SetCurrentScore()
+    private void SetCurrentScore()
     {
         _currentScoreValue = _currentScoreScript.CurrentScoreValue;
         _currentScoreText.text = "Your score: " + _currentScoreValue;
     }
 
-    void CheckForVictory()
+    private void CheckForVictory()
     {
         if(_currentScoreValue >= 500)
         {
