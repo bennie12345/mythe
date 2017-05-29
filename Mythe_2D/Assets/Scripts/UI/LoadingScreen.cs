@@ -8,29 +8,22 @@ public class LoadingScreen : MonoBehaviour
 {
     //make a UI image in a seperate canvas and place it at the highest order in layer
     //put the script on the seperate camvas element
-    [SerializeField]private Image _loadingScreen;
-    private static LoadingScreen instance;
+    [SerializeField]private GameObject _loadingScreen;
+    private static LoadingScreen _instance;
 
-    //initialize instance of loadingscreen and make sure it persists throughout other scenes (DontDestroyOnLoad(this))
+    //initialize _instance of loadingscreen and make sure it persists throughout other scenes (DontDestroyOnLoad(this))
     private void Awake()
     {
-        if (instance)
+        if (_instance)
         {
             Destroy(gameObject);
             Hide();
             return;
         }
-        instance = this;
+        _instance = this;
         transform.position = new Vector3(0.5f, 0.5f, 1f);
         DontDestroyOnLoad(this);
-        _loadingScreen.enabled = false;
-    }
-
-    //check if unity isn't loading a scene, if so, hide the loadingscreen
-    private void Update()
-    {
-        if (!Application.isLoadingLevel)
-            Hide();
+        _loadingScreen.SetActive(false);
     }
 
     //show the loadingscreen
@@ -40,7 +33,7 @@ public class LoadingScreen : MonoBehaviour
         {
             return;
         }
-        instance._loadingScreen.enabled = true;
+        _instance._loadingScreen.SetActive(true);
     }
 
     //hide the loadinscreen
@@ -50,13 +43,13 @@ public class LoadingScreen : MonoBehaviour
         {
             return;
         }
-        instance._loadingScreen.enabled = false;
+        _instance._loadingScreen.SetActive(false);
     }
 
     //check if the loadingscreen exists
     private static bool InstanceExists()
     {
-        if (!instance)
+        if (!_instance)
         {
             return false;
         }

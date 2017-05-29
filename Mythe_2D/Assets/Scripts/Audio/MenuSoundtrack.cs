@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuSoundtrack : MonoBehaviour
 {
-
+    public static MenuSoundtrack Instance;
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnLevelFinishedLoading;
@@ -15,11 +15,17 @@ public class MenuSoundtrack : MonoBehaviour
     {
         if (scene.name == Scenes.MainMenuScene || scene.name == Scenes.InstructionsScene || scene.name == Scenes.CreditsScene)
         {
-            DontDestroyOnLoad(this.gameObject);
+            if (Instance != null && Instance != this)
+            {
+                Destroy(gameObject);
+            }
+
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
     }
 

@@ -1,17 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityStandardAssets.CrossPlatformInput;
 using UnityEngine.SceneManagement;
-using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
 
 public class Player : MonoBehaviour, IKillable {
 
-    private FlashingScreen _flashingScreen;
+    public delegate void PlayerHitAction();
+    public static event PlayerHitAction OnPlayerHit;
+
     private Score _scoreScript;
     private CurrentScore _currentScoreScript;
-    private SlowTime _slowTimeScript;
-    private Rigidbody2D _rb2D;
+    
     private Animator _anim;
 
     [SerializeField]private float _health = 2f;
@@ -27,17 +25,12 @@ public class Player : MonoBehaviour, IKillable {
             _health = value;
         }
     }
-    private float _playerBoundX = 6.5f;
-    private float _playerBoundY = 4f;
 
     public bool UsingSword { get; set; }
 
     public bool UsingMedusaHead { get; set; }
 
     public bool UsingLaser { get; set; }
-
-
-    [SerializeField]private float _moveSpeed;
 
     public Player()
     {
@@ -46,36 +39,18 @@ public class Player : MonoBehaviour, IKillable {
         UsingSword = false;
     }
 
-    public float MoveSpeed
-    {
-        get
-        {
-            return _moveSpeed;
-        }
-
-        set
-        {
-            _moveSpeed = value;
-        }
-    }
-
 	// Use this for initialization
     private void Start () 
     {
         _anim = GetComponent<Animator>();
-        _flashingScreen = GameObject.FindWithTag(Tags.FlashingScreenObjectTag).GetComponent<FlashingScreen>();
         _scoreScript = GameObject.FindWithTag(Tags.UITag).GetComponent<Score>();
-        _slowTimeScript = GameObject.FindWithTag(Tags.UITag).GetComponent<SlowTime>();
-        _rb2D = this.GetComponent<Rigidbody2D>();
-        this.gameObject.tag = Tags.PlayerTag;
+        gameObject.tag = Tags.PlayerTag;
         _currentScoreScript = GameObject.FindWithTag(Tags.CurrentScoreTag).GetComponent<CurrentScore>();
     }
 	
 	// Update is called once per frame
-    private void FixedUpdate()
+    private void Update()
     {
-        MovePlayer();
-
         Kill();
 
         SwordIsUsed();
@@ -83,23 +58,18 @@ public class Player : MonoBehaviour, IKillable {
         MedusaHeadIsUsed();
 
         LaserIsUsed();
-
-        PlayerBounds();
     }
 
-    private void MovePlayer()
-    {
-        var moveVec = new Vector2(CrossPlatformInputManager.GetAxis("Horizontal") * _moveSpeed, CrossPlatformInputManager.GetAxis("Vertical") * _moveSpeed);
-
-        _rb2D.velocity = moveVec;
-    }
+    
 
     private void ApplyDamage(float damage)
     {
         if (UsingSword != false) return;
-        _slowTimeScript.SlowTheTime();
         _health -= damage;
-        _flashingScreen.StartFade();
+        if (OnPlayerHit != null)
+        {
+            OnPlayerHit();
+        }
     }
 
     public void Kill()
@@ -151,26 +121,6 @@ public class Player : MonoBehaviour, IKillable {
             default:
                 _anim.SetBool("isUsingLaser", false);
                 break;
-        }
-    }
-
-    private void PlayerBounds()
-    {
-        if (transform.position.x <= -_playerBoundX)
-        {
-            transform.position = new Vector2(-_playerBoundX, transform.position.y);
-        }
-        else if (transform.position.x >= _playerBoundX)
-        {
-            transform.position = new Vector2(_playerBoundX, transform.position.y);
-        }
-        if (transform.position.y <= -_playerBoundY)
-        {
-            transform.position = new Vector2(transform.position.x, -_playerBoundY);
-        }
-        else if (transform.position.y >= _playerBoundY)
-        {
-            transform.position = new Vector2(transform.position.x, _playerBoundY);
         }
     }
 

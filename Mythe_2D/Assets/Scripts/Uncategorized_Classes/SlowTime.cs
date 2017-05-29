@@ -1,13 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SlowTime : MonoBehaviour {
+public class SlowTime : MonoBehaviour
+{
 
     private float _slowAmount = 0.5f;
     private float _slowDuration = .25f;
     private float _originalTime = 1.0f;
 
-    public void SlowTheTime()
+    private void OnEnable()
+    {
+        Player.OnPlayerHit += SlowTheTime;
+    }
+
+    private void SlowTheTime()
     {
         StartCoroutine(SlowTimeDuration());
     }
@@ -19,4 +25,8 @@ public class SlowTime : MonoBehaviour {
         Time.timeScale = _originalTime;
     }
 
+    private void OnDisable()
+    {
+        Player.OnPlayerHit -= SlowTheTime;
+    }
 }
